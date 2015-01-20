@@ -3,4 +3,9 @@ class CandidatesController < ApplicationController
     @candidate = Candidate.find(params[:id])
     render json: @candidate
   end
+
+  def index
+    @candidates = Candidate.all
+    render json: @candidates
+  end
 end

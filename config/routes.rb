@@ -17,7 +17,10 @@ resources :candidates do
   resources :questions
 end
 
-resources :constituencies 
+resources :constituencies do
+  resources :candidates
+end
+  
 
   # Example resource route with options:
   #   resources :products do
