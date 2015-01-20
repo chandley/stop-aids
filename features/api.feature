@@ -5,13 +5,13 @@ Feature:
 
   Scenario: Show candidate api
   Given we have a candidate
-  When I visit the candidate api address
+  When I visit the candidate api
   Then I get JSON candidate name
 
   Scenario: Show candidate question api
   Given we have a candidate
   And we have some questions
-  When I visit the candidate questions api address
+  When I visit the candidate questions api
   Then I get JSON question text
 
   Scenario: Show constituency api
