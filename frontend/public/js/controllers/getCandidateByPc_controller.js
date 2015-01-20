@@ -1,6 +1,6 @@
 angular.module('QanMP').controller('getCandidatesByPC', function($scope, $http){
 $scope.getCandidates = function(){
-    var url = "https://www.theyworkforyou.com/api/getMP?&id=&constituency=&postcode=" + $scope.postCode + "&key=CCa95kDVHTT2Dj2zmPDdYN4f&callback=JSON_CALLBACK"
+    var url = "http://www.theyworkforyou.com/api/getMP?&id=&constituency=&postcode=" + $scope.postCode + "&key=CCa95kDVHTT2Dj2zmPDdYN4f&callback=JSON_CALLBACK"
     var searchCandidate = $http.jsonp(url)
                 .success(function(candidate) {
                  $scope.mpCandidate = candidate
@@ -19,7 +19,7 @@ $scope.getCandidates = function(){
 
 
 $scope.trialFunction = function(){
-    var urlTrial = "https://stopaidz-apispike.herokuapp.com/candidates/1"
+    var urlTrial = "http://stopaidz-apispike.herokuapp.com/candidates/1"
     $http.jsonp(urlTrial)
     .success(function(response){
         conosole.log(response)
