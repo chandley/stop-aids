@@ -27,13 +27,13 @@
         </div>
     </div>
 </div>
-<!-- <div class="container" ng-repeat="contact in contacts | orderBy: 'first_name' | filter: searchContact ">
+<!-- <div class="container" ng-repeat="contact in contacts | orderBy: 'first_name' | filter: searchContact "> -->
+
+<div class="container">
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
-
-
       <div class="panel panel-info">
         <div class="panel-heading">
-          <h3 class="panel-title">FULL NAME</h3>
+          <h3 class="panel-title">{{candidates.full_name}}</h3>
         </div>
         <div class="panel-body">
           <div class="row">
@@ -42,12 +42,12 @@
               <table class="table table-user-information">
                 <tbody>
                   <tr>
-                    <td>POSTCODE</td>
-                    <td>POSTCODE</td>
+                    <td>Party</td>
+                    <td>{{candidates.party}}</td>
                   </tr>
                   <tr>
-                    <td>PARTY</td>
-                    <td>PARTY</td>
+                    <td>Constituency</td>
+                    <td>{{candidates.constituency}}</td>
                   </tr>  
                   <tr>
                     <td>constituency</td>
@@ -68,7 +68,7 @@
       </div>
     </div>
   </div>
-</div> -->
+</div>
       <!-- libraries -->
       <script src="/bower_components/angular/angular.js"></script>
       <script src="/bower_components/angular-resource/angular-resource.min.js"></script>

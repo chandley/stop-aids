@@ -1,5 +1,5 @@
 {
-  "name": "alliantsAPI",
+  "name": "StudentStopAIDS",
   "version": "1.0.0",
   "description": "nodeserver",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "pretest": "npm install",
     "test": "node node_modules/karma/bin/karma start frontend/test/karma.conf.js"
   },
-  "author": "Pablo Portabales",
+  "author": "Giorgia Amici",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.10.1",

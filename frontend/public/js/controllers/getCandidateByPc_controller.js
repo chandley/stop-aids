@@ -5,13 +5,10 @@ $scope.getCandidates = function(){
     var searchCandidate = $http.jsonp(url)
                 .success(function(candidate) {
                  $scope.candidates = candidate
-                 // console.log($scope.candidates)
                  // candidates.forEach(function(singleCandidate){
                  //    $scope.listOfCandidates.push(singleCandidate)
                     
                  // })
-                 
-                 console.log($scope.candidates, 'llll')
                  console.log($scope.candidates.constituency)
                 })
                 //  .error(function(error) {
