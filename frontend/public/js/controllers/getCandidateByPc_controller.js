@@ -19,7 +19,7 @@ $scope.getCandidates = function(){
 
 
 $scope.trialFunction = function(){
-    var urlTrial = "http://stopaidz-apispike.herokuapp.com/candidates/1"
+    var urlTrial = "https://stopaidz-apispike.herokuapp.com/candidates/1"
     $http.jsonp(urlTrial)
     .success(function(response){
         conosole.log(response)
