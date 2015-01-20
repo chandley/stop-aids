@@ -8,7 +8,7 @@ When(/^I visit the candidate api address$/) do
   visit '/candidates/1'
 end
 
-Then(/^I get JSON candidates name$/) do
+Then(/^I get JSON candidate name$/) do
   expect(page).to have_content 'Alice'
 end
 
@@ -22,7 +22,7 @@ When(/^I visit the candidate questions api address$/) do
   visit '/candidates/1/questions'
 end
 
-Then(/^I get JSON question data$/) do
+Then(/^I get JSON question text$/) do
   expect(page).to have_content 'beef or chicken'
 end
 
@@ -34,7 +34,7 @@ When(/^I visit the constituency api$/) do
   visit '/constituencies/1'
 end
 
-Then(/^I get JSON constituency name data$/) do
+Then(/^I get JSON constituency name$/) do
   expect(page).to have_content 'Bethnal Green'
 end
 
@@ -47,6 +47,6 @@ When(/^I visit the constituency candidates api$/) do
   visit '/constituencies/1/candidates'
 end
 
-Then(/^I get JSON candidates for constituency data$/) do
+Then(/^I get JSON candidate names for constituency$/) do
   expect(page).to have_content 'Bob'
 end
