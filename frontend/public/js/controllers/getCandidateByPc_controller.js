@@ -13,7 +13,20 @@ $scope.getCandidates = function(){
                   // console.log($scope.myError)
                 })                
 }
-$scope.getCandidates()
+    $scope.getCandidates()
+
+
+
+
+$scope.trialFunction = function(){
+    var urlTrial = "http://stopaidz-apispike.herokuapp.com/candidates/1"
+    $http.jsonp(urlTrial)
+    .success(function(response){
+        conosole.log(response)
+    })
+}
+
+$scope.trialFunction()
 
 
 })

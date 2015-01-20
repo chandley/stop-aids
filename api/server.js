@@ -5,6 +5,7 @@ var path = require('path');
 var fs = require('fs');
 var url = require('url');
 var bodyParser = require('body-parser');
+var port = process.env.PORT || 3000
 
 app.use(function(req, res, next) {
   res.header('Access-Control-Allow-Origin', 'http://localhost:3000');
@@ -29,6 +30,6 @@ app.get('/', function(req, res) {
 });
 
 
-server.listen(3000, function() {
-  console.log('Im an express server listening at port 3000');
+server.listen(port, function() {
+  console.log('Im an express server listening at port',port);
 });
