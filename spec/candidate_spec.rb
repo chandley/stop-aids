@@ -1,6 +1,5 @@
-require 'candidate'
-require 'spec_helper'
-# require 'answer'
+require 'rails_helper'
+
 
 describe Candidate do
 
@@ -18,9 +17,9 @@ describe Candidate do
       expect(page).to have_content 'Alice'
     end
 
-    it "should not have any answered questions" do
+    # it "should not have any answered questions" do
 
-    end
+    # end
 
   end
 end
