@@ -1,0 +1,86 @@
+<!doctype html>
+<html ng-app="QanMP">
+  <head>
+    <meta charset="utf-8">
+    <title>FIND YOUR CANDIDATE</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body ng-controller = "getCandidatesByPC">
+    <!-- <ng-repeat="for candidate in listOfCandidates"> -->
+      <!-- <li>{{candidate.name}}</li> -->
+<div class="container">
+    <div class="header">
+      <h2 class="text-muted" ng-href="#/StudentStopAIDS">StudentStopAIDSLINK</a></h2>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="span12">
+            <form id="custom-search-form" class="form-search form-horizontal pull-right">
+                <div class="input-append span12">
+                    <input type="text" class="search-query" placeholder="Search contact">
+                    <button type="submit" class="btn"><i class="icon-search"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- <div class="container" ng-repeat="contact in contacts | orderBy: 'first_name' | filter: searchContact ">
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
+
+
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">FULL NAME</h3>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=100" class="img-circle"> </div>
+           <div class=" col-md-9 col-lg-9 "> 
+              <table class="table table-user-information">
+                <tbody>
+                  <tr>
+                    <td>POSTCODE</td>
+                    <td>POSTCODE</td>
+                  </tr>
+                  <tr>
+                    <td>PARTY</td>
+                    <td>PARTY</td>
+                  </tr>  
+                  <tr>
+                    <td>constituency</td>
+                    <td><a href="mailto:{{contact.email}}">Constituency</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+             <div class="panel-footer">
+                    <a data-original-title="Broadcast Message" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary" href="mailto:{{contact.email}}"><i class="glyphicon glyphicon-envelope"></i></a>
+                    <span class="pull-right">
+                        <a ng-href="#/updateContact/{{contact.id}}" data-original-title="Delete this contact" title="edit the contact" data-toggle="tooltip" type="button" class="btn btn-sm btn-warning"><i class="glyphicon glyphicon-edit"></i></a>
+                        <a ng-href="#/deleteContact/{{contact.id}}" data-original-title="Delete this contact" data-toggle="tooltip" title="remove the contact" type="button" class="btn btn-sm btn-danger"><i class="glyphicon glyphicon-remove"></i></a>
+                    </span>
+                </div>    
+      </div>
+    </div>
+  </div>
+</div> -->
+      <!-- libraries -->
+      <script src="/bower_components/angular/angular.js"></script>
+      <script src="/bower_components/angular-resource/angular-resource.min.js"></script>
+      <script src="/bower_components/angular-route/angular-route.min.js"></script>
+        <!-- scripts.js -->
+      <script src="js/app.js"></script>
+      <script src="js/app.config.js"></script>
+<!--       // <script src="js/services/contacts_service.js"></script> -->
+      <script src="js/controllers/getCandidateByPc_controller.js"></script>
+
+
+
+</body>
+
+</html>
