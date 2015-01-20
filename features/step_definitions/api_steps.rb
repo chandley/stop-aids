@@ -1,4 +1,4 @@
-require_relative '../../spec/rails_helper'
+
 
 Given(/^we have a candidate$/) do
   Candidate.create(name: 'Alice')
