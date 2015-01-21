@@ -24,4 +24,5 @@ class QuestionsController < ApplicationController
     params[:filter] = 'answered'
     index
   end
+
 end
