@@ -57,7 +57,7 @@ Given(/^we have some questions for a candidate$/) do
 end
 
 Given(/^I answer a question$/) do
-  @red_or_blue.create_answer(@alice.id,'whatever')
+  @red_or_blue.create_answer(@alice,'whatever')
 end
 
 When(/^I visit the unanswered candidate questions api$/) do
