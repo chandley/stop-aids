@@ -1,11 +1,11 @@
 class CandidatesController < ApplicationController
   def show
     @candidate = Candidate.find(params[:id])
-    render json: @candidate
+    render json: @candidate, callback: params['callback']
   end
 
   def index
     @candidates = Candidate.all
-    render json: @candidates
+    render json: @candidates, callback: params['callback']
   end
 end
