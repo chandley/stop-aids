@@ -19,10 +19,10 @@ $scope.getCandidates = function(){
 
 
 $scope.trialFunction = function(){
-    var urlTrial = "https://stopaidz-apispike.herokuapp.com/candidates/1"
+    var urlTrial = "https://stopaidz-rails1.herokuapp.com/candidates"
     $http.jsonp(urlTrial)
     .success(function(response){
-        conosole.log(response)
+        console.log(response)
     })
 }
 
