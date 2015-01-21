@@ -13,9 +13,9 @@ describe Constituency do
     expect(@constituency.candidates.count).to eq(0) 
   end
 
-  # it "should not have any answered questions" do
-
-  # end
-
+  it 'it can have a candidate' do
+    @constituency.add_candidate(@bob)
+    expect(@constituency.candidates).to include(@bob) 
+  end
 
 end

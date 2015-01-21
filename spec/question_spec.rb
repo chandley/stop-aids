@@ -13,8 +13,6 @@ describe Question do
     it 'can have an answer' do
       q1 = Question.create(ask_text: 'Would you rather red pill or blue pill?')
       q1.create_answer(1, 'red pill')
-      p q1
-      p Answer.all.first
       expect(q1.answers.count).to eq 1
 
     end
