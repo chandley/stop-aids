@@ -24,3 +24,9 @@ Feature:
   And we have some candidates
   When I visit the constituency candidates api
   Then I get JSON candidate names for constituency 
+
+  Scenario: Show unanswered questions api
+  Given we have some questions for a candidate
+  And I answer a question
+  When I visit the unanswered candidate questions api
+  Then I get JSON unanswered questions only

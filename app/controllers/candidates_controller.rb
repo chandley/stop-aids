@@ -8,4 +8,8 @@ class CandidatesController < ApplicationController
     @candidates = Candidate.all
     render json: @candidates
   end
+
+  def questions_unanswered
+    p
+  end
 end
