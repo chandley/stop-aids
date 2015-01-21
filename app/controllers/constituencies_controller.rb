@@ -1,7 +1,7 @@
 class ConstituenciesController < ApplicationController
   def show
-    @contituency = Constituency.find(params[:id])
+    @constituency = {:constituency => Constituency.find(params[:id]) }
     response.headers["Content-Type"] = "application/javascript"
-    render json: {constituency :@contituency}, callback: params['callback']
+    render json: @constituency, callback: params['callback']
   end
 end
