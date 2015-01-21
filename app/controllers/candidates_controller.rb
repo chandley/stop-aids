@@ -5,7 +5,7 @@ class CandidatesController < ApplicationController
   def show
     @candidate = Candidate.find(params[:id])
     response.headers["Content-Type"] = "application/javascript"
-    render json: @candidate, callback: params['callback']
+    render json: {candidate: @candidate}, callback: params['callback']
   end
 
   def index
