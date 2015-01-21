@@ -57,7 +57,8 @@ Given(/^we have some questions for a candidate$/) do
 end
 
 Given(/^I answer a question$/) do
-  Question.first.create_answer(1,1,'whatever')
+  question = Question.first
+  question.create_answer(1,question.id,'whatever')
 end
 
 When(/^I visit the unanswered candidate questions api$/) do
