@@ -11,7 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150120171444) do
+ActiveRecord::Schema.define(version: 20150121151651) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "answers", force: true do |t|
     t.integer  "candidate_id"
@@ -27,6 +30,7 @@ ActiveRecord::Schema.define(version: 20150120171444) do
     t.integer  "party_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "twitter"
   end
 
   create_table "constituencies", force: true do |t|
