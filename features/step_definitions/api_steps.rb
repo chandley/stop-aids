@@ -50,3 +50,22 @@ end
 Then(/^I get JSON candidate names for constituency$/) do
   expect(page).to have_content 'Bob'
 end
+
+Given(/^we have some questions for a candidate$/) do
+  step('we have some questions')
+  p Question.first
+end
+
+Given(/^I answer a question$/) do
+  Question.first.create_answer(1,1,'whatever')
+end
+
+When(/^I visit the unanswered candidate questions api$/) do
+  # visit '/candidates/1/questions/unanswered'
+  # visit '/candidates/1/questions_unanswered'
+  # visit '/candidates/1/questions/=filterby=>unaswered'
+end
+
+Then(/^I get JSON unanswered questions only$/) do
+  expect(page).to not_contain('red pill')
+end
