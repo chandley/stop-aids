@@ -8,16 +8,15 @@ var bodyParser = require('body-parser');
 var port = process.env.PORT || 3000
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/partyapp');
+mongoose.connect('mongodb://localhost/stopAIDSapp');
 var db = mongoose.connection;
 mongoose.set('debug', true);
 var Question = require('./models/Question');
 var question;
-question = new Question({body: 'I am the first question'});
+question = new Question({boby: 'I am the first question'});
+question2 = new Question({boby: 'I am the second question'})
 question.save()
-
-
-
+question2.save()
 
 
 app.use(bodyParser.urlencoded({extended: true}));
@@ -28,11 +27,10 @@ app.engine('html', require('ejs').renderFile);
 app.use(express.static(path.join(__dirname + "./../frontend/public")));
 
 
-
-// // Party.findOne({"name" : "rnjfberbhpi"}, function(err, theParty){
-// // 	if(err) return console.log(err);
-// // 	console.log("success", theParty)
-// // })
+Question.findOne({"boby" : "I am the second question"}, function(err, theQuestion){
+	if(err) return console.log(err);
+	console.log("success", theQuestion)
+})
 
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function (callback) {
@@ -45,9 +43,9 @@ app.get('/', function(req, res) {
 });
 
 
-// app.get('/questions', function(req, res){
-// 	res.render('questions.html')
-// });
+app.get('/questions', function(req, res){
+	res.render('questions.html')
+});
 
 
 server.listen(port, function() {
