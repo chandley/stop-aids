@@ -67,3 +67,11 @@ end
 Then(/^I get JSON unanswered questions only$/) do
   expect(page).to_not have_content('red pill')
 end
+
+When(/^I visit the random unanswered question api$/) do
+  visit "/candidates/#{@alice.id}/questions/random_unanswered"
+end
+
+Then(/^I get JSON one unanswered question$/) do
+  expect(page).to have_content(/pill|famine|chicken/)
+end

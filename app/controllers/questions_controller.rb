@@ -25,4 +25,10 @@ class QuestionsController < ApplicationController
     index
   end
 
+  def random_unanswered
+    render_api ( {:candidate_id => params[:candidate_id],
+                  :questions => Question.all.select {|q| q.answers.count == 0}.sample
+                 } )
+  end
+
 end

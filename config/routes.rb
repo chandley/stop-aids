@@ -18,7 +18,7 @@ resources :candidates do
     collection do
       get 'unanswered'
       get 'answered'
-      get 'random'
+      get 'random_unanswered'
     end
   end
 end

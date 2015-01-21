@@ -30,3 +30,8 @@ Feature:
   And I answer a question
   When I visit the unanswered candidate questions api
   Then I get JSON unanswered questions only
+
+  Scenario: Show a random question
+  Given we have some questions for a candidate
+  When I visit the random unanswered question api
+  Then I get JSON one unanswered question
