@@ -11,7 +11,7 @@ class CandidatesController < ApplicationController
   def index
     @candidates = Candidate.all
     response.headers["Content-Type"] = "application/javascript"
-    render json: @candidates, callback: params['callback']
+    render json: {candidates: @candidates}, callback: params['callback']
   end
 
   
