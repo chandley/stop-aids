@@ -3,16 +3,11 @@ class CandidatesController < ApplicationController
 
   respond_to :json
   def show
-    @candidate = Candidate.find(params[:id])
-    response.headers["Content-Type"] = "application/javascript"
-    render json: {candidate: @candidate}, callback: params['callback']
+    render_api :candidate => Candidate.find(params[:id]) 
   end
 
   def index
-    @candidates = Candidate.all
-    response.headers["Content-Type"] = "application/javascript"
-    render json: {candidates: @candidates}, callback: params['callback']
+    render_api :candidates => Candidate.all 
   end
-
-  
+ 
 end

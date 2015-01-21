@@ -1,22 +1,27 @@
 class QuestionsController < ApplicationController
-  def index
-    @questions = Question.all
-    response.headers["Content-Type"] = "application/javascript"
-    render json: {candidate_id: params[:candidate_id],
-                  questions: @questions}, callback: params['callback']
+
+  def index 
+
+    if params[:filter] == 'answered'
+      @questions = Question.all.reject {|q| q.answers.count == 0}
+    elsif params[:filter] == 'unanswered'
+      @questions = Question.all.select {|q| q.answers.count == 0}
+    else
+      @questions = Question.all
+    end
+
+    render_api ( {:candidate_id => params[:candidate_id],
+                  :questions => @questions
+                 } )
   end
 
   def unanswered
-    @questions = Question.all.select {|q| q.answers.count == 0}
-    response.headers["Content-Type"] = "application/javascript"
-    render json: {candidate_id: params[:candidate_id],
-                  questions: @questions}, callback: params['callback']
+    params[:filter] = 'unanswered'
+    index
   end
 
   def answered
-    @questions = Question.all.reject {|q| q.answers.count == 0}
-    response.headers["Content-Type"] = "application/javascript"
-    render json: {candidate_id: params[:candidate_id],
-                  questions: @questions}, callback: params['callback']
+    params[:filter] = 'answered'
+    index
   end
 end
