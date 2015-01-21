@@ -61,11 +61,11 @@ Given(/^I answer a question$/) do
 end
 
 When(/^I visit the unanswered candidate questions api$/) do
-  # visit '/candidates/1/questions/unanswered'
+  visit '/candidates/1/questions/unanswered'
   # visit '/candidates/1/questions_unanswered'
   # visit '/candidates/1/questions/=filterby=>unaswered'
 end
 
 Then(/^I get JSON unanswered questions only$/) do
-  expect(page).to not_contain('red pill')
+  expect(page).to_not have_content('red pill')
 end

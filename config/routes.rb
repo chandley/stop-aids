@@ -15,7 +15,10 @@ Rails.application.routes.draw do
   #   resources :products
 resources :candidates do
   resources :questions do
-    
+    collection do
+      get 'unanswered'
+      get 'answered'
+    end
   end
 end
 
