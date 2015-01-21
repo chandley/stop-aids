@@ -9,11 +9,14 @@ party_ids = {
   'UKIP' => '6',
 }
 
-# newcsv = []
 
 CSV.foreach('ppc.csv') do |row|
   party_ids.each do |key, value|
     row[2].gsub!(key, value)
   end
-  puts row.to_csv
+  puts row.to_csv unless (row.include?('no candidate') or row.include?('[New candidate to be selected]'))
+  # if row.include?('[New candidate to be selected]')
+  #   puts row
+  # end
 end
+
