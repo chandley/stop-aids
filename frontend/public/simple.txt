@@ -1,4 +1,0 @@
-Question 1= Who is the oldest MP?
-Question 2= What is the average age of an MP?
-Question 3= When did MPs first get an annual salary?
-Question 4= What is the annual salary of an MP?

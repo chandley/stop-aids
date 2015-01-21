@@ -13,20 +13,17 @@ $scope.getCandidates = function(){
                   // console.log($scope.myError)
                 })                
 }
-    $scope.getCandidates()
+  $scope.getCandidates()
 
 
+// $scope.trialFunction = function(){
+//     var urlTrial = "https://stopaidz-rails1.herokuapp.com/candidates"
+//     $http.jsonp(urlTrial)
+//     .success(function(response){
+//         console.log(response)
+//     })
+// }
 
-
-$scope.trialFunction = function(){
-    var urlTrial = "https://stopaidz-rails1.herokuapp.com/candidates"
-    $http.jsonp(urlTrial)
-    .success(function(response){
-        console.log(response)
-    })
-}
-
-$scope.trialFunction()
-
+// $scope.trialFunction()
 
 })
