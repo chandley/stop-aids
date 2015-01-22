@@ -79,7 +79,10 @@ end
 When(/^answers are given for a question by API$/) do
   # http://suffix.be/blog/capybara-post-requests
   # this does not appear to be working!
-  page.driver.post("candidates/#{@alice.id}/answers", { :params => { :question_id => @red_or_blue.id, :answer_text => 'whatever' } } )
+  page.driver.post("candidates/#{@alice.id}/answers", 
+                    :question_id => @red_or_blue.id, 
+                    :answer_text => 'whatever' 
+                     )
 end
 
 Then(/^we see the answered question$/) do

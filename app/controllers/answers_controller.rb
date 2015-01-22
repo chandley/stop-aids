@@ -7,6 +7,7 @@ class AnswersController < ApplicationController
                   question_id:  params[:question_id], 
                   response:     params[:answer_text]  
                   )
+    render 'success'
 
     # Answer.create(params)
   end
