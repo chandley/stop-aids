@@ -89,3 +89,17 @@ Then(/^we see the answered question$/) do
   visit "/candidates/#{@alice.id}/questions/answered"
   expect(page).to have_content('red pill or blue')
 end
+
+When(/^a student submits an ask question$/) do
+  @student = User.create(email: 'test@test.com', password: 'password', password_confirmation: 'password')
+  page.driver.post("/users/#{@student.id}/candidates/#{@alice.id}/asks",
+                    :question_id => @red_or_blue.id,  
+                    )
+
+end
+
+Then(/^we see the question on an asked question list$/) do
+  visit("/users/#{@student.id}/candidates/#{alice.id}/asks")
+  expect(page).to have_content("red pill or blue")
+end
+

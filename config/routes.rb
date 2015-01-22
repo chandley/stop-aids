@@ -36,7 +36,7 @@ end
 
 resources :users do 
   resources :candidates do
-    resources :questions
+    resources :asks
   end
 end
   

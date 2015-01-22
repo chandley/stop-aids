@@ -39,4 +39,10 @@ Feature:
   Scenario: API gives answers
   Given we have some questions for a candidate
   When answers are given for a question by API
-  Then we see the answered question 
+  Then we see the answered question
+
+  Scenario: API submit asking questions
+  Given we have some questions for a candidate
+  When a student submits an ask question
+  Then we see the question on an asked question list
+
