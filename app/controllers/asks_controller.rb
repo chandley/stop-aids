@@ -16,7 +16,12 @@ class AsksController < ApplicationController
   end
 
   def index
-    render_api :asks => Question.find(Ask.all.first.question_id).ask_text
+    
+    asks = Ask.where(:candidate_id == params[:candidate_id])
+    question_id_arr = asks.map {|ask| ask.question_id}
+    question_text = Question.find(question_id_arr).map { |q| q.ask_text}
+
+    render_api :asks => question_text
   end
 
 end

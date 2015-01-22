@@ -11,7 +11,7 @@ end
 
 Given(/^we have some questions$/) do
   @red_or_blue = Question.create(ask_text: 'Would you rather red pill or blue pill?')
-  Question.create(ask_text: 'Would you rather war or famine?')
+  @war_or_famine = Question.create(ask_text: 'Would you rather war or famine?')
   Question.create(ask_text: 'Would you rather beef or chicken?')
 end
 
@@ -101,5 +101,17 @@ end
 Then(/^we see the question on an asked question list$/) do
   visit("/users/#{@student.id}/candidates/#{@alice.id}/asks")
   expect(page).to have_content("red pill or blue")
+end
+
+When(/^a student submits two asks$/) do
+  step('a student submits an ask question')
+  page.driver.post("/users/#{@student.id}/candidates/#{@alice.id}/asks",
+                    :question_id => @war_or_famine.id,  
+                    )
+end
+
+Then(/^we see both on an asked questions list$/) do
+  step('we see the question on an asked question list')
+  expect(page).to have_content("famine")
 end
 

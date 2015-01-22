@@ -46,3 +46,8 @@ Feature:
   When a student submits an ask question
   Then we see the question on an asked question list
 
+  Scenario: API asks two questions
+  Given we have some questions for a candidate
+  When a student submits two asks
+  Then we see both on an asked questions list
+
