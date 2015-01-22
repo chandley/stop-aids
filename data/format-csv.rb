@@ -15,8 +15,5 @@ CSV.foreach('ppc.csv') do |row|
     row[2].gsub!(key, value)
   end
   puts row.to_csv unless (row.include?('no candidate') or row.include?('[New candidate to be selected]'))
-  # if row.include?('[New candidate to be selected]')
-  #   puts row
-  # end
 end
 
