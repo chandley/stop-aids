@@ -16,14 +16,17 @@ $scope.getCandidates = function(){
   $scope.getCandidates()
 
 
-// $scope.trialFunction = function(){
-//     var urlTrial = "https://stopaidz-rails1.herokuapp.com/candidates"
-//     $http.jsonp(urlTrial)
-//     .success(function(response){
-//         console.log(response)
-//     })
-// }
+$scope.trialFunction = function(){
+    var urlTrial = "https://stopaidz-rails1.herokuapp.com/candidates/1/questions?callback=JSON_CALLBACK"
+    $http.jsonp(urlTrial)
+    .success(function(response){
+        console.log(response)
+        $scope.questions = []
+        $scope.allQuestions = response.questions
+        console.log($scope.questions)
+    })
+}
 
-// $scope.trialFunction()
+$scope.trialFunction()
 
 })
