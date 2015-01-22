@@ -99,7 +99,7 @@ When(/^a student submits an ask question$/) do
 end
 
 Then(/^we see the question on an asked question list$/) do
-  visit("/users/#{@student.id}/candidates/#{alice.id}/asks")
+  visit("/users/#{@student.id}/candidates/#{@alice.id}/asks")
   expect(page).to have_content("red pill or blue")
 end
 
