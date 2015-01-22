@@ -31,6 +31,14 @@ end
 resources :constituencies do
   resources :candidates
 end
+
+# to refactor:
+
+resources :users do 
+  resources :candidates do
+    resources :questions
+  end
+end
   
 
   # Example resource route with options:
