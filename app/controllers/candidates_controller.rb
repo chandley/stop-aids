@@ -1,5 +1,5 @@
 class CandidatesController < ApplicationController
-
+  protect_from_forgery except: [:index, :show]
 
   respond_to :json
   def show
