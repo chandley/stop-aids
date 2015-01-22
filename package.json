@@ -1,0 +1,35 @@
+{
+  "name": "StudentStopAIDS",
+  "version": "1.0.0",
+  "description": "nodeserver",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "node api/server.js",
+    "pretest": "npm install",
+    "test": "node node_modules/karma/bin/karma start frontend/test/karma.conf.js"
+  },
+  "author": "Giorgia Amici",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "ejs": "^2.1.4",
+    "express": "^4.11.0",
+    "mongoose": "^3.8.21",
+    "time": "^0.11.0",
+    "bower": "^1.3.12"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jasmine": "^0.8.2",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jasmine-core": "^2.1.3",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.4",
+    "mocha": "^2.1.0",
+    "should": "^4.6.1"
+  }
+}
