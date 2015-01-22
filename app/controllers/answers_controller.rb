@@ -1,13 +1,10 @@
 class AnswersController < ApplicationController
   def create
-    p params[:candidate_id]
-    p params[:question_id] # not seen
-    p params[:answer_text] # not seen
     Answer.create(candidate_id: params[:candidate_id], 
                   question_id:  params[:question_id], 
                   response:     params[:answer_text]  
                   )
-    render 'success'
+    render :nothing => true
 
     # Answer.create(params)
   end

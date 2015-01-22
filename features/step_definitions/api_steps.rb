@@ -86,5 +86,6 @@ When(/^answers are given for a question by API$/) do
 end
 
 Then(/^we see the answered question$/) do
-  pending # express the regexp above with the code you wish you had
+  visit "/candidates/#{@alice.id}/questions/answered"
+  expect(page).to have_content('red pill or blue')
 end
