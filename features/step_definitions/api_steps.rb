@@ -75,3 +75,11 @@ end
 Then(/^I get JSON one unanswered question$/) do
   expect(page).to have_content(/pill|famine|chicken/)
 end
+
+When(/^answers are given for a question by API$/) do
+  page.driver.post("candidates/#{@alice.id}/answers", { :params => { :question_id => @red_or_blue.id, :answer_text => 'whatever' } } )
+end
+
+Then(/^we see the answered question$/) do
+  pending # express the regexp above with the code you wish you had
+end

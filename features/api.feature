@@ -35,3 +35,8 @@ Feature:
   Given we have some questions for a candidate
   When I visit the random unanswered question api
   Then I get JSON one unanswered question
+
+  Scenario: API gives answers
+  Given we have some questions for a candidate
+  When answers are given for a question by API
+  Then we see the answered question 
