@@ -1,7 +1,5 @@
-class Answer < ActiveRecord::Base
-  belongs_to :question
-
- def check_tweet
+class TwitterHost
+   def check_tweet
     answer_tweet = $twitter.search( "to:chrisrhandley", 
                       result_type: "recent"
                     ).first
@@ -9,8 +7,4 @@ class Answer < ActiveRecord::Base
     puts question_tweet.text
     puts answer_tweet.text
   end
-
-
-
-
 end
