@@ -5,3 +5,13 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+# require 'CSV'
+
+# CSV.foreach('candidates.csv') do |row|
+#   Candidate.create(
+#     constituency_id: row[0], 
+#     name: row[5], 
+#     party_id: row[2],
+#     twitter: row[6])
+# end
