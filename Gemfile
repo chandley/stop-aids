@@ -32,6 +32,7 @@ gem 'devise'
 
 
 gem 'twitter' 
+gem 'twfy'
 
 
 
