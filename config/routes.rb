@@ -17,6 +17,8 @@ Rails.application.routes.draw do
 
 root to: 'home#index'
 
+resources :questions
+
 resources :candidates do
   resources :answers 
   resources :questions do
@@ -27,6 +29,8 @@ resources :candidates do
     end
   end
 end
+
+
 
 resources :constituencies do
   resources :candidates

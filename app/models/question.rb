@@ -15,7 +15,7 @@ class Question < ActiveRecord::Base
   end
 
   def send_as_tweet(candidate_twitter_address = '@chrisrhandley')
-    $twitter.update(candidate_twitter_address + ' '+self.ask_text)
+    $twitter.update(candidate_twitter_address + ' ' + self.ask_text)
   end
 
 end

@@ -51,3 +51,9 @@ Feature:
   When a student submits two asks
   Then we see both on an asked questions list
 
+  Scenario: Administrator adds question
+  Given we have a candidate
+  When the administrator adds a question by api
+  And I visit the candidate questions api
+  Then I get JSON kebab question text
+
