@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-require 'CSV'
+require 'csv'
 
 def load_data_all
   CSV.foreach('app/assets/data/candidates.csv') do |row|
