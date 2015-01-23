@@ -71,10 +71,8 @@ describe Candidate do
                   user_id:     student.id  
                   )
       end
-      expect(questions.asked_more_times_than(2)).to include(@red_or_blue)
-      expect(questions.asked_more_times_than(2)).to not_include(@red_or_blue)
-
-    end
+      expect(@alice.questions_asked_more_times_than(2)).to include(@red_or_blue)
+      expect(@alice.questions_asked_more_times_than(2)).to_not include(@war_or_famine)
 
     end
 
