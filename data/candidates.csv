@@ -1,495 +1,221 @@
-pa_id,constituency,candidate,current holder,region,name,twitter,ispersonal?
-1,Aberavon,1,Lab,W,,,no candidate
-1,Aberavon,2,Lab,W,,,no candidate
 1,Aberavon,3,Lab,W,Stephen Kinnock****,https://twitter.com/SKinnock,Y
-1,Aberavon,4,Lab,W,,,no candidate
 1,Aberavon,5,Lab,W,Duncan Higgitt,https://twitter.com/DuncanHiggitt,Y
-1,Aberavon,6,Lab,W,,,no candidate
-2,Aberconwy,1,Con,W,,,no candidate
-2,Aberconwy,2,Con,W,,,no candidate
 2,Aberconwy,3,Con,W,Mary Wimbury,https://twitter.com/MaryWimbury,Y
-2,Aberconwy,4,Con,W,,,no candidate
 2,Aberconwy,5,Con,W,Dafydd Meurig,https://twitter.com/DafyddMeurig,Y
-2,Aberconwy,6,Con,W,,,no candidate
-3,Aberdeen North,1,Lab,S,,,no candidate
-3,Aberdeen North,2,Lab,S,,,no candidate
 3,Aberdeen North,3,Lab,S,Richard Baker****,https://twitter.com/AberdeenLabour,N
-3,Aberdeen North,4,Lab,S,,,no candidate
-3,Aberdeen North,6,Lab,S,,,no candidate
 4,Aberdeen South,1,Lab,S,Ross Thomson,https://twitter.com/RossThomsonTory,Y
-4,Aberdeen South,2,Lab,S,,,no candidate
 4,Aberdeen South,3,Lab,S,Anne Begg*,https://twitter.com/annebegg,Y
-4,Aberdeen South,4,Lab,S,,,no candidate
-4,Aberdeen South,6,Lab,S,,,no candidate
 5,Aberdeenshire West & Kincardine,1,LD,S,Alexander Burnett,https://twitter.com/AJABurnett,Y
-5,Aberdeenshire West & Kincardine,2,LD,S,,,no candidate
 5,Aberdeenshire West & Kincardine,3,LD,S,Barry Black,https://twitter.com/BarryBlackNE,Y
 5,Aberdeenshire West & Kincardine,4,LD,S,Robert Smith*,https://twitter.com/AberdeenLibDems,N
-5,Aberdeenshire West & Kincardine,6,LD,S,,,no candidate
-6,Airdrie & Shotts,1,Lab,S,,,no candidate
-6,Airdrie & Shotts,2,Lab,S,,,no candidate
 6,Airdrie & Shotts,3,Lab,S,Pamela Nash*,https://twitter.com/pamela_nash,Y
-6,Airdrie & Shotts,4,Lab,S,,,no candidate
-6,Airdrie & Shotts,6,Lab,S,,,no candidate
 7,Aldershot,1,Con,SE,Gerald Howarth*,https://twitter.com/geraldhowarth,Y
-7,Aldershot,2,Con,SE,,,no candidate
 7,Aldershot,3,Con,SE,Gary Puffett,https://twitter.com/Gary_Puffett,Y
 7,Aldershot,4,Con,SE,Alan Hilliar,,none
 7,Aldershot,6,Con,SE,William Walker,https://twitter.com/BillWalkerUK,Y
-8,Aldridge-Brownhills,1,Con,WM,[New candidate to be selected],https://twitter.com/Walsall_Tories,N
-8,Aldridge-Brownhills,2,Con,WM,,,no candidate
 8,Aldridge-Brownhills,3,Con,WM,John Fisher,https://twitter.com/JohnFisher_1,Y
-8,Aldridge-Brownhills,4,Con,WM,,,no candidate
 8,Aldridge-Brownhills,6,Con,WM,Paul White,https://twitter.com/PaulWhiteB43,Y
-9,Altrincham & Sale West,1,Con,NW,,,no candidate
-9,Altrincham & Sale West,2,Con,NW,,,no candidate
 9,Altrincham & Sale West,3,Con,NW,James Wright,,none
 9,Altrincham & Sale West,4,Con,NW,Jane Brophy***,https://twitter.com/Cllr_JaneBrophy,Y
-9,Altrincham & Sale West,6,Con,NW,,,no candidate
 10,Alyn & Deeside,1,Lab,W,Laura Knightly,https://twitter.com/lauraknightly,Y
-10,Alyn & Deeside,2,Lab,W,,,no candidate
 10,Alyn & Deeside,3,Lab,W,Mark Tami*,https://twitter.com/MarkTamiMP,Y
-10,Alyn & Deeside,4,Lab,W,,,no candidate
-10,Alyn & Deeside,5,Lab,W,Jacqueline Hurst,,no candidate
 10,Alyn & Deeside,6,Lab,W,Blair Smillie,https://twitter.com/blairsmillie,Y
 11,Amber Valley,1,Con,EM,Nigel Mills*,https://twitter.com/NigelMillsMP,Y
-11,Amber Valley,2,Con,EM,,,no candidate
 11,Amber Valley,3,Con,EM,Kevin Gillott,https://twitter.com/DerbysLabour,N
 11,Amber Valley,4,Con,EM,Kate Smith,,none
-11,Amber Valley,6,Con,EM,,,no candidate
 12,Angus,1,SNP,S,Derek Wann,https://twitter.com/wannforangus,Y
-12,Angus,2,SNP,S,,,no candidate
-12,Angus,3,SNP,S,,,no candidate
-12,Angus,4,SNP,S,,,no candidate
-12,Angus,6,SNP,S,,,no candidate
-13,ANTRIM EAST,1,DUP,NI,,,no candidate
-13,ANTRIM EAST,2,DUP,NI,,,no candidate
-13,ANTRIM EAST,3,DUP,NI,,,no candidate
-13,ANTRIM EAST,4,DUP,NI,,,no candidate
-13,ANTRIM EAST,6,DUP,NI,,,no candidate
-14,ANTRIM NORTH,1,DUP,NI,,,no candidate
-14,ANTRIM NORTH,2,DUP,NI,,,no candidate
-14,ANTRIM NORTH,3,DUP,NI,,,no candidate
-14,ANTRIM NORTH,4,DUP,NI,,,no candidate
-14,ANTRIM NORTH,6,DUP,NI,,,no candidate
-15,Antrim South,1,DUP,NI,,,no candidate
-15,Antrim South,2,DUP,NI,,,no candidate
-15,Antrim South,3,DUP,NI,,,no candidate
-15,Antrim South,4,DUP,NI,,,no candidate
-15,Antrim South,6,DUP,NI,,,no candidate
-16,Arfon,1,PC,W,,,no candidate
-16,Arfon,2,PC,W,,,no candidate
 16,Arfon,3,PC,W,Alan Pugh***,https://twitter.com/Alun_Pugh,Y
-16,Arfon,4,PC,W,,,no candidate
 16,Arfon,5,PC,W,Hywel Williams*,https://twitter.com/HywelWilliamsMP,Y
-16,Arfon,6,PC,W,,,no candidate
 17,Argyll & Bute,1,LD,S,Alastair Redman,,none
-17,Argyll & Bute,2,LD,S,,,no candidate
 17,Argyll & Bute,3,LD,S,Mary Galbraith,https://twitter.com/Mary_Galbraith,Y
 17,Argyll & Bute,4,LD,S,Alan Reid*,,none
-17,Argyll & Bute,6,LD,S,,,no candidate
 18,Arundel & South Downs,1,Con,SE,Nick Herbert*,https://twitter.com/nickherbertmp,Y
-18,Arundel & South Downs,2,Con,SE,,,no candidate
-18,Arundel & South Downs,3,Con,SE,,,no candidate
-18,Arundel & South Downs,4,Con,SE,,,no candidate
 18,Arundel & South Downs,6,Con,SE,Peter Grace,https://twitter.com/relaxed68,Y
-19,Ashfield,1,Lab,EM,,,no candidate
-19,Ashfield,2,Lab,EM,,,no candidate
 19,Ashfield,3,Lab,EM,Gloria De Piero*,https://twitter.com/GloriaDePieroMP,Y
 19,Ashfield,4,Lab,EM,Jason Zadrozny***,https://twitter.com/jzadrozny,Y
-19,Ashfield,6,Lab,EM,,,no candidate
 20,Ashford,1,Con,SE,Damian Green*,https://twitter.com/damiangreenmp,Y
 20,Ashford,2,Con,SE,Mandy Rossi,https://twitter.com/GreenMandyRossi,Y
 20,Ashford,3,Con,SE,Brendan Chilton,https://twitter.com/BrendanChilton,Y
-20,Ashford,4,Con,SE,,,no candidate
 20,Ashford,6,Con,SE,Gerald O'Brien,,none
-21,Ashton under Lyne,1,Lab,NW,,,no candidate
-21,Ashton under Lyne,2,Lab,NW,,,no candidate
 21,Ashton under Lyne,3,Lab,NW,Angela Rayner****,https://twitter.com/AngelaRayner,Y
-21,Ashton under Lyne,4,Lab,NW,,,no candidate
 21,Ashton under Lyne,6,Lab,NW,Angela McManus***,https://twitter.com/angela_mcmanus,Y
-22,Aylesbury,1,Con,SE,,,no candidate
-22,Aylesbury,2,Con,SE,,,no candidate
 22,Aylesbury,3,Con,SE,Will Cass,https://twitter.com/ChangeEnactor,Y
-22,Aylesbury,4,Con,SE,,,no candidate
 22,Aylesbury,6,Con,SE,Chris Adams***,https://twitter.com/_Chris_Adams,Y
 23,"Ayr, Carrick & Cumnock",1,Lab,S,Lee Lyons,,none
-23,"Ayr, Carrick & Cumnock",2,Lab,S,,,no candidate
 23,"Ayr, Carrick & Cumnock",3,Lab,S,Sandra Osborne*,,none
-23,"Ayr, Carrick & Cumnock",4,Lab,S,,,no candidate
-23,"Ayr, Carrick & Cumnock",6,Lab,S,,,no candidate
 24,Ayrshire Central,1,Lab,S,Marc Hope,,none
-24,Ayrshire Central,2,Lab,S,,,no candidate
 24,Ayrshire Central,3,Lab,S,Brian Donohoe*,,none
-24,Ayrshire Central,4,Lab,S,,,no candidate
-24,Ayrshire Central,6,Lab,S,,,no candidate
-25,Ayrshire North & Arran,1,Lab,S,,,no candidate
-25,Ayrshire North & Arran,2,Lab,S,,,no candidate
 25,Ayrshire North & Arran,3,Lab,S,Katy Clark*,https://twitter.com/KatyClarkMP,Y
-25,Ayrshire North & Arran,4,Lab,S,,,no candidate
-25,Ayrshire North & Arran,6,Lab,S,,,no candidate
 26,Banbury,1,Con,SE,Victoria Prentis****,,none
-26,Banbury,2,Con,SE,,,no candidate
 26,Banbury,3,Con,SE,Sean Woodcock,,none
-26,Banbury,4,Con,SE,,,no candidate
 26,Banbury,6,Con,SE,Dickie Bird,https://twitter.com/DickieUKIP,Y
-27,BANFF & BUCHAN,1,SNP,S,,,no candidate
-27,BANFF & BUCHAN,2,SNP,S,,,no candidate
-27,BANFF & BUCHAN,3,SNP,S,,,no candidate
-27,BANFF & BUCHAN,4,SNP,S,,,no candidate
-27,BANFF & BUCHAN,6,SNP,S,,,no candidate
 28,Barking,1,Lab,GL,Mina Rahman,https://twitter.com/MinaRahman1,Y
-28,Barking,2,Lab,GL,,,no candidate
 28,Barking,3,Lab,GL,Margaret Hodge*,https://twitter.com/margarethodge,Y
-28,Barking,4,Lab,GL,,,no candidate
 28,Barking,6,Lab,GL,Roger Gravett,,none
-29,Barnsley Central,1,Lab,YH,,,no candidate
-29,Barnsley Central,2,Lab,YH,,,no candidate
 29,Barnsley Central,3,Lab,YH,Dan Jarvis*,https://twitter.com/DanJarvisMP,Y
-29,Barnsley Central,4,Lab,YH,,,no candidate
-29,Barnsley Central,6,Lab,YH,,,no candidate
-30,Barnsley East,1,Lab,YH,,,no candidate
-30,Barnsley East,2,Lab,YH,,,no candidate
 30,Barnsley East,3,Lab,YH,Michael Dugher*,https://twitter.com/MichaelDugherMP,Y
-30,Barnsley East,4,Lab,YH,,,no candidate
-30,Barnsley East,6,Lab,YH,,,no candidate
-31,Barrow & Furness,1,Lab,NW,,,no candidate
-31,Barrow & Furness,2,Lab,NW,,,no candidate
 31,Barrow & Furness,3,Lab,NW,John Woodcock*,https://twitter.com/JWoodcockMP,Y
-31,Barrow & Furness,4,Lab,NW,,,no candidate
 31,Barrow & Furness,6,Lab,NW,Noel Matthews,https://twitter.com/uknoel,Y
-32,Basildon & Billericay,1,Con,E,,,no candidate
-32,Basildon & Billericay,2,Con,E,,,no candidate
 32,Basildon & Billericay,3,Con,E,Gavin Callaghan,https://twitter.com/CllrCallaghan,Y
-32,Basildon & Billericay,4,Con,E,,,no candidate
 32,Basildon & Billericay,6,Con,E,Anne Marie Waters,https://twitter.com/AMDWaters,Y
-33,Basildon South & Thurrock East,1,Con,E,,,no candidate
-33,Basildon South & Thurrock East,2,Con,E,,,no candidate
 33,Basildon South & Thurrock East,3,Con,E,Mike Le-Surf,https://twitter.com/MikeLeSurf,Y
-33,Basildon South & Thurrock East,4,Con,E,,,no candidate
-33,Basildon South & Thurrock East,6,Con,E,,,no candidate
 34,Basingstoke,1,Con,SE,Maria Miller*,https://twitter.com/Maria_MillerMP,Y
-34,Basingstoke,2,Con,SE,,,no candidate
 34,Basingstoke,3,Con,SE,Paul Harvey,https://twitter.com/CllrPaulHarvey,Y
 34,Basingstoke,4,Con,SE,Janice Spalding,,none
 34,Basingstoke,6,Con,SE,Alan Stone,https://twitter.com/alan_h_stone,Y
-35,Bassetlaw,1,Lab,EM,,,no candidate
-35,Bassetlaw,2,Lab,EM,,,no candidate
 35,Bassetlaw,3,Lab,EM,John Mann*,https://twitter.com/JohnMannMP,Y
 35,Bassetlaw,4,Lab,EM,Leon Duveen,https://twitter.com/LeonDuveen,Y
-35,Bassetlaw,6,Lab,EM,,,no candidate
 36,Bath,1,LD,SW,Ben Howlett,https://twitter.com/ben4bath,Y
 36,Bath,2,LD,SW,Dominic Tristram,https://twitter.com/DominicTristram,Y
 36,Bath,3,LD,SW,Ollie Middleton,https://twitter.com/Ollie_Middleton,Y
 36,Bath,4,LD,SW,Steve Bradley****,https://twitter.com/bradley_steve,Y
 36,Bath,6,LD,SW,Julian Deverell,https://twitter.com/JulianDeverell,Y
 37,Batley & Spen,1,Lab,YH,Imtiaz Ameen,https://twitter.com/imtiazameen,Y
-37,Batley & Spen,2,Lab,YH,,,no candidate
 37,Batley & Spen,3,Lab,YH,Jo Cox****,https://twitter.com/Jo_Cox1,Y
-37,Batley & Spen,4,Lab,YH,,,no candidate
-37,Batley & Spen,6,Lab,YH,,,no candidate
-38,Battersea,1,Con,GL,,,no candidate
 38,Battersea,2,Con,GL,Joe Stuart,,none
 38,Battersea,3,Con,GL,Will Martindale,https://twitter.com/WillJMartindale,Y
-38,Battersea,4,Con,GL,,,no candidate
-38,Battersea,6,Con,GL,,,no candidate
-39,Beaconsfield,1,Con,SE,,,no candidate
-39,Beaconsfield,2,Con,SE,,,no candidate
-39,Beaconsfield,3,Con,SE,,,no candidate
-39,Beaconsfield,4,Con,SE,,,no candidate
 39,Beaconsfield,6,Con,SE,Tim Scott,https://twitter.com/timscottukip,Y
 40,Beckenham,1,Con,GL,Bob Stewart*,,none
-40,Beckenham,2,Con,GL,,,no candidate
-40,Beckenham,3,Con,GL,,,no candidate
-40,Beckenham,4,Con,GL,,,no candidate
 40,Beckenham,6,Con,GL,Paul Tew,https://twitter.com/angela_mcmanus,Y
 41,Bedford,1,Con,E,Richard Fuller*,,none
-41,Bedford,2,Con,E,,,no candidate
 41,Bedford,3,Con,E,Patrick Hall**,https://twitter.com/patrickhall4mp,Y
 41,Bedford,4,Con,E,Mahmud Henry Rogers,https://twitter.com/MahmudHenryR,Y
 41,Bedford,6,Con,E,Charlie Smith,https://twitter.com/Charlie_UKIP,Y
 42,Bedfordshire Mid,1,Con,E,Nadine Dorries*,https://twitter.com/NadineDorriesMP,Y
-42,Bedfordshire Mid,2,Con,E,,,no candidate
 42,Bedfordshire Mid,3,Con,E,Charlynne Pullen,https://twitter.com/CharlynnePullen,Y
-42,Bedfordshire Mid,4,Con,E,,,no candidate
-42,Bedfordshire Mid,6,Con,E,,,no candidate
-43,Bedfordshire North East,1,Con,E,,,no candidate
-43,Bedfordshire North East,2,Con,E,,,no candidate
 43,Bedfordshire North East,3,Con,E,Saqhib Ali,https://twitter.com/ali4nebeds2015,Y
-43,Bedfordshire North East,4,Con,E,,,no candidate
 43,Bedfordshire North East,6,Con,E,Adrianne Smyth,,none
 44,Bedfordshire South West,1,Con,E,Andrew Selous*,https://twitter.com/Andrew_SelousMP,Y
-44,Bedfordshire South West,2,Con,E,,,no candidate
 44,Bedfordshire South West,3,Con,E,Daniel Scott,,none
-44,Bedfordshire South West,4,Con,E,,,no candidate
-44,Bedfordshire South West,6,Con,E,,,no candidate
-45,BELFAST EAST,1,Alliance,NI,,,no candidate
-45,BELFAST EAST,2,Alliance,NI,,,no candidate
-45,BELFAST EAST,3,Alliance,NI,,,no candidate
-45,BELFAST EAST,4,Alliance,NI,,,no candidate
-45,BELFAST EAST,6,Alliance,NI,,,no candidate
-46,Belfast North,1,DUP,NI,,,no candidate
-46,Belfast North,2,DUP,NI,,,no candidate
-46,Belfast North,3,DUP,NI,,,no candidate
-46,Belfast North,4,DUP,NI,,,no candidate
-46,Belfast North,6,DUP,NI,,,no candidate
-47,Belfast South,1,SDLP,NI,,,no candidate
-47,Belfast South,2,SDLP,NI,,,no candidate
-47,Belfast South,3,SDLP,NI,,,no candidate
-47,Belfast South,4,SDLP,NI,,,no candidate
-47,Belfast South,6,SDLP,NI,,,no candidate
-48,BELFAST WEST,1,SF,NI,,,no candidate
-48,BELFAST WEST,2,SF,NI,,,no candidate
-48,BELFAST WEST,3,SF,NI,,,no candidate
-48,BELFAST WEST,4,SF,NI,,,no candidate
-48,BELFAST WEST,6,SF,NI,,,no candidate
-49,Bermondsey & Old Southwark,1,LD,GL,,,no candidate
-49,Bermondsey & Old Southwark,2,LD,GL,,,no candidate
 49,Bermondsey & Old Southwark,3,LD,GL,Neil Coyle,https://twitter.com/coyleneil,Y
 49,Bermondsey & Old Southwark,4,LD,GL,Simon Hughes*,https://twitter.com/SimonHughesMP,Y
-49,Bermondsey & Old Southwark,6,LD,GL,,,no candidate
 50,Berwick-upon-Tweed,1,LD,NE,Anne-Marie Trevelyan***,https://twitter.com/annietrev,Y
-50,Berwick-upon-Tweed,2,LD,NE,,,no candidate
 50,Berwick-upon-Tweed,3,LD,NE,Scott Dickinson,https://twitter.com/ScottDickinson0,Y
 50,Berwick-upon-Tweed,4,LD,NE,Julie Pörksen****,https://twitter.com/JuliePorksen,Y
 50,Berwick-upon-Tweed,6,LD,NE,Nigel Coghill-Marshall,,none
 51,"Berwickshire, Roxburgh & Selkirk",1,LD,S,John Lamont***,https://twitter.com/John2Win,Y
-51,"Berwickshire, Roxburgh & Selkirk",2,LD,S,,,no candidate
-51,"Berwickshire, Roxburgh & Selkirk",3,LD,S,,,no candidate
 51,"Berwickshire, Roxburgh & Selkirk",4,LD,S,Michael Moore*,https://twitter.com/michaelmooremp,Y
-51,"Berwickshire, Roxburgh & Selkirk",6,LD,S,,,no candidate
 52,Bethnal Green & Bow,1,Lab,GL,Matthew Smith,,none
 52,Bethnal Green & Bow,2,Lab,GL,Alistair Polson,https://twitter.com/AlistairPolson,Y
 52,Bethnal Green & Bow,3,Lab,GL,Rushanara Ali*,https://twitter.com/rushanaraali,Y
-52,Bethnal Green & Bow,4,Lab,GL,,,no candidate
-52,Bethnal Green & Bow,6,Lab,GL,,,no candidate
 53,Beverley & Holderness,1,Con,YH,Graham Stuart*,,none
-53,Beverley & Holderness,2,Con,YH,,,no candidate
 53,Beverley & Holderness,3,Con,YH,Margaret Pinder,https://twitter.com/ScottDickinson0,Y
-53,Beverley & Holderness,4,Con,YH,,,no candidate
 53,Beverley & Holderness,6,Con,YH,Gary Shores,,none
-54,Bexhill & Battle,1,Con,SE,[New candidate to be selected],,no candidate
-54,Bexhill & Battle,2,Con,SE,,,no candidate
 54,Bexhill & Battle,3,Con,SE,Michelle Thew,https://twitter.com/MichelleThew,Y
 54,Bexhill & Battle,4,Con,SE,Rachel Sadler,https://twitter.com/RachSadlerTW,Y
 54,Bexhill & Battle,6,Con,SE,Geoffrey Bastin,https://twitter.com/Geoffbastin,Y
 55,Bexleyheath & Crayford,1,Con,GL,David Evennett*,https://twitter.com/DavidEvennett,Y
-55,Bexleyheath & Crayford,2,Con,GL,,,no candidate
 55,Bexleyheath & Crayford,3,Con,GL,Stefano Borella,https://twitter.com/StefBorella,Y
-55,Bexleyheath & Crayford,4,Con,GL,,,no candidate
-55,Bexleyheath & Crayford,6,Con,GL,,,no candidate
-56,Birkenhead,1,Lab,NW,,,no candidate
-56,Birkenhead,2,Lab,NW,,,no candidate
 56,Birkenhead,3,Lab,NW,Frank Field*,https://twitter.com/frankfieldteam,Y
-56,Birkenhead,4,Lab,NW,,,no candidate
-56,Birkenhead,6,Lab,NW,,,no candidate
 57,Birmingham Edgbaston,1,Lab,WM,Luke Evans,https://twitter.com/drlukeevans,Y
 57,Birmingham Edgbaston,2,Lab,WM,Phil Simpson***,https://twitter.com/HarborneGreen,Y
 57,Birmingham Edgbaston,3,Lab,WM,Gisela Stuart*,https://twitter.com/GiselaStuart,Y
 57,Birmingham Edgbaston,4,Lab,WM,Lee Dargue,https://twitter.com/leedargue,Y
 57,Birmingham Edgbaston,6,Lab,WM,Graham Short,,none
 58,Birmingham Erdington,1,Lab,WM,Robert Alden***,https://twitter.com/ErdingtonTories,N
-58,Birmingham Erdington,2,Lab,WM,,,no candidate
 58,Birmingham Erdington,3,Lab,WM,Jack Dromey*,https://twitter.com/JackDromeyMP,Y
-58,Birmingham Erdington,4,Lab,WM,,,no candidate
-58,Birmingham Erdington,6,Lab,WM,,,no candidate
 59,Birmingham Hall Green,1,Lab,WM,James Bird,https://twitter.com/James_Bird_,Y
 59,Birmingham Hall Green,2,Lab,WM,Elly Stanton,,none
 59,Birmingham Hall Green,3,Lab,WM,Roger Godsiff*,,none
 59,Birmingham Hall Green,4,Lab,WM,Jerry Evans***,https://twitter.com/Jerry4MP,Y
-59,Birmingham Hall Green,6,Lab,WM,,,no candidate
-60,Birmingham Hodge Hill,1,Lab,WM,,,no candidate
-60,Birmingham Hodge Hill,2,Lab,WM,,,no candidate
 60,Birmingham Hodge Hill,3,Lab,WM,Liam Byrne*,https://twitter.com/LiamByrneMP,Y
-60,Birmingham Hodge Hill,4,Lab,WM,,,no candidate
-60,Birmingham Hodge Hill,6,Lab,WM,,,no candidate
 61,Birmingham Ladywood,1,Lab,WM,Isabel Sigmac,https://twitter.com/IsabelSigmac,Y
 61,Birmingham Ladywood,2,Lab,WM,Margaret Okole,,none
 61,Birmingham Ladywood,3,Lab,WM,Shabana Mahmood*,https://twitter.com/ShabanaMahmood,Y
-61,Birmingham Ladywood,4,Lab,WM,,,no candidate
 61,Birmingham Ladywood,6,Lab,WM,Clair Braund,,none
 62,Birmingham Northfield,1,Lab,WM,Rachel Maclean,https://twitter.com/RachelMaclean3,Y
-62,Birmingham Northfield,2,Lab,WM,,,no candidate
 62,Birmingham Northfield,3,Lab,WM,Richard Burden*,https://twitter.com/RichardBurdenMP,Y
 62,Birmingham Northfield,4,Lab,WM,Steve Haynes,https://twitter.com/Centreradical,Y
 62,Birmingham Northfield,6,Lab,WM,Keith Rowe,https://twitter.com/KeithRoweUKIP,Y
-63,Birmingham Perry Barr,1,Lab,WM,,,no candidate
-63,Birmingham Perry Barr,2,Lab,WM,,,no candidate
 63,Birmingham Perry Barr,3,Lab,WM,Kahlid Mahmood*,,none
-63,Birmingham Perry Barr,4,Lab,WM,,,no candidate
-63,Birmingham Perry Barr,6,Lab,WM,,,no candidate
 64,Birmingham Selly Oak,1,Lab,WM,Alex Avern,https://twitter.com/alex_avern,Y
 64,Birmingham Selly Oak,2,Lab,WM,Clare Thomas,,none
 64,Birmingham Selly Oak,3,Lab,WM,Stephen McCabe*,https://twitter.com/steve_mccabe,Y
 64,Birmingham Selly Oak,4,Lab,WM,Colin Green,https://twitter.com/ColinGreenLD,Y
 64,Birmingham Selly Oak,6,Lab,WM,Steven Brookes,https://twitter.com/stevenjbrookes,Y
 65,Birmingham Yardley,1,LD,WM,Arun Photay,https://twitter.com/APhotay,Y
-65,Birmingham Yardley,2,LD,WM,,,no candidate
 65,Birmingham Yardley,3,LD,WM,Jess Philips,https://twitter.com/jessphillips,Y
 65,Birmingham Yardley,4,LD,WM,John Hemming*,https://twitter.com/johnhemmingmp,Y
-65,Birmingham Yardley,6,LD,WM,,,no candidate
-66,Bishop Auckland,1,Lab,NE,,,no candidate
-66,Bishop Auckland,2,Lab,NE,,,no candidate
 66,Bishop Auckland,3,Lab,NE,Helen Goodman*,https://twitter.com/HelenGoodmanMP,Y
-66,Bishop Auckland,4,Lab,NE,,,no candidate
-66,Bishop Auckland,6,Lab,NE,,,no candidate
 67,Blackburn,1,Lab,NW,Bob Eastwood,https://twitter.com/Bob4Blackburn,Y
-67,Blackburn,2,Lab,NW,,,no candidate
 67,Blackburn,3,Lab,NW,Kate Hollern****,https://twitter.com/CllrKate,Y
-67,Blackburn,4,Lab,NW,,,no candidate
-67,Blackburn,6,Lab,NW,,,no candidate
-68,Blackley & Broughton,1,Lab,NW,,,no candidate
-68,Blackley & Broughton,2,Lab,NW,,,no candidate
 68,Blackley & Broughton,3,Lab,NW,Graham Stringer*,,none
-68,Blackley & Broughton,4,Lab,NW,,,no candidate
-68,Blackley & Broughton,6,Lab,NW,,,no candidate
 69,Blackpool North & Cleveleys,1,Con,NW,Paul Maynard*,https://twitter.com/PaulMaynardMP,Y
-69,Blackpool North & Cleveleys,2,Con,NW,,,no candidate
 69,Blackpool North & Cleveleys,3,Con,NW,Sam Rushworth,https://twitter.com/SamJRushworth,Y
-69,Blackpool North & Cleveleys,4,Con,NW,,,no candidate
 69,Blackpool North & Cleveleys,6,Con,NW,Simon Noble,https://twitter.com/NibsNoble,Y
 70,Blackpool South,1,Lab,NW,Peter Anthony,https://twitter.com/peteranthony19,Y
-70,Blackpool South,2,Lab,NW,,,no candidate
 70,Blackpool South,3,Lab,NW,Gordon Marsden*,https://twitter.com/GordonMarsden,Y
-70,Blackpool South,4,Lab,NW,,,no candidate
 70,Blackpool South,6,Lab,NW,Peter Wood,,none
-71,Blaenau Gwent,1,Lab,W,,,no candidate
-71,Blaenau Gwent,2,Lab,W,,,no candidate
 71,Blaenau Gwent,3,Lab,W,Nick Smith*,https://twitter.com/BlaenauGwentMP,Y
-71,Blaenau Gwent,4,Lab,W,,,no candidate
 71,Blaenau Gwent,5,Lab,W,Steffan Lewis,twitter.com/steffanlewis,Y
-71,Blaenau Gwent,6,Lab,W,,,no candidate
-72,Blaydon,1,Lab,NE,,,no candidate
-72,Blaydon,2,Lab,NE,,,no candidate
 72,Blaydon,3,Lab,NE,Dave Anderson*,,none
-72,Blaydon,4,Lab,NE,,,no candidate
-72,Blaydon,6,Lab,NE,,,no candidate
-73,Blyth Valley,1,Lab,NE,,,no candidate
-73,Blyth Valley,2,Lab,NE,,,no candidate
 73,Blyth Valley,3,Lab,NE,Ronnie Campbell*,https://twitter.com/BVLabour,N
-73,Blyth Valley,4,Lab,NE,,,no candidate
 73,Blyth Valley,6,Lab,NE,Barry Elliott,https://twitter.com/barryelliott43,Y
-74,Bognor Regis & Littlehampton,1,Con,SE,,,no candidate
-74,Bognor Regis & Littlehampton,2,Con,SE,,,no candidate
 74,Bognor Regis & Littlehampton,3,Con,SE,Alan Butcher,,none
 74,Bognor Regis & Littlehampton,4,Con,SE,Francis Oppler,https://twitter.com/FrancisOppler,Y
 74,Bognor Regis & Littlehampton,6,Con,SE,Graham Jones,,none
-75,Bolsover,1,Lab,EM,,,no candidate
-75,Bolsover,2,Lab,EM,,,no candidate
 75,Bolsover,3,Lab,EM,Dennis Skinner*,https://twitter.com/DennisSkinner,Y
-75,Bolsover,4,Lab,EM,,,no candidate
 75,Bolsover,6,Lab,EM,Roy Calladine***,,none
 76,Bolton North East,1,Lab,NW,James Daly,https://twitter.com/cllrjamesdaly,Y
-76,Bolton North East,2,Lab,NW,,,no candidate
 76,Bolton North East,3,Lab,NW,David Crausby*,https://twitter.com/DavidCrausby,Y
-76,Bolton North East,4,Lab,NW,,,no candidate
-76,Bolton North East,6,Lab,NW,,,no candidate
-77,Bolton South East,1,Lab,NW,,,no candidate
-77,Bolton South East,2,Lab,NW,,,no candidate
 77,Bolton South East,3,Lab,NW,Yasmin Qureshi*,https://twitter.com/YasminQureshiMP,Y
-77,Bolton South East,4,Lab,NW,,,no candidate
-77,Bolton South East,6,Lab,NW,,,no candidate
 78,Bolton West,1,Lab,NW,Christopher Green,https://twitter.com/Chris11Green,Y
-78,Bolton West,2,Lab,NW,,,no candidate
 78,Bolton West,3,Lab,NW,Julie Hilling*,https://twitter.com/JulieHillingMP,Y
-78,Bolton West,4,Lab,NW,,,no candidate
-78,Bolton West,6,Lab,NW,,,no candidate
-79,Bootle,1,Lab,NW,,,no candidate
-79,Bootle,2,Lab,NW,,,no candidate
 79,Bootle,3,Lab,NW,Peter Dowd****,https://twitter.com/BlaenauGwentMP,Y
-79,Bootle,4,Lab,NW,,,no candidate
-79,Bootle,6,Lab,NW,,,no candidate
 80,Boston & Skegness,1,Con,EM,Matt Warman****,https://twitter.com/MarkJSimmonds,Y
-80,Boston & Skegness,2,Con,EM,,,no candidate
 80,Boston & Skegness,3,Con,EM,Paul Kenny***,https://twitter.com/paul_r_kenny,Y
-80,Boston & Skegness,4,Con,EM,,,no candidate
-80,Boston & Skegness,6,Con,EM,,,no candidate
 81,Bosworth,1,Con,EM,David Tredinnick*,https://twitter.com/LeicsCC_Cons,N
-81,Bosworth,2,Con,EM,,,no candidate
 81,Bosworth,3,Con,EM,Chris Kealey,https://twitter.com/Bosworth_Rose,Y
 81,Bosworth,4,Con,EM,Michael Mullaney***,https://twitter.com/miketmullaney,Y
 81,Bosworth,6,Con,EM,David Sprason,https://twitter.com/ruraloutback,Y
 82,Bournemouth East,1,Con,SW,Tobias Ellwood*,https://twitter.com/TobiasEllwoodMP,Y
-82,Bournemouth East,2,Con,SW,,,no candidate
 82,Bournemouth East,3,Con,SW,Peter Stokes,,none
-82,Bournemouth East,4,Con,SW,,,no candidate
 82,Bournemouth East,6,Con,SW,David Hughes***,,none
 83,Bournemouth West,1,Con,SW,Conor Burns*,https://twitter.com/Conor_BurnsMP,Y
-83,Bournemouth West,2,Con,SW,,,no candidate
 83,Bournemouth West,3,Con,SW,David Stokes,https://twitter.com/dave4bmthwest,Y
-83,Bournemouth West,4,Con,SW,,,no candidate
 83,Bournemouth West,6,Con,SW,Martin Houlden,,none
 84,Bracknell,1,Con,SE,Phillip Lee*,https://twitter.com/DrPhillipLeeMP,Y
-84,Bracknell,2,Con,SE,,,no candidate
 84,Bracknell,3,Con,SE,James Walsh,https://twitter.com/JamesLWalsh,Y
-84,Bracknell,4,Con,SE,,,no candidate
 84,Bracknell,6,Con,SE,Richard Thomas,https://twitter.com/Bracknell_UKIP,N
-85,Bradford East,1,LD,YH,,,no candidate
-85,Bradford East,2,LD,YH,,,no candidate
 85,Bradford East,3,LD,YH,Imran Hussain,https://twitter.com/bradfordlabour,N
 85,Bradford East,4,LD,YH,David Ward*,https://twitter.com/DavidWardMP,Y
-85,Bradford East,6,LD,YH,,,no candidate
 86,Bradford South,1,Lab,YH,Tanya Graham,,none
-86,Bradford South,2,Lab,YH,,,no candidate
-86,Bradford South,3,Lab,YH,[New candidate to be selected],,none
-86,Bradford South,4,Lab,YH,,,no candidate
 86,Bradford South,6,Lab,YH,Jason Smith,,none
 87,Bradford West,1,Lab,YH,George Grant,https://twitter.com/GeorgePBGrant,Y
-87,Bradford West,2,Lab,YH,,,no candidate
-87,Bradford West,3,Lab,YH,,,no candidate
 87,Bradford West,4,Lab,YH,Alun Griffiths,https://twitter.com/CllrAGriffiths,Y
-87,Bradford West,6,Lab,YH,,,no candidate
-88,Braintree,1,Con,E,[New candidate to be selected],https://twitter.com/TweetBrooks,Y
-88,Braintree,2,Con,E,,,no candidate
 88,Braintree,3,Con,E,Malcolm Fincken,https://twitter.com/MalcolmFincken,Y
-88,Braintree,4,Con,E,,,no candidate
 88,Braintree,6,Con,E,Gordon Helm,,none
 89,Brecon & Radnorshire,1,LD,W,Christopher Davies,https://twitter.com/ChrisDavies4MP,Y
-89,Brecon & Radnorshire,2,LD,W,,,no candidate
 89,Brecon & Radnorshire,3,LD,W,Matthew Dorrance,https://twitter.com/MatthewDorrance,Y
 89,Brecon & Radnorshire,4,LD,W,Roger Williams*,https://twitter.com/RogerWilliamsMP,Y
 89,Brecon & Radnorshire,5,LD,W,Freddy Greaves,twitter.com/FreddyGreaves,Y
 89,Brecon & Radnorshire,6,LD,W,Clive Easton***,,none
-90,Brent Central,1,LD,GL,,,no candidate
 90,Brent Central,2,LD,GL,Shahrar Ali***,https://twitter.com/ShahrarAli,Y
 90,Brent Central,3,LD,GL,Dawn Butler**,https://twitter.com/DawnButlerBrent,Y
 90,Brent Central,4,LD,GL,Ibrahim Taguri****,https://twitter.com/ibrahimtaguri,Y
-90,Brent Central,6,LD,GL,,,no candidate
-91,Brent North,1,Lab,GL,,,no candidate
 91,Brent North,2,Lab,GL,Scott Bartle,https://twitter.com/MapesburyGreen,Y
 91,Brent North,3,Lab,GL,Barry Gardiner*,https://twitter.com/BarryGardiner,Y
-91,Brent North,4,Lab,GL,,,no candidate
-91,Brent North,6,Lab,GL,,,no candidate
 92,Brentford & Isleworth,1,Con,GL,Mary Macleod*,https://twitter.com/MaryMacleodMP,Y
 92,Brentford & Isleworth,2,Con,GL,Daniel Goldsmith,https://twitter.com/ChiswickByBike,Y
 92,Brentford & Isleworth,3,Con,GL,Ruth Cadbury,https://twitter.com/RuthCadbury,Y
-92,Brentford & Isleworth,4,Con,GL,,,no candidate
-92,Brentford & Isleworth,6,Con,GL,,,no candidate
 93,Brentwood & Ongar,1,Con,E,Eric Pickles*,https://twitter.com/EricPickles,Y
-93,Brentwood & Ongar,2,Con,E,,,no candidate
 93,Brentwood & Ongar,3,Con,E,Liam Preston,https://twitter.com/lbpreston,Y
-93,Brentwood & Ongar,4,Con,E,,,no candidate
 93,Brentwood & Ongar,6,Con,E,Mick McGough***,https://twitter.com/ukipbrentwood,N
 94,Bridgend,1,Lab,W,Meirion Jenkins,https://twitter.com/meirionj,Y
 94,Bridgend,2,Lab,W,Andy Chyba,https://twitter.com/Bridgendgreens,N
 94,Bridgend,3,Lab,W,Madeleine Moon*,https://twitter.com/BarryGardiner,Y
-94,Bridgend,4,Lab,W,,,no candidate
 94,Bridgend,5,Lab,W,James Radcliffe,,none
 94,Bridgend,6,Lab,W,Caroline Jones,,none
 95,Bridgwater & Somerset West,1,Con,SW,Ian Liddell-Grainger*,,none
-95,Bridgwater & Somerset West,2,Con,SW,,,no candidate
 95,Bridgwater & Somerset West,3,Con,SW,Michael Lerry,https://twitter.com/micklerry,Y
 95,Bridgwater & Somerset West,4,Con,SW,Justine Baker,https://twitter.com/cllrjaybaker,Y
 95,Bridgwater & Somerset West,6,Con,SW,Stephen Fitzgerald,,none
 96,Brigg & Goole,1,Con,YH,Andrew Percy*,https://twitter.com/andrewpercy,Y
 96,Brigg & Goole,2,Con,YH,Natalie Hurst,,none
 96,Brigg & Goole,3,Con,YH,Jacky Crawford,https://twitter.com/jackycrawford,Y
-96,Brigg & Goole,4,Con,YH,,,no candidate
-96,Brigg & Goole,6,Con,YH,,,no candidate
 97,Brighton Kemptown,1,Con,SE,Simon Kirby*,https://twitter.com/SimonKirbyMP,Y
 97,Brighton Kemptown,2,Con,SE,Davy Jones,https://twitter.com/davyjones4ktown,Y
 97,Brighton Kemptown,3,Con,SE,Nancy Platts,https://twitter.com/Nancy_Platts,Y
-97,Brighton Kemptown,4,Con,SE,,,no candidate
 97,Brighton Kemptown,6,Con,SE,Ian Buchanan,,none
 98,Brighton Pavilion,1,Green,SE,Clarence Mitchell,https://twitter.com/mitch_1uk,Y
 98,Brighton Pavilion,2,Green,SE,Caroline Lucas*,https://twitter.com/CarolineLucas,Y
@@ -497,338 +223,182 @@ pa_id,constituency,candidate,current holder,region,name,twitter,ispersonal?
 98,Brighton Pavilion,4,Green,SE,Chris Bowers,https://twitter.com/chris1bowers,Y
 98,Brighton Pavilion,6,Green,SE,Nigel Carter***,,none
 99,Bristol East,1,Lab,SW,Theodora Clarke,https://twitter.com/theodoraclarke,Y
-99,Bristol East,2,Lab,SW,,,no candidate
 99,Bristol East,3,Lab,SW,Kerry McCarthy*,https://twitter.com/MadeleineMoon,Y
 99,Bristol East,4,Lab,SW,Abdul Malik,https://twitter.com/chris1bowers,Y
-99,Bristol East,6,Lab,SW,,,no candidate
-100,Bristol North West,1,Con,SW,,,no candidate
-100,Bristol North West,2,Con,SW,,,no candidate
 100,Bristol North West,3,Con,SW,Darren Jones,https://twitter.com/darrenpjones,Y
 100,Bristol North West,4,Con,SW,Clare Campion-Smith,,none
-100,Bristol North West,6,Con,SW,,,no candidate
 101,Bristol South,1,Lab,SW,Isobel Grant,https://twitter.com/isogrant,Y
 101,Bristol South,2,Lab,SW,Tony Dyer,https://twitter.com/TonyDDyer,Y
 101,Bristol South,3,Lab,SW,Karin Smyth****,https://twitter.com/karinsmyth,Y
 101,Bristol South,4,Lab,SW,Mark Wright***,,none
-101,Bristol South,6,Lab,SW,,,no candidate
 102,Bristol West,1,LD,SW,Claire Hiscott,https://twitter.com/ClaireHiscott,Y
 102,Bristol West,2,LD,SW,Darren Hall,https://twitter.com/paleblueCIC,Y
 102,Bristol West,3,LD,SW,Thangam Debbonaire,https://twitter.com/tdebbonaire,Y
 102,Bristol West,4,LD,SW,Stephen Williams*,https://twitter.com/swilliamsmp,Y
-102,Bristol West,6,LD,SW,,,no candidate
-103,Broadland,1,Con,E,,,no candidate
-103,Broadland,2,Con,E,,,no candidate
 103,Broadland,3,Con,E,Chris Jones,,none
-103,Broadland,4,Con,E,,,no candidate
 103,Broadland,6,Con,E,Stuart Agnew***,,none
 104,Bromley & Chislehurst,1,Con,GL,Bob Neill*,,none
-104,Bromley & Chislehurst,2,Con,GL,,,no candidate
 104,Bromley & Chislehurst,3,Con,GL,John Courtneidge,,none
-104,Bromley & Chislehurst,4,Con,GL,,,no candidate
 104,Bromley & Chislehurst,6,Con,GL,Emmett Jenner***,,none
 105,Bromsgrove,1,Con,WM,Sajid Javid*,https://twitter.com/sajidjavid,Y
-105,Bromsgrove,2,Con,WM,,,no candidate
 105,Bromsgrove,3,Con,WM,Tom Ebbutt,https://twitter.com/tomebbutt,Y
-105,Bromsgrove,4,Con,WM,,,no candidate
-105,Bromsgrove,6,Con,WM,,,no candidate
-106,Broxbourne,1,Con,E,,,no candidate
-106,Broxbourne,2,Con,E,,,no candidate
 106,Broxbourne,3,Con,E,Edward Robinson,https://twitter.com/ejcrobinson,Y
-106,Broxbourne,4,Con,E,,,no candidate
 106,Broxbourne,6,Con,E,David Platt,,none
 107,Broxtowe,1,Con,EM,Anna Soubry*,https://twitter.com/Anna_SoubryMP,Y
 107,Broxtowe,2,Con,EM,David Kirwan,https://twitter.com/davegaz,Y
 107,Broxtowe,3,Con,EM,Nick Palmer**,https://twitter.com/Nick4Broxtowe,Y
-107,Broxtowe,4,Con,EM,,,no candidate
 107,Broxtowe,6,Con,EM,Frank Dunne,,none
-108,Buckingham,1,Speaker,SE,,,no candidate
-108,Buckingham,2,Speaker,SE,,,no candidate
-108,Buckingham,3,Speaker,SE,,,no candidate
-108,Buckingham,4,Speaker,SE,,,no candidate
 108,Buckingham,6,Speaker,SE,Dave Fowler,,none
-109,Burnley,1,LD,NW,,,no candidate
-109,Burnley,2,LD,NW,,,no candidate
 109,Burnley,3,LD,NW,Julie Cooper***,https://twitter.com/JulieForBurnley,Y
 109,Burnley,4,LD,NW,Gordon Birtwistle*,https://twitter.com/GBirtwistle_MP,Y
-109,Burnley,6,LD,NW,,,no candidate
-110,Burton,1,Con,WM,,,no candidate
-110,Burton,2,Con,WM,,,no candidate
 110,Burton,3,Con,WM,Jon Wheale,https://twitter.com/JonWheale,Y
-110,Burton,4,Con,WM,,,no candidate
 110,Burton,6,Con,WM,Mike Green,https://twitter.com/MikeGreenUKIP,Y
-111,Bury North,1,Con,NW,,,no candidate
-111,Bury North,2,Con,NW,,,no candidate
 111,Bury North,3,Con,NW,James Frith,https://twitter.com/jimmyfrith,Y
 111,Bury North,4,Con,NW,Richard Baum***,https://twitter.com/richardbaum,Y
-111,Bury North,6,Con,NW,,,no candidate
 112,Bury South,1,Lab,NW,Daniel Critchlow,https://twitter.com/DCritchlow1,Y
-112,Bury South,2,Lab,NW,,,no candidate
 112,Bury South,3,Lab,NW,Ivan Lewis*,https://twitter.com/IvanLewis_MP,Y
 112,Bury South,4,Lab,NW,Paul Ankers,https://twitter.com/BoltonNELibDems,Y
-112,Bury South,6,Lab,NW,,,no candidate
-113,Bury St Edmunds,1,Con,E,[New candidate to be selected],,none
 113,Bury St Edmunds,2,Con,E,Helen Geake,,none
 113,Bury St Edmunds,3,Con,E,William Edwards,,none
-113,Bury St Edmunds,4,Con,E,,,no candidate
-113,Bury St Edmunds,6,Con,E,,,no candidate
-114,Caerphilly,1,Lab,W,,,no candidate
-114,Caerphilly,2,Lab,W,,,no candidate
 114,Caerphilly,3,Lab,W,Wayne David*,https://twitter.com/WayneDavidMP,Y
-114,Caerphilly,4,Lab,W,,,no candidate
 114,Caerphilly,5,Lab,W,Beci Newton,twitter.com/beci4Caerphilly,Y
-114,Caerphilly,6,Lab,W,,,no candidate
-115,"Caithness, Sutherland & Easter Ross",1,LD,S,,,no candidate
-115,"Caithness, Sutherland & Easter Ross",2,LD,S,,,no candidate
 115,"Caithness, Sutherland & Easter Ross",3,LD,S,John Erskine,https://twitter.com/johnerskine,Y
 115,"Caithness, Sutherland & Easter Ross",4,LD,S,John Thurso*,,none
-115,"Caithness, Sutherland & Easter Ross",6,LD,S,,,no candidate
-116,Calder Valley,1,Con,YH,,,no candidate
-116,Calder Valley,2,Con,YH,,,no candidate
 116,Calder Valley,3,Con,YH,Joshua Fenton-Glynn,https://twitter.com/JoshFG,Y
 116,Calder Valley,4,Con,YH,Alisdair Calder McGregor,https://twitter.com/A_C_McGregor,Y
-116,Calder Valley,6,Con,YH,,,no candidate
 117,Camberwell & Peckham,1,Lab,GL,Naomi Newstead,https://twitter.com/NaomiNewstead,Y
-117,Camberwell & Peckham,2,Lab,GL,,,no candidate
 117,Camberwell & Peckham,3,Lab,GL,Harriet Harman*,https://twitter.com/HarrietHarman,Y
-117,Camberwell & Peckham,4,Lab,GL,,,no candidate
-117,Camberwell & Peckham,6,Lab,GL,,,no candidate
 118,Camborne & Redruth,1,Con,SW,George Eustice*,,none
 118,Camborne & Redruth,2,Con,SW,Geoff Garbett,https://twitter.com/ggarbett,Y
 118,Camborne & Redruth,3,Con,SW,Michael Foster,,none
 118,Camborne & Redruth,4,Con,SW,Julia Goldsworthy**,https://twitter.com/jgoldsworthy,Y
-118,Camborne & Redruth,6,Con,SW,,,no candidate
 119,Cambridge,1,LD,E,Chamali Fernando,https://twitter.com/whereis007,Y
 119,Cambridge,2,LD,E,Rupert Read,https://twitter.com/RupertRead,Y
 119,Cambridge,3,LD,E,Daniel Zeichner***,https://twitter.com/DanielZeichner,Y
 119,Cambridge,4,LD,E,Julian Huppert*,https://twitter.com/julianhuppert,Y
 119,Cambridge,6,LD,E,Patrick O'Flynn,,none
 120,Cambridgeshire North East,1,Con,E,Stephen Barclay*,https://twitter.com/SteveBarclayMP,Y
-120,Cambridgeshire North East,2,Con,E,,,no candidate
 120,Cambridgeshire North East,3,Con,E,Ken Rustidge,https://twitter.com/KRustidge,Y
-120,Cambridgeshire North East,4,Con,E,,,no candidate
-120,Cambridgeshire North East,6,Con,E,,,no candidate
-121,Cambridgeshire North West,1,Con,E,,,no candidate
-121,Cambridgeshire North West,2,Con,E,,,no candidate
 121,Cambridgeshire North West,3,Con,E,Nick Thulbourn,https://twitter.com/n_thulbourn,Y
-121,Cambridgeshire North West,4,Con,E,,,no candidate
 121,Cambridgeshire North West,6,Con,E,Peter Reeve,https://twitter.com/PeterReeve,Y
 122,Cambridgeshire South,1,Con,E,Heidi Allen****,https://twitter.com/heidiallen75,Y
-122,Cambridgeshire South,2,Con,E,,,no candidate
-122,Cambridgeshire South,3,Con,E,,,no candidate
 122,Cambridgeshire South,4,Con,E,Sebastian Kindersley**,,none
 122,Cambridgeshire South,6,Con,E,Lister Wilson,,none
 123,Cambridgeshire South East,1,Con,E,Lucy Frazer****,,none
-123,Cambridgeshire South East,2,Con,E,,,no candidate
 123,Cambridgeshire South East,3,Con,E,Huw Jones,https://twitter.com/HuwHisImpLabour,Y
 123,Cambridgeshire South East,4,Con,E,Jonathan Chatfield***,https://twitter.com/jonathanchat,Y
-123,Cambridgeshire South East,6,Con,E,,,no candidate
 124,Cannock Chase,1,Con,WM,Amanda Milling****,https://twitter.com/amandamilling,Y
-124,Cannock Chase,2,Con,WM,,,no candidate
 124,Cannock Chase,3,Con,WM,Janos Toth,https://twitter.com/JanosToth1,Y
-124,Cannock Chase,4,Con,WM,,,no candidate
 124,Cannock Chase,6,Con,WM,Grahame Wiggin,,none
 125,Canterbury,1,Con,SE,Julian Brazier*,https://twitter.com/CanterburyCCA,N
 125,Canterbury,2,Con,SE,Stuart Jefferey,https://twitter.com/stuartjeffery,Y
 125,Canterbury,3,Con,SE,Hugh Lanning,https://twitter.com/Lanning4Labour,Y
 125,Canterbury,4,Con,SE,James Flanagan,https://twitter.com/JamesCanterbury,Y
 125,Canterbury,6,Con,SE,Jim Gascoyne,,none
-126,Cardiff Central,1,LD,W,,,no candidate
-126,Cardiff Central,2,LD,W,,,no candidate
 126,Cardiff Central,3,LD,W,Jo Stevens,https://twitter.com/JoStevensLabour,Y
 126,Cardiff Central,4,LD,W,Jenny Willott*,https://twitter.com/JennyWillott,Y
 126,Cardiff Central,5,LD,W,Glenn Page,https://twitter.com/GlennPage91,Y
-126,Cardiff Central,6,LD,W,,,no candidate
 127,Cardiff North,1,Con,W,Craig Williams****,https://twitter.com/Craig4CardiffN,Y
-127,Cardiff North,2,Con,W,,,no candidate
 127,Cardiff North,3,Con,W,Mari Williams,https://twitter.com/Mari_Williams,Y
-127,Cardiff North,4,Con,W,,,no candidate
 127,Cardiff North,5,Con,W,Elin Walker Jones,https://twitter.com/elinmwj,Y
-127,Cardiff North,6,Con,W,,,no candidate
-128,Cardiff South & Penarth,1,Lab,W,,,no candidate
-128,Cardiff South & Penarth,2,Lab,W,,,no candidate
 128,Cardiff South & Penarth,3,Lab,W,Stephen Doughty*,https://twitter.com/SDoughtyMP,Y
-128,Cardiff South & Penarth,4,Lab,W,,,no candidate
 128,Cardiff South & Penarth,5,Lab,W,Ben Foday,https://twitter.com/PlaidDC_CS,N
-128,Cardiff South & Penarth,6,Lab,W,,,no candidate
-129,Cardiff West,1,Lab,W,,,no candidate
-129,Cardiff West,2,Lab,W,,,no candidate
 129,Cardiff West,3,Lab,W,Kevin Brennan*,https://twitter.com/KevinBrennanMP,Y
-129,Cardiff West,4,Lab,W,,,no candidate
 129,Cardiff West,5,Lab,W,Neil McEvoy,https://twitter.com/neiljmcevoy,Y
-129,Cardiff West,6,Lab,W,,,no candidate
 130,Carlisle,1,Con,NW,John Stevenson*,https://twitter.com/JohnStevensonMP,Y
-130,Carlisle,2,Con,NW,,,no candidate
 130,Carlisle,3,Con,NW,Lee Sherriff,https://twitter.com/MissleeCarlisle,Y
-130,Carlisle,4,Con,NW,,,no candidate
-130,Carlisle,6,Con,NW,,,no candidate
 131,Carmarthen East & Dinefwr,1,PC,W,Matthew Paul,https://twitter.com/matthewgpaul,Y
-131,Carmarthen East & Dinefwr,2,PC,W,,,no candidate
 131,Carmarthen East & Dinefwr,3,PC,W,Calum Higgins,https://twitter.com/calumhiggins,Y
-131,Carmarthen East & Dinefwr,4,PC,W,,,no candidate
 131,Carmarthen East & Dinefwr,5,PC,W,Jonathan Edwards*,https://twitter.com/JonathanPlaid,Y
-131,Carmarthen East & Dinefwr,6,PC,W,,,no candidate
 132,Carmarthen West & Pembrokeshire South,1,Con,W,Simon Hart*,https://twitter.com/Simonhartmp,Y
 132,Carmarthen West & Pembrokeshire South,2,Con,W,Gary Tapley,,none
 132,Carmarthen West & Pembrokeshire South,3,Con,W,Delyth Evans,https://twitter.com/delyth_evans,Y
-132,Carmarthen West & Pembrokeshire South,4,Con,W,,,no candidate
 132,Carmarthen West & Pembrokeshire South,5,Con,W,Elwyn Williams,,none
-132,Carmarthen West & Pembrokeshire South,6,Con,W,,,no candidate
 133,Carshalton & Wallington,1,LD,GL,Matthew Maxwell Scott,https://twitter.com/infoscwpca,N
 133,Carshalton & Wallington,2,LD,GL,Ross Hemingway,,none
 133,Carshalton & Wallington,3,LD,GL,Siobhan Tate,https://twitter.com/siobhan_tate,Y
 133,Carshalton & Wallington,4,LD,GL,Tom Brake*,https://twitter.com/thomasbrake,Y
 133,Carshalton & Wallington,6,LD,GL,William Main-Ian,https://twitter.com/bmainian,Y
 134,Castle Point,1,Con,E,Rebecca Harris*,https://twitter.com/RebeccaHarrisMP,Y
-134,Castle Point,2,Con,E,,,no candidate
 134,Castle Point,3,Con,E,Joe Cooke,https://twitter.com/castlepointlab,N
-134,Castle Point,4,Con,E,,,no candidate
 134,Castle Point,6,Con,E,Jamie Huntman,,none
 135,Ceredigion,1,LD,W,Henrietta Hensher,https://twitter.com/hhensher,Y
 135,Ceredigion,2,LD,W,Daniel Thompson,,none
 135,Ceredigion,3,LD,W,Huw Thomas,https://twitter.com/huwthomas_Wales,Y
 135,Ceredigion,4,LD,W,Mark Williams*,https://twitter.com/mark4ceredigion,Y
 135,Ceredigion,5,LD,W,Mike Parker,https://twitter.com/mikeparkerwales,Y
-135,Ceredigion,6,LD,W,,,no candidate
 136,Charnwood,1,Con,EM,Stephen Dorrell*,,none
-136,Charnwood,2,Con,EM,,,no candidate
 136,Charnwood,3,Con,EM,Sean Kelly-Walsh,https://twitter.com/sean4charnwood,Y
-136,Charnwood,4,Con,EM,,,no candidate
-136,Charnwood,6,Con,EM,,,no candidate
 137,Chatham & Aylesford,1,Con,SE,Tracey Crouch*,https://twitter.com/tracey_crouch,Y
-137,Chatham & Aylesford,2,Con,SE,,,no candidate
 137,Chatham & Aylesford,3,Con,SE,Tristan Osborne,https://twitter.com/cllrtrisosborne,Y
-137,Chatham & Aylesford,4,Con,SE,,,no candidate
 137,Chatham & Aylesford,6,Con,SE,Steve Newton***,,none
 138,Cheadle,1,LD,NW,Mary Robinson,https://twitter.com/MaryRobinson01,Y
-138,Cheadle,2,LD,NW,,,no candidate
 138,Cheadle,3,LD,NW,Martin Miller**,https://twitter.com/cheadlelabour,N
 138,Cheadle,4,LD,NW,Mark Hunter*,https://twitter.com/markhuntermp,Y
 138,Cheadle,6,LD,NW,Shaun Hopkins,,none
-139,Chelmsford,1,Con,E,,,no candidate
-139,Chelmsford,2,Con,E,,,no candidate
 139,Chelmsford,3,Con,E,Chris Vince,https://twitter.com/VoteVince2015,Y
-139,Chelmsford,4,Con,E,,,no candidate
-139,Chelmsford,6,Con,E,,,no candidate
 140,Chelsea & Fulham,1,Con,GL,Greg Hands*,https://twitter.com/GregHands,Y
-140,Chelsea & Fulham,2,Con,GL,,,no candidate
 140,Chelsea & Fulham,3,Con,GL,Alex Sanderson,https://twitter.com/AlexSanders0n,Y
-140,Chelsea & Fulham,4,Con,GL,,,no candidate
-140,Chelsea & Fulham,6,Con,GL,,,no candidate
 141,Cheltenham,1,LD,SW,Alex Chalk,https://twitter.com/AlexChalkChelt,Y
 141,Cheltenham,2,LD,SW,Adrian Van Coevorden,https://twitter.com/AdamForGreenMP,Y
-141,Cheltenham,3,LD,SW,,,no candidate
 141,Cheltenham,4,LD,SW,Martin Horwood*,https://twitter.com/MartinChelt,Y
 141,Cheltenham,6,LD,SW,Peter Bowman***,,none
 142,Chesham & Amersham,1,Con,SE,Cheryl Gillan*,https://twitter.com/CherylGillanMP,Y
-142,Chesham & Amersham,2,Con,SE,,,no candidate
-142,Chesham & Amersham,3,Con,SE,,,no candidate
-142,Chesham & Amersham,4,Con,SE,,,no candidate
 142,Chesham & Amersham,6,Con,SE,Alan Stevens***,https://twitter.com/AWAHStevens,Y
 143,"Chester, City of",1,Con,NW,Stephen Mosley*,https://twitter.com/mp4chester,Y
-143,"Chester, City of",2,Con,NW,,,no candidate
 143,"Chester, City of",3,Con,NW,Christian Matheson,https://twitter.com/Chris_Matheson,Y
 143,"Chester, City of",4,Con,NW,Robert Thompson,https://twitter.com/cllrbobthompson,Y
 143,"Chester, City of",6,Con,NW,Stephen Ingram,https://twitter.com/UKIPChester,N
-144,Chesterfield,1,Lab,EM,,,no candidate
 144,Chesterfield,2,Lab,EM,Matthew Genn,https://twitter.com/matt4ches,Y
 144,Chesterfield,3,Lab,EM,Toby Perkins*,https://twitter.com/tobyperkinsmp,Y
 144,Chesterfield,4,Lab,EM,Julia Cambridge,https://twitter.com/juliacambridge1,Y
-144,Chesterfield,6,Lab,EM,,,no candidate
-145,Chichester,1,Con,SE,,,no candidate
-145,Chichester,2,Con,SE,,,no candidate
-145,Chichester,3,Con,SE,,,no candidate
 145,Chichester,4,Con,SE,Andrew Smith,https://twitter.com/Andrew_RH_Smith,Y
 145,Chichester,6,Con,SE,Andrew Moncrieff***,,none
 146,Chingford & Woodford Green,1,Con,GL,Iain Duncan Smith*,,none
-146,Chingford & Woodford Green,2,Con,GL,,,no candidate
 146,Chingford & Woodford Green,3,Con,GL,Bilal Mahmood,https://twitter.com/bilalmahmood13,Y
-146,Chingford & Woodford Green,4,Con,GL,,,no candidate
 146,Chingford & Woodford Green,6,Con,GL,Freddy Vachha,,none
 147,Chippenham,1,LD,SW,Michelle Donelan,https://twitter.com/michelledonelan,Y
-147,Chippenham,2,LD,SW,,,no candidate
 147,Chippenham,3,LD,SW,Andy Newman,https://twitter.com/AndyD_Newman,Y
 147,Chippenham,4,LD,SW,Duncan Hames*,https://twitter.com/duncanhames,Y
 147,Chippenham,6,LD,SW,Julia Reid***,https://twitter.com/Julia__Reid,Y
 148,Chipping Barnet,1,Con,GL,Theresa Villiers*,,none
 148,Chipping Barnet,2,Con,GL,AM Poppy,https://twitter.com/GreenPartyPoppy,Y
 148,Chipping Barnet,3,Con,GL,Amy Trevethan,https://twitter.com/AmyTrevethan,Y
-148,Chipping Barnet,4,Con,GL,,,no candidate
-148,Chipping Barnet,6,Con,GL,,,no candidate
 149,Chorley,1,Lab,NW,Rob Loughenbury,https://twitter.com/Rob_Loughenbury,Y
-149,Chorley,2,Lab,NW,,,no candidate
 149,Chorley,3,Lab,NW,Lindsay Hoyle*,https://twitter.com/LindsayHoyle_MP,Y
-149,Chorley,4,Lab,NW,,,no candidate
-149,Chorley,6,Lab,NW,,,no candidate
-150,Christchurch,1,Con,SW,,,no candidate
-150,Christchurch,2,Con,SW,,,no candidate
 150,Christchurch,3,Con,SW,Andrew Satherley,,none
-150,Christchurch,4,Con,SW,,,no candidate
 150,Christchurch,6,Con,SW,Robin Gray,https://twitter.com/UKIPChristchurc,N
 151,Cities of London & Westminster,1,Con,GL,Mark Field*,https://twitter.com/MarkFieldMP,Y
-151,Cities of London & Westminster,2,Con,GL,,,no candidate
 151,Cities of London & Westminster,3,Con,GL,Nick Slingsby,,none
-151,Cities of London & Westminster,4,Con,GL,,,no candidate
-151,Cities of London & Westminster,6,Con,GL,,,no candidate
-152,Clacton,1,Con,E,,,no candidate
-152,Clacton,2,Con,E,,,no candidate
 152,Clacton,3,Con,E,Tim Young,https://twitter.com/cllr_tim_young,Y
-152,Clacton,4,Con,E,,,no candidate
-152,Clacton,6,Con,E,,,no candidate
 153,Cleethorpes,1,Con,YH,Martin Vickers*,https://twitter.com/martinvickersmp,Y
 153,Cleethorpes,2,Con,YH,Carol Thornton,https://twitter.com/TheCATcreptin,Y
 153,Cleethorpes,3,Con,YH,Peter Keith,https://twitter.com/MrPeterKeith,Y
-153,Cleethorpes,4,Con,YH,,,no candidate
 153,Cleethorpes,6,Con,YH,Stephen Harness***,,none
-154,Clwyd South,1,Lab,W,,,no candidate
-154,Clwyd South,2,Lab,W,,,no candidate
 154,Clwyd South,3,Lab,W,Susan Elan Jones*,,none
-154,Clwyd South,4,Lab,W,,,no candidate
 154,Clwyd South,5,Lab,W,Mabon ap Gwynfor,https://twitter.com/mabonapgwynfor,Y
-154,Clwyd South,6,Lab,W,,,no candidate
-155,Clwyd West,1,Con,W,,,no candidate
-155,Clwyd West,2,Con,W,,,no candidate
 155,Clwyd West,3,Con,W,Gareth Thomas**,https://twitter.com/gareththomaslab,Y
-155,Clwyd West,4,Con,W,,,no candidate
 155,Clwyd West,5,Con,W,Marc Jones,twitter.com/marcvjones,Y
-155,Clwyd West,6,Con,W,,,no candidate
-156,"Coatbridge, Chryston & Bellshill",1,Lab,S,,,no candidate
-156,"Coatbridge, Chryston & Bellshill",2,Lab,S,,,no candidate
 156,"Coatbridge, Chryston & Bellshill",3,Lab,S,Tom Clarke*,,none
-156,"Coatbridge, Chryston & Bellshill",4,Lab,S,,,no candidate
-156,"Coatbridge, Chryston & Bellshill",6,Lab,S,,,no candidate
 157,Colchester,1,LD,E,Will Quince***,https://twitter.com/willquince,Y
-157,Colchester,2,LD,E,,,no candidate
 157,Colchester,3,LD,E,Jordan Newell***,https://twitter.com/jordannewell,Y
 157,Colchester,4,LD,E,Bob Russell*,,none
 157,Colchester,6,LD,E,John Pitts***,,none
 158,Colne Valley,1,Con,YH,Jason McCartney*,https://twitter.com/JasonMcCartney,Y
-158,Colne Valley,2,Con,YH,,,no candidate
 158,Colne Valley,3,Con,YH,Jane East,https://twitter.com/Jane_East4CV,Y
-158,Colne Valley,4,Con,YH,,,no candidate
-158,Colne Valley,6,Con,YH,,,no candidate
-159,Congleton,1,Con,NW,,,no candidate
-159,Congleton,2,Con,NW,,,no candidate
 159,Congleton,3,Con,NW,Darren Price,https://twitter.com/DPriceLabour,Y
 159,Congleton,4,Con,NW,Peter Hirst***,https://twitter.com/Peterhirst9,Y
 159,Congleton,6,Con,NW,Lee Slaughter***,,none
-160,Copeland,1,Lab,NW,,,no candidate
-160,Copeland,2,Lab,NW,,,no candidate
 160,Copeland,3,Lab,NW,Jamie Reed*,https://twitter.com/jreedmp,Y
-160,Copeland,4,Lab,NW,,,no candidate
-160,Copeland,6,Lab,NW,,,no candidate
 161,Corby,1,Con*,EM,Tom Pursglove,https://twitter.com/VotePursglove,Y
-161,Corby,2,Con*,EM,,,no candidate
 161,Corby,3,Con*,EM,Andy Sawford*,https://twitter.com/AndySawfordMP,Y
-161,Corby,4,Con*,EM,,,no candidate
 161,Corby,6,Con*,EM,Margot Parker,,none
 162,Cornwall North,1,LD,SW,Scott Mann,https://twitter.com/CllrScottMann,Y
 162,Cornwall North,2,LD,SW,Amanda Pennington,https://twitter.com/aapennington,Y
-162,Cornwall North,3,LD,SW,,,no candidate
 162,Cornwall North,4,LD,SW,Dan Rogerson*,,none
 162,Cornwall North,6,LD,SW,Julie Lingard,,none
 163,Cornwall South East,1,Con,SW,Sheryll Murray*,https://twitter.com/sheryllmurray,Y
 163,Cornwall South East,2,Con,SW,Martin Corney,https://twitter.com/MartinCCorney,Y
-163,Cornwall South East,3,Con,SW,,,no candidate
 163,Cornwall South East,4,Con,SW,Phil Hutty,https://twitter.com/philhutty,Y
 163,Cornwall South East,6,Con,SW,Bradley Monk,,none
 164,"Cotswolds, The",1,Con,SW,Geoffrey Clifton-Brown*,,none
@@ -837,27 +407,16 @@ pa_id,constituency,candidate,current holder,region,name,twitter,ispersonal?
 164,"Cotswolds, The",4,Con,SW,Paul Hodgkinson,https://twitter.com/paulcotswolds,Y
 164,"Cotswolds, The",6,Con,SW,Christopher Harlow,,none
 165,Coventry North East,1,Lab,WM,Michelle Lowe,https://twitter.com/Go4Lowe,Y
-165,Coventry North East,2,Lab,WM,,,no candidate
 165,Coventry North East,3,Lab,WM,Colleen Fletcher****,https://twitter.com/CoventryLabour,N
-165,Coventry North East,4,Lab,WM,,,no candidate
-165,Coventry North East,6,Lab,WM,,,no candidate
 166,Coventry North West,1,Lab,WM,Parvez Akhtar,,none
-166,Coventry North West,2,Lab,WM,,,no candidate
 166,Coventry North West,3,Lab,WM,Geoffrey Robinson*,https://twitter.com/CoventryLabour,N
-166,Coventry North West,4,Lab,WM,,,no candidate
 166,Coventry North West,6,Lab,WM,Colin Stubbs,,none
 167,Coventry South,1,Lab,WM,Gary Ridley,https://twitter.com/GaryCRidley,Y
-167,Coventry South,2,Lab,WM,,,no candidate
 167,Coventry South,3,Lab,WM,Jim Cunningham*,https://twitter.com/CoventryLabour,N
-167,Coventry South,4,Lab,WM,,,no candidate
 167,Coventry South,6,Lab,WM,Mark Taylor*,https://twitter.com/MarkTaylorUKIP,Y
 168,Crawley,1,Con,SE,Henry Smith*,https://twitter.com/HenrySmithMP,Y
-168,Crawley,2,Con,SE,,,no candidate
 168,Crawley,3,Con,SE,Chris Oxlade***,https://twitter.com/chrisoxlade,Y
-168,Crawley,4,Con,SE,,,no candidate
-168,Crawley,6,Con,SE,,,no candidate
 169,Crewe & Nantwich,1,Con,NW,Edward Timpson*,,none
-169,Crewe & Nantwich,2,Con,NW,,,no candidate
 169,Crewe & Nantwich,3,Con,NW,Adrian Heald,https://twitter.com/DrAdrianHeald,Y
 169,Crewe & Nantwich,4,Con,NW,Roy Wood*,https://twitter.com/roywoodlibdem,Y
 169,Crewe & Nantwich,6,Con,NW,Richard Lee,,none
@@ -869,107 +428,56 @@ pa_id,constituency,candidate,current holder,region,name,twitter,ispersonal?
 171,Croydon North,1,Lab,GL,Vidhi Mohan,https://twitter.com/MohanVidhi,Y
 171,Croydon North,2,Lab,GL,Shasha Khan***,https://twitter.com/GreenKnight2010,Y
 171,Croydon North,3,Lab,GL,Steve Reed*,https://twitter.com/SteveReedMP,Y
-171,Croydon North,4,Lab,GL,,,no candidate
 171,Croydon North,6,Lab,GL,Winston McKenzie,,none
 172,Croydon South,1,Con,GL,Chris Philp****,https://twitter.com/chrisphilp4mp,Y
 172,Croydon South,2,Con,GL,Peter Underwood,https://twitter.com/GreenPeterU,Y
 172,Croydon South,3,Con,GL,Emily Benn,https://twitter.com/Emily_Benn,Y
-172,Croydon South,4,Con,GL,,,no candidate
 172,Croydon South,6,Con,GL,Kathleen Garner,,none
-173,"Cumbernauld, Kilsyth & Kirkintilloch East",1,Lab,S,,,no candidate
-173,"Cumbernauld, Kilsyth & Kirkintilloch East",2,Lab,S,,,no candidate
 173,"Cumbernauld, Kilsyth & Kirkintilloch East",3,Lab,S,Gregg McClymont*,https://twitter.com/greggmcclymont,Y
-173,"Cumbernauld, Kilsyth & Kirkintilloch East",4,Lab,S,,,no candidate
-173,"Cumbernauld, Kilsyth & Kirkintilloch East",6,Lab,S,,,no candidate
-174,Cynon Valley,1,Lab,W,,,no candidate
-174,Cynon Valley,2,Lab,W,,,no candidate
-174,Cynon Valley,3,Lab,W,,,no candidate
-174,Cynon Valley,4,Lab,W,,,no candidate
 174,Cynon Valley,5,Lab,W,Cerith Griffiths,https://mobile.twitter.com/Cerithg,Y
-174,Cynon Valley,6,Lab,W,,,no candidate
-175,Dagenham & Rainham,1,Lab,GL,,,no candidate
-175,Dagenham & Rainham,2,Lab,GL,,,no candidate
 175,Dagenham & Rainham,3,Lab,GL,Jon Cruddas*,https://twitter.com/JonCruddasMP,Y
-175,Dagenham & Rainham,4,Lab,GL,,,no candidate
 175,Dagenham & Rainham,6,Lab,GL,Peter Harris,,none
 176,Darlington,1,Lab,NE,Peter Cuthbertson,https://twitter.com/pmcuthbertson,Y
-176,Darlington,2,Lab,NE,,,no candidate
 176,Darlington,3,Lab,NE,Jenny Chapman*,https://twitter.com/JennyChapman,Y
-176,Darlington,4,Lab,NE,,,no candidate
-176,Darlington,6,Lab,NE,,,no candidate
 177,Dartford,1,Con,SE,Gareth Johnson*,https://twitter.com/Dartford_CA,N
-177,Dartford,2,Con,SE,,,no candidate
 177,Dartford,3,Con,SE,Simon Thomson,https://twitter.com/simontthomson,Y
-177,Dartford,4,Con,SE,,,no candidate
 177,Dartford,6,Con,SE,Elizabeth Jones,,none
 178,Daventry,1,Con,EM,Chris Heaton-Harris*,https://twitter.com/chhcalling,Y
-178,Daventry,2,Con,EM,,,no candidate
 178,Daventry,3,Con,EM,Abigail Campbell,https://twitter.com/CampbellAbigail,Y
-178,Daventry,4,Con,EM,,,no candidate
 178,Daventry,6,Con,EM,Nigel Wickens,https://twitter.com/NigelWickens,Y
 179,Delyn,1,Lab,W,Mark Isherwood,https://twitter.com/MarkIsherwoodAM,Y
-179,Delyn,2,Lab,W,,,no candidate
 179,Delyn,3,Lab,W,David Hanson*,https://twitter.com/DavidHansonMP,Y
-179,Delyn,4,Lab,W,,,no candidate
-179,Delyn,5,Lab,W,,,no candidate
 179,Delyn,6,Lab,W,Nigel Williams,,none
-180,Denton & Reddish,1,Lab,NW,,,no candidate
-180,Denton & Reddish,2,Lab,NW,,,no candidate
 180,Denton & Reddish,3,Lab,NW,Andrew Gwynne*,https://twitter.com/GwynneMP,Y
-180,Denton & Reddish,4,Lab,NW,,,no candidate
-180,Denton & Reddish,6,Lab,NW,,,no candidate
 181,Derby North,1,Lab,EM,Amanda Solloway,https://twitter.com/Amanda4DerbyN,Y
-181,Derby North,2,Lab,EM,,,no candidate
 181,Derby North,3,Lab,EM,Chris Williamson*,https://twitter.com/ChriswMP,Y
 181,Derby North,4,Lab,EM,Lucy Care***,https://twitter.com/Lucycare,Y
 181,Derby North,6,Lab,EM,John Charlesworth,,none
 182,Derby South,1,Lab,EM,Evonne Williams,https://twitter.com/EvonneWilliams,Y
-182,Derby South,2,Lab,EM,,,no candidate
 182,Derby South,3,Lab,EM,Margaret Beckett*,https://twitter.com/DerbysLabour,N
 182,Derby South,4,Lab,EM,Joe Naitta,,none
-182,Derby South,6,Lab,EM,,,no candidate
 183,Derbyshire Dales,1,Con,EM,Patrick McLoughlin*,,none
-183,Derbyshire Dales,2,Con,EM,,,no candidate
 183,Derbyshire Dales,3,Con,EM,Andy Botham,https://twitter.com/Roobotham,Y
 183,Derbyshire Dales,4,Con,EM,Ben Fearn,https://twitter.com/LibDemBen,Y
-183,Derbyshire Dales,6,Con,EM,,,no candidate
 184,Derbyshire Mid,1,Con,EM,Pauline Latham*,https://twitter.com/Pauline_Latham,Y
-184,Derbyshire Mid,2,Con,EM,,,no candidate
 184,Derbyshire Mid,3,Con,EM,Nicola Heaton,https://twitter.com/nicolaheaton,Y
 184,Derbyshire Mid,4,Con,EM,Hilary Jones,,none
-184,Derbyshire Mid,6,Con,EM,,,no candidate
 185,Derbyshire North East,1,Lab,EM,Lee Rowley,https://twitter.com/Lee4NED,Y
-185,Derbyshire North East,2,Lab,EM,,,no candidate
 185,Derbyshire North East,3,Lab,EM,Natascha Engel*,https://twitter.com/nengelmp,Y
-185,Derbyshire North East,4,Lab,EM,,,no candidate
-185,Derbyshire North East,6,Lab,EM,,,no candidate
 186,Derbyshire South,1,Con,EM,Heather Wheeler*,https://twitter.com/HeatherWheeler,Y
-186,Derbyshire South,2,Con,EM,,,no candidate
 186,Derbyshire South,3,Con,EM,Cheryl Pidgeon,https://twitter.com/cheryl4sderbys,Y
-186,Derbyshire South,4,Con,EM,,,no candidate
 186,Derbyshire South,6,Con,EM,Alan Graves,https://twitter.com/AlanUkip,Y
 187,Devizes,1,Con,SW,Claire Perry*,https://twitter.com/claire4devizes,Y
-187,Devizes,2,Con,SW,,,no candidate
 187,Devizes,3,Con,SW,Chris Watts,https://twitter.com/ChrisWatts67,Y
-187,Devizes,4,Con,SW,,,no candidate
 187,Devizes,6,Con,SW,David Pollitt,,none
-188,Devon Central,1,Con,SW,,,no candidate
-188,Devon Central,2,Con,SW,,,no candidate
 188,Devon Central,3,Con,SW,Lynne Richards,https://twitter.com/SWLabourParty,N
-188,Devon Central,4,Con,SW,,,no candidate
-188,Devon Central,6,Con,SW,,,no candidate
-189,Devon East,1,Con,SW,,,no candidate
-189,Devon East,2,Con,SW,,,no candidate
 189,Devon East,3,Con,SW,Jessica Pearce,https://twitter.com/jessicarpearce,Y
-189,Devon East,4,Con,SW,,,no candidate
 189,Devon East,6,Con,SW,Andrew Chapman,,none
 190,Devon North,1,LD,SW,Peter Heaton-Jones,https://twitter.com/PeterNorthDevon,Y
 190,Devon North,2,LD,SW,Ricky Knight,https://twitter.com/greenknight49,Y
 190,Devon North,3,LD,SW,Mark Cann***,https://twitter.com/markcann,Y
 190,Devon North,4,LD,SW,Nick Harvey*,,none
 190,Devon North,6,LD,SW,Steve Crowther***,,none
-191,Devon South West,1,Con,SW,,,no candidate
-191,Devon South West,2,Con,SW,,,no candidate
 191,Devon South West,3,Con,SW,Chaz Singh,https://twitter.com/PlymouthChaz,Y
 191,Devon South West,4,Con,SW,Tom Davies,,none
 191,Devon South West,6,Con,SW,Robin Julian,,none
@@ -979,307 +487,152 @@ pa_id,constituency,candidate,current holder,region,name,twitter,ispersonal?
 192,Devon West & Torridge,4,Con,SW,Paula Dolphin,https://twitter.com/BudeDolphin,Y
 192,Devon West & Torridge,6,Con,SW,Derek Sargent,https://twitter.com/DerekSargent241,Y
 193,Dewsbury,1,Con,YH,Simon Reevell*,https://twitter.com/simonreevell,Y
-193,Dewsbury,2,Con,YH,,,no candidate
 193,Dewsbury,3,Con,YH,Paula Sheriff,https://twitter.com/paulasherriff,Y
-193,Dewsbury,4,Con,YH,,,no candidate
-193,Dewsbury,6,Con,YH,,,no candidate
-194,Don Valley,1,Lab,YH,,,no candidate
-194,Don Valley,2,Lab,YH,,,no candidate
 194,Don Valley,3,Lab,YH,Caroline Flint*,https://twitter.com/CarolineFlintMP,Y
-194,Don Valley,4,Lab,YH,,,no candidate
 194,Don Valley,6,Lab,YH,Guy Aston,https://twitter.com/GuyAstonUKIP,Y
-195,Doncaster Central,1,Lab,YH,,,no candidate
-195,Doncaster Central,2,Lab,YH,,,no candidate
 195,Doncaster Central,3,Lab,YH,Rosie Winterton*,,none
-195,Doncaster Central,4,Lab,YH,,,no candidate
 195,Doncaster Central,6,Lab,YH,Chris Hodgson,https://twitter.com/ChristopherUKIP,Y
-196,Doncaster North,1,Lab,YH,,,no candidate
-196,Doncaster North,2,Lab,YH,,,no candidate
 196,Doncaster North,3,Lab,YH,Ed Miliband*,https://twitter.com/Ed_Miliband,Y
-196,Doncaster North,4,Lab,YH,,,no candidate
 196,Doncaster North,6,Lab,YH,Kim Parkinson,,none
 197,Dorset Mid & Poole North,1,LD,SW,Michael Tomlinson,https://twitter.com/Michael4MDNP,Y
-197,Dorset Mid & Poole North,2,LD,SW,,,no candidate
-197,Dorset Mid & Poole North,3,LD,SW,,,no candidate
 197,Dorset Mid & Poole North,4,LD,SW,Vikki Slade****,https://twitter.com/vikki4mdnp,Y
 197,Dorset Mid & Poole North,6,LD,SW,Richard Turner,,none
-198,Dorset North,1,Con,SW,,,no candidate
-198,Dorset North,2,Con,SW,,,no candidate
 198,Dorset North,3,Con,SW,Kim Fendley,,none
 198,Dorset North,4,Con,SW,Hugo Miéville,https://twitter.com/hugomieville1,Y
 198,Dorset North,6,Con,SW,Steve Unwin,https://twitter.com/SteveUnwin01,Y
-199,Dorset South,1,Con,SW,,,no candidate
 199,Dorset South,2,Con,SW,Jane Burnet,https://twitter.com/SWDorsetGreens,N
 199,Dorset South,3,Con,SW,Simon Bowkett,https://twitter.com/Simon_Bowkett,Y
-199,Dorset South,4,Con,SW,,,no candidate
 199,Dorset South,6,Con,SW,Tom Rubython,https://twitter.com/Tom_Rubython,Y
 200,Dorset West,1,Con,SW,Oliver Letwin*,,none
 200,Dorset West,2,Con,SW,Peter Barton,https://twitter.com/SWDorsetGreens,N
 200,Dorset West,3,Con,SW,Rachel Rogers,https://twitter.com/DorsetRachel,Y
 200,Dorset West,4,Con,SW,Ros Kayes,https://twitter.com/Ros4Dorset,Y
 200,Dorset West,6,Con,SW,David Glossop,,none
-201,Dover,1,Con,SE,,,no candidate
 201,Dover,2,Con,SE,Jolyon Trimingham,,none
 201,Dover,3,Con,SE,Clair Hawkins,https://twitter.com/ClairHawkins,Y
 201,Dover,4,Con,SE,Sarah Smith,,none
 201,Dover,6,Con,SE,David Little,https://twitter.com/ukipdealdover,Y
-202,DOWN NORTH,1,Ind,NI,,,no candidate
-202,DOWN NORTH,2,Ind,NI,,,no candidate
-202,DOWN NORTH,3,Ind,NI,,,no candidate
-202,DOWN NORTH,4,Ind,NI,,,no candidate
-202,DOWN NORTH,6,Ind,NI,,,no candidate
-203,Down South,1,SDLP,NI,,,no candidate
-203,Down South,2,SDLP,NI,,,no candidate
-203,Down South,3,SDLP,NI,,,no candidate
-203,Down South,4,SDLP,NI,,,no candidate
-203,Down South,6,SDLP,NI,,,no candidate
 204,Dudley North,1,Lab,WM,Afzal Amin,https://twitter.com/Afzal4Dudley,Y
-204,Dudley North,2,Lab,WM,,,no candidate
 204,Dudley North,3,Lab,WM,Ian Austin*,https://twitter.com/IanAustinMP,Y
-204,Dudley North,4,Lab,WM,,,no candidate
 204,Dudley North,6,Lab,WM,Bill Etheridge,https://twitter.com/milroy666,Y
-205,Dudley South,1,Con,WM,[New candidate to be selected],,none
 205,Dudley South,2,Con,WM,Vicky Duckworth,https://twitter.com/VickyDuckworth,Y
 205,Dudley South,3,Con,WM,Natasha Millward,https://twitter.com/natashamillward,Y
-205,Dudley South,4,Con,WM,,,no candidate
 205,Dudley South,6,Con,WM,Phil Rowe***,https://twitter.com/UKIPDandH,N
 206,Dulwich & West Norwood,1,Lab,GL,Resham Kotecha,https://twitter.com/ReshamKotecha,Y
 206,Dulwich & West Norwood,2,Lab,GL,Rashid Nix,,none
 206,Dulwich & West Norwood,3,Lab,GL,Helen Hayes****,https://www.twitter.com/helenhayes_,Y
 206,Dulwich & West Norwood,4,Lab,GL,James Barber,https://twitter.com/CllrJamesBarber,Y
-206,Dulwich & West Norwood,6,Lab,GL,,,no candidate
 207,Dumfries & Galloway,1,Lab,S,Finlay Carson,https://twitter.com/fincarson,Y
-207,Dumfries & Galloway,2,Lab,S,,,no candidate
 207,Dumfries & Galloway,3,Lab,S,Russell Brown*,https://twitter.com/russellbrownmp,Y
-207,Dumfries & Galloway,4,Lab,S,,,no candidate
-207,Dumfries & Galloway,6,Lab,S,,,no candidate
 208,"Dumfriesshire, Clydesdale & Tweeddale",1,Con,S,David Mundell*,https://twitter.com/DavidMundellMP,Y
-208,"Dumfriesshire, Clydesdale & Tweeddale",2,Con,S,,,no candidate
 208,"Dumfriesshire, Clydesdale & Tweeddale",3,Con,S,Archie Dryburgh,,none
-208,"Dumfriesshire, Clydesdale & Tweeddale",4,Con,S,,,no candidate
-208,"Dumfriesshire, Clydesdale & Tweeddale",6,Con,S,,,no candidate
-209,Dunbartonshire East,1,LD,S,,,no candidate
-209,Dunbartonshire East,2,LD,S,,,no candidate
 209,Dunbartonshire East,3,LD,S,Amanjit Jhund,https://twitter.com/amanjit,Y
 209,Dunbartonshire East,4,LD,S,Jo Swinson*,https://twitter.com/joswinson,Y
-209,Dunbartonshire East,6,LD,S,,,no candidate
-210,Dunbartonshire West,1,Lab,S,,,no candidate
-210,Dunbartonshire West,2,Lab,S,,,no candidate
 210,Dunbartonshire West,3,Lab,S,Gemma Doyle*,https://twitter.com/GemmaWDMP,Y
-210,Dunbartonshire West,4,Lab,S,,,no candidate
-210,Dunbartonshire West,6,Lab,S,,,no candidate
-211,Dundee East,1,SNP,S,,,no candidate
-211,Dundee East,2,SNP,S,,,no candidate
 211,Dundee East,3,SNP,S,Lesley Brennan,https://twitter.com/LesleyEastEnd,Y
-211,Dundee East,4,SNP,S,,,no candidate
-211,Dundee East,6,SNP,S,,,no candidate
-212,Dundee West,1,Lab,S,,,no candidate
-212,Dundee West,2,Lab,S,,,no candidate
 212,Dundee West,3,Lab,S,Jim McGovern*,https://twitter.com/JimMcGovernMP,Y
-212,Dundee West,4,Lab,S,,,no candidate
-212,Dundee West,6,Lab,S,,,no candidate
 213,Dunfermline & Fife West,1,Lab,S,James Reekie,https://twitter.com/James_Reekie1,Y
-213,Dunfermline & Fife West,2,Lab,S,,,no candidate
 213,Dunfermline & Fife West,3,Lab,S,Thomas Docherty*,https://twitter.com/Thomas_Docherty,Y
-213,Dunfermline & Fife West,4,Lab,S,,,no candidate
-213,Dunfermline & Fife West,6,Lab,S,,,no candidate
 214,"Durham, City of",1,Lab,NE,Rebecca Coulson,https://twitter.com/rmlcoulson,Y
-214,"Durham, City of",2,Lab,NE,,,no candidate
 214,"Durham, City of",3,Lab,NE,Roberta Blackman-Woods*,https://twitter.com/robertabwMP,Y
 214,"Durham, City of",4,Lab,NE,Craig Martin,https://twitter.com/cmartinLD,Y
-214,"Durham, City of",6,Lab,NE,,,no candidate
 215,Durham North,1,Lab,NE,Laetitia Glossop,https://twitter.com/TishGlossop,Y
-215,Durham North,2,Lab,NE,,,no candidate
 215,Durham North,3,Lab,NE,Kevan Jones*,https://twitter.com/KevanJonesMP,Y
-215,Durham North,4,Lab,NE,,,no candidate
-215,Durham North,6,Lab,NE,,,no candidate
 216,Durham North West,1,Lab,NE,Charlotte Haitham-Taylor,,none
-216,Durham North West,2,Lab,NE,,,no candidate
 216,Durham North West,3,Lab,NE,Pat Glass*,https://twitter.com/PatGlassMP,Y
-216,Durham North West,4,Lab,NE,,,no candidate
-216,Durham North West,6,Lab,NE,,,no candidate
 217,Dwyfor Meirionnydd,1,PC,W,Neil Fairlamb,https://twitter.com/FairlambN,Y
-217,Dwyfor Meirionnydd,2,PC,W,,,no candidate
 217,Dwyfor Meirionnydd,3,PC,W,Mary Griffiths Clarke,https://twitter.com/marygwengriff,Y
-217,Dwyfor Meirionnydd,4,PC,W,,,no candidate
 217,Dwyfor Meirionnydd,5,PC,W,Liz Saville Roberts****,twitter.com/LSRPlaid,Y
-217,Dwyfor Meirionnydd,6,PC,W,,,no candidate
 218,Ealing Central & Acton,1,Con,GL,Angie Bray*,https://twitter.com/JSymesUK,Y
-218,Ealing Central & Acton,2,Con,GL,,,no candidate
 218,Ealing Central & Acton,3,Con,GL,Rupa Huq,https://twitter.com/RupaHuq,Y
 218,Ealing Central & Acton,4,Con,GL,Jon Ball***,https://twitter.com/JonBall,Y
-218,Ealing Central & Acton,6,Con,GL,,,no candidate
-219,Ealing North,1,Lab,GL,,,no candidate
-219,Ealing North,2,Lab,GL,,,no candidate
 219,Ealing North,3,Lab,GL,Stephen Pound*,,none
-219,Ealing North,4,Lab,GL,,,no candidate
-219,Ealing North,6,Lab,GL,,,no candidate
 220,Ealing Southall,1,Lab,GL,James Symes,https://twitter.com/JSymesUK,Y
-220,Ealing Southall,2,Lab,GL,,,no candidate
 220,Ealing Southall,3,Lab,GL,Virendra Sharma*,https://twitter.com/VirendraSharma,Y
-220,Ealing Southall,4,Lab,GL,,,no candidate
-220,Ealing Southall,6,Lab,GL,,,no candidate
 221,Easington,1,Lab,NE,Chris Hampsheir,https://twitter.com/chrishampsheir,Y
-221,Easington,2,Lab,NE,,,no candidate
 221,Easington,3,Lab,NE,Grahame Morris*,https://twitter.com/grahamemorris,Y
-221,Easington,4,Lab,NE,,,no candidate
-221,Easington,6,Lab,NE,,,no candidate
-222,East Ham,1,Lab,GL,,,no candidate
-222,East Ham,2,Lab,GL,,,no candidate
 222,East Ham,3,Lab,GL,Stephen Timms*,https://twitter.com/stephenctimms,Y
-222,East Ham,4,Lab,GL,,,no candidate
-222,East Ham,6,Lab,GL,,,no candidate
 223,"East Kilbridge, Strathaven & Lesmahagow",1,Lab,S,Graham Simpson***,https://twitter.com/cllrgsimpson,Y
-223,"East Kilbridge, Strathaven & Lesmahagow",2,Lab,S,,,no candidate
 223,"East Kilbridge, Strathaven & Lesmahagow",3,Lab,S,Michael McCann*,https://twitter.com/MichaelMcCannMP,Y
-223,"East Kilbridge, Strathaven & Lesmahagow",4,Lab,S,,,no candidate
-223,"East Kilbridge, Strathaven & Lesmahagow",6,Lab,S,,,no candidate
-224,East Lothian,1,Lab,S,,,no candidate
-224,East Lothian,2,Lab,S,,,no candidate
 224,East Lothian,3,Lab,S,Fiona O'Donnell*,https://twitter.com/FionaODonnellMP,Y
-224,East Lothian,4,Lab,S,,,no candidate
-224,East Lothian,6,Lab,S,,,no candidate
 225,Eastbourne,1,LD,SE,Caroline Ansell,https://twitter.com/Caroline_Ansell,Y
-225,Eastbourne,2,LD,SE,,,no candidate
 225,Eastbourne,3,LD,SE,Jake Lambert,https://twitter.com/JakeyLambert,Y
 225,Eastbourne,4,LD,SE,Stephen Lloyd*,,none
 225,Eastbourne,6,LD,SE,Nigel Jones,,none
 226,Eastleigh,1,LD,SE,Mims Davies,https://twitter.com/mimsdavies,Y
-226,Eastleigh,2,LD,SE,,,no candidate
 226,Eastleigh,3,LD,SE,Mark Latham,https://twitter.com/MarkLathamUK,Y
 226,Eastleigh,4,LD,SE,Mike Thornton*,https://twitter.com/Mike4Eastleigh,Y
 226,Eastleigh,6,LD,SE,Patricia Culligan,https://twitter.com/CulliganPA,Y
-227,Eddisbury,1,Con,NW,,,no candidate
-227,Eddisbury,2,Con,NW,,,no candidate
-227,Eddisbury,3,Con,NW,,,no candidate
-227,Eddisbury,4,Con,NW,,,no candidate
 227,Eddisbury,6,Con,NW,Charles Dodman***,,none
 228,Edinburgh East,1,Lab,S,James McMordie,https://twitter.com/JFJMcMordie,Y
 228,Edinburgh East,2,Lab,S,Peter McColl,https://twitter.com/PeterMcColl,Y
 228,Edinburgh East,3,Lab,S,Sheila Gilmore*,https://twitter.com/SheilaGilmoreMP,Y
-228,Edinburgh East,4,Lab,S,,,no candidate
-228,Edinburgh East,6,Lab,S,,,no candidate
 229,Edinburgh North & Leith,1,Lab,S,Iain McGill***,https://twitter.com/IainMcGill,Y
 229,Edinburgh North & Leith,2,Lab,S,Sarah Beattie-Smith,https://twitter.com/SarahBS_27,Y
 229,Edinburgh North & Leith,3,Lab,S,Mark Lazarowicz*,https://twitter.com/marklazarowicz,Y
-229,Edinburgh North & Leith,4,Lab,S,,,no candidate
-229,Edinburgh North & Leith,6,Lab,S,,,no candidate
 230,Edinburgh South,1,Lab,S,Miles Briggs,,none
 230,Edinburgh South,2,Lab,S,Phyl Meyer,https://twitter.com/PhylMeyer,Y
 230,Edinburgh South,3,Lab,S,Ian Murray*,https://twitter.com/IanMurrayMP,Y
 230,Edinburgh South,4,Lab,S,Stuart Crawford,https://twitter.com/509298,Y
-230,Edinburgh South,6,Lab,S,,,no candidate
 231,Edinburgh South West,1,Lab,S,Gordon Lindhurst,,none
 231,Edinburgh South West,2,Lab,S,Richard Doherty,,none
-231,Edinburgh South West,3,Lab,S,[New candidate to be selected],,none
-231,Edinburgh South West,4,Lab,S,,,no candidate
-231,Edinburgh South West,6,Lab,S,,,no candidate
 232,Edinburgh West,1,LD,S,Lindsay Paterson,https://twitter.com/LSPaterson,Y
 232,Edinburgh West,2,LD,S,Linda Hendry,,none
 232,Edinburgh West,3,LD,S,Cammy Day***,https://twitter.com/cllrcammyday,Y
 232,Edinburgh West,4,LD,S,Mike Crockart*,https://twitter.com/CrockartMP,Y
-232,Edinburgh West,6,LD,S,,,no candidate
-233,Edmonton,1,Lab,GL,,,no candidate
 233,Edmonton,2,Lab,GL,Douglas Coker,,none
 233,Edmonton,3,Lab,GL,Andy Love*,https://twitter.com/AndyLoveMP,Y
-233,Edmonton,4,Lab,GL,,,no candidate
-233,Edmonton,6,Lab,GL,,,no candidate
-234,Ellesmere Port & Neston,1,Lab,NW,,,no candidate
-234,Ellesmere Port & Neston,2,Lab,NW,,,no candidate
 234,Ellesmere Port & Neston,3,Lab,NW,Justin Madders****,,none
-234,Ellesmere Port & Neston,4,Lab,NW,,,no candidate
 234,Ellesmere Port & Neston,6,Lab,NW,Nick Lacey,,none
 235,Elmet & Rothwell,1,Con,YH,Alec Shelbrooke*,https://twitter.com/AlecShelbrooke,Y
-235,Elmet & Rothwell,2,Con,YH,,,no candidate
 235,Elmet & Rothwell,3,Con,YH,Veronica King,https://twitter.com/vron_king,Y
-235,Elmet & Rothwell,4,Con,YH,,,no candidate
 235,Elmet & Rothwell,6,Con,YH,Paul Spivey,,none
 236,Eltham,1,Lab,GL,Spencer Drury,,none
-236,Eltham,2,Lab,GL,,,no candidate
 236,Eltham,3,Lab,GL,Clive Efford*,https://twitter.com/CliveEfford,Y
 236,Eltham,4,Lab,GL,Alex Cunliffe,,none
 236,Eltham,6,Lab,GL,Peter Whittle,,none
-237,Enfield North,1,Con,GL,,,no candidate
 237,Enfield North,2,Con,GL,David Flint,,none
 237,Enfield North,3,Con,GL,Joan Ryan**,https://twitter.com/joanryanEnfield,Y
-237,Enfield North,4,Con,GL,,,no candidate
-237,Enfield North,6,Con,GL,,,no candidate
-238,Enfield Southgate,1,Con,GL,,,no candidate
 238,Enfield Southgate,2,Con,GL,Jean Robertson-Molly,https://twitter.com/jeanrobertsonMo,Y
 238,Enfield Southgate,3,Con,GL,Bambos Charalambous***,https://twitter.com/CllrBambos,Y
-238,Enfield Southgate,4,Con,GL,,,no candidate
-238,Enfield Southgate,6,Con,GL,,,no candidate
 239,Epping Forest,1,Con,E,Eleanor Laing*,https://twitter.com/EleanorLaingMP,Y
 239,Epping Forest,2,Con,E,Anna Widdup,https://twitter.com/efgreens,N
-239,Epping Forest,3,Con,E,,,no candidate
-239,Epping Forest,4,Con,E,,,no candidate
 239,Epping Forest,6,Con,E,Andrew Smith***,,none
 240,Epsom & Ewell,1,Con,SE,Chris Grayling*,https://twitter.com/EpsomCA,N
-240,Epsom & Ewell,2,Con,SE,,,no candidate
 240,Epsom & Ewell,3,Con,SE,Sheila Carlson,https://twitter.com/EpsomLabour,N
 240,Epsom & Ewell,4,Con,SE,Steve Gee,https://twitter.com/epsomlibdem,N
 240,Epsom & Ewell,6,Con,SE,Robert Leach,,none
 241,Erewash,1,Con,EM,Maggie Throup****,https://twitter.com/mthroup,Y
-241,Erewash,2,Con,EM,,,no candidate
 241,Erewash,3,Con,EM,Catherine Atkinson,https://twitter.com/catkinson80,Y
 241,Erewash,4,Con,EM,Martin Garnett***,,none
 241,Erewash,6,Con,EM,Philip Rose,,none
-242,Erith & Thamesmead,1,Lab,GL,,,no candidate
-242,Erith & Thamesmead,2,Lab,GL,,,no candidate
 242,Erith & Thamesmead,3,Lab,GL,Teresa Pearce*,https://twitter.com/tpearce003,Y
 242,Erith & Thamesmead,4,Lab,GL,Samson Iriajen,,none
-242,Erith & Thamesmead,6,Lab,GL,,,no candidate
 243,Esher & Walton,1,Con,SE,Dominic Raab*,https://twitter.com/ElmbridgeCons,N
-243,Esher & Walton,2,Con,SE,,,no candidate
-243,Esher & Walton,3,Con,SE,,,no candidate
-243,Esher & Walton,4,Con,SE,,,no candidate
 243,Esher & Walton,6,Con,SE,Nicholas Wood,,none
 244,Exeter,1,Lab,SW,Dominic Morris,https://twitter.com/ToriesInExeter,N
 244,Exeter,2,Lab,SW,Diana Moore,https://twitter.com/DianaFMoore,Y
 244,Exeter,3,Lab,SW,Ben Bradshaw*,https://twitter.com/BenPBradshaw,Y
-244,Exeter,4,Lab,SW,,,no candidate
 244,Exeter,6,Lab,SW,Keith Crawford***,,none
 245,Falkirk,1,Lab,S,Alison Harris,,none
-245,Falkirk,2,Lab,S,,,no candidate
 245,Falkirk,3,Lab,S,Karen Whitefield****,https://twitter.com/Karen4Falkirk,Y
-245,Falkirk,4,Lab,S,,,no candidate
-245,Falkirk,6,Lab,S,,,no candidate
-246,FAREHAM,1,Con,SE,,,no candidate
-246,FAREHAM,2,Con,SE,,,no candidate
-246,FAREHAM,3,Con,SE,,,no candidate
-246,FAREHAM,4,Con,SE,,,no candidate
 246,Fareham,6,Con,SE,Don Jerrard,,none
 247,Faversham & Kent Mid,1,Con,SE,Hugh Robertson*,,none
 247,Faversham & Kent Mid,2,Con,SE,Tim Valentine***,https://twitter.com/SwaleGreen,Y
 247,Faversham & Kent Mid,3,Con,SE,Michael Desmond,https://twitter.com/FavershamLabour,N
-247,Faversham & Kent Mid,4,Con,SE,,,no candidate
 247,Faversham & Kent Mid,6,Con,SE,Peter Edwards-Daem,https://twitter.com/peter39494680,Y
 248,Feltham & Heston,1,Lab,GL,Simon Nayyar,https://twitter.com/SimonNayyar,Y
 248,Feltham & Heston,2,Lab,GL,Tony Firkins,,none
 248,Feltham & Heston,3,Lab,GL,Seema Malhotra*,https://twitter.com/SeemaMalhotra1,Y
-248,Feltham & Heston,4,Lab,GL,,,no candidate
-248,Feltham & Heston,6,Lab,GL,,,no candidate
-249,Fermanagh & South Tyrone,1,SF,NI,,,no candidate
 249,Fermanagh & South Tyrone,2,SF,NI,Tanya Jones,https://twitter.com/decombustion,Y
-249,Fermanagh & South Tyrone,3,SF,NI,,,no candidate
-249,Fermanagh & South Tyrone,4,SF,NI,,,no candidate
-249,Fermanagh & South Tyrone,6,SF,NI,,,no candidate
 250,Fife North East,1,LD,S,Huw Bell,https://twitter.com/HuwBell1,Y
-250,Fife North East,2,LD,S,,,no candidate
-250,Fife North East,3,LD,S,,,no candidate
 250,Fife North East,4,LD,S,Tim Brett****,,none
-250,Fife North East,6,LD,S,,,no candidate
 251,Filton & Bradley Stoke,1,Con,SW,Jack Lopresti*,https://twitter.com/JackLoprestiMP,Y
-251,Filton & Bradley Stoke,2,Con,SW,,,no candidate
 251,Filton & Bradley Stoke,3,Con,SW,Ian Boulton***,https://twitter.com/IanBoulton,Y
-251,Filton & Bradley Stoke,4,Con,SW,,,no candidate
 251,Filton & Bradley Stoke,6,Con,SW,Ben Walker,https://twitter.com/CllrBenWalker,Y
 252,Finchley & Golders Green,1,Con,GL,Mike Freer*,https://twitter.com/mikefreermp,Y
 252,Finchley & Golders Green,2,Con,GL,Adele Ward,https://twitter.com/AdeleWard,Y
 252,Finchley & Golders Green,3,Con,GL,Sarah Sackman,https://twitter.com/sarahsackman,Y
-252,Finchley & Golders Green,4,Con,GL,,,no candidate
-252,Finchley & Golders Green,6,Con,GL,,,no candidate
-253,Folkestone & Hythe,1,Con,SE,,,no candidate
 253,Folkestone & Hythe,2,Con,SE,Martin Whybrow,https://twitter.com/martinwhybrow,Y
 253,Folkestone & Hythe,3,Con,SE,Claire Jeffrey,https://twitter.com/MrsCJeffrey,Y
 253,Folkestone & Hythe,4,Con,SE,Lynne Beaumont***,https://twitter.com/LynneBeaumont,Y
@@ -1287,198 +640,93 @@ pa_id,constituency,candidate,current holder,region,name,twitter,ispersonal?
 254,Forest of Dean,1,Con,SW,Mark Harper*,https://twitter.com/Mark_J_Harper,Y
 254,Forest of Dean,2,Con,SW,James Greenwood***,,none
 254,Forest of Dean,3,Con,SW,Steve Parry-Hearn,https://twitter.com/steveparryhearn,Y
-254,Forest of Dean,4,Con,SW,,,no candidate
 254,Forest of Dean,6,Con,SW,Steve Stanbury,,none
-255,Foyle,1,SDLP,NI,,,no candidate
-255,Foyle,2,SDLP,NI,,,no candidate
-255,Foyle,3,SDLP,NI,,,no candidate
-255,Foyle,4,SDLP,NI,,,no candidate
-255,Foyle,6,SDLP,NI,,,no candidate
 256,Fylde,1,Con,NW,Mark Menzies*,https://twitter.com/fyldeca,N
-256,Fylde,2,Con,NW,,,no candidate
 256,Fylde,3,Con,NW,Jed Sullivan,https://twitter.com/sullivan_jed,Y
-256,Fylde,4,Con,NW,,,no candidate
-256,Fylde,6,Con,NW,,,no candidate
 257,Gainsborough,1,Con,EM,Edward Leigh*,https://twitter.com/EdwardLeighMP,Y
-257,Gainsborough,2,Con,EM,,,no candidate
-257,Gainsborough,3,Con,EM,,,no candidate
-257,Gainsborough,4,Con,EM,,,no candidate
-257,Gainsborough,6,Con,EM,,,no candidate
-258,Garston & Halewood,1,Lab,NW,,,no candidate
-258,Garston & Halewood,2,Lab,NW,,,no candidate
 258,Garston & Halewood,3,Lab,NW,Maria Eagle*,https://twitter.com/meaglemp,Y
-258,Garston & Halewood,4,Lab,NW,,,no candidate
-258,Garston & Halewood,6,Lab,NW,,,no candidate
-259,Gateshead,1,Lab,NE,,,no candidate
-259,Gateshead,2,Lab,NE,,,no candidate
 259,Gateshead,3,Lab,NE,Ian Mearns*,https://twitter.com/IanMearnsMP,Y
-259,Gateshead,4,Lab,NE,,,no candidate
 259,Gateshead,6,Lab,NE,John Tennant,,none
 260,Gedling,1,Lab,EM,Carolyn Abbott,https://twitter.com/Abbott4Gedling,Y
-260,Gedling,2,Lab,EM,,,no candidate
 260,Gedling,3,Lab,EM,Vernon Coaker*,https://twitter.com/Vernon_CoakerMP,Y
-260,Gedling,4,Lab,EM,,,no candidate
 260,Gedling,6,Lab,EM,Lee Waters,https://twitter.com/LeeWatersUKIP,Y
 261,Gillingham & Rainham,1,Con,SE,Rehman Chishti*,https://twitter.com/rehmanchishti,Y
 261,Gillingham & Rainham,2,Con,SE,Trish Marchant***,https://twitter.com/TrishtheHat,Y
 261,Gillingham & Rainham,3,Con,SE,Paul Clark**,https://twitter.com/PaulClark4GandR,Y
-261,Gillingham & Rainham,4,Con,SE,,,no candidate
 261,Gillingham & Rainham,6,Con,SE,Martin Cook,,none
-262,Glasgow Central,1,Lab,S,,,no candidate
-262,Glasgow Central,2,Lab,S,,,no candidate
 262,Glasgow Central,3,Lab,S,Anas Sarwar*,https://twitter.com/AnasSarwar,Y
-262,Glasgow Central,4,Lab,S,,,no candidate
-262,Glasgow Central,6,Lab,S,,,no candidate
-263,Glasgow East,1,Lab,S,,,no candidate
-263,Glasgow East,2,Lab,S,,,no candidate
 263,Glasgow East,3,Lab,S,Margaret Curran*,https://twitter.com/Margaret_Curran,Y
-263,Glasgow East,4,Lab,S,,,no candidate
-263,Glasgow East,6,Lab,S,,,no candidate
-264,Glasgow North,1,Lab,S,,,no candidate
-264,Glasgow North,2,Lab,S,,,no candidate
 264,Glasgow North,3,Lab,S,Ann McKechin*,https://twitter.com/AnnMcKechinMP,Y
-264,Glasgow North,4,Lab,S,,,no candidate
-264,Glasgow North,6,Lab,S,,,no candidate
-265,Glasgow North East,1,Lab,S,,,no candidate
-265,Glasgow North East,2,Lab,S,,,no candidate
 265,Glasgow North East,3,Lab,S,Willie Bain*,https://twitter.com/William_Bain,Y
-265,Glasgow North East,4,Lab,S,,,no candidate
-265,Glasgow North East,6,Lab,S,,,no candidate
-266,Glasgow North West,1,Lab,S,,,no candidate
-266,Glasgow North West,2,Lab,S,,,no candidate
 266,Glasgow North West,3,Lab,S,John Robertson*,https://twitter.com/JohnRobertsonMP,Y
-266,Glasgow North West,4,Lab,S,,,no candidate
-266,Glasgow North West,6,Lab,S,,,no candidate
-267,Glasgow South,1,Lab,S,,,no candidate
-267,Glasgow South,2,Lab,S,,,no candidate
 267,Glasgow South,3,Lab,S,Tom Harris*,https://twitter.com/TomHarrisMP,Y
-267,Glasgow South,4,Lab,S,,,no candidate
-267,Glasgow South,6,Lab,S,,,no candidate
-268,Glasgow South West,1,Lab,S,,,no candidate
-268,Glasgow South West,2,Lab,S,,,no candidate
 268,Glasgow South West,3,Lab,S,Ian Davidson*,https://twitter.com/IanDavidsonMP,Y
-268,Glasgow South West,4,Lab,S,,,no candidate
-268,Glasgow South West,6,Lab,S,,,no candidate
-269,Glenrothes,1,Lab,S,,,no candidate
-269,Glenrothes,2,Lab,S,,,no candidate
 269,Glenrothes,3,Lab,S,Melanie Ward****,https://twitter.com/melanie_ward,Y
-269,Glenrothes,4,Lab,S,,,no candidate
-269,Glenrothes,6,Lab,S,,,no candidate
-270,Gloucester,1,Con,SW,,,no candidate
 270,Gloucester,2,Con,SW,Jonathan Ingleby,,none
 270,Gloucester,3,Con,SW,Sophy Gardner,https://twitter.com/sophygardner,Y
 270,Gloucester,4,Con,SW,Jeremy Hilton***,,none
 270,Gloucester,6,Con,SW,Richard Ford,,none
 271,Gordon,1,LD,S,Colin Clark,,none
-271,Gordon,2,LD,S,,,no candidate
 271,Gordon,3,LD,S,Braden Davy,https://twitter.com/BradenDavy,Y
 271,Gordon,4,LD,S,Christine Jardine****,https://twitter.com/Cajardine,Y
-271,Gordon,6,LD,S,,,no candidate
 272,Gosport,1,Con,SE,Caroline Dineage*,https://twitter.com/cj_dinenage,Y
-272,Gosport,2,Con,SE,,,no candidate
 272,Gosport,3,Con,SE,Alan Durrant,,none
-272,Gosport,4,Con,SE,,,no candidate
 272,Gosport,6,Con,SE,Chris Wood,,none
 273,Gower,1,Lab,W,Byron Davies***,https://twitter.com/Byron_Davies,Y
-273,Gower,2,Lab,W,,,no candidate
 273,Gower,3,Lab,W,Liz Evans****,https://twitter.com/Jeremy_Miles,N
-273,Gower,4,Lab,W,,,no candidate
 273,Gower,5,Lab,W,Darren Thomas,https://twitter.com/DazzThomas,Y
-273,Gower,6,Lab,W,,,no candidate
 274,Grantham & Stamford,1,Con,EM,Nick Boles*,https://twitter.com/NickBolesMP,Y
-274,Grantham & Stamford,2,Con,EM,,,no candidate
-274,Grantham & Stamford,3,Con,EM,,,no candidate
-274,Grantham & Stamford,4,Con,EM,,,no candidate
 274,Grantham & Stamford,6,Con,EM,Marietta King,,none
-275,Gravesham,1,Con,SE,,,no candidate
 275,Gravesham,2,Con,SE,Mark Lindop,,none
 275,Gravesham,3,Con,SE,Tanmanjeet Singh Dhesi,https://twitter.com/graveshamlabour,N
-275,Gravesham,4,Con,SE,,,no candidate
 275,Gravesham,6,Con,SE,Sean Marriott,,none
 276,Great Grimsby,1,Lab,YH,Marc Jones,https://twitter.com/itsmarcjones,Y
 276,Great Grimsby,2,Lab,YH,Vicky Dunn,https://twitter.com/HumberGreen,Y
 276,Great Grimsby,3,Lab,YH,Melanie Onn****,https://twitter.com/OnnMel,Y
-276,Great Grimsby,4,Lab,YH,,,no candidate
 276,Great Grimsby,6,Lab,YH,Victoria Ayling***,,none
 277,Great Yarmouth,1,Con,E,Brandon Lewis*,https://twitter.com/BrandonLewis,Y
 277,Great Yarmouth,2,Con,E,Harry Webb,https://twitter.com/haroldleeewebb,Y
 277,Great Yarmouth,3,Con,E,Lara Norris,https://twitter.com/lara_norris,Y
-277,Great Yarmouth,4,Con,E,,,no candidate
 277,Great Yarmouth,6,Con,E,Alan Grey,,none
 278,Greenwich & Woolwich,1,Lab,GL,Matt Hartley,https://twitter.com/MattHartley100,Y
-278,Greenwich & Woolwich,2,Lab,GL,,,no candidate
 278,Greenwich & Woolwich,3,Lab,GL,Matthew Pennycook****,https://twitter.com/mtpennycook,Y
-278,Greenwich & Woolwich,4,Lab,GL,,,no candidate
 278,Greenwich & Woolwich,6,Lab,GL,Ryan Acty,,none
 279,Guildford,1,Con,SE,Anne Milton*,,none
-279,Guildford,2,Con,SE,,,no candidate
 279,Guildford,3,Con,SE,Richard Wilson,https://twitter.com/RichardWLabour,Y
 279,Guildford,4,Con,SE,Kelly-Marie Blundell,https://twitter.com/KellyMarieLD,Y
 279,Guildford,6,Con,SE,Harry Aldridge,https://twitter.com/HarryAldridge,Y
 280,Hackney North & Stoke Newington,1,Lab,GL,Amy Gray,https://twitter.com/hackneyamyg,Y
-280,Hackney North & Stoke Newington,2,Lab,GL,,,no candidate
 280,Hackney North & Stoke Newington,3,Lab,GL,Diane Abbott*,https://twitter.com/HackneyAbbott,Y
 280,Hackney North & Stoke Newington,4,Lab,GL,Simon de Deney,,none
-280,Hackney North & Stoke Newington,6,Lab,GL,,,no candidate
 281,Hackney South & Shoreditch,1,Lab,GL,Jack Tinley,https://twitter.com/Jack_Tinley,Y
-281,Hackney South & Shoreditch,2,Lab,GL,,,no candidate
 281,Hackney South & Shoreditch,3,Lab,GL,Meg Hillier*,,none
 281,Hackney South & Shoreditch,4,Lab,GL,Ben Mathis,https://twitter.com/binny_uk,Y
-281,Hackney South & Shoreditch,6,Lab,GL,,,no candidate
-282,Halesowen & Rowley Regis,1,Con,WM,,,no candidate
-282,Halesowen & Rowley Regis,2,Con,WM,,,no candidate
 282,Halesowen & Rowley Regis,3,Con,WM,Stephanie Peacock,https://twitter.com/Steph_Peacock,Y
-282,Halesowen & Rowley Regis,4,Con,WM,,,no candidate
 282,Halesowen & Rowley Regis,6,Con,WM,Dean Perks,https://twitter.com/DeanPerks,Y
 283,Halifax,1,Lab,YH,Philip Allott***,https://twitter.com/allott4halifax,Y
-283,Halifax,2,Lab,YH,,,no candidate
 283,Halifax,3,Lab,YH,Linda Riordan*,https://twitter.com/Linda_Riordan,Y
 283,Halifax,4,Lab,YH,Mohammed Ilyas,https://twitter.com/Calderdale_LD,N
-283,Halifax,6,Lab,YH,,,no candidate
 284,Haltemprice & Howden,1,Con,YH,David Davis*,,none
-284,Haltemprice & Howden,2,Con,YH,,,no candidate
-284,Haltemprice & Howden,3,Con,YH,,,no candidate
 284,Haltemprice & Howden,4,Con,YH,Carl Minns,https://twitter.com/carlminns,Y
-284,Haltemprice & Howden,6,Con,YH,,,no candidate
-285,Halton,1,Lab,NW,,,no candidate
-285,Halton,2,Lab,NW,,,no candidate
 285,Halton,3,Lab,NW,Derek Twigg*,https://twitter.com/DerekTwiggMP,Y
-285,Halton,4,Lab,NW,,,no candidate
-285,Halton,6,Lab,NW,,,no candidate
 286,Hammersmith,1,Lab,GL,Charlie Dewhirst,https://twitter.com/charliedewhirst,Y
-286,Hammersmith,2,Lab,GL,,,no candidate
 286,Hammersmith,3,Lab,GL,Andy Slaughter*,https://twitter.com/hammersmithandy,Y
-286,Hammersmith,4,Lab,GL,,,no candidate
-286,Hammersmith,6,Lab,GL,,,no candidate
-287,Hampshire East,1,Con,SE,,,no candidate
-287,Hampshire East,2,Con,SE,,,no candidate
 287,Hampshire East,3,Con,SE,Alex Wilks,https://twitter.com/alexwilks88,Y
-287,Hampshire East,4,Con,SE,,,no candidate
 287,Hampshire East,6,Con,SE,Peter Baillie,,none
 288,Hampshire North East,1,Con,SE,Ranil Jayawardena****,https://twitter.com/TellRanil,Y
-288,Hampshire North East,2,Con,SE,,,no candidate
-288,Hampshire North East,3,Con,SE,,,no candidate
-288,Hampshire North East,4,Con,SE,,,no candidate
 288,Hampshire North East,6,Con,SE,Robert Blay,,none
 289,Hampshire North West,1,Con,SE,Kit Malthouse,https://twitter.com/kitmalthouse,Y
-289,Hampshire North West,2,Con,SE,,,no candidate
-289,Hampshire North West,3,Con,SE,,,no candidate
-289,Hampshire North West,4,Con,SE,,,no candidate
-289,Hampshire North West,6,Con,SE,,,no candidate
 290,Hampstead & Kilburn,1,Lab,GL,Simon Marcus,https://twitter.com/SimonMarcus,Y
 290,Hampstead & Kilburn,2,Lab,GL,Rebecca Johnson,,none
 290,Hampstead & Kilburn,3,Lab,GL,Tulip Siddiq****,https://twitter.com/TulipSiddiq,Y
 290,Hampstead & Kilburn,4,Lab,GL,Maajid Nawaz,https://twitter.com/MaajidNawaz,Y
-290,Hampstead & Kilburn,6,Lab,GL,,,no candidate
 291,Harborough,1,Con,EM,Edward Garnier*,https://twitter.com/EGarnierMP,Y
-291,Harborough,2,Con,EM,,,no candidate
 291,Harborough,3,Con,EM,Sundip Meghani,https://twitter.com/Sundip,Y
 291,Harborough,4,Con,EM,Zuffar Haq***,,none
 291,Harborough,6,Con,EM,Clive Langley,,none
 292,Harlow,1,Con,E,Robert Halfon*,https://twitter.com/halfon4harlowMP,Y
 292,Harlow,2,Con,E,Murray Sackwild,https://twitter.com/mrsacky,Y
 292,Harlow,3,Con,E,Suzy Stride,https://twitter.com/suzy4harlow,Y
-292,Harlow,4,Con,E,,,no candidate
 292,Harlow,6,Con,E,Sam Stopplecamp,,none
 293,Harrogate & Knaresborough,1,Con,YH,Andrew Jones*,,none
 293,Harrogate & Knaresborough,2,Con,YH,Shan Oakes,https://twitter.com/shanoakes,Y
@@ -1486,139 +734,72 @@ pa_id,constituency,candidate,current holder,region,name,twitter,ispersonal?
 293,Harrogate & Knaresborough,4,Con,YH,Helen Flynn,https://twitter.com/flynnhc,Y
 293,Harrogate & Knaresborough,6,Con,YH,David Simister,,none
 294,Harrow East,1,Con,GL,Bob Blackman*,https://twitter.com/BobBlackmanMP,Y
-294,Harrow East,2,Con,GL,,,no candidate
 294,Harrow East,3,Con,GL,Uma Kumaran,https://twitter.com/Uma_Kumaran,Y
-294,Harrow East,4,Con,GL,,,no candidate
-294,Harrow East,6,Con,GL,,,no candidate
 295,Harrow West,1,Lab,GL,Hannah David,https://twitter.com/HannahDavid4HW,Y
-295,Harrow West,2,Lab,GL,,,no candidate
 295,Harrow West,3,Lab,GL,Gareth Thomas*,https://twitter.com/GarethThomasMP,Y
-295,Harrow West,4,Lab,GL,,,no candidate
-295,Harrow West,6,Lab,GL,,,no candidate
-296,Hartlepool,1,Lab,NE,,,no candidate
-296,Hartlepool,2,Lab,NE,,,no candidate
 296,Hartlepool,3,Lab,NE,Iain Wright*,https://twitter.com/IainWrightMP,Y
-296,Hartlepool,4,Lab,NE,,,no candidate
 296,Hartlepool,6,Lab,NE,Phillip Broughton,,none
-297,Harwich & Essex North,1,Con,E,,,no candidate
-297,Harwich & Essex North,2,Con,E,,,no candidate
 297,Harwich & Essex North,3,Con,E,Edward Carlsson Browne,https://twitter.com/HarwichLabour,N
-297,Harwich & Essex North,4,Con,E,,,no candidate
-297,Harwich & Essex North,6,Con,E,,,no candidate
 298,Hastings & Rye,1,Con,SE,Amber Rudd*,https://twitter.com/AmberRuddMP,Y
 298,Hastings & Rye,2,Con,SE,Jake Bowers,https://twitter.com/bowers_jake,Y
 298,Hastings & Rye,3,Con,SE,Sarah Owen,https://twitter.com/SarahOwen_,Y
 298,Hastings & Rye,4,Con,SE,Nick Perry***,https://twitter.com/nickperrylibdem,Y
 298,Hastings & Rye,6,Con,SE,Ralph Atkinson,,none
 299,Havant,1,Con,SE,Alan Mak****,https://twitter.com/AlanMakUK,Y
-299,Havant,2,Con,SE,,,no candidate
-299,Havant,3,Con,SE,,,no candidate
-299,Havant,4,Con,SE,,,no candidate
 299,Havant,6,Con,SE,John Perry,,none
 300,Hayes & Harlington,1,Lab,GL,Pearl Lewis,https://twitter.com/pearl4hayes,Y
-300,Hayes & Harlington,2,Lab,GL,,,no candidate
 300,Hayes & Harlington,3,Lab,GL,John McDonnell*,https://twitter.com/johnmcdonnellMP,Y
-300,Hayes & Harlington,4,Lab,GL,,,no candidate
 300,Hayes & Harlington,6,Lab,GL,Cliff Dixon***,https://twitter.com/EngPatriot,Y
 301,Hazel Grove,1,LD,NW,William Wragg,https://twitter.com/William_Wragg,Y
-301,Hazel Grove,2,LD,NW,,,no candidate
-301,Hazel Grove,3,LD,NW,,,no candidate
 301,Hazel Grove,4,LD,NW,Lisa Smart****,https://twitter.com/Lisa_Smart,Y
 301,Hazel Grove,6,LD,NW,Darran Palmer,,none
-302,Hemel Hempstead,1,Con,E,,,no candidate
-302,Hemel Hempstead,2,Con,E,,,no candidate
 302,Hemel Hempstead,3,Con,E,Tony Breslin,https://twitter.com/UKpolicywatch,Y
-302,Hemel Hempstead,4,Con,E,,,no candidate
 302,Hemel Hempstead,6,Con,E,Howard Koch,,none
-303,Hemsworth,1,Lab,YH,,,no candidate
-303,Hemsworth,2,Lab,YH,,,no candidate
 303,Hemsworth,3,Lab,YH,John Trickett*,https://twitter.com/jon_trickett,Y
-303,Hemsworth,4,Lab,YH,,,no candidate
 303,Hemsworth,6,Lab,YH,Steve Ashton,,none
 304,Hendon,1,Con,GL,Matthew Offord*,https://twitter.com/HendonMP,Y
 304,Hendon,2,Con,GL,Ben Samuel,https://twitter.com/filosofical_140,Y
 304,Hendon,3,Con,GL,Andrew Dismore**,https://twitter.com/Andrew_Dismore,Y
-304,Hendon,4,Con,GL,,,no candidate
-304,Hendon,6,Con,GL,,,no candidate
 305,Henley,1,Con,SE,John Howell*,https://twitter.com/JohnHowellMP,Y
-305,Henley,2,Con,SE,,,no candidate
 305,Henley,3,Con,SE,Sam Juthani,https://twitter.com/SamJuthani,Y
-305,Henley,4,Con,SE,,,no candidate
 305,Henley,6,Con,SE,Barry Cooper,,none
 306,Hereford & Herefordshire South,1,Con,WM,Jesse Norman*,https://twitter.com/Jesse_Norman,Y
 306,Hereford & Herefordshire South,2,Con,WM,Diana Toynbee,,none
-306,Hereford & Herefordshire South,3,Con,WM,,,no candidate
 306,Hereford & Herefordshire South,4,Con,WM,Lucy Hurds,https://twitter.com/LucyHurds,Y
-306,Hereford & Herefordshire South,6,Con,WM,,,no candidate
 307,Herefordshire North,1,Con,WM,Bill Wiggin*,https://twitter.com/BillWigginMP,Y
 307,Herefordshire North,2,Con,WM,Daisy Blench,,none
-307,Herefordshire North,3,Con,WM,,,no candidate
-307,Herefordshire North,4,Con,WM,,,no candidate
 307,Herefordshire North,6,Con,WM,Jonathan Oakton***,,none
-308,Hertford & Stortford,1,Con,E,,,no candidate
-308,Hertford & Stortford,2,Con,E,,,no candidate
 308,Hertford & Stortford,3,Con,E,Katherine Chibah,https://twitter.com/ChibahKatherine,Y
-308,Hertford & Stortford,4,Con,E,,,no candidate
 308,Hertford & Stortford,6,Con,E,Adrian Baker,,none
 309,Hertfordshire North East,1,Con,E,Oliver Heald*,https://twitter.com/OliverHealdMP,Y
-309,Hertfordshire North East,2,Con,E,,,no candidate
 309,Hertfordshire North East,3,Con,E,Chris York,https://twitter.com/ChrisYorkUK,Y
-309,Hertfordshire North East,4,Con,E,,,no candidate
-309,Hertfordshire North East,6,Con,E,,,no candidate
-310,Hertfordshire South West,1,Con,E,,,no candidate
-310,Hertfordshire South West,2,Con,E,,,no candidate
-310,Hertfordshire South West,3,Con,E,,,no candidate
-310,Hertfordshire South West,4,Con,E,,,no candidate
 310,Hertfordshire South West,6,Con,E,Mark Anderson,,none
 311,Hertsmere,1,Con,E,Oliver Dowden****,,none
-311,Hertsmere,2,Con,E,,,no candidate
 311,Hertsmere,3,Con,E,Richard Butler,https://twitter.com/CllrRButler,Y
-311,Hertsmere,4,Con,E,,,no candidate
 311,Hertsmere,6,Con,E,Frank Ward,,none
 312,Hexham,1,Con,NE,Guy Opperman*,https://twitter.com/GuyOppermanMP,Y
-312,Hexham,2,Con,NE,,,no candidate
 312,Hexham,3,Con,NE,Liam Carr,https://twitter.com/LiamRCarr,Y
 312,Hexham,4,Con,NE,Jeff Reid,,none
 312,Hexham,6,Con,NE,David Nicholson,,none
 313,Heywood & Middleton,1,Lab,NW,Iain Gartside,https://twitter.com/Iain_Gartside,Y
-313,Heywood & Middleton,2,Lab,NW,,,no candidate
 313,Heywood & Middleton,3,Lab,NW,Liz McInnes*,,none
 313,Heywood & Middleton,4,Lab,NW,Anthony Smith,https://twitter.com/ajsmith_libdem,Y
-313,Heywood & Middleton,6,Lab,NW,,,no candidate
 314,High Peak,1,Con,EM,Andrew Bingham*,https://twitter.com/OliverHealdMP,Y
-314,High Peak,2,Con,EM,,,no candidate
 314,High Peak,3,Con,EM,Caitlin Bisknell***,https://twitter.com/CaitlinBisknell,Y
-314,High Peak,4,Con,EM,,,no candidate
-314,High Peak,6,Con,EM,,,no candidate
 315,Hitchin & Harpenden,1,Con,E,Peter Lilley*,https://twitter.com/PeterLilleyMP,Y
-315,Hitchin & Harpenden,2,Con,E,,,no candidate
 315,Hitchin & Harpenden,3,Con,E,Rachel Burgin,https://twitter.com/MrsBurgin,Y
-315,Hitchin & Harpenden,4,Con,E,,,no candidate
-315,Hitchin & Harpenden,6,Con,E,,,no candidate
 316,Holborn & St Pancras,1,Lab,GL,Will Blair,https://twitter.com/will_blair,Y
 316,Holborn & St Pancras,2,Lab,GL,Natalie Bennett**,https://twitter.com/natalieben,Y
-316,Holborn & St Pancras,3,Lab,GL,[New candidate to be selected],,none
-316,Holborn & St Pancras,4,Lab,GL,,,no candidate
-316,Holborn & St Pancras,6,Lab,GL,,,no candidate
 317,Hornchurch & Upminster,1,Con,GL,Angela Watkinson*,https://twitter.com/HandU_Tories,N
-317,Hornchurch & Upminster,2,Con,GL,,,no candidate
 317,Hornchurch & Upminster,3,Con,GL,Paul McGeary,https://twitter.com/HULabour,N
-317,Hornchurch & Upminster,4,Con,GL,,,no candidate
 317,Hornchurch & Upminster,6,Con,GL,Lawrence Webb***,,none
 318,Hornsey & Wood Green,1,LD,GL,Suhail Rahuja,,none
 318,Hornsey & Wood Green,2,LD,GL,Gordon Peters,,none
 318,Hornsey & Wood Green,3,LD,GL,Catherine West,https://twitter.com/CatherineWest1,Y
 318,Hornsey & Wood Green,4,LD,GL,Lynne Featherstone*,https://twitter.com/lfeatherstone,Y
-318,Hornsey & Wood Green,6,LD,GL,,,no candidate
 319,Horsham,1,Con,SE,Francis Maude*,,none
-319,Horsham,2,Con,SE,,,no candidate
-319,Horsham,3,Con,SE,,,no candidate
-319,Horsham,4,Con,SE,,,no candidate
 319,Horsham,6,Con,SE,Roger Arthur,https://twitter.com/NeilWhitear,N
-320,Houghton & Sunderland South,1,Lab,NE,,,no candidate
-320,Houghton & Sunderland South,2,Lab,NE,,,no candidate
 320,Houghton & Sunderland South,3,Lab,NE,Bridget Phillipson*,https://twitter.com/bphillipsonMP,Y
-320,Houghton & Sunderland South,4,Lab,NE,,,no candidate
 320,Houghton & Sunderland South,6,Lab,NE,Richard Elvin***,,none
 321,Hove,1,Con,SE,Graham Cox****,https://twitter.com/mike_weatherley,Y
 321,Hove,2,Con,SE,Christopher Hawtree,https://twitter.com/chrishawtree,Y
@@ -1626,553 +807,248 @@ pa_id,constituency,candidate,current holder,region,name,twitter,ispersonal?
 321,Hove,4,Con,SE,Lev Eakins,https://twitter.com/LevEakins,Y
 321,Hove,6,Con,SE,Clive Hickman,,none
 322,Huddersfield,1,Lab,YH,Itrat Ali,https://twitter.com/itratali1,Y
-322,Huddersfield,2,Lab,YH,,,no candidate
 322,Huddersfield,3,Lab,YH,Barry Sheerman*,https://twitter.com/BarrySheerman,Y
-322,Huddersfield,4,Lab,YH,,,no candidate
-322,Huddersfield,6,Lab,YH,,,no candidate
 323,Hull East,1,Lab,YH,Emma Ideson,https://twitter.com/EmmaIdeson,Y
-323,Hull East,2,Lab,YH,,,no candidate
 323,Hull East,3,Lab,YH,Karl Turner*,https://twitter.com/KarlTurnerMP,Y
-323,Hull East,4,Lab,YH,,,no candidate
-323,Hull East,6,Lab,YH,,,no candidate
 324,Hull North,1,Lab,YH,Dehenna Davison,https://twitter.com/DehennaForHull,Y
-324,Hull North,2,Lab,YH,,,no candidate
 324,Hull North,3,Lab,YH,Diana Johnson*,https://twitter.com/DianaJohnsonMP,Y
 324,Hull North,4,Lab,YH,Mike Ross,https://twitter.com/cllrmikeross,Y
-324,Hull North,6,Lab,YH,,,no candidate
 325,Hull West & Hessle,1,Lab,YH,Mike Whitehead,https://twitter.com/MikeSWhitehead,Y
-325,Hull West & Hessle,2,Lab,YH,,,no candidate
 325,Hull West & Hessle,3,Lab,YH,Alan Johnson*,,none
 325,Hull West & Hessle,4,Lab,YH,Claire Thomas,https://twitter.com/clairethomas1,Y
-325,Hull West & Hessle,6,Lab,YH,,,no candidate
-326,Huntingdon,1,Con,E,,,no candidate
-326,Huntingdon,2,Con,E,,,no candidate
 326,Huntingdon,3,Con,E,Nik Johnson,https://twitter.com/CambridgeMagpie,Y
-326,Huntingdon,4,Con,E,,,no candidate
 326,Huntingdon,6,Con,E,Paul Bullen,https://twitter.com/pbullenUKIP,Y
-327,Hyndburn,1,Lab,NW,,,no candidate
-327,Hyndburn,2,Lab,NW,,,no candidate
 327,Hyndburn,3,Lab,NW,Graham Jones*,https://twitter.com/GrahamJones_MP,Y
-327,Hyndburn,4,Lab,NW,,,no candidate
-327,Hyndburn,6,Lab,NW,,,no candidate
-328,Ilford North,1,Con,GL,,,no candidate
-328,Ilford North,2,Con,GL,,,no candidate
 328,Ilford North,3,Con,GL,Wes Streeting,https://twitter.com/wesstreeting,Y
-328,Ilford North,4,Con,GL,,,no candidate
 328,Ilford North,6,Con,GL,Philip Hyde,,none
-329,Ilford South,1,Lab,GL,,,no candidate
-329,Ilford South,2,Lab,GL,,,no candidate
 329,Ilford South,3,Lab,GL,Mike Gapes*,https://twitter.com/MikeGapes,Y
-329,Ilford South,4,Lab,GL,,,no candidate
-329,Ilford South,6,Lab,GL,,,no candidate
-330,Inverclyde,1,Lab,S,,,no candidate
-330,Inverclyde,2,Lab,S,,,no candidate
 330,Inverclyde,3,Lab,S,Ian McKenzie*,https://twitter.com/InverclydeMP,Y
-330,Inverclyde,4,Lab,S,,,no candidate
-330,Inverclyde,6,Lab,S,,,no candidate
 331,"Inverness, Nairn, Badenoch & Strathspey",1,LD,S,Edward Mountain,https://twitter.com/1edmountain,Y
-331,"Inverness, Nairn, Badenoch & Strathspey",2,LD,S,,,no candidate
 331,"Inverness, Nairn, Badenoch & Strathspey",3,LD,S,Mike Robb***,,none
 331,"Inverness, Nairn, Badenoch & Strathspey",4,LD,S,Danny Alexander*,https://twitter.com/dannyalexander,Y
-331,"Inverness, Nairn, Badenoch & Strathspey",6,LD,S,,,no candidate
 332,Ipswich,1,Con,E,Ben Gummer*,https://twitter.com/ben4ipswich,Y
-332,Ipswich,2,Con,E,,,no candidate
 332,Ipswich,3,Con,E,David Ellesmere,https://twitter.com/davidellesmere,Y
-332,Ipswich,4,Con,E,,,no candidate
-332,Ipswich,6,Con,E,,,no candidate
 333,Isle of Wight,1,Con,SE,Andrew Turner*,https://twitter.com/TheIslandsMP,Y
 333,Isle of Wight,2,Con,SE,Vix Lowthion,https://twitter.com/VixL,Y
 333,Isle of Wight,3,Con,SE,Stewart Blackmore,https://twitter.com/Stewart4IOWMP,Y
-333,Isle of Wight,4,Con,SE,,,no candidate
 333,Isle of Wight,6,Con,SE,Ian McKie,https://twitter.com/Iainmckie_UKIP,Y
-334,Islington North,1,Lab,GL,,,no candidate
 334,Islington North,2,Lab,GL,Caroline Russell,https://twitter.com/highburyonfoot,Y
 334,Islington North,3,Lab,GL,Jeremy Corbyn*,https://twitter.com/jeremycorbyn,Y
 334,Islington North,4,Lab,GL,Julian Gregory,https://twitter.com/StGeorgeJulian,Y
-334,Islington North,6,Lab,GL,,,no candidate
-335,Islington South & Finsbury,1,Lab,GL,,,no candidate
 335,Islington South & Finsbury,2,Lab,GL,Charlie Kiss,https://twitter.com/charliekiss,Y
 335,Islington South & Finsbury,3,Lab,GL,Emily Thornberry*,https://twitter.com/EmilyThornberry,Y
 335,Islington South & Finsbury,4,Lab,GL,Terry Stacy,https://twitter.com/TerryStacyLD,Y
-335,Islington South & Finsbury,6,Lab,GL,,,no candidate
-336,Islwyn,1,Lab,W,,,no candidate
-336,Islwyn,2,Lab,W,,,no candidate
 336,Islwyn,3,Lab,W,Chris Evans*,,none
-336,Islwyn,4,Lab,W,,,no candidate
 336,Islwyn,5,Lab,W,Lyn Ackerman,,none
-336,Islwyn,6,Lab,W,,,no candidate
-337,Jarrow,1,Lab,NE,,,no candidate
-337,Jarrow,2,Lab,NE,,,no candidate
 337,Jarrow,3,Lab,NE,Stephen Hepburn*,https://twitter.com/jarrowstevemp,Y
-337,Jarrow,4,Lab,NE,,,no candidate
-337,Jarrow,6,Lab,NE,,,no candidate
 338,Keighley,1,Con,YH,Kris Hopkins*,https://twitter.com/khopkinsmp,Y
 338,Keighley,2,Con,YH,Ros Brown,,none
 338,Keighley,3,Con,YH,John Grogan,https://twitter.com/KeighleyLabour,N
-338,Keighley,4,Con,YH,,,no candidate
 338,Keighley,6,Con,YH,Paul Latham***,,none
-339,Kenilworth & Southam,1,Con,WM,,,no candidate
-339,Kenilworth & Southam,2,Con,WM,,,no candidate
 339,Kenilworth & Southam,3,Con,WM,Bally Singh,https://twitter.com/BallySingh74,Y
 339,Kenilworth & Southam,4,Con,WM,Richard Dickson,https://twitter.com/richdick,Y
 339,Kenilworth & Southam,6,Con,WM,Harry Cottam,,none
 340,Kensington,1,Con,GL,Malcolm Rifkind*,https://twitter.com/MalcolmRifkind,Y
-340,Kensington,2,Con,GL,,,no candidate
 340,Kensington,3,Con,GL,Rod Abouharb,https://twitter.com/KensingtonCLP,N
-340,Kensington,4,Con,GL,,,no candidate
-340,Kensington,6,Con,GL,,,no candidate
 341,Kettering,1,Con,EM,Philip Hollobone*,,none
-341,Kettering,2,Con,EM,,,no candidate
 341,Kettering,3,Con,EM,Rhea Keehn,https://twitter.com/RheaKeehn,Y
-341,Kettering,4,Con,EM,,,no candidate
-341,Kettering,6,Con,EM,,,no candidate
-342,Kilmarnock & Loudoun,1,Lab,S,,,no candidate
-342,Kilmarnock & Loudoun,2,Lab,S,,,no candidate
 342,Kilmarnock & Loudoun,3,Lab,S,Cathy Jamieson*,https://twitter.com/cathyjamieson,Y
-342,Kilmarnock & Loudoun,4,Lab,S,,,no candidate
-342,Kilmarnock & Loudoun,6,Lab,S,,,no candidate
 343,Kingston & Surbiton,1,LD,GL,James Berry,,none
 343,Kingston & Surbiton,2,LD,GL,Clare Keogh,,none
 343,Kingston & Surbiton,3,LD,GL,Lee Godfrey,https://twitter.com/Godfrey_Lee,Y
 343,Kingston & Surbiton,4,LD,GL,Ed Davey*,https://twitter.com/EdwardDaveyMP,Y
-343,Kingston & Surbiton,6,LD,GL,,,no candidate
 344,Kingswood,1,Con,SW,Chris Skidmore*,https://twitter.com/chrisskidmoremp,Y
-344,Kingswood,2,Con,SW,,,no candidate
 344,Kingswood,3,Con,SW,Jo McCarron,https://twitter.com/jomccarron,Y
-344,Kingswood,4,Con,SW,,,no candidate
-344,Kingswood,6,Con,SW,,,no candidate
 345,Kirkcaldy & Cowdenbeath,1,Lab,S,Dave Dempsey,https://twitter.com/cllrdavedempsey,Y
-345,Kirkcaldy & Cowdenbeath,2,Lab,S,,,no candidate
 345,Kirkcaldy & Cowdenbeath,3,Lab,S,Gordon Brown*,,none
-345,Kirkcaldy & Cowdenbeath,4,Lab,S,,,no candidate
-345,Kirkcaldy & Cowdenbeath,6,Lab,S,,,no candidate
-346,Knowsley,1,Lab,NW,,,no candidate
-346,Knowsley,2,Lab,NW,,,no candidate
 346,Knowsley,3,Lab,NW,George Howarth*,,none
 346,Knowsley,4,Lab,NW,Carl Cashman,https://twitter.com/CarlCashman,Y
-346,Knowsley,6,Lab,NW,,,no candidate
-347,LAGAN VALLEY,1,DUP,NI,,,no candidate
-347,LAGAN VALLEY,2,DUP,NI,,,no candidate
-347,LAGAN VALLEY,3,DUP,NI,,,no candidate
-347,LAGAN VALLEY,4,DUP,NI,,,no candidate
-347,LAGAN VALLEY,6,DUP,NI,,,no candidate
 348,Lanark & Hamilton East,1,Lab,S,Alex Allison,,none
-348,Lanark & Hamilton East,2,Lab,S,,,no candidate
 348,Lanark & Hamilton East,3,Lab,S,Jimmy Hood*,https://twitter.com/JimHood_MP,Y
-348,Lanark & Hamilton East,4,Lab,S,,,no candidate
-348,Lanark & Hamilton East,6,Lab,S,,,no candidate
 349,Lancashire West,1,Lab,NW,Paul Greenall,https://twitter.com/paulvgreenall,Y
-349,Lancashire West,2,Lab,NW,,,no candidate
 349,Lancashire West,3,Lab,NW,Rosie Cooper*,https://twitter.com/rosie4westlancs,Y
 349,Lancashire West,4,Lab,NW,Daniel Lewis,https://twitter.com/CllrDanLewis,Y
-349,Lancashire West,6,Lab,NW,,,no candidate
 350,Lancaster & Fleetwood,1,Con,NW,Eric Ollerenshaw*,https://twitter.com/LancasterCF,N
 350,Lancaster & Fleetwood,2,Con,NW,Chris Coates,,none
 350,Lancaster & Fleetwood,3,Con,NW,Cat Smith,https://twitter.com/CateySmith,Y
-350,Lancaster & Fleetwood,4,Con,NW,,,no candidate
-350,Lancaster & Fleetwood,6,Con,NW,,,no candidate
-351,Leeds Central,1,Lab,YH,,,no candidate
-351,Leeds Central,2,Lab,YH,,,no candidate
 351,Leeds Central,3,Lab,YH,Hilary Benn*,https://twitter.com/hilarybennmp,Y
-351,Leeds Central,4,Lab,YH,,,no candidate
 351,Leeds Central,6,Lab,YH,Luke Senior,https://twitter.com/UKIPLeedsC,Y
-352,Leeds East,1,Lab,YH,,,no candidate
-352,Leeds East,2,Lab,YH,,,no candidate
 352,Leeds East,3,Lab,YH,Richard Burgon****,https://twitter.com/RichardBurgon,Y
 352,Leeds East,4,Lab,YH,Edward Sanderson,,none
-352,Leeds East,6,Lab,YH,,,no candidate
-353,Leeds North East,1,Lab,YH,,,no candidate
-353,Leeds North East,2,Lab,YH,,,no candidate
 353,Leeds North East,3,Lab,YH,Fabian Hamilton*,https://twitter.com/fabianhamilton,Y
 353,Leeds North East,4,Lab,YH,Aqila Choudhry***,https://twitter.com/AqilaChoudhry,Y
 353,Leeds North East,6,Lab,YH,Warren Hendon***,,none
-354,Leeds North West,1,LD,YH,,,no candidate
-354,Leeds North West,2,LD,YH,,,no candidate
 354,Leeds North West,3,LD,YH,Alex Sobel,https://twitter.com/alexsobel,Y
 354,Leeds North West,4,LD,YH,Greg Mulholland*,https://twitter.com/GregMulholland1,Y
-354,Leeds North West,6,LD,YH,,,no candidate
-355,Leeds West,1,Lab,YH,,,no candidate
 355,Leeds West,2,Lab,YH,Andrew Pointon,https://twitter.com/amp4leedswest,Y
 355,Leeds West,3,Lab,YH,Rachel Reeves*,https://twitter.com/RachelReevesMP,Y
-355,Leeds West,4,Lab,YH,,,no candidate
-355,Leeds West,6,Lab,YH,,,no candidate
 356,Leicester East,1,Lab,EM,Kishan Devani,https://twitter.com/Kishan_Devani,Y
-356,Leicester East,2,Lab,EM,,,no candidate
 356,Leicester East,3,Lab,EM,Keith Vaz*,https://twitter.com/Keith_VazMP,Y
-356,Leicester East,4,Lab,EM,,,no candidate
-356,Leicester East,6,Lab,EM,,,no candidate
 357,Leicester South,1,Lab,EM,Leon Hadji-Nikolaou,https://twitter.com/Leon_Leicester,Y
-357,Leicester South,2,Lab,EM,,,no candidate
 357,Leicester South,3,Lab,EM,Jon Ashworth*,https://twitter.com/JonAshworth,Y
-357,Leicester South,4,Lab,EM,,,no candidate
-357,Leicester South,6,Lab,EM,,,no candidate
 358,Leicester West,1,Lab,EM,Paul Bessant,https://twitter.com/PaulForWest,Y
-358,Leicester West,2,Lab,EM,,,no candidate
 358,Leicester West,3,Lab,EM,Liz Kendall*,https://twitter.com/leicesterliz,Y
-358,Leicester West,4,Lab,EM,,,no candidate
-358,Leicester West,6,Lab,EM,,,no candidate
-359,Leicestershire North West,1,Con,EM,,,no candidate
-359,Leicestershire North West,2,Con,EM,,,no candidate
 359,Leicestershire North West,3,Con,EM,Jamie McMahon,https://twitter.com/JamieSMcMahon,Y
-359,Leicestershire North West,4,Con,EM,,,no candidate
 359,Leicestershire North West,6,Con,EM,Andy McWilliam,,none
-360,Leicestershire South,1,Con,EM,[New candidate to be selected],,none
-360,Leicestershire South,2,Con,EM,,,no candidate
 360,Leicestershire South,3,Con,EM,Amanda Hack,https://twitter.com/Hackster32,Y
-360,Leicestershire South,4,Con,EM,,,no candidate
 360,Leicestershire South,6,Con,EM,Barry Mahoney,,none
-361,Leigh,1,Lab,NW,,,no candidate
-361,Leigh,2,Lab,NW,,,no candidate
 361,Leigh,3,Lab,NW,Andy Burnham*,https://twitter.com/andyburnhammp,Y
-361,Leigh,4,Lab,NW,,,no candidate
-361,Leigh,6,Lab,NW,,,no candidate
 362,Lewes,1,LD,SE,Maria Caulfield,https://twitter.com/mariacaulfield,Y
 362,Lewes,2,LD,SE,Alfie Stirling,https://twitter.com/alfie_stirling,Y
 362,Lewes,3,LD,SE,Lloyd Russell-Moyle,https://twitter.com/lloyd_rm,Y
 362,Lewes,4,LD,SE,Norman Baker*,https://twitter.com/Lewes_Lib_Dems,N
 362,Lewes,6,LD,SE,Ray Finch,,none
 363,Lewisham Deptford,1,Lab,GL,Bim Afolami,https://twitter.com/BimAfolami,Y
-363,Lewisham Deptford,2,Lab,GL,,,no candidate
 363,Lewisham Deptford,3,Lab,GL,Vicky Foxcroft****,https://twitter.com/vickyfoxcroft,Y
 363,Lewisham Deptford,4,Lab,GL,Michael Bukola,https://twitter.com/MichaelBukola,Y
-363,Lewisham Deptford,6,Lab,GL,,,no candidate
 364,Lewisham East,1,Lab,GL,Peter Fortune,https://twitter.com/PeterTFortune,Y
-364,Lewisham East,2,Lab,GL,,,no candidate
 364,Lewisham East,3,Lab,GL,Heidi Alexander*,https://twitter.com/heidi_mp,Y
 364,Lewisham East,4,Lab,GL,Julia Fletcher,https://twitter.com/LewishamLibDems,N
-364,Lewisham East,6,Lab,GL,,,no candidate
 365,Lewisham West & Penge,1,Lab,GL,Russell Jackson,https://twitter.com/russellantony,Y
-365,Lewisham West & Penge,2,Lab,GL,,,no candidate
 365,Lewisham West & Penge,3,Lab,GL,Jim Dowd*,,none
-365,Lewisham West & Penge,4,Lab,GL,,,no candidate
 365,Lewisham West & Penge,6,Lab,GL,John Holland,,none
 366,Leyton & Wanstead,1,Lab,GL,Matthew Scott,https://twitter.com/matthewscottuk,Y
-366,Leyton & Wanstead,2,Lab,GL,,,no candidate
 366,Leyton & Wanstead,3,Lab,GL,John Cryer*,,none
-366,Leyton & Wanstead,4,Lab,GL,,,no candidate
 366,Leyton & Wanstead,6,Lab,GL,Martin Levin,,none
 367,Lichfield,1,Con,WM,Michael Fabricant*,https://twitter.com/Mike_Fabricant,Y
-367,Lichfield,2,Con,WM,,,no candidate
 367,Lichfield,3,Con,WM,Chris Worsey,https://twitter.com/ChrisWorsey,Y
-367,Lichfield,4,Con,WM,,,no candidate
 367,Lichfield,6,Con,WM,Derek Bennett,,none
 368,Lincoln,1,Con,EM,Karl McCartney*,https://twitter.com/karlmccartney,Y
-368,Lincoln,2,Con,EM,,,no candidate
 368,Lincoln,3,Con,EM,Lucy Rigby,https://twitter.com/LucyRigby,Y
-368,Lincoln,4,Con,EM,,,no candidate
 368,Lincoln,6,Con,EM,Nick Smith***,https://twitter.com/NickSmithUKIP,Y
-369,Linlithgow & Falkirk East,1,Lab,S,,,no candidate
-369,Linlithgow & Falkirk East,2,Lab,S,,,no candidate
 369,Linlithgow & Falkirk East,3,Lab,S,Michael Connarty*,,none
-369,Linlithgow & Falkirk East,4,Lab,S,,,no candidate
-369,Linlithgow & Falkirk East,6,Lab,S,,,no candidate
-370,Liverpool Riverside,1,Lab,NW,,,no candidate
 370,Liverpool Riverside,2,Lab,NW,Martin Dobson,https://twitter.com/MartinDobsonGP,Y
 370,Liverpool Riverside,3,Lab,NW,Louise Ellman*,https://twitter.com/LouiseEllman,Y
-370,Liverpool Riverside,4,Lab,NW,,,no candidate
-370,Liverpool Riverside,6,Lab,NW,,,no candidate
-371,Liverpool Walton,1,Lab,NW,,,no candidate
-371,Liverpool Walton,2,Lab,NW,,,no candidate
 371,Liverpool Walton,3,Lab,NW,Steve Rotheram*,https://twitter.com/SteveRotheramMP,Y
-371,Liverpool Walton,4,Lab,NW,,,no candidate
-371,Liverpool Walton,6,Lab,NW,,,no candidate
-372,Liverpool Wavertree,1,Lab,NW,,,no candidate
 372,Liverpool Wavertree,2,Lab,NW,Peter Cranie,https://twitter.com/PeterCranie,Y
 372,Liverpool Wavertree,3,Lab,NW,Luciana Berger*,https://twitter.com/lucianaberger,Y
-372,Liverpool Wavertree,4,Lab,NW,,,no candidate
-372,Liverpool Wavertree,6,Lab,NW,,,no candidate
-373,Liverpool West Derby,1,Lab,NW,,,no candidate
-373,Liverpool West Derby,2,Lab,NW,,,no candidate
 373,Liverpool West Derby,3,Lab,NW,Stephen Twigg*,https://twitter.com/StephenTwigg,Y
-373,Liverpool West Derby,4,Lab,NW,,,no candidate
-373,Liverpool West Derby,6,Lab,NW,,,no candidate
-374,Livingston,1,Lab,S,,,no candidate
-374,Livingston,2,Lab,S,,,no candidate
 374,Livingston,3,Lab,S,Graeme Morrice*,https://twitter.com/GraemeMorrice,Y
-374,Livingston,4,Lab,S,,,no candidate
-374,Livingston,6,Lab,S,,,no candidate
 375,Llanelli,1,Lab,W,Selaine Saxby,https://twitter.com/SelaineSaxby,Y
-375,Llanelli,2,Lab,W,,,no candidate
 375,Llanelli,3,Lab,W,Nia Griffith*,https://twitter.com/NiaGriffithMP,Y
-375,Llanelli,4,Lab,W,,,no candidate
 375,Llanelli,5,Lab,W,Vaughan Williams,twitter.com/Vaughan_Wms,Y
-375,Llanelli,6,Lab,W,,,no candidate
-376,LONDONDERRY EAST,1,DUP,NI,,,no candidate
-376,LONDONDERRY EAST,2,DUP,NI,,,no candidate
-376,LONDONDERRY EAST,3,DUP,NI,,,no candidate
-376,LONDONDERRY EAST,4,DUP,NI,,,no candidate
-376,LONDONDERRY EAST,6,DUP,NI,,,no candidate
 377,Loughborough,1,Con,EM,Nicky Morgan*,https://twitter.com/NickyMorgan01,Y
 377,Loughborough,2,Con,EM,Matt Sisson,https://twitter.com/MattJSisson,Y
 377,Loughborough,3,Con,EM,Matthew O'Callaghan,https://twitter.com/LoughbroMatthew,Y
-377,Loughborough,4,Con,EM,,,no candidate
 377,Loughborough,6,Con,EM,Bill Piper,https://twitter.com/BILLUKIP,Y
 378,Louth & Horncastle,1,Con,EM,Victoria Atkins****,https://twitter.com/vmatkins,Y
-378,Louth & Horncastle,2,Con,EM,,,no candidate
 378,Louth & Horncastle,3,Con,EM,Matthew Brown,https://twitter.com/CllrMattBrown,Y
-378,Louth & Horncastle,4,Con,EM,,,no candidate
 378,Louth & Horncastle,6,Con,EM,Colin Mair,,none
-379,Ludlow,1,Con,WM,,,no candidate
 379,Ludlow,2,Con,WM,Janet Phillips,https://twitter.com/JanetPhGP,Y
 379,Ludlow,3,Con,WM,Simon Slater,,none
 379,Ludlow,4,Con,WM,Charlotte Barnes,,none
 379,Ludlow,6,Con,WM,David Kelly,,none
-380,Luton North,1,Lab,E,,,no candidate
-380,Luton North,2,Lab,E,,,no candidate
 380,Luton North,3,Lab,E,Kelvin Hopkins*,,none
-380,Luton North,4,Lab,E,,,no candidate
-380,Luton North,6,Lab,E,,,no candidate
 381,Luton South,1,Lab,E,Katie Redmond,https://twitter.com/Katie4Luton,Y
-381,Luton South,2,Lab,E,,,no candidate
 381,Luton South,3,Lab,E,Gavin Shuker*,https://twitter.com/gavinshuker,Y
-381,Luton South,4,Lab,E,,,no candidate
-381,Luton South,6,Lab,E,,,no candidate
-382,Macclesfield,1,Con,NW,,,no candidate
-382,Macclesfield,2,Con,NW,,,no candidate
 382,Macclesfield,3,Con,NW,Tim Roca,https://twitter.com/timroca85,Y
-382,Macclesfield,4,Con,NW,,,no candidate
-382,Macclesfield,6,Con,NW,,,no candidate
-383,Maidenhead,1,Con,SE,,,no candidate
-383,Maidenhead,2,Con,SE,,,no candidate
 383,Maidenhead,3,Con,SE,Charlie Smith,https://twitter.com/charlie_rsmith,Y
 383,Maidenhead,4,Con,SE,Anthony Hill***,,none
-383,Maidenhead,6,Con,SE,,,no candidate
 384,Maidstone & The Weald,1,Con,SE,Helen Grant*,https://twitter.com/HelenGrantMP,Y
-384,Maidstone & The Weald,2,Con,SE,,,no candidate
 384,Maidstone & The Weald,3,Con,SE,Allen Simpson,https://twitter.com/allen_m_simpson,Y
 384,Maidstone & The Weald,4,Con,SE,Jasper Gerard,https://twitter.com/jaspergerard,Y
 384,Maidstone & The Weald,6,Con,SE,Eddie Powell,,none
-385,Makerfield,1,Lab,NW,,,no candidate
-385,Makerfield,2,Lab,NW,,,no candidate
 385,Makerfield,3,Lab,NW,Yvonne Fovargue*,https://twitter.com/Y_FovargueMP,Y
-385,Makerfield,4,Lab,NW,,,no candidate
 385,Makerfield,6,Lab,NW,Andrew Collinson,,none
-386,Maldon,1,Con,E,,,no candidate
-386,Maldon,2,Con,E,,,no candidate
 386,Maldon,3,Con,E,Peter Edwards,https://twitter.com/EdwardsEconomy,Y
-386,Maldon,4,Con,E,,,no candidate
-386,Maldon,6,Con,E,,,no candidate
-387,Manchester Central,1,Lab,NW,,,no candidate
-387,Manchester Central,2,Lab,NW,,,no candidate
 387,Manchester Central,3,Lab,NW,Lucy Powell*,https://twitter.com/LucyMPowell,Y
-387,Manchester Central,4,Lab,NW,,,no candidate
-387,Manchester Central,6,Lab,NW,,,no candidate
-388,Manchester Gorton,1,Lab,NW,,,no candidate
-388,Manchester Gorton,2,Lab,NW,,,no candidate
 388,Manchester Gorton,3,Lab,NW,Gerald Kaufman*,,none
-388,Manchester Gorton,4,Lab,NW,,,no candidate
-388,Manchester Gorton,6,Lab,NW,,,no candidate
-389,Manchester Withington,1,LD,NW,,,no candidate
-389,Manchester Withington,2,LD,NW,,,no candidate
 389,Manchester Withington,3,LD,NW,Jeff Smith,https://twitter.com/JeffSmithetc,Y
 389,Manchester Withington,4,LD,NW,John Leech*,https://twitter.com/johnleechmcr,Y
-389,Manchester Withington,6,LD,NW,,,no candidate
-390,Mansfield,1,Lab,EM,,,no candidate
-390,Mansfield,2,Lab,EM,,,no candidate
 390,Mansfield,3,Lab,EM,Alan Meale*,https://twitter.com/mansfieldlabour,N
-390,Mansfield,4,Lab,EM,,,no candidate
-390,Mansfield,6,Lab,EM,,,no candidate
 391,Meon Valley,1,Con,SE,George Hollingbery*,https://twitter.com/GHollingbery,Y
-391,Meon Valley,2,Con,SE,,,no candidate
-391,Meon Valley,3,Con,SE,,,no candidate
-391,Meon Valley,4,Con,SE,,,no candidate
 391,Meon Valley,6,Con,SE,David Alexander,,none
-392,Meriden,1,Con,WM,,,no candidate
-392,Meriden,2,Con,WM,,,no candidate
 392,Meriden,3,Con,WM,Tom McNeil,https://twitter.com/mcneil_tom,Y
-392,Meriden,4,Con,WM,,,no candidate
 392,Meriden,6,Con,WM,John Allen,https://twitter.com/phh321,Y
-393,Merthyr Tydfil & Rhymney,1,Lab,W,,,no candidate
 393,Merthyr Tydfil & Rhymney,2,Lab,W,Elspeth Parris,https://twitter.com/elspethP,Y
-393,Merthyr Tydfil & Rhymney,3,Lab,W,[New candidate to be selected],,none
-393,Merthyr Tydfil & Rhymney,4,Lab,W,,,no candidate
 393,Merthyr Tydfil & Rhymney,5,Lab,W,Rhayna Pritchard,,none
-393,Merthyr Tydfil & Rhymney,6,Lab,W,,,no candidate
-394,Middlesbrough,1,Lab,NE,,,no candidate
-394,Middlesbrough,2,Lab,NE,,,no candidate
 394,Middlesbrough,3,Lab,NE,Andy McDonald*,https://twitter.com/AndyMcDonaldMP,Y
 394,Middlesbrough,4,Lab,NE,Richard Kilpatrick,https://twitter.com/RichKilpatrick1,Y
 394,Middlesbrough,6,Lab,NE,Ian Neil,,none
 395,Middlesbrough South & Cleveland East,1,Lab,NE,Will Goodhand,https://twitter.com/WillGoodhand4MP,Y
-395,Middlesbrough South & Cleveland East,2,Lab,NE,,,no candidate
 395,Middlesbrough South & Cleveland East,3,Lab,NE,Tom Blenkinsop*,https://twitter.com/TomBlenkinsop,Y
-395,Middlesbrough South & Cleveland East,4,Lab,NE,,,no candidate
 395,Middlesbrough South & Cleveland East,6,Lab,NE,Steve Turner,,none
 396,Midlothian,1,Lab,S,Michelle Ballantyne,,none
-396,Midlothian,2,Lab,S,,,no candidate
 396,Midlothian,3,Lab,S,David Hamilton*,https://twitter.com/AndyMcDonaldMP,Y
-396,Midlothian,4,Lab,S,,,no candidate
-396,Midlothian,6,Lab,S,,,no candidate
 397,Milton Keynes North,1,Con,SE,Mark Lancaster*,https://twitter.com/MarkLancasterMP,Y
 397,Milton Keynes North,2,Con,SE,Jennifer Marklew,https://twitter.com/JMarklewGP,Y
 397,Milton Keynes North,3,Con,SE,Emily Darlington,https://twitter.com/emily4MK,Y
-397,Milton Keynes North,4,Con,SE,,,no candidate
 397,Milton Keynes North,6,Con,SE,Stuart Moore,https://twitter.com/UKIPMK,N
 398,Milton Keynes South,1,Con,SE,Iain Stewart*,https://twitter.com/iainastewart,Y
 398,Milton Keynes South,2,Con,SE,Samantha Pancheri,https://twitter.com/SamPancheri,Y
 398,Milton Keynes South,3,Con,SE,Andrew Pakes,https://twitter.com/andrew4mk,Y
-398,Milton Keynes South,4,Con,SE,,,no candidate
 398,Milton Keynes South,6,Con,SE,Vince Peddle,https://twitter.com/goodvote,Y
 399,Mitcham & Morden,1,Lab,GL,Paul Holmes,https://twitter.com/pauljholmes,Y
-399,Mitcham & Morden,2,Lab,GL,,,no candidate
 399,Mitcham & Morden,3,Lab,GL,Siobhain McDonagh*,https://twitter.com/SiobhainMP,Y
-399,Mitcham & Morden,4,Lab,GL,,,no candidate
-399,Mitcham & Morden,6,Lab,GL,,,no candidate
 400,Mole Valley,1,Con,SE,Paul Beresford*,https://twitter.com/PaulBeresfordMP,Y
-400,Mole Valley,2,Con,SE,,,no candidate
-400,Mole Valley,3,Con,SE,,,no candidate
 400,Mole Valley,4,Con,SE,Paul Kennedy,,none
 400,Mole Valley,6,Con,SE,Stephen Musgrove,https://twitter.com/UKIPSurrey,N
 401,Monmouth,1,Con,W,David Davies*,https://twitter.com/davidtcdavies,Y
-401,Monmouth,2,Con,W,,,no candidate
 401,Monmouth,3,Con,W,Ruth Jones,https://twitter.com/MonmouthCLP,N
-401,Monmouth,4,Con,W,,,no candidate
 401,Monmouth,5,Con,W,Jonathan Clark***,https://twitter.com/JonathanTClark,Y
 401,Monmouth,6,Con,W,Gareth Dunn,,none
 402,Montgomeryshire,1,Con,W,Glyn Davies*,https://twitter.com/GlynDaviesMP,Y
-402,Montgomeryshire,2,Con,W,,,no candidate
-402,Montgomeryshire,3,Con,W,,,no candidate
 402,Montgomeryshire,4,Con,W,Jane Dodds,https://twitter.com/DoddsJane,Y
 402,Montgomeryshire,5,Con,W,Gwynfor Owen,https://twitter.com/GwynforO,Y
-402,Montgomeryshire,6,Con,W,,,no candidate
-403,Moray,1,SNP,S,,,no candidate
-403,Moray,2,SNP,S,,,no candidate
 403,Moray,3,SNP,S,Sean Morton,https://twitter.com/SeanMortonUK,Y
-403,Moray,4,SNP,S,,,no candidate
-403,Moray,6,SNP,S,,,no candidate
-404,Morecambe & Lunesdale,1,Con,NW,,,no candidate
-404,Morecambe & Lunesdale,2,Con,NW,,,no candidate
 404,Morecambe & Lunesdale,3,Con,NW,Amina Lone,https://twitter.com/Amina_Lone,Y
-404,Morecambe & Lunesdale,4,Con,NW,,,no candidate
-404,Morecambe & Lunesdale,6,Con,NW,,,no candidate
 405,Morley & Outwood,1,Lab,YH,Andrea Jenkyns,https://twitter.com/andreajenkyns,Y
-405,Morley & Outwood,2,Lab,YH,,,no candidate
 405,Morley & Outwood,3,Lab,YH,Ed Balls*,https://twitter.com/edballsmp,Y
-405,Morley & Outwood,4,Lab,YH,,,no candidate
 405,Morley & Outwood,6,Lab,YH,David Dews,,none
-406,Motherwell & Wishaw,1,Lab,S,,,no candidate
-406,Motherwell & Wishaw,2,Lab,S,,,no candidate
 406,Motherwell & Wishaw,3,Lab,S,Frank Roy*,,none
-406,Motherwell & Wishaw,4,Lab,S,,,no candidate
-406,Motherwell & Wishaw,6,Lab,S,,,no candidate
-407,NA H-EILEANAN AN IAR,1,SNP,S,,,no candidate
-407,NA H-EILEANAN AN IAR,2,SNP,S,,,no candidate
-407,NA H-EILEANAN AN IAR,3,SNP,S,,,no candidate
-407,NA H-EILEANAN AN IAR,4,SNP,S,,,no candidate
-407,NA H-EILEANAN AN IAR,6,SNP,S,,,no candidate
-408,Neath,1,Lab,W,,,no candidate
-408,Neath,2,Lab,W,,,no candidate
 408,Neath,3,Lab,W,Christina Rees****,https://twitter.com/Rees4Neath,Y
-408,Neath,4,Lab,W,,,no candidate
 408,Neath,5,Lab,W,Daniel Thomas,https://mobile.twitter.com/DanielPlaid,Y
-408,Neath,6,Lab,W,,,no candidate
-409,New Forest East,1,Con,SE,,,no candidate
-409,New Forest East,2,Con,SE,,,no candidate
 409,New Forest East,3,Con,SE,Andrew Pope,https://twitter.com/CllrPope,Y
-409,New Forest East,4,Con,SE,,,no candidate
-409,New Forest East,6,Con,SE,,,no candidate
-410,New Forest West,1,Con,SE,,,no candidate
-410,New Forest West,2,Con,SE,,,no candidate
 410,New Forest West,3,Con,SE,Lena Samuels,https://twitter.com/lenasamuels,Y
-410,New Forest West,4,Con,SE,,,no candidate
-410,New Forest West,6,Con,SE,,,no candidate
 411,Newark,1,Con,EM,Robert Jenrick*,https://twitter.com/RobertJenrick,Y
-411,Newark,2,Con,EM,,,no candidate
 411,Newark,3,Con,EM,Michael Payne,,none
-411,Newark,4,Con,EM,,,no candidate
 411,Newark,6,Con,EM,Brian Mapletoft,,none
 412,Newbury,1,Con,SE,Richard Benyon*,https://twitter.com/RichardBenyonMP,Y
-412,Newbury,2,Con,SE,,,no candidate
-412,Newbury,3,Con,SE,,,no candidate
 412,Newbury,4,Con,SE,Judith Bunting,https://twitter.com/JudithBuntingLD,Y
 412,Newbury,6,Con,SE,Stephen West,https://twitter.com/vote4stephen,Y
 413,Newcastle-under-Lyme,1,Lab,WM,Tony Cox,https://twitter.com/TCox4Newcastle,Y
-413,Newcastle-under-Lyme,2,Lab,WM,,,no candidate
 413,Newcastle-under-Lyme,3,Lab,WM,Paul Farrelly*,,none
-413,Newcastle-under-Lyme,4,Lab,WM,,,no candidate
-413,Newcastle-under-Lyme,6,Lab,WM,,,no candidate
-414,Newcastle Upon Tyne Central,1,Lab,NE,,,no candidate
-414,Newcastle Upon Tyne Central,2,Lab,NE,,,no candidate
 414,Newcastle Upon Tyne Central,3,Lab,NE,Chi Onwurah*,https://twitter.com/ChiOnwurah,Y
-414,Newcastle Upon Tyne Central,4,Lab,NE,,,no candidate
-414,Newcastle Upon Tyne Central,6,Lab,NE,,,no candidate
-415,Newcastle Upon Tyne East,1,Lab,NE,,,no candidate
-415,Newcastle Upon Tyne East,2,Lab,NE,,,no candidate
 415,Newcastle Upon Tyne East,3,Lab,NE,Nick Brown*,,none
-415,Newcastle Upon Tyne East,4,Lab,NE,,,no candidate
-415,Newcastle Upon Tyne East,6,Lab,NE,,,no candidate
-416,Newcastle upon Tyne North,1,Lab,NE,,,no candidate
-416,Newcastle upon Tyne North,2,Lab,NE,,,no candidate
 416,Newcastle upon Tyne North,3,Lab,NE,Catherine McKinnell*,https://twitter.com/CatMcKinnellMP,Y
-416,Newcastle upon Tyne North,4,Lab,NE,,,no candidate
-416,Newcastle upon Tyne North,6,Lab,NE,,,no candidate
-417,Newport East,1,Lab,W,,,no candidate
-417,Newport East,2,Lab,W,,,no candidate
 417,Newport East,3,Lab,W,Jessica Morden*,https://twitter.com/jessicamordenmp,Y
 417,Newport East,4,Lab,W,Paul Halliday,,none
-417,Newport East,5,Lab,W,,,no candidate
-417,Newport East,6,Lab,W,,,no candidate
 418,Newport West,1,Lab,W,Nick Webb,https://twitter.com/ndwebb,Y
-418,Newport West,2,Lab,W,,,no candidate
 418,Newport West,3,Lab,W,Paul Flynn*,https://twitter.com/PaulFlynnMP,Y
 418,Newport West,4,Lab,W,Ed Townsend,,none
 418,Newport West,5,Lab,W,Simon Coopey,twitter.com/SimonCoopey,Y
-418,Newport West,6,Lab,W,,,no candidate
-419,Newry & Armagh,1,SF,NI,,,no candidate
-419,Newry & Armagh,2,SF,NI,,,no candidate
-419,Newry & Armagh,3,SF,NI,,,no candidate
-419,Newry & Armagh,4,SF,NI,,,no candidate
-419,Newry & Armagh,6,SF,NI,,,no candidate
 420,Newton Abbot,1,Con,SW,Anne Marie Morris*,https://twitter.com/AMMorrisMP,Y
-420,Newton Abbot,2,Con,SW,,,no candidate
-420,Newton Abbot,3,Con,SW,,,no candidate
 420,Newton Abbot,4,Con,SW,Richard Younger-Ross**,https://twitter.com/yrossr,Y
 420,Newton Abbot,6,Con,SW,Rod Peers,,none
 421,Norfolk Mid,1,Con,E,George Freeman*,https://twitter.com/Freeman_George,Y
-421,Norfolk Mid,2,Con,E,,,no candidate
 421,Norfolk Mid,3,Con,E,Harry Clarke,https://twitter.com/horatioharry,Y
-421,Norfolk Mid,4,Con,E,,,no candidate
 421,Norfolk Mid,6,Con,E,Anna Hamilton,https://twitter.com/AHamiltonUKIP,Y
 422,Norfolk North,1,LD,E,Ann Steward,https://twitter.com/CllrAnnSteward,Y
-422,Norfolk North,2,LD,E,,,no candidate
 422,Norfolk North,3,LD,E,Denise Burke,https://twitter.com/thedeniseb,Y
 422,Norfolk North,4,LD,E,Norman Lamb*,https://twitter.com/normanlamb,Y
 422,Norfolk North,6,LD,E,Michael Baker***,,none
 423,Norfolk North West,1,Con,E,Henry Bellingham*,https://twitter.com/NorfolkTories,N
-423,Norfolk North West,2,Con,E,,,no candidate
 423,Norfolk North West,3,Con,E,Joanne Rust,https://twitter.com/JoRust45,Y
-423,Norfolk North West,4,Con,E,,,no candidate
 423,Norfolk North West,6,Con,E,Richard Coke,,none
-424,Norfolk South,1,Con,E,,,no candidate
-424,Norfolk South,2,Con,E,,,no candidate
 424,Norfolk South,3,Con,E,Deborah Sacks,https://twitter.com/deborahsacks,Y
 424,Norfolk South,4,Con,E,Jacky Howe***,,none
 424,Norfolk South,6,Con,E,Barry Cameron,https://twitter.com/bncameron1,Y
 425,Norfolk South West,1,Con,E,Elizabeth Truss*,https://twitter.com/trussliz,Y
-425,Norfolk South West,2,Con,E,,,no candidate
 425,Norfolk South West,3,Con,E,Peter Smith***,https://twitter.com/Socialistsmithy,Y
-425,Norfolk South West,4,Con,E,,,no candidate
 425,Norfolk South West,6,Con,E,Laurence Vaughan-Williams,,none
-426,"Normanton, Pontefract & Castleford",1,Lab,YH,,,no candidate
-426,"Normanton, Pontefract & Castleford",2,Lab,YH,,,no candidate
 426,"Normanton, Pontefract & Castleford",3,Lab,YH,Yvette Cooper*,https://twitter.com/YvetteCooperMP,Y
-426,"Normanton, Pontefract & Castleford",4,Lab,YH,,,no candidate
 426,"Normanton, Pontefract & Castleford",6,Lab,YH,Nathan Garbutt,https://twitter.com/Nathangarbutt,Y
 427,Northampton North,1,Con,EM,Michael Ellis*,https://twitter.com/Michael_Ellis1,Y
-427,Northampton North,2,Con,EM,,,no candidate
 427,Northampton North,3,Con,EM,Sally Keeble**,https://twitter.com/Sally_Keeble,Y
 427,Northampton North,4,Con,EM,Angela Paterson,,none
 427,Northampton North,6,Con,EM,Paul Oakden,,none
 428,Northampton South,1,Con,EM,David Mackintosh****,https://twitter.com/davidmackintosh,Y
-428,Northampton South,2,Con,EM,,,no candidate
 428,Northampton South,3,Con,EM,Kevin McKeever,https://twitter.com/kevinmckeever,Y
 428,Northampton South,4,Con,EM,Sadik Chaudhury,,none
 428,Northampton South,6,Con,EM,Rose Gibbins,,none
 429,Northamptonshire South,1,Con,EM,Andrea Leadsom*,https://twitter.com/andrealeadsom,Y
-429,Northamptonshire South,2,Con,EM,,,no candidate
 429,Northamptonshire South,3,Con,EM,Lucy Mills,https://twitter.com/votelucymills,Y
 429,Northamptonshire South,4,Con,EM,Scott Collins***,https://twitter.com/S_NthantsLibDem,N
-429,Northamptonshire South,6,Con,EM,,,no candidate
 430,Norwich North,1,Con,E,Chloe Smith*,https://twitter.com/ChloeSmithMP,Y
 430,Norwich North,2,Con,E,Adrian Holmes,,none
 430,Norwich North,3,Con,E,Jessica Asato,https://twitter.com/Jessica_Asato,Y
@@ -2184,301 +1060,143 @@ pa_id,constituency,candidate,current holder,region,name,twitter,ispersonal?
 431,Norwich South,4,LD,E,Simon Wright*,https://twitter.com/SimonWrightMP,Y
 431,Norwich South,6,LD,E,Steve Emmens***,,none
 432,Nottingham East,1,Lab,EM,Garry Hickton,https://twitter.com/GarryKHickton,Y
-432,Nottingham East,2,Lab,EM,,,no candidate
 432,Nottingham East,3,Lab,EM,Chris Leslie*,https://twitter.com/ChrisLeslieMP,Y
-432,Nottingham East,4,Lab,EM,,,no candidate
-432,Nottingham East,6,Lab,EM,,,no candidate
 433,Nottingham North,1,Lab,EM,Louise Burfitt-Dons,https://twitter.com/LouiseBurfDons,Y
-433,Nottingham North,2,Lab,EM,,,no candidate
 433,Nottingham North,3,Lab,EM,Graham Allen*,https://twitter.com/GrahamAllenMP,Y
-433,Nottingham North,4,Lab,EM,,,no candidate
-433,Nottingham North,6,Lab,EM,,,no candidate
 434,Nottingham South,1,Lab,EM,Jane Hunt,https://twitter.com/JaneMHunt,Y
-434,Nottingham South,2,Lab,EM,,,no candidate
 434,Nottingham South,3,Lab,EM,Lilian Greenwood*,https://twitter.com/ChrisLeslieMP,Y
-434,Nottingham South,4,Lab,EM,,,no candidate
-434,Nottingham South,6,Lab,EM,,,no candidate
 435,Nuneaton,1,Con,WM,Marcus Jones*,https://twitter.com/MarcusJonesMP,Y
 435,Nuneaton,2,Con,WM,Keith Kondakor,https://twitter.com/greennuneaton,Y
 435,Nuneaton,3,Con,WM,Vicky Fowler,https://twitter.com/Victoria_Fowler,Y
-435,Nuneaton,4,Con,WM,,,no candidate
-435,Nuneaton,6,Con,WM,,,no candidate
-436,Ochil & Perthshire South,1,Lab,S,,,no candidate
-436,Ochil & Perthshire South,2,Lab,S,,,no candidate
 436,Ochil & Perthshire South,3,Lab,S,Gordon Banks*,https://twitter.com/GordonBanksMP,Y
-436,Ochil & Perthshire South,4,Lab,S,,,no candidate
-436,Ochil & Perthshire South,6,Lab,S,,,no candidate
-437,Ogmore,1,Lab,W,,,no candidate
-437,Ogmore,2,Lab,W,,,no candidate
 437,Ogmore,3,Lab,W,Huw Irranca-Davies*,https://twitter.com/IrrancaDaviesMP,Y
-437,Ogmore,4,Lab,W,,,no candidate
 437,Ogmore,5,Lab,W,Tim Thomas,https://twitter.com/TimThomasPlaid,Y
-437,Ogmore,6,Lab,W,,,no candidate
 438,Old Bexley & Sidcup,1,Con,GL,James Brokenshire*,https://twitter.com/JBrokenshire,Y
-438,Old Bexley & Sidcup,2,Con,GL,,,no candidate
 438,Old Bexley & Sidcup,3,Con,GL,Ibby Mehmet,https://twitter.com/IbbyMehmet,Y
-438,Old Bexley & Sidcup,4,Con,GL,,,no candidate
-438,Old Bexley & Sidcup,6,Con,GL,,,no candidate
-439,Oldham East & Saddleworth,1,Lab,NW,,,no candidate
-439,Oldham East & Saddleworth,2,Lab,NW,,,no candidate
 439,Oldham East & Saddleworth,3,Lab,NW,Debbie Abrahams*,https://twitter.com/Debbie_abrahams,Y
 439,Oldham East & Saddleworth,4,Lab,NW,Richard Marbrow,https://twitter.com/richardmarbrow,Y
-439,Oldham East & Saddleworth,6,Lab,NW,,,no candidate
-440,Oldham West & Royton,1,Lab,NW,,,no candidate
-440,Oldham West & Royton,2,Lab,NW,,,no candidate
 440,Oldham West & Royton,3,Lab,NW,Michael Meacher*,https://twitter.com/michaelmeacher,Y
 440,Oldham West & Royton,4,Lab,NW,Garth Harkness,,none
-440,Oldham West & Royton,6,Lab,NW,,,no candidate
-441,Orkney & Shetland,1,LD,S,,,no candidate
-441,Orkney & Shetland,2,LD,S,,,no candidate
-441,Orkney & Shetland,3,LD,S,,,no candidate
 441,Orkney & Shetland,4,LD,S,Alistair Carmichael*,https://twitter.com/acarmichaelmp,Y
-441,Orkney & Shetland,6,LD,S,,,no candidate
 442,Orpington,1,Con,GL,Jo Johnson*,https://twitter.com/JoJohnsonMP,Y
-442,Orpington,2,Con,GL,,,no candidate
 442,Orpington,3,Con,GL,Nigel de Gruchy,https://twitter.com/orpingtonlabour,N
-442,Orpington,4,Con,GL,,,no candidate
 442,Orpington,6,Con,GL,Idham Ramadi,https://twitter.com/idhamramadi,Y
-443,Oxford East,1,Lab,SE,,,no candidate
 443,Oxford East,2,Lab,SE,Ann Duncan,,none
 443,Oxford East,3,Lab,SE,Andrew Smith*,https://twitter.com/OxfordLabourMP,N
 443,Oxford East,4,Lab,SE,Mark Mann,https://twitter.com/mark__mann,Y
 443,Oxford East,6,Lab,SE,Ian Macdonald,https://twitter.com/IanMacdonald91,Y
 444,Oxford West & Abingdon,1,Con,SE,Nicola Blackwood*,https://twitter.com/nicolablackwood,Y
-444,Oxford West & Abingdon,2,Con,SE,,,no candidate
 444,Oxford West & Abingdon,3,Con,SE,Sally Copley,https://twitter.com/SallyCopley,Y
 444,Oxford West & Abingdon,4,Con,SE,Layla Moran,https://twitter.com/laylamoran,Y
 444,Oxford West & Abingdon,6,Con,SE,Alan Harris,https://twitter.com/alharr666,Y
-445,Paisley & Renfrewshire North,1,Lab,S,,,no candidate
-445,Paisley & Renfrewshire North,2,Lab,S,,,no candidate
 445,Paisley & Renfrewshire North,3,Lab,S,Jim Sheridan*,https://twitter.com/JimSheridanMP,Y
-445,Paisley & Renfrewshire North,4,Lab,S,,,no candidate
-445,Paisley & Renfrewshire North,6,Lab,S,,,no candidate
-446,Paisley & Renfrewshire South,1,Lab,S,,,no candidate
-446,Paisley & Renfrewshire South,2,Lab,S,,,no candidate
 446,Paisley & Renfrewshire South,3,Lab,S,Douglas Alexander*,https://twitter.com/DAlexanderMP,Y
-446,Paisley & Renfrewshire South,4,Lab,S,,,no candidate
-446,Paisley & Renfrewshire South,6,Lab,S,,,no candidate
 447,Pendle,1,Con,NW,Andrew Stephenson*,https://twitter.com/Andrew4Pendle,Y
-447,Pendle,2,Con,NW,,,no candidate
 447,Pendle,3,Con,NW,Azhar Ali,https://twitter.com/PendleLabour,N
-447,Pendle,4,Con,NW,,,no candidate
-447,Pendle,6,Con,NW,,,no candidate
-448,Penistone & Stocksbridge,1,Lab,YH,,,no candidate
-448,Penistone & Stocksbridge,2,Lab,YH,,,no candidate
 448,Penistone & Stocksbridge,3,Lab,YH,Angela Smith*,https://twitter.com/angelasmithmp,Y
-448,Penistone & Stocksbridge,4,Lab,YH,,,no candidate
-448,Penistone & Stocksbridge,6,Lab,YH,,,no candidate
-449,Penrith & The Border,1,Con,NW,,,no candidate
-449,Penrith & The Border,2,Con,NW,,,no candidate
 449,Penrith & The Border,3,Con,NW,Lee Rushworth,https://twitter.com/leerushworth1,Y
 449,Penrith & The Border,4,Con,NW,Neil Hughes,,none
-449,Penrith & The Border,6,Con,NW,,,no candidate
-450,PERTH & PERTHSHIRE NORTH,1,SNP,S,,,no candidate
-450,PERTH & PERTHSHIRE NORTH,2,SNP,S,,,no candidate
-450,PERTH & PERTHSHIRE NORTH,3,SNP,S,,,no candidate
-450,PERTH & PERTHSHIRE NORTH,4,SNP,S,,,no candidate
-450,PERTH & PERTHSHIRE NORTH,6,SNP,S,,,no candidate
 451,Peterborough,1,Con,E,Stewart Jackson*,https://twitter.com/SJacksonMP,Y
-451,Peterborough,2,Con,E,,,no candidate
 451,Peterborough,3,Con,E,Lisa Forbes,https://twitter.com/LisaForbes_,Y
-451,Peterborough,4,Con,E,,,no candidate
 451,Peterborough,6,Con,E,Iain McLaughlan,https://twitter.com/FollowYeshua75,Y
 452,Plymouth Moor View,1,Lab,SW,Johnny Mercer,https://twitter.com/johnnymercer81,Y
-452,Plymouth Moor View,2,Lab,SW,,,no candidate
 452,Plymouth Moor View,3,Lab,SW,Alison Seabeck*,https://www.twitter.com/AliSeabeckMP,Y
-452,Plymouth Moor View,4,Lab,SW,,,no candidate
 452,Plymouth Moor View,6,Lab,SW,Penny Mills,,none
 453,Plymouth Sutton & Devonport,1,Con,SW,Oliver Colvile*,https://twitter.com/olivercolvile,Y
-453,Plymouth Sutton & Devonport,2,Con,SW,,,no candidate
 453,Plymouth Sutton & Devonport,3,Con,SW,Luke Pollard,https://twitter.com/LukePollard,Y
-453,Plymouth Sutton & Devonport,4,Con,SW,,,no candidate
 453,Plymouth Sutton & Devonport,6,Con,SW,Roy Kettle,,none
-454,Pontypridd,1,Lab,W,,,no candidate
-454,Pontypridd,2,Lab,W,,,no candidate
 454,Pontypridd,3,Lab,W,Owen Smith*,https://twitter.com/OwenSmithMP,Y
 454,Pontypridd,4,Lab,W,Mike Powell***,https://twitter.com/CllrMikePowell,Y
 454,Pontypridd,5,Lab,W,Osian Lewis,https://twitter.com/osianlewis,Y
-454,Pontypridd,6,Lab,W,,,no candidate
 455,Poole,1,Con,SW,Robert Syms*,https://twitter.com/robertsymsMP,Y
-455,Poole,2,Con,SW,,,no candidate
-455,Poole,3,Con,SW,,,no candidate
 455,Poole,4,Con,SW,Philip Eades***,,none
 455,Poole,6,Con,SW,David Young,,none
-456,Poplar & Limehouse,1,Lab,GL,,,no candidate
 456,Poplar & Limehouse,2,Lab,GL,Maureen Childs,https://twitter.com/maureenchilds2,Y
 456,Poplar & Limehouse,3,Lab,GL,Jim Fitzpatrick*,https://twitter.com/FitzMP,Y
-456,Poplar & Limehouse,4,Lab,GL,,,no candidate
-456,Poplar & Limehouse,6,Lab,GL,,,no candidate
 457,Portsmouth North,1,Con,SE,Penny Mordaunt*,https://twitter.com/PennyMordauntMP,Y
-457,Portsmouth North,2,Con,SE,,,no candidate
 457,Portsmouth North,3,Con,SE,John Ferrett,https://twitter.com/John_Ferrett,Y
 457,Portsmouth North,4,Con,SE,Darren Sanders,,none
 457,Portsmouth North,6,Con,SE,Mike Fitzgerald***,,none
 458,Portsmouth South,1,LD,SE,Flick Drummond***,https://twitter.com/FlickD,Y
-458,Portsmouth South,2,LD,SE,,,no candidate
 458,Portsmouth South,3,LD,SE,Sue Castillon,https://twitter.com/EuroSue,Y
 458,Portsmouth South,4,LD,SE,Gerald Vernon-Jackson****,,none
-458,Portsmouth South,6,LD,SE,,,no candidate
 459,Preseli Pembrokeshire,1,Con,W,Stephen Crabb*,https://twitter.com/SCrabbMP,Y
 459,Preseli Pembrokeshire,2,Con,W,Frances Bryant,,none
 459,Preseli Pembrokeshire,3,Con,W,Paul Miller,https://twitter.com/Paul_Miller268,Y
-459,Preseli Pembrokeshire,4,Con,W,,,no candidate
 459,Preseli Pembrokeshire,5,Con,W,John Osmond,,none
-459,Preseli Pembrokeshire,6,Con,W,,,no candidate
-460,Preston,1,Lab,NW,,,no candidate
-460,Preston,2,Lab,NW,,,no candidate
 460,Preston,3,Lab,NW,Mark Hendrick*,https://twitter.com/MpHendrick,Y
-460,Preston,4,Lab,NW,,,no candidate
-460,Preston,6,Lab,NW,,,no candidate
 461,Pudsey,1,Con,YH,Stuart Andrew*,https://twitter.com/StuartAndrewMP,Y
-461,Pudsey,2,Con,YH,,,no candidate
 461,Pudsey,3,Con,YH,Jamie Hanley***,https://twitter.com/jamiehanley,Y
-461,Pudsey,4,Con,YH,,,no candidate
-461,Pudsey,6,Con,YH,,,no candidate
-462,Putney,1,Con,GL,,,no candidate
 462,Putney,2,Con,GL,Richard Carter,https://twitter.com/Putney_Carter,Y
 462,Putney,3,Con,GL,Sheila Boswell,https://twitter.com/sheilaboswell,Y
-462,Putney,4,Con,GL,,,no candidate
-462,Putney,6,Con,GL,,,no candidate
-463,Rayleigh & Wickford,1,Con,E,,,no candidate
-463,Rayleigh & Wickford,2,Con,E,,,no candidate
 463,Rayleigh & Wickford,3,Con,E,David Hough,https://twitter.com/Colchester1648,Y
-463,Rayleigh & Wickford,4,Con,E,,,no candidate
-463,Rayleigh & Wickford,6,Con,E,,,no candidate
 464,Reading East,1,Con,SE,Rob Wilson*,https://twitter.com/RobWilson_RDG,Y
 464,Reading East,2,Con,SE,Rob White***,https://twitter.com/cllrrobwhite,Y
 464,Reading East,3,Con,SE,Matt Rodda,https://twitter.com/MattRodda,Y
 464,Reading East,4,Con,SE,Jenny Woods,,none
 464,Reading East,6,Con,SE,Peter Mason-Apps,,none
-465,Reading West,1,Con,SE,,,no candidate
 465,Reading West,2,Con,SE,Miriam Kennet,,none
 465,Reading West,3,Con,SE,Victoria Groulef,https://twitter.com/VictoriaGroulef,Y
 465,Reading West,4,Con,SE,Meri O'Connell,,none
 465,Reading West,6,Con,SE,Malik Azam,,none
-466,Redcar,1,LD,NE,,,no candidate
-466,Redcar,2,LD,NE,,,no candidate
 466,Redcar,3,LD,NE,Anna Turley,https://twitter.com/annaturley,Y
 466,Redcar,4,LD,NE,Josh Mason****,https://twitter.com/iswales,Y
 466,Redcar,6,LD,NE,Chris Gallacher,,none
 467,Redditch,1,Con,WM,Karen Lumley*,,none
-467,Redditch,2,Con,WM,,,no candidate
 467,Redditch,3,Con,WM,Rebecca Blake,https://twitter.com/RebeccaBlake31,Y
-467,Redditch,4,Con,WM,,,no candidate
 467,Redditch,6,Con,WM,Peter Jewell,,none
 468,Reigate,1,Con,SE,Crispin Blunt*,https://twitter.com/crispinbluntmp,Y
-468,Reigate,2,Con,SE,,,no candidate
-468,Reigate,3,Con,SE,,,no candidate
-468,Reigate,4,Con,SE,,,no candidate
 468,Reigate,6,Con,SE,Joe Fox***,https://twitter.com/UKIPSurrey,N
-469,Renfrewshire East,1,Lab,S,,,no candidate
-469,Renfrewshire East,2,Lab,S,,,no candidate
 469,Renfrewshire East,3,Lab,S,Jim Murphy*,https://twitter.com/jimmurphymp,Y
-469,Renfrewshire East,4,Lab,S,,,no candidate
-469,Renfrewshire East,6,Lab,S,,,no candidate
-470,Rhondda,1,Lab,W,,,no candidate
-470,Rhondda,2,Lab,W,,,no candidate
 470,Rhondda,3,Lab,W,Chris Bryant*,https://twitter.com/ChrisBryantMP,Y
-470,Rhondda,4,Lab,W,,,no candidate
 470,Rhondda,5,Lab,W,Shelley Rees-Owen,https://twitter.com/shelleyreesowen,Y
-470,Rhondda,6,Lab,W,,,no candidate
 471,Ribble Valley,1,Con,NW,Nigel Evans*,,none
-471,Ribble Valley,2,Con,NW,,,no candidate
-471,Ribble Valley,3,Con,NW,,,no candidate
 471,Ribble Valley,4,Con,NW,Jackie Pearcey,https://twitter.com/jackiepearcey,Y
-471,Ribble Valley,6,Con,NW,,,no candidate
 472,Richmond (YORKS),1,Con,YH,Rishi Sunak****,,none
-472,Richmond (YORKS),2,Con,YH,,,no candidate
-472,Richmond (YORKS),3,Con,YH,,,no candidate
 472,Richmond (YORKS),4,Con,YH,Chris Foote-Wood,,none
-472,Richmond (YORKS),6,Con,YH,,,no candidate
 473,Richmond Park,1,Con,GL,Zac Goldsmith*,https://twitter.com/ZacGoldsmith,Y
 473,Richmond Park,2,Con,GL,Andrée Frieze,https://twitter.com/andree_frieze,Y
 473,Richmond Park,3,Con,GL,Sachin Patel,https://twitter.com/SachinPatel_87,Y
 473,Richmond Park,4,Con,GL,Robin Meltzer,https://twitter.com/robinmeltzer,Y
-473,Richmond Park,6,Con,GL,,,no candidate
-474,Rochdale,1,Lab,NW,,,no candidate
-474,Rochdale,2,Lab,NW,,,no candidate
 474,Rochdale,3,Lab,NW,Simon Danczuk*,https://twitter.com/SimonDanczuk,Y
 474,Rochdale,4,Lab,NW,Andy Kelly,,none
-474,Rochdale,6,Lab,NW,,,no candidate
-475,Rochester & Strood,1,Con,SE,[New candidate to be selected],,none
 475,Rochester & Strood,2,Con,SE,Clive Gregory,https://twitter.com/clivebassman,Y
 475,Rochester & Strood,3,Con,SE,Naushabah Khan,https://twitter.com/naushabahkhan,Y
-475,Rochester & Strood,4,Con,SE,,,no candidate
-475,Rochester & Strood,6,Con,SE,,,no candidate
 476,Rochford & Southend East,1,Con,E,James Duddridge*,https://twitter.com/JamesDuddridge,Y
-476,Rochford & Southend East,2,Con,E,,,no candidate
 476,Rochford & Southend East,3,Con,E,Ian Gilbert,https://twitter.com/CllrIanGilbert,Y
-476,Rochford & Southend East,4,Con,E,,,no candidate
 476,Rochford & Southend East,6,Con,E,Floyd Waterworth,,none
 477,Romford,1,Con,GL,Andrew Rosindell*,https://twitter.com/AndrewRosindell,Y
-477,Romford,2,Con,GL,,,no candidate
 477,Romford,3,Con,GL,Sam Gould,https://twitter.com/samgould91,Y
-477,Romford,4,Con,GL,,,no candidate
 477,Romford,6,Con,GL,Gerald Batten,https://twitter.com/GerardBattenMEP,Y
 478,Romsey & Southampton North,1,Con,SE,Caroline Nokes*,https://twitter.com/carolinenokes,Y
-478,Romsey & Southampton North,2,Con,SE,,,no candidate
 478,Romsey & Southampton North,3,Con,SE,Darren Paffey,https://twitter.com/darrenpaffey,Y
 478,Romsey & Southampton North,4,Con,SE,Ben Nicholls,https://twitter.com/bnichollsuk,Y
 478,Romsey & Southampton North,6,Con,SE,Sandra James,,none
 479,"Ross, Skye & Lochaber",1,LD,S,Lindsay McCallum,https://twitter.com/mcc_linds,Y
-479,"Ross, Skye & Lochaber",2,LD,S,,,no candidate
-479,"Ross, Skye & Lochaber",3,LD,S,,,no candidate
 479,"Ross, Skye & Lochaber",4,LD,S,Charles Kennedy*,https://twitter.com/charles_kennedy,Y
-479,"Ross, Skye & Lochaber",6,LD,S,,,no candidate
 480,Rossendale & Darwen,1,Con,NW,Jake Berry*,https://twitter.com/JakeBerryMP,Y
-480,Rossendale & Darwen,2,Con,NW,,,no candidate
 480,Rossendale & Darwen,3,Con,NW,Will Straw,https://twitter.com/wdjstraw,Y
-480,Rossendale & Darwen,4,Con,NW,,,no candidate
-480,Rossendale & Darwen,6,Con,NW,,,no candidate
-481,Rother Valley,1,Lab,YH,,,no candidate
-481,Rother Valley,2,Lab,YH,,,no candidate
 481,Rother Valley,3,Lab,YH,Kevin Barron*,,none
-481,Rother Valley,4,Lab,YH,,,no candidate
 481,Rother Valley,6,Lab,YH,Allen Cowles,,none
-482,Rotherham,1,Lab,YH,,,no candidate
-482,Rotherham,2,Lab,YH,,,no candidate
 482,Rotherham,3,Lab,YH,Sarah Champion*,https://twitter.com/SarahChampionMP,Y
-482,Rotherham,4,Lab,YH,,,no candidate
 482,Rotherham,6,Lab,YH,Jane Collins,,none
 483,Rugby,1,Con,WM,Mark Pawsey*,https://twitter.com/MarkPawsey,Y
 483,Rugby,2,Con,WM,Terry White,,none
 483,Rugby,3,Con,WM,Claire Edwards,https://twitter.com/claire4rugby,Y
-483,Rugby,4,Con,WM,,,no candidate
-483,Rugby,6,Con,WM,,,no candidate
-484,"Ruislip, Northwood & Pinner",1,Con,GL,,,no candidate
-484,"Ruislip, Northwood & Pinner",2,Con,GL,,,no candidate
 484,"Ruislip, Northwood & Pinner",3,Con,GL,Michael Borio,https://twitter.com/MichaelBorio,Y
-484,"Ruislip, Northwood & Pinner",4,Con,GL,,,no candidate
-484,"Ruislip, Northwood & Pinner",6,Con,GL,,,no candidate
-485,Runnymede & Weybridge,1,Con,SE,,,no candidate
-485,Runnymede & Weybridge,2,Con,SE,,,no candidate
 485,Runnymede & Weybridge,3,Con,SE,Arran Neathey,https://twitter.com/Aneathey,Y
-485,Runnymede & Weybridge,4,Con,SE,,,no candidate
 485,Runnymede & Weybridge,6,Con,SE,Redvers Cunningham,https://mobile.twitter.com/LongDittonRed,Y
 486,Rushcliffe,1,Con,EM,Ken Clarke*,,none
-486,Rushcliffe,2,Con,EM,,,no candidate
 486,Rushcliffe,3,Con,EM,David Mellen,https://twitter.com/CllrDavidMellen,Y
-486,Rushcliffe,4,Con,EM,,,no candidate
-486,Rushcliffe,6,Con,EM,,,no candidate
 487,Rutherglen & Hamilton West,1,Lab,S,Taylor Muir,,none
-487,Rutherglen & Hamilton West,2,Lab,S,,,no candidate
 487,Rutherglen & Hamilton West,3,Lab,S,Tom Greatrex*,https://twitter.com/tomgreatrexmp,Y
-487,Rutherglen & Hamilton West,4,Lab,S,,,no candidate
-487,Rutherglen & Hamilton West,6,Lab,S,,,no candidate
 488,Rutland & Melton,1,Con,EM,Alan Duncan*,https://twitter.com/AlanDuncanMP,Y
-488,Rutland & Melton,2,Con,EM,,,no candidate
 488,Rutland & Melton,3,Con,EM,James Moore,,none
-488,Rutland & Melton,4,Con,EM,,,no candidate
 488,Rutland & Melton,6,Con,EM,Richard Billington,,none
 489,Saffron Walden,1,Con,E,Alan Haselhurst*,,none
-489,Saffron Walden,2,Con,E,,,no candidate
 489,Saffron Walden,3,Con,E,Jane Berney,https://twitter.com/JBerney,Y
 489,Saffron Walden,4,Con,E,Mike Hibbs,https://twitter.com/Mike4Walden,Y
-489,Saffron Walden,6,Con,E,,,no candidate
 490,St Albans,1,Con,E,Anne Main*,,none
-490,St Albans,2,Con,E,,,no candidate
 490,St Albans,3,Con,E,Kerry Pollard**,https://twitter.com/KerryPollard_,Y
 490,St Albans,4,Con,E,Sandy Walkington***,https://twitter.com/sandywalkington,Y
 490,St Albans,6,Con,E,Chris Wright,https://twitter.com/ChrisWrightUKIP,Y
@@ -2486,106 +1204,51 @@ pa_id,constituency,candidate,current holder,region,name,twitter,ispersonal?
 491,St Austell & Newquay,2,LD,SW,Steve Slade,https://twitter.com/SteveSladeCWall,Y
 491,St Austell & Newquay,3,LD,SW,Deborah Hopkins,https://twitter.com/rugbymumno9,Y
 491,St Austell & Newquay,4,LD,SW,Stephen Gilbert*,,none
-491,St Austell & Newquay,6,LD,SW,,,no candidate
-492,St Helens North,1,Lab,NW,,,no candidate
-492,St Helens North,2,Lab,NW,,,no candidate
 492,St Helens North,3,Lab,NW,Dave Watts*,,none
-492,St Helens North,4,Lab,NW,,,no candidate
-492,St Helens North,6,Lab,NW,,,no candidate
-493,St Helens South & Whiston,1,Lab,NW,,,no candidate
-493,St Helens South & Whiston,2,Lab,NW,,,no candidate
 493,St Helens South & Whiston,3,Lab,NW,Marie Rimmer****,https://twitter.com/marieerimmer,Y
-493,St Helens South & Whiston,4,Lab,NW,,,no candidate
-493,St Helens South & Whiston,6,Lab,NW,,,no candidate
 494,St Ives,1,LD,SW,Derek Thomas***,https://twitter.com/DT4Stives,Y
 494,St Ives,2,LD,SW,Tim Andrewes***,https://twitter.com/AndrewesTim,Y
 494,St Ives,3,LD,SW,Cornelius Olivier,https://twitter.com/CornyOlivier,Y
 494,St Ives,4,LD,SW,Andrew George*,https://twitter.com/AndrewGeorgeLD,Y
-494,St Ives,6,LD,SW,,,no candidate
-495,Salford & Eccles,1,Lab,NW,,,no candidate
-495,Salford & Eccles,2,Lab,NW,,,no candidate
 495,Salford & Eccles,3,Lab,NW,Rebecca Long-Bailey****,https://twitter.com/RLong_Bailey,Y
-495,Salford & Eccles,4,Lab,NW,,,no candidate
-495,Salford & Eccles,6,Lab,NW,,,no candidate
-496,Salisbury,1,Con,SW,,,no candidate
 496,Salisbury,2,Con,SW,Alison Craig,,none
 496,Salisbury,3,Con,SW,Thomas Corbin,https://twitter.com/1tomcorbin,Y
 496,Salisbury,4,Con,SW,Reetendranath Banerji,https://twitter.com/salisburylibdem,N
 496,Salisbury,6,Con,SW,Paul Martin,,none
-497,Scarborough & Whitby,1,Con,YH,,,no candidate
-497,Scarborough & Whitby,2,Con,YH,,,no candidate
 497,Scarborough & Whitby,3,Con,YH,Ian McInnes,https://twitter.com/Ian1Mcinnes,Y
-497,Scarborough & Whitby,4,Con,YH,,,no candidate
-497,Scarborough & Whitby,6,Con,YH,,,no candidate
-498,Scunthorpe,1,Lab,YH,,,no candidate
 498,Scunthorpe,2,Lab,YH,Martin Dwyer,,none
 498,Scunthorpe,3,Lab,YH,Nic Dakin*,https://twitter.com/NicDakinMP,Y
-498,Scunthorpe,4,Lab,YH,,,no candidate
-498,Scunthorpe,6,Lab,YH,,,no candidate
-499,Sedgefield,1,Lab,NE,,,no candidate
-499,Sedgefield,2,Lab,NE,,,no candidate
 499,Sedgefield,3,Lab,NE,Phil Wilson*,https://twitter.com/PhilWilsonMP,Y
-499,Sedgefield,4,Lab,NE,,,no candidate
-499,Sedgefield,6,Lab,NE,,,no candidate
-500,Sefton Central,1,Lab,NW,,,no candidate
-500,Sefton Central,2,Lab,NW,,,no candidate
 500,Sefton Central,3,Lab,NW,Bill Esterson*,https://twitter.com/BillEstersonMP,Y
-500,Sefton Central,4,Lab,NW,,,no candidate
-500,Sefton Central,6,Lab,NW,,,no candidate
-501,Selby & Ainsty,1,Con,YH,,,no candidate
-501,Selby & Ainsty,2,Con,YH,,,no candidate
 501,Selby & Ainsty,3,Con,YH,Mark Hayes,https://twitter.com/drmarkhayes2015,Y
-501,Selby & Ainsty,4,Con,YH,,,no candidate
-501,Selby & Ainsty,6,Con,YH,,,no candidate
 502,Sevenoaks,1,Con,SE,Michael Fallon*,,none
 502,Sevenoaks,2,Con,SE,Amelie Boleyn,,none
 502,Sevenoaks,3,Con,SE,Chris Clark,https://twitter.com/chrisclarkcpfc,Y
 502,Sevenoaks,4,Con,SE,Alan Bullion***,https://twitter.com/AlanBullion,Y
 502,Sevenoaks,6,Con,SE,Steve Lindsay,,none
-503,Sheffield Brightside & Hillsborough,1,Lab,YH,,,no candidate
-503,Sheffield Brightside & Hillsborough,2,Lab,YH,,,no candidate
 503,Sheffield Brightside & Hillsborough,3,Lab,YH,Harry Harpham****,https://twitter.com/sheffharry,Y
 503,Sheffield Brightside & Hillsborough,4,Lab,YH,Jonathan Harston***,,none
-503,Sheffield Brightside & Hillsborough,6,Lab,YH,,,no candidate
-504,Sheffield Central,1,Lab,YH,,,no candidate
 504,Sheffield Central,2,Lab,YH,Jillian Creasy***,https://twitter.com/GreenJillian,Y
 504,Sheffield Central,3,Lab,YH,Paul Blomfield*,https://twitter.com/PaulBlomfieldMP,Y
 504,Sheffield Central,4,Lab,YH,Joe Otten,,none
-504,Sheffield Central,6,Lab,YH,,,no candidate
-505,Sheffield Hallam,1,LD,YH,,,no candidate
 505,Sheffield Hallam,2,LD,YH,Peter Garbutt,https://twitter.com/PeterGarbutt,Y
 505,Sheffield Hallam,3,LD,YH,Oliver Coppard,https://twitter.com/olivercoppard,Y
 505,Sheffield Hallam,4,LD,YH,Nick Clegg*,https://twitter.com/nick_clegg,Y
-505,Sheffield Hallam,6,LD,YH,,,no candidate
-506,Sheffield Heeley,1,Lab,YH,,,no candidate
 506,Sheffield Heeley,2,Lab,YH,Rita Wilcox,,none
 506,Sheffield Heeley,3,Lab,YH,Louise Haigh****,https://twitter.com/LouHaigh,Y
 506,Sheffield Heeley,4,Lab,YH,Simon Clement-Jones***,https://twitter.com/SheffLibDems,N
-506,Sheffield Heeley,6,Lab,YH,,,no candidate
-507,Sheffield South East,1,Lab,YH,,,no candidate
-507,Sheffield South East,2,Lab,YH,,,no candidate
 507,Sheffield South East,3,Lab,YH,Clive Betts*,https://twitter.com/CliveBettsMP,Y
 507,Sheffield South East,4,Lab,YH,Gail Smith***,,none
-507,Sheffield South East,6,Lab,YH,,,no candidate
 508,Sherwood,1,Con,EM,Mark Spencer*,,none
-508,Sherwood,2,Con,EM,,,no candidate
 508,Sherwood,3,Con,EM,Leonie Mathers,https://twitter.com/leoniemathers,Y
-508,Sherwood,4,Con,EM,,,no candidate
 508,Sherwood,6,Con,EM,Simon Ashcroft,,none
 509,Shipley,1,Con,YH,Philip Davies*,https://twitter.com/PhilipDaviesMP,Y
 509,Shipley,2,Con,YH,Kevin Warnes,https://twitter.com/kevinwarnes,Y
 509,Shipley,3,Con,YH,Steve Clapcote,https://twitter.com/SteveClapcote,Y
-509,Shipley,4,Con,YH,,,no candidate
-509,Shipley,6,Con,YH,,,no candidate
-510,Shrewsbury & Atcham,1,Con,WM,,,no candidate
-510,Shrewsbury & Atcham,2,Con,WM,,,no candidate
 510,Shrewsbury & Atcham,3,Con,WM,Laura Davies,https://twitter.com/turnbull2015,Y
 510,Shrewsbury & Atcham,4,Con,WM,Christine Tinker,https://twitter.com/C_Tinker_LibDem,Y
 510,Shrewsbury & Atcham,6,Con,WM,Suzanne Evans,,none
-511,Shropshire North,1,Con,WM,,,no candidate
-511,Shropshire North,2,Con,WM,,,no candidate
 511,Shropshire North,3,Con,WM,Graeme Currie,https://twitter.com/edengraeme,Y
-511,Shropshire North,4,Con,WM,,,no candidate
 511,Shropshire North,6,Con,WM,Andrea Allen,,none
 512,Sittingbourne & Sheppey,1,Con,SE,Gordon Henderson*,https://twitter.com/SSConservatives,N
 512,Sittingbourne & Sheppey,2,Con,SE,Gary Miller,https://twitter.com/GaryMillerGP,Y
@@ -2593,157 +1256,79 @@ pa_id,constituency,candidate,current holder,region,name,twitter,ispersonal?
 512,Sittingbourne & Sheppey,4,Con,SE,Keith Nevols***,,none
 512,Sittingbourne & Sheppey,6,Con,SE,Richard Palmer,https://twitter.com/UKIPSwale,N
 513,Skipton & Ripon,1,Con,YH,Julian Smith*,https://twitter.com/JulianSmithMP,Y
-513,Skipton & Ripon,2,Con,YH,,,no candidate
-513,Skipton & Ripon,3,Con,YH,,,no candidate
-513,Skipton & Ripon,4,Con,YH,,,no candidate
-513,Skipton & Ripon,6,Con,YH,,,no candidate
-514,SLEAFORD & NORTH HYKEHAM,1,Con,EM,,,no candidate
-514,SLEAFORD & NORTH HYKEHAM,2,Con,EM,,,no candidate
 514,Sleaford & North Hykeham,3,Con,EM,Jason Pandya-Wood,https://twitter.com/jasonforlabour,Y
-514,SLEAFORD & NORTH HYKEHAM,4,Con,EM,,,no candidate
-514,SLEAFORD & NORTH HYKEHAM,6,Con,EM,,,no candidate
-515,Slough,1,Lab,SE,,,no candidate
-515,Slough,2,Lab,SE,,,no candidate
 515,Slough,3,Lab,SE,Fiona Mactaggart*,https://twitter.com/fionamacmp,Y
-515,Slough,4,Lab,SE,,,no candidate
 515,Slough,6,Lab,SE,Ken Wight,,none
 516,Solihull,1,LD,WM,Julian Knight,https://twitter.com/julianknight15,Y
 516,Solihull,2,LD,WM,Howard Allen,https://twitter.com/CllrHowardAllen,Y
 516,Solihull,3,LD,WM,Nigel Knowles,,none
 516,Solihull,4,LD,WM,Lorely Burt*,https://twitter.com/LorelyBurt,Y
 516,Solihull,6,LD,WM,Phil Henrick,,none
-517,Somerset North,1,Con,SW,,,no candidate
-517,Somerset North,2,Con,SW,,,no candidate
 517,Somerset North,3,Con,SW,Greg Chambers,https://twitter.com/NSLabour,N
-517,Somerset North,4,Con,SW,,,no candidate
 517,Somerset North,6,Con,SW,Ian Kealey,,none
 518,Somerset North East,1,Con,SW,Jacob Rees-Mogg*,,none
 518,Somerset North East,2,Con,SW,Gordon Ingram,https://twitter.com/gordoning,Y
 518,Somerset North East,3,Con,SW,Todd Foreman,https://twitter.com/ToddDForeman,Y
 518,Somerset North East,4,Con,SW,Wera Hobhouse,,none
-518,Somerset North East,6,Con,SW,,,no candidate
 519,Somerton & Frome,1,LD,SW,David Warburton,https://twitter.com/DJWarburton,Y
 519,Somerton & Frome,2,LD,SW,Theo Simon,https://twitter.com/FromeCandidate,Y
 519,Somerton & Frome,3,LD,SW,David Oakensen***,https://twitter.com/FromeLabour,N
 519,Somerton & Frome,4,LD,SW,David Rendel,https://twitter.com/srhyong,Y
 519,Somerton & Frome,6,LD,SW,Roger Clark,,none
-520,SOUTH HOLLAND & THE DEEPINGS,1,Con,EM,,,no candidate
-520,SOUTH HOLLAND & THE DEEPINGS,2,Con,EM,,,no candidate
-520,SOUTH HOLLAND & THE DEEPINGS,3,Con,EM,,,no candidate
-520,SOUTH HOLLAND & THE DEEPINGS,4,Con,EM,,,no candidate
-520,SOUTH HOLLAND & THE DEEPINGS,6,Con,EM,,,no candidate
 521,South Ribble,1,Con,NW,Seema Kennedy****,https://twitter.com/SeemaKennedy,Y
-521,South Ribble,2,Con,NW,,,no candidate
 521,South Ribble,3,Con,NW,Veronica Bennett,https://twitter.com/V_L_Bennett,Y
 521,South Ribble,4,Con,NW,Sue McGuire,,none
-521,South Ribble,6,Con,NW,,,no candidate
-522,South Shields,1,Lab,NE,,,no candidate
 522,South Shields,2,Lab,NE,Shirley Ford***,https://twitter.com/ShirleyFord15,Y
 522,South Shields,3,Lab,NE,Emma Lewell-Buck*,https://twitter.com/EmmaLewellBuck,Y
-522,South Shields,4,Lab,NE,,,no candidate
-522,South Shields,6,Lab,NE,,,no candidate
 523,Southampton Itchen,1,Lab,SE,Royston Smith***,https://twitter.com/Royston_Smith,Y
-523,Southampton Itchen,2,Lab,SE,,,no candidate
 523,Southampton Itchen,3,Lab,SE,Rowenna Davis****,https://twitter.com/RowennaDavis,Y
-523,Southampton Itchen,4,Lab,SE,,,no candidate
 523,Southampton Itchen,6,Lab,SE,Kim Rose,,none
 524,Southampton Test,1,Lab,SE,Jeremy Moulton***,https://twitter.com/Cllr_JMoulton,Y
 524,Southampton Test,2,Lab,SE,Angela Mawle,https://twitter.com/AngelaMawle,Y
 524,Southampton Test,3,Lab,SE,Alan Whitehead*,https://twitter.com/alanwhiteheadmp,Y
-524,Southampton Test,4,Lab,SE,,,no candidate
 524,Southampton Test,6,Lab,SE,Pearline Hingston***,,none
 525,Southend West,1,Con,E,David Amess*,https://twitter.com/DavidAmessMP,Y
-525,Southend West,2,Con,E,,,no candidate
 525,Southend West,3,Con,E,Julian Ware-Lane,https://twitter.com/warelane,Y
-525,Southend West,4,Con,E,,,no candidate
-525,Southend West,6,Con,E,,,no candidate
 526,Southport,1,LD,NW,Damien Moore,https://twitter.com/SouthportTories,N
-526,Southport,2,LD,NW,,,no candidate
 526,Southport,3,LD,NW,Liz Savage,https://twitter.com/LizSavagelabour,Y
 526,Southport,4,LD,NW,John Pugh*,,none
 526,Southport,6,LD,NW,Terry Durrance***,,none
-527,Spelthorne,1,Con,SE,,,no candidate
-527,Spelthorne,2,Con,SE,,,no candidate
-527,Spelthorne,3,Con,SE,,,no candidate
 527,Spelthorne,4,Con,SE,Rosie Shimell,,none
 527,Spelthorne,6,Con,SE,Daniel Jenkins,https://mobile.twitter.com/UKIPSurrey,N
 528,Stafford,1,Con,WM,Jeremy Lefroy*,https://twitter.com/JeremyLefroyMP,Y
-528,Stafford,2,Con,WM,,,no candidate
 528,Stafford,3,Con,WM,Kate Godfrey,https://twitter.com/KateVotesLabour,Y
-528,Stafford,4,Con,WM,,,no candidate
-528,Stafford,6,Con,WM,,,no candidate
 529,Staffordshire Moorlands,1,Con,WM,Karen Bradley*,https://twitter.com/karen__bradley,Y
-529,Staffordshire Moorlands,2,Con,WM,,,no candidate
 529,Staffordshire Moorlands,3,Con,WM,Trudie McGuinness,https://twitter.com/trudiemc,Y
-529,Staffordshire Moorlands,4,Con,WM,,,no candidate
 529,Staffordshire Moorlands,6,Con,WM,George Langley-Poole,,none
 530,Staffordshire South,1,Con,WM,Gavin Williamson*,https://twitter.com/GWilliamsonMP,Y
-530,Staffordshire South,2,Con,WM,,,no candidate
 530,Staffordshire South,3,Con,WM,Kevin McElduff***,,none
-530,Staffordshire South,4,Con,WM,,,no candidate
 530,Staffordshire South,6,Con,WM,Lyndon Jones,,none
-531,Stalybridge & Hyde,1,Lab,NW,,,no candidate
-531,Stalybridge & Hyde,2,Lab,NW,,,no candidate
 531,Stalybridge & Hyde,3,Lab,NW,Jonathan Reynolds*,https://twitter.com/jreynoldsMP,Y
-531,Stalybridge & Hyde,4,Lab,NW,,,no candidate
-531,Stalybridge & Hyde,6,Lab,NW,,,no candidate
 532,Stevenage,1,Con,E,Stephen McPartland*,https://twitter.com/SMcPartlandMP,Y
-532,Stevenage,2,Con,E,,,no candidate
 532,Stevenage,3,Con,E,Sharon Taylor***,https://twitter.com/SharonStevenage,Y
-532,Stevenage,4,Con,E,,,no candidate
 532,Stevenage,6,Con,E,Christopher Vickers,,none
-533,Stirling,1,Lab,S,,,no candidate
-533,Stirling,2,Lab,S,,,no candidate
 533,Stirling,3,Lab,S,Johanna Boyd****,https://twitter.com/BoydJohanna1,Y
-533,Stirling,4,Lab,S,,,no candidate
-533,Stirling,6,Lab,S,,,no candidate
-534,Stockport,1,Lab,NW,,,no candidate
-534,Stockport,2,Lab,NW,,,no candidate
 534,Stockport,3,Lab,NW,Ann Coffey*,https://twitter.com/anncoffey_mp,Y
 534,Stockport,4,Lab,NW,Daniel Hawthorne,https://twitter.com/danhaw426,Y
 534,Stockport,6,Lab,NW,Steven Woolfe,https://twitter.com/Steven_Woolfe,Y
-535,Stockton North,1,Lab,NE,,,no candidate
-535,Stockton North,2,Lab,NE,,,no candidate
 535,Stockton North,3,Lab,NE,Alex Cunningham*,https://twitter.com/ACunninghamMP,Y
-535,Stockton North,4,Lab,NE,,,no candidate
 535,Stockton North,6,Lab,NE,Mandy Boylett,https://twitter.com/DressBagShoes,Y
 536,Stockton South,1,Con,NE,James Wharton*,https://twitter.com/jameswhartonmp,Y
-536,Stockton South,2,Con,NE,,,no candidate
 536,Stockton South,3,Con,NE,Louise Baldock,https://twitter.com/LouiseBaldock,Y
-536,Stockton South,4,Con,NE,,,no candidate
 536,Stockton South,6,Con,NE,Ted Strike,,none
 537,Stoke-on-Trent Central,1,Lab,WM,Liam Ascough,,none
 537,Stoke-on-Trent Central,2,Lab,WM,Jan Zablocki,,none
 537,Stoke-on-Trent Central,3,Lab,WM,Tristram Hunt*,https://twitter.com/TristramHuntMP,Y
-537,Stoke-on-Trent Central,4,Lab,WM,,,no candidate
 537,Stoke-on-Trent Central,6,Lab,WM,Mick Harold,https://twitter.com/UKIPSTOKE,N
 538,Stoke-on-Trent North,1,Lab,WM,Ben Adams,https://twitter.com/benpolitics,Y
-538,Stoke-on-Trent North,2,Lab,WM,,,no candidate
 538,Stoke-on-Trent North,3,Lab,WM,Ruth Smeeth****,https://twitter.com/RuthSmeeth,Y
-538,Stoke-on-Trent North,4,Lab,WM,,,no candidate
-538,Stoke-on-Trent North,6,Lab,WM,,,no candidate
 539,Stoke-on-Trent South,1,Lab,WM,Joe Rich,https://twitter.com/joerichlaw,Y
-539,Stoke-on-Trent South,2,Lab,WM,,,no candidate
 539,Stoke-on-Trent South,3,Lab,WM,Robert Flello*,https://twitter.com/RobFlelloMP,Y
-539,Stoke-on-Trent South,4,Lab,WM,,,no candidate
-539,Stoke-on-Trent South,6,Lab,WM,,,no candidate
-540,Stone,1,Con,WM,,,no candidate
-540,Stone,2,Con,WM,,,no candidate
 540,Stone,3,Con,WM,Sam Hale,https://twitter.com/samhale123,Y
-540,Stone,4,Con,WM,,,no candidate
-540,Stone,6,Con,WM,,,no candidate
 541,Stourbridge,1,Con,WM,Margot James*,https://twitter.com/margotjamesmp,Y
-541,Stourbridge,2,Con,WM,,,no candidate
 541,Stourbridge,3,Con,WM,Pete Lowe,https://twitter.com/CllrPete,Y
-541,Stourbridge,4,Con,WM,,,no candidate
 541,Stourbridge,6,Con,WM,Jim Carver,,none
-542,STRANGFORD,1,DUP,NI,,,no candidate
-542,STRANGFORD,2,DUP,NI,,,no candidate
-542,STRANGFORD,3,DUP,NI,,,no candidate
-542,STRANGFORD,4,DUP,NI,,,no candidate
-542,STRANGFORD,6,DUP,NI,,,no candidate
 543,Stratford-on-Avon,1,Con,WM,Nadhim Zahawi*,https://twitter.com/nadhimzahawi,Y
-543,Stratford-on-Avon,2,Con,WM,,,no candidate
 543,Stratford-on-Avon,3,Con,WM,Jeff Kenner,https://twitter.com/JeffKenner1,Y
 543,Stratford-on-Avon,4,Con,WM,Elizabeth Adams,https://twitter.com/Liz4Stratford,Y
 543,Stratford-on-Avon,6,Con,WM,Edward Fila,,none
@@ -2751,61 +1336,37 @@ pa_id,constituency,candidate,current holder,region,name,twitter,ispersonal?
 544,Streatham,2,Lab,GL,Jonathan Bartley,https://twitter.com/jon_bartley,Y
 544,Streatham,3,Lab,GL,Chuka Umunna*,https://twitter.com/ChukaUmunna,Y
 544,Streatham,4,Lab,GL,Amna Ahmed,https://twitter.com/amnajahmad,Y
-544,Streatham,6,Lab,GL,,,no candidate
-545,Stretford & Urmston,1,Lab,NW,,,no candidate
-545,Stretford & Urmston,2,Lab,NW,,,no candidate
 545,Stretford & Urmston,3,Lab,NW,Kate Green*,https://twitter.com/KateGreenSU,Y
-545,Stretford & Urmston,4,Lab,NW,,,no candidate
-545,Stretford & Urmston,6,Lab,NW,,,no candidate
 546,Stroud,1,Con,SW,Neil Carmichael*,https://twitter.com/neil_mp,Y
 546,Stroud,2,Con,SW,Chris Jockel,,none
 546,Stroud,3,Con,SW,David Drew**,https://twitter.com/DavidEDrew,Y
 546,Stroud,4,Con,SW,Adrian Walker-Smith,,none
 546,Stroud,6,Con,SW,Caroline Stephens,https://twitter.com/CasAnnStephens,Y
 547,Suffolk Central & Ipswich North,1,Con,E,Daniel Poulter*,,none
-547,Suffolk Central & Ipswich North,2,Con,E,,,no candidate
 547,Suffolk Central & Ipswich North,3,Con,E,Jack Abbott,https://twitter.com/90jabbott,Y
-547,Suffolk Central & Ipswich North,4,Con,E,,,no candidate
-547,Suffolk Central & Ipswich North,6,Con,E,,,no candidate
 548,Suffolk Coastal,1,Con,E,Therese Coffey*,https://twitter.com/theresecoffey,Y
 548,Suffolk Coastal,2,Con,E,Rachel Smith-Lyte,https://twitter.com/SmithLyte,Y
 548,Suffolk Coastal,3,Con,E,Russell Whiting,https://twitter.com/RussellWhiTing,Y
 548,Suffolk Coastal,4,Con,E,James Sandbach,,none
-548,Suffolk Coastal,6,Con,E,,,no candidate
 549,Suffolk South,1,Con,E,James Cartlidge****,https://twitter.com/jc4southsuffolk,Y
 549,Suffolk South,2,Con,E,Robert Lindsay,https://twitter.com/robjlinds,Y
 549,Suffolk South,3,Con,E,Jane Basham,https://twitter.com/Jane_Basham,Y
 549,Suffolk South,4,Con,E,Grace Weaver,,none
 549,Suffolk South,6,Con,E,Steven Whalley,,none
 550,Suffolk West,1,Con,E,Matthew Hancock*,https://twitter.com/matthancockmp,Y
-550,Suffolk West,2,Con,E,,,no candidate
 550,Suffolk West,3,Con,E,Michael Jefferys,https://twitter.com/Cllr_M_Jefferys,Y
-550,Suffolk West,4,Con,E,,,no candidate
 550,Suffolk West,6,Con,E,Ian Smith***,,none
-551,Sunderland Central,1,Lab,NE,,,no candidate
-551,Sunderland Central,2,Lab,NE,,,no candidate
 551,Sunderland Central,3,Lab,NE,Julie Elliott*,https://twitter.com/JulieElliottMP,Y
-551,Sunderland Central,4,Lab,NE,,,no candidate
-551,Sunderland Central,6,Lab,NE,,,no candidate
 552,Surrey East,1,Con,SE,Sam Gyimah*,https://twitter.com/SamGyimah,Y
-552,Surrey East,2,Con,SE,,,no candidate
-552,Surrey East,3,Con,SE,,,no candidate
 552,Surrey East,4,Con,SE,David Lee***,https://twitter.com/whyteleafedavid,Y
 552,Surrey East,6,Con,SE,Helena Windsor***,https://twitter.com/UKIPSurrey,N
-553,Surrey Heath,1,Con,SE,,,no candidate
-553,Surrey Heath,2,Con,SE,,,no candidate
 553,Surrey Heath,3,Con,SE,Laween Atroshi,https://twitter.com/laweenatroshi,Y
-553,Surrey Heath,4,Con,SE,,,no candidate
 553,Surrey Heath,6,Con,SE,Paul Chapman,https://twitter.com/Paul_J_Chapman,Y
 554,Surrey South West,1,Con,SE,Jeremy Hunt*,https://twitter.com/Jeremy_Hunt,Y
-554,Surrey South West,2,Con,SE,,,no candidate
 554,Surrey South West,3,Con,SE,Howard James Kaye,https://twitter.com/HKaye_LabourSWS,Y
 554,Surrey South West,4,Con,SE,Patrick Haveron,,none
 554,Surrey South West,6,Con,SE,Elliot Nichols,,none
-555,Sussex Mid,1,Con,SE,,,no candidate
-555,Sussex Mid,2,Con,SE,,,no candidate
 555,Sussex Mid,3,Con,SE,Greg Mountain,https://twitter.com/Mountainin2015,Y
-555,Sussex Mid,4,Con,SE,,,no candidate
 555,Sussex Mid,6,Con,SE,Toby Brothers,,none
 556,Sutton & Cheam,1,LD,GL,Paul Scully,https://twitter.com/scullyp,Y
 556,Sutton & Cheam,2,LD,GL,Maeve Tomlinson,,none
@@ -2815,51 +1376,28 @@ pa_id,constituency,candidate,current holder,region,name,twitter,ispersonal?
 557,Sutton Coldfield,1,Con,WM,Andrew Mitchell*,,none
 557,Sutton Coldfield,2,Con,WM,David Ratcliff,,none
 557,Sutton Coldfield,3,Con,WM,Rob Pocock***,https://twitter.com/RobPocock1,Y
-557,Sutton Coldfield,4,Con,WM,,,no candidate
 557,Sutton Coldfield,6,Con,WM,Marcus John Brown,,none
-558,Swansea East,1,Lab,W,,,no candidate
-558,Swansea East,2,Lab,W,,,no candidate
 558,Swansea East,3,Lab,W,Carolyn Harris****,https://twitter.com/carolynharris24,Y
-558,Swansea East,4,Lab,W,,,no candidate
 558,Swansea East,5,Lab,W,Dic Jones,,none
-558,Swansea East,6,Lab,W,,,no candidate
 559,Swansea West,1,Lab,W,Emma Lane,https://twitter.com/emmalaneblue,Y
-559,Swansea West,2,Lab,W,,,no candidate
 559,Swansea West,3,Lab,W,Geraint Davies*,https://twitter.com/GeraintDaviesMP,Y
-559,Swansea West,4,Lab,W,,,no candidate
 559,Swansea West,5,Lab,W,Harri Roberts***,,none
 559,Swansea West,6,Lab,W,Martyn Ford,,none
 560,Swindon North,1,Con,SW,Justin Tomlinson*,https://twitter.com/JTomlinsonMP,Y
-560,Swindon North,2,Con,SW,,,no candidate
 560,Swindon North,3,Con,SW,Mark Dempsey,https://twitter.com/dempsey4labour,Y
-560,Swindon North,4,Con,SW,,,no candidate
 560,Swindon North,6,Con,SW,James Faulkner,,none
-561,Swindon South,1,Con,SW,,,no candidate
-561,Swindon South,2,Con,SW,,,no candidate
 561,Swindon South,3,Con,SW,Anne Snelgrove**,https://twitter.com/annesnelgrove,Y
-561,Swindon South,4,Con,SW,,,no candidate
 561,Swindon South,6,Con,SW,John Short,,none
 562,Tamworth,1,Con,WM,Christopher Pincher*,https://twitter.com/ChrisPincher,Y
-562,Tamworth,2,Con,WM,,,no candidate
 562,Tamworth,3,Con,WM,Carol Dean,https://twitter.com/tamworthcarol,Y
-562,Tamworth,4,Con,WM,,,no candidate
-562,Tamworth,6,Con,WM,,,no candidate
-563,Tatton,1,Con,NW,,,no candidate
-563,Tatton,2,Con,NW,,,no candidate
 563,Tatton,3,Con,NW,David Pinto-Duschinsky,,none
-563,Tatton,4,Con,NW,,,no candidate
-563,Tatton,6,Con,NW,,,no candidate
 564,Taunton Deane,1,LD,SW,Rebecca Pow,https://twitter.com/pow_rebecca,Y
 564,Taunton Deane,2,LD,SW,Clive Martin,https://twitter.com/TauntonGreens,N
 564,Taunton Deane,3,LD,SW,Neil Guild,https://www.twitter.com/NeilGuild,Y
-564,Taunton Deane,4,LD,SW,[New candidate to be selected],https://twitter.com/SomersetLibDems,N
 564,Taunton Deane,6,LD,SW,Laura Bailhache,,none
 565,Telford,1,Lab,WM,Lucy Allan,https://twitter.com/lucyallan,Y
-565,Telford,2,Lab,WM,,,no candidate
 565,Telford,3,Lab,WM,David Wright*,https://twitter.com/DavidWrightMP,Y
-565,Telford,4,Lab,WM,,,no candidate
 565,Telford,6,Lab,WM,Denis Allen***,,none
-566,Tewkesbury,1,Con,SW,,,no candidate
 566,Tewkesbury,2,Con,SW,Jemma Clark,https://twitter.com/JemmaForGreenMP,Y
 566,Tewkesbury,3,Con,SW,Edward Buxton,https://twitter.com/edwardbuxton,Y
 566,Tewkesbury,4,Con,SW,Alistair Cameron***,,none
@@ -2875,207 +1413,108 @@ pa_id,constituency,candidate,current holder,region,name,twitter,ispersonal?
 568,Thanet South,4,Con,SE,Russ Timpson,https://twitter.com/kentld,N
 568,Thanet South,6,Con,SE,Nigel Farage,,none
 569,Thirsk & Malton,1,Con,YH,Kevin Hollinrake****,https://twitter.com/kevinhollinrake,Y
-569,Thirsk & Malton,2,Con,YH,,,no candidate
 569,Thirsk & Malton,3,Con,YH,Alan Avery,,none
-569,Thirsk & Malton,4,Con,YH,,,no candidate
 569,Thirsk & Malton,6,Con,YH,Toby Horton***,,none
 570,Thornbury & Yate,1,LD,SW,Luke Hall,,none
-570,Thornbury & Yate,2,LD,SW,,,no candidate
-570,Thornbury & Yate,3,LD,SW,,,no candidate
 570,Thornbury & Yate,4,LD,SW,Steve Webb*,https://twitter.com/stevewebb1,Y
 570,Thornbury & Yate,6,LD,SW,Arron Banks,,none
-571,Thurrock,1,Con,E,,,no candidate
-571,Thurrock,2,Con,E,,,no candidate
 571,Thurrock,3,Con,E,Polly Billington,https://twitter.com/ThurrockPolly,Y
-571,Thurrock,4,Con,E,,,no candidate
 571,Thurrock,6,Con,E,Tim Aker,https://twitter.com/Tim_Aker,Y
-572,Tiverton & Honiton,1,Con,SW,,,no candidate
-572,Tiverton & Honiton,2,Con,SW,,,no candidate
 572,Tiverton & Honiton,3,Con,SW,Caroline Kolek,https://twitter.com/CarolineKolek,Y
-572,Tiverton & Honiton,4,Con,SW,,,no candidate
-572,Tiverton & Honiton,6,Con,SW,,,no candidate
 573,Tonbridge & Malling,1,Con,SE,Tom Tugendhat****,https://twitter.com/TomTugendhat,Y
 573,Tonbridge & Malling,2,Con,SE,Howard Porter,https://twitter.com/HowardwkGreens,Y
 573,Tonbridge & Malling,3,Con,SE,Claire Leigh,https://twitter.com/ClaireLeighLab,Y
-573,Tonbridge & Malling,4,Con,SE,,,no candidate
-573,Tonbridge & Malling,6,Con,SE,,,no candidate
 574,Tooting,1,Lab,GL,Dan Watkins,https://twitter.com/DanWatkins,Y
 574,Tooting,2,Lab,GL,Esther Obiri-Darko,,none
 574,Tooting,3,Lab,GL,Sadiq Khan*,https://twitter.com/SadiqKhan,Y
-574,Tooting,4,Lab,GL,,,no candidate
 574,Tooting,6,Lab,GL,Strachan McDonald***,,none
 575,Torbay,1,LD,SW,Kevin Foster,https://twitter.com/kevin_j_foster,Y
-575,Torbay,2,LD,SW,,,no candidate
 575,Torbay,3,LD,SW,Su Maddock,https://twitter.com/Sumaddock/,Y
 575,Torbay,4,LD,SW,Adrian Sanders*,https://twitter.com/adriansandersmp,Y
 575,Torbay,6,LD,SW,Anthony McIntyre,,none
 576,Torfaen,1,Lab,W,Graham Smith,,none
 576,Torfaen,2,Lab,W,Matt Cooke,,none
 576,Torfaen,3,Lab,W,Paul Murphy*,,none
-576,Torfaen,4,Lab,W,,,no candidate
 576,Torfaen,5,Lab,W,Boydd Hackley-Green,,none
-576,Torfaen,6,Lab,W,,,no candidate
 577,Totnes,1,Con,SW,Sarah Wollaston*,https://twitter.com/drwollastonmp,Y
-577,Totnes,2,Con,SW,,,no candidate
-577,Totnes,3,Con,SW,,,no candidate
 577,Totnes,4,Con,SW,Julian Brazil***,,none
-577,Totnes,6,Con,SW,,,no candidate
-578,Tottenham,1,Lab,GL,,,no candidate
 578,Tottenham,2,Lab,GL,Christine de León,https://twitter.com/_chrisdeleon,Y
 578,Tottenham,3,Lab,GL,David Lammy*,https://twitter.com/DavidLammy,Y
 578,Tottenham,4,Lab,GL,Turhan Ozen,https://twitter.com/tozen,Y
-578,Tottenham,6,Lab,GL,,,no candidate
 579,Truro & Falmouth,1,Con,SW,Sarah Newton*,https://twitter.com/SarahNewtonMP,Y
 579,Truro & Falmouth,2,Con,SW,Sharron Kelsey,,none
 579,Truro & Falmouth,3,Con,SW,Hanna Toms,https://twitter.com/hanna_909,Y
 579,Truro & Falmouth,4,Con,SW,Simon Rix,https://twitter.com/cllrsimonrix,Y
-579,Truro & Falmouth,6,Con,SW,,,no candidate
 580,Tunbridge Wells,1,Con,SE,Greg Clark*,https://twitter.com/gregclarkmp,Y
 580,Tunbridge Wells,2,Con,SE,Marie Jones,https://twitter.com/Kentgreenbranch,Y
-580,Tunbridge Wells,3,Con,SE,,,no candidate
-580,Tunbridge Wells,4,Con,SE,,,no candidate
 580,Tunbridge Wells,6,Con,SE,Colin Nicholson,,none
 581,Twickenham,1,LD,GL,Tania Mathias,https://twitter.com/tania_mathias,Y
 581,Twickenham,2,LD,GL,Tanya Williams,,none
 581,Twickenham,3,LD,GL,Nick Grant,https://twitter.com/Nick4Twick,Y
 581,Twickenham,4,LD,GL,Vince Cable*,https://twitter.com/vincecable,Y
-581,Twickenham,6,LD,GL,,,no candidate
 582,Tynemouth,1,Lab,NE,Glenn Hall,,none
-582,Tynemouth,2,Lab,NE,,,no candidate
 582,Tynemouth,3,Lab,NE,Alan Campbell*,,none
-582,Tynemouth,4,Lab,NE,,,no candidate
-582,Tynemouth,6,Lab,NE,,,no candidate
-583,Tyneside North,1,Lab,NE,,,no candidate
-583,Tyneside North,2,Lab,NE,,,no candidate
 583,Tyneside North,3,Lab,NE,Mary Glindon*,,none
-583,Tyneside North,4,Lab,NE,,,no candidate
-583,Tyneside North,6,Lab,NE,,,no candidate
-584,TYRONE WEST,1,SF,NI,,,no candidate
-584,Tyrone West,2,SF,NI,,,no candidate
-584,TYRONE WEST,3,SF,NI,,,no candidate
-584,TYRONE WEST,4,SF,NI,,,no candidate
-584,Tyrone West,6,SF,NI,,,no candidate
-585,ULSTER MID,1,SF,NI,,,no candidate
-585,ULSTER MID,2,SF,NI,,,no candidate
-585,ULSTER MID,3,SF,NI,,,no candidate
-585,ULSTER MID,4,SF,NI,,,no candidate
-585,ULSTER MID,6,SF,NI,,,no candidate
-586,Upper Bann,1,DUP,NI,,,no candidate
-586,Upper Bann,2,DUP,NI,,,no candidate
-586,Upper Bann,3,DUP,NI,,,no candidate
-586,Upper Bann,4,DUP,NI,,,no candidate
-586,Upper Bann,6,DUP,NI,,,no candidate
 587,Uxbridge & South Ruislip,1,Con,GL,Boris Johnson****,https://twitter.com/MayorofLondon,Y
-587,Uxbridge & South Ruislip,2,Con,GL,,,no candidate
 587,Uxbridge & South Ruislip,3,Con,GL,Chris Summers,https://twitter.com/christheseagull,Y
-587,Uxbridge & South Ruislip,4,Con,GL,,,no candidate
 587,Uxbridge & South Ruislip,6,Con,GL,Jack Duffin,https://twitter.com/jackduffin,Y
 588,Vale of Clwyd,1,Lab,W,James Davies,https://twitter.com/jamesdavies4mp,Y
-588,Vale of Clwyd,2,Lab,W,,,no candidate
 588,Vale of Clwyd,3,Lab,W,Chris Ruane*,https://twitter.com/ChrisRuaneMP,Y
-588,Vale of Clwyd,4,Lab,W,,,no candidate
 588,Vale of Clwyd,5,Lab,W,Mair Rowlands,https://twitter.com/mairrowlands,Y
-588,Vale of Clwyd,6,Lab,W,,,no candidate
-589,Vale of Glamorgan,1,Con,W,,,no candidate
-589,Vale of Glamorgan,2,Con,W,,,no candidate
 589,Vale of Glamorgan,3,Con,W,Chris Elmore,https://twitter.com/CPJElmore,Y
-589,Vale of Glamorgan,4,Con,W,,,no candidate
 589,Vale of Glamorgan,5,Con,W,Ian Johnson***,twitter.com/ianjamesjohnson,Y
-589,Vale of Glamorgan,6,Con,W,,,no candidate
 590,Vauxhall,1,Lab,GL,James Bellis,https://twitter.com/jh_bellis,Y
-590,Vauxhall,2,Lab,GL,,,no candidate
 590,Vauxhall,3,Lab,GL,Kate Hoey*,https://twitter.com/hoeykateMP,Y
-590,Vauxhall,4,Lab,GL,,,no candidate
-590,Vauxhall,6,Lab,GL,,,no candidate
-591,Wakefield,1,Lab,YH,,,no candidate
-591,Wakefield,2,Lab,YH,,,no candidate
 591,Wakefield,3,Lab,YH,Mary Creagh*,https://twitter.com/marycreagh_mp,Y
 591,Wakefield,4,Lab,YH,David Smith***,,none
 591,Wakefield,6,Lab,YH,Alan Hazelhurst,,none
-592,Wallasey,1,Lab,NW,,,no candidate
-592,Wallasey,2,Lab,NW,,,no candidate
 592,Wallasey,3,Lab,NW,Angela Eagle*,https://twitter.com/angelaeagle,Y
-592,Wallasey,4,Lab,NW,,,no candidate
-592,Wallasey,6,Lab,NW,,,no candidate
 593,Walsall North,1,Lab,WM,Douglas Hansen-Luke,https://twitter.com/DHansenLuke,Y
-593,Walsall North,2,Lab,WM,,,no candidate
 593,Walsall North,3,Lab,WM,David Winnick*,,none
-593,Walsall North,4,Lab,WM,,,no candidate
 593,Walsall North,6,Lab,WM,Elizabeth Hazell***,https://twitter.com/Walsall_UKIP,N
-594,Walsall South,1,Lab,WM,,,no candidate
-594,Walsall South,2,Lab,WM,,,no candidate
 594,Walsall South,3,Lab,WM,Valerie Vaz*,https://twitter.com/Valerie_VazMP,Y
-594,Walsall South,4,Lab,WM,,,no candidate
 594,Walsall South,6,Lab,WM,Kenneth Turner,https://twitter.com/Walsall_UKIP,N
 595,Walthamstow,1,Lab,GL,Molly Samuel-Leport,,none
-595,Walthamstow,2,Lab,GL,,,no candidate
 595,Walthamstow,3,Lab,GL,Stella Creasy*,https://twitter.com/stellacreasy,Y
-595,Walthamstow,4,Lab,GL,,,no candidate
 595,Walthamstow,6,Lab,GL,Paul Hillman,,none
-596,Wansbeck,1,Lab,NE,,,no candidate
-596,Wansbeck,2,Lab,NE,,,no candidate
 596,Wansbeck,3,Lab,NE,Ian Lavery*,https://twitter.com/IanLaveryMP,Y
-596,Wansbeck,4,Lab,NE,,,no candidate
 596,Wansbeck,6,Lab,NE,Melanie Hurst,,none
 597,Wantage,1,Con,SE,Ed Vaizey*,https://twitter.com/edvaizey,Y
 597,Wantage,2,Con,SE,Kate Prendergast,,none
 597,Wantage,3,Con,SE,Stephen Webb,https://twitter.com/StephenEDWebb,Y
-597,Wantage,4,Con,SE,,,no candidate
 597,Wantage,6,Con,SE,Lee Upcraft,,none
-598,Warley,1,Lab,WM,,,no candidate
-598,Warley,2,Lab,WM,,,no candidate
 598,Warley,3,Lab,WM,John Spellar*,https://twitter.com/spellar,Y
-598,Warley,4,Lab,WM,,,no candidate
 598,Warley,6,Lab,WM,Pete Durnell,,none
 599,Warrington North,1,Lab,NW,Richard Short,https://twitter.com/ToryShorty,Y
-599,Warrington North,2,Lab,NW,,,no candidate
 599,Warrington North,3,Lab,NW,Helen Jones*,https://twitter.com/HelenJonesMP,Y
 599,Warrington North,4,Lab,NW,Stefan Krizanac,,none
 599,Warrington North,6,Lab,NW,Andrew Fairfoull,https://twitter.com/UKIPbevand7,Y
 600,Warrington South,1,Con,NW,David Mowat*,https://twitter.com/mowat4ws,Y
-600,Warrington South,2,Con,NW,,,no candidate
 600,Warrington South,3,Con,NW,Nick Bent***,https://twitter.com/NickBent,Y
 600,Warrington South,4,Con,NW,Bob Barr,,none
 600,Warrington South,6,Con,NW,James Ashington***,,none
 601,Warwick & Leamington,1,Con,WM,Chris White*,https://twitter.com/ChrisWhite_MP,Y
-601,Warwick & Leamington,2,Con,WM,,,no candidate
 601,Warwick & Leamington,3,Con,WM,Lynette Kelly,https://twitter.com/lynnettekelly,Y
-601,Warwick & Leamington,4,Con,WM,,,no candidate
 601,Warwick & Leamington,6,Con,WM,Jane Brooks,,none
 602,Warwickshire North,1,Con,WM,Craig Tracey****,https://twitter.com/danielbyles,Y
-602,Warwickshire North,2,Con,WM,,,no candidate
 602,Warwickshire North,3,Con,WM,Mike O'Brien**,https://twitter.com/mikeobrien4mp,Y
-602,Warwickshire North,4,Con,WM,,,no candidate
 602,Warwickshire North,6,Con,WM,William Cash,,none
-603,Washington & Sunderland West,1,Lab,NE,,,no candidate
-603,Washington & Sunderland West,2,Lab,NE,,,no candidate
 603,Washington & Sunderland West,3,Lab,NE,Sharon Hodgson*,https://twitter.com/SharonHodgsonMP,Y
-603,Washington & Sunderland West,4,Lab,NE,,,no candidate
-603,Washington & Sunderland West,6,Lab,NE,,,no candidate
 604,Watford,1,Con,E,Richard Harrington*,https://twitter.com/Richard4Watford,Y
-604,Watford,2,Con,E,,,no candidate
 604,Watford,3,Con,E,Matthew Turmaine,https://twitter.com/Turmaine,Y
 604,Watford,4,Con,E,Dorothy Thornhill,,none
 604,Watford,6,Con,E,Nick Lincoln,https://twitter.com/ukipwatford,Y
 605,Waveney,1,Con,E,Peter Aldous*,https://twitter.com/peter_aldous,Y
 605,Waveney,2,Con,E,Graham Elliott*,https://twitter.com/WaveneyGreenMan,Y
 605,Waveney,3,Con,E,Bob Blizzard**,https://twitter.com/BobJBlizzard,Y
-605,Waveney,4,Con,E,,,no candidate
 605,Waveney,6,Con,E,Simon Tobin,,none
 606,Wealden,1,Con,SE,Nusrat Ghani****,https://twitter.com/Nusrat_Ghani,Y
-606,Wealden,2,Con,SE,,,no candidate
-606,Wealden,3,Con,SE,,,no candidate
-606,Wealden,4,Con,SE,,,no candidate
 606,Wealden,6,Con,SE,Peter Griffiths,https://twitter.com/UKIPWealden_,N
 607,Weaver Vale,1,Con,NW,Graham Evans*,https://twitter.com/GrahamEvansMP,Y
-607,Weaver Vale,2,Con,NW,,,no candidate
 607,Weaver Vale,3,Con,NW,Julia Tickridge,https://twitter.com/JuliaTickridge,Y
-607,Weaver Vale,4,Con,NW,,,no candidate
 607,Weaver Vale,6,Con,NW,John Bickley,,none
 608,Wellingborough,1,Con,EM,Peter Bone*,https://twitter.com/PeterBoneMP,Y
-608,Wellingborough,2,Con,EM,,,no candidate
 608,Wellingborough,3,Con,EM,Richard Garvie,https://twitter.com/richardgarvie,Y
-608,Wellingborough,4,Con,EM,,,no candidate
 608,Wellingborough,6,Con,EM,Jonathan Munday,,none
 609,Wells,1,LD,SW,James Heappey,https://twitter.com/JSHeappey,Y
 609,Wells,2,LD,SW,Jon Cousins,,none
@@ -3083,145 +1522,73 @@ pa_id,constituency,candidate,current holder,region,name,twitter,ispersonal?
 609,Wells,4,LD,SW,Tessa Munt*,https://twitter.com/tessamunt,Y
 609,Wells,6,LD,SW,Jeffrey Bolter,,none
 610,Welwyn Hatfield,1,Con,E,Grant Shapps*,https://twitter.com/grantshapps,Y
-610,Welwyn Hatfield,2,Con,E,,,no candidate
 610,Welwyn Hatfield,3,Con,E,Anawar Miah,https://twitter.com/WHLabour,N
-610,Welwyn Hatfield,4,Con,E,,,no candidate
 610,Welwyn Hatfield,6,Con,E,Arthur Stevens,https://twitter.com/ArthurTwittter,Y
-611,Wentworth & Dearne,1,Lab,YH,,,no candidate
-611,Wentworth & Dearne,2,Lab,YH,,,no candidate
 611,Wentworth & Dearne,3,Lab,YH,John Healey*,https://twitter.com/JohnHealey_MP,Y
-611,Wentworth & Dearne,4,Lab,YH,,,no candidate
 611,Wentworth & Dearne,6,Lab,YH,Caven Vines,,none
-612,West Bromwich East,1,Lab,WM,,,no candidate
-612,West Bromwich East,2,Lab,WM,,,no candidate
 612,West Bromwich East,3,Lab,WM,Tom Watson*,https://twitter.com/tom_watson,Y
-612,West Bromwich East,4,Lab,WM,,,no candidate
 612,West Bromwich East,6,Lab,WM,Steve Latham,,none
-613,West Bromwich West,1,Lab,WM,,,no candidate
-613,West Bromwich West,2,Lab,WM,,,no candidate
 613,West Bromwich West,3,Lab,WM,Adrian Bailey*,,none
-613,West Bromwich West,4,Lab,WM,,,no candidate
 613,West Bromwich West,6,Lab,WM,Graham Eardley,,none
-614,West Ham,1,Lab,GL,,,no candidate
-614,West Ham,2,Lab,GL,,,no candidate
 614,West Ham,3,Lab,GL,Lyn Brown*,https://twitter.com/WestHamLabour,N
-614,West Ham,4,Lab,GL,,,no candidate
-614,West Ham,6,Lab,GL,,,no candidate
 615,Westminster North,1,Lab,GL,Lindsey Hall,https://twitter.com/Lindsey4WNorth,Y
-615,Westminster North,2,Lab,GL,,,no candidate
 615,Westminster North,3,Lab,GL,Karen Buck*,https://twitter.com/KarenPBuckMP,Y
-615,Westminster North,4,Lab,GL,,,no candidate
-615,Westminster North,6,Lab,GL,,,no candidate
 616,Westmorland & Lonsdale,1,LD,NW,Ann Myatt,https://twitter.com/Kendaltories,N
 616,Westmorland & Lonsdale,2,LD,NW,Chris Loynes,,none
-616,Westmorland & Lonsdale,3,LD,NW,,,no candidate
 616,Westmorland & Lonsdale,4,LD,NW,Tim Farron*,https://twitter.com/timfarron,Y
 616,Westmorland & Lonsdale,6,LD,NW,Jonathan Stanley,,none
-617,Weston-super-Mare,1,Con,SW,,,no candidate
-617,Weston-super-Mare,2,Con,SW,,,no candidate
 617,Weston-super-Mare,3,Con,SW,Tim Taylor,https://twitter.com/TimTaylorWeston,Y
 617,Weston-super-Mare,4,Con,SW,,https://twitter.com/ldmikebell,Y
 617,Weston-super-Mare,6,Con,SW,Ernie Warrender,,none
-618,Wigan,1,Lab,NW,,,no candidate
-618,Wigan,2,Lab,NW,,,no candidate
 618,Wigan,3,Lab,NW,Lisa Nandy*,https://twitter.com/lisanandy,Y
-618,Wigan,4,Lab,NW,,,no candidate
-618,Wigan,6,Lab,NW,,,no candidate
 619,Wiltshire North,1,Con,SW,James Gray*,https://twitter.com/JamesGrayMP,Y
-619,Wiltshire North,2,Con,SW,,,no candidate
 619,Wiltshire North,3,Con,SW,Peter Baldrey,,none
 619,Wiltshire North,4,Con,SW,Brian Mathew,,none
 619,Wiltshire North,6,Con,SW,Pat Bryant,,none
-620,Wiltshire South West,1,Con,SW,,,no candidate
-620,Wiltshire South West,2,Con,SW,,,no candidate
 620,Wiltshire South West,3,Con,SW,George Aylett,https://twitter.com/GeorgeAylett,Y
-620,Wiltshire South West,4,Con,SW,,,no candidate
 620,Wiltshire South West,6,Con,SW,Matthew Brown,,none
 621,Wimbledon,1,Con,GL,Stephen Hammond*,https://twitter.com/SHammondMP,Y
-621,Wimbledon,2,Con,GL,,,no candidate
 621,Wimbledon,3,Con,GL,Andrew Judge***,https://twitter.com/Andjudge,Y
 621,Wimbledon,4,Con,GL,Shas Sheehan***,https://twitter.com/sheehanshas,Y
-621,Wimbledon,6,Con,GL,,,no candidate
 622,Winchester,1,Con,SE,Steve Brine*,https://twitter.com/sbrine,Y
-622,Winchester,2,Con,SE,,,no candidate
-622,Winchester,3,Con,SE,,,no candidate
 622,Winchester,4,Con,SE,Jackie Porter,https://twitter.com/jackielibdem,Y
-622,Winchester,6,Con,SE,,,no candidate
 623,Windsor,1,Con,SE,Adam Afriyie*,https://twitter.com/AdamAfriyie,Y
 623,Windsor,2,Con,SE,Derek Wall***,https://twitter.com/Anothergreen,Y
 623,Windsor,3,Con,SE,Fiona Dent,https://twitter.com/FionaDentLabour,Y
-623,Windsor,4,Con,SE,,,no candidate
-623,Windsor,6,Con,SE,,,no candidate
 624,Wirral South,1,Lab,NW,John Bell,https://twitter.com/JBWirralSouth,Y
-624,Wirral South,2,Lab,NW,,,no candidate
 624,Wirral South,3,Lab,NW,Alison McGovern*,https://twitter.com/Alison_McGovern,Y
-624,Wirral South,4,Lab,NW,,,no candidate
-624,Wirral South,6,Lab,NW,,,no candidate
-625,Wirral West,1,Con,NW,,,no candidate
-625,Wirral West,2,Con,NW,,,no candidate
 625,Wirral West,3,Con,NW,Margaret Greenwood,https://twitter.com/MGreenwoodWW,Y
 625,Wirral West,4,Con,NW,Peter Reisdorf***,,none
-625,Wirral West,6,Con,NW,,,no candidate
 626,Witham,1,Con,E,Priti Patel*,https://twitter.com/pritipatelmp,Y
-626,Witham,2,Con,E,,,no candidate
 626,Witham,3,Con,E,John Clarke,https://twitter.com/JohnClarke1960,Y
-626,Witham,4,Con,E,,,no candidate
-626,Witham,6,Con,E,,,no candidate
 627,Witney,1,Con,SE,David Cameron*,https://twitter.com/David_Cameron,Y
 627,Witney,2,Con,SE,Stuart MacDonald***,https://twitter.com/Profmacdonald,Y
 627,Witney,3,Con,SE,Duncan Enright,https://twitter.com/DunxE,Y
-627,Witney,4,Con,SE,,,no candidate
 627,Witney,6,Con,SE,Simon Strutt,,none
 628,Woking,1,Con,SE,Jonathan Lord*,https://twitter.com/Woking_Cons,N
-628,Woking,2,Con,SE,,,no candidate
 628,Woking,3,Con,SE,Jill Rawling,,none
 628,Woking,4,Con,SE,Chris Took,https://twitter.com/christook,Y
 628,Woking,6,Con,SE,Rob Burberry***,https://twitter.com/RobBurberry,Y
-629,Wokingham,1,Con,SE,,,no candidate
 629,Wokingham,2,Con,SE,Adrian Windisch,https://twitter.com/AdrianWindisch,Y
-629,Wokingham,3,Con,SE,,,no candidate
 629,Wokingham,4,Con,SE,Clive Jones,https://twitter.com/SthCenLibDems,N
 629,Wokingham,6,Con,SE,Phil Cunnington,https://twitter.com/CunningtoP,Y
-630,Wolverhampton North East,1,Lab,WM,,,no candidate
-630,Wolverhampton North East,2,Lab,WM,,,no candidate
 630,Wolverhampton North East,3,Lab,WM,Emma Reynolds*,https://twitter.com/EmmaReynoldsMP,Y
-630,Wolverhampton North East,4,Lab,WM,,,no candidate
-630,Wolverhampton North East,6,Lab,WM,,,no candidate
-631,Wolverhampton South East,1,Lab,WM,,,no candidate
-631,Wolverhampton South East,2,Lab,WM,,,no candidate
 631,Wolverhampton South East,3,Lab,WM,Pat McFadden*,https://twitter.com/patmcfaddenmp,Y
-631,Wolverhampton South East,4,Lab,WM,,,no candidate
 631,Wolverhampton South East,6,Lab,WM,Barry Hodgson,,none
-632,Wolverhampton South West,1,Con,WM,,,no candidate
-632,Wolverhampton South West,2,Con,WM,,,no candidate
 632,Wolverhampton South West,3,Con,WM,Rob Marris**,https://twitter.com/WSW_Labour,N
-632,Wolverhampton South West,4,Con,WM,,,no candidate
 632,Wolverhampton South West,6,Con,WM,,,none
 633,Worcester,1,Con,WM,Robin Walker*,https://twitter.com/RobinWalkerMP,Y
 633,Worcester,2,Con,WM,Louis Stephen***,https://twitter.com/LouisStephen,Y
 633,Worcester,3,Con,WM,Joy Squires,https://twitter.com/JoySquires,Y
-633,Worcester,4,Con,WM,,,no candidate
 633,Worcester,6,Con,WM,James Goad,,none
 634,Worcestershire Mid,1,Con,WM,Nigel Huddleston****,https://twitter.com/HuddlestonNigel,Y
-634,Worcestershire Mid,2,Con,WM,,,no candidate
 634,Worcestershire Mid,3,Con,WM,Robin Lunn,,none
-634,Worcestershire Mid,4,Con,WM,,,no candidate
-634,Worcestershire Mid,6,Con,WM,,,no candidate
 635,Worcestershire West,1,Con,WM,Harriet Baldwin*,https://twitter.com/HBaldwinMP,Y
 635,Worcestershire West,2,Con,WM,Julian Roskams,https://twitter.com/MalvernGreens,Y
 635,Worcestershire West,3,Con,WM,Daniel Walton,https://twitter.com/votewalton2015,Y
-635,Worcestershire West,4,Con,WM,,,no candidate
 635,Worcestershire West,6,Con,WM,Richard Chamings,,none
-636,Workington,1,Lab,NW,,,no candidate
-636,Workington,2,Lab,NW,,,no candidate
-636,Workington,3,Lab,NW,[New candidate to be selected],,none
-636,Workington,4,Lab,NW,,,no candidate
 636,Workington,6,Lab,NW,Mark Jenkinson,https://twitter.com/markjenk,Y
-637,Worsley & Eccles South,1,Lab,NW,,,no candidate
-637,Worsley & Eccles South,2,Lab,NW,,,no candidate
 637,Worsley & Eccles South,3,Lab,NW,Barbara Keeley*,https://twitter.com/KeeleyMP,Y
-637,Worsley & Eccles South,4,Lab,NW,,,no candidate
-637,Worsley & Eccles South,6,Lab,NW,,,no candidate
 638,Worthing East & Shoreham,1,Con,SE,Tim Loughton*,https://twitter.com/Juliansturdy,Y
 638,Worthing East & Shoreham,2,Con,SE,James Doyle,https://twitter.com/jdoyleworthing,Y
 638,Worthing East & Shoreham,3,Con,SE,Tim Macpherson,https://twitter.com/TimMacpherson,Y
@@ -3229,63 +1596,38 @@ pa_id,constituency,candidate,current holder,region,name,twitter,ispersonal?
 638,Worthing East & Shoreham,6,Con,SE,Mike Glennon*,https://twitter.com/WorthingUKIP,N
 639,Worthing West,1,Con,SE,Peter Bottomley*,https://twitter.com/PBottomleyMP,Y
 639,Worthing West,2,Con,SE,David Aherne***,,none
-639,Worthing West,3,Con,SE,,,no candidate
 639,Worthing West,4,Con,SE,Hazel Thorpe***,https://twitter.com/hazel_thorpe,Y
 639,Worthing West,6,Con,SE,Tim Cross,https://twitter.com/WorthingUKIP,N
 640,"Wrekin, The",1,Con,WM,Mark Pritchard*,https://twitter.com/MPritchardMP,Y
-640,"Wrekin, The",2,Con,WM,,,no candidate
 640,"Wrekin, The",3,Con,WM,Katrina Gilman,https://twitter.com/trinagilman,Y
-640,"Wrekin, The",4,Con,WM,,,no candidate
 640,"Wrekin, The",6,Con,WM,Jill Seymour,https://twitter.com/JSeymourUKIP,Y
 641,Wrexham,1,Lab,W,Andrew Atkinson,https://twitter.com/andrew4wrexham,Y
-641,Wrexham,2,Lab,W,,,no candidate
 641,Wrexham,3,Lab,W,Ian Lucas*,https://twitter.com/IanCLucas,Y
-641,Wrexham,4,Lab,W,,,no candidate
 641,Wrexham,5,Lab,W,Carrie Harper,twitter.com/CarrieAHarper,Y
-641,Wrexham,6,Lab,W,,,no candidate
 642,Wycombe,1,Con,SE,Steve Baker*,https://twitter.com/SteveBakerMP,Y
-642,Wycombe,2,Con,SE,,,no candidate
 642,Wycombe,3,Con,SE,David Williams,https://twitter.com/Bikingbarrister,Y
-642,Wycombe,4,Con,SE,,,no candidate
 642,Wycombe,6,Con,SE,David Meacock,,none
-643,Wyre & Preston North,1,Con,NW,,,no candidate
-643,Wyre & Preston North,2,Con,NW,,,no candidate
 643,Wyre & Preston North,3,Con,NW,Benjamin Whittingham,https://twitter.com/BKWhittingham,Y
-643,Wyre & Preston North,4,Con,NW,,,no candidate
-643,Wyre & Preston North,6,Con,NW,,,no candidate
 644,Wyre Forest,1,Con,WM,Mark Garnier*,https://twitter.com/Mark4WyreForest,Y
 644,Wyre Forest,2,Con,WM,Natalie McVey,https://twitter.com/NMcVWFGP,Y
 644,Wyre Forest,3,Con,WM,Matthew Lamb,https://twitter.com/Matt4wyreforest,Y
-644,Wyre Forest,4,Con,WM,,,no candidate
 644,Wyre Forest,6,Con,WM,Michael Wrench***,,none
 645,Wythenshawe & Sale East,1,Lab,NW,Fiona Green,https://twitter.com/Fiona20Green,Y
-645,Wythenshawe & Sale East,2,Lab,NW,,,no candidate
 645,Wythenshawe & Sale East,3,Lab,NW,Mike Kane*,https://twitter.com/MikeKaneMP,Y
 645,Wythenshawe & Sale East,4,Lab,NW,William Jones,https://twitter.com/Just_Will_I_am/,Y
-645,Wythenshawe & Sale East,6,Lab,NW,,,no candidate
 646,Yeovil,1,LD,SW,Marcus Fysh,https://twitter.com/MarcusFysh,Y
-646,Yeovil,2,LD,SW,,,no candidate
 646,Yeovil,3,LD,SW,Martin Jevon,https://twitter.com/Martin4labour,Y
 646,Yeovil,4,LD,SW,David Laws*,https://twitter.com/YeovilLibDems,N
 646,Yeovil,6,LD,SW,Simon Smedley,,none
 647,Ynys Môn,1,Lab,W,Michelle Willis,https://twitter.com/EMichelleWillis,Y
-647,Ynys Môn,2,Lab,W,,,no candidate
 647,Ynys Môn,3,Lab,W,Albert Owen*,https://twitter.com/AlbertOwenMP,Y
-647,Ynys Môn,4,Lab,W,,,no candidate
 647,Ynys Môn,5,Lab,W,John Rowlands,twitter.com/JohnRowlandsMon,Y
 647,Ynys Môn,6,Lab,W,Nathan Gill,,none
 648,York Central,1,Lab,YH,Robert McIlveen,https://twitter.com/RobertMcIlveen,Y
 648,York Central,2,Lab,YH,Jonathan Tyler,,none
 648,York Central,3,Lab,YH,Hugh Bayley*,https://twitter.com/labouryork,N
-648,York Central,4,Lab,YH,,,no candidate
-648,York Central,6,Lab,YH,,,no candidate
 649,York Outer,1,Con,YH,Julian Sturdy*,https://twitter.com/Juliansturdy,Y
 649,York Outer,2,Con,YH,Ginnie Shaw,,none
 649,York Outer,3,Con,YH,Joe Riches,https://twitter.com/Joe4YO,Y
 649,York Outer,4,Con,YH,James Blanchard,https://twitter.com/jamesblanchard,Y
 649,York Outer,6,Con,YH,Alan Henderson,,none
-650,YORKSHIRE EAST,1,Con,YH,,,no candidate
-650,YORKSHIRE EAST,2,Con,YH,,,no candidate
-650,YORKSHIRE EAST,3,Con,YH,,,no candidate
-650,YORKSHIRE EAST,4,Con,YH,,,no candidate
-650,YORKSHIRE EAST,6,Con,YH,,,no candidate
