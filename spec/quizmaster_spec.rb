@@ -13,6 +13,8 @@ describe Quizmaster do
       @students = [@student1, @student2, @student3]
 
       @alice = Candidate.create(name: 'Alice')
+      @bob = Candidate.create(name'Bob')
+      @candidates = [@alice, @bob]
       @constituency = Constituency.create(name: 'Bethnal Green and Bow')
       @red_or_blue = Question.create(ask_text: 'Would you rather red pill or blue pill?')
       Question.create(ask_text: 'Would you rather war or famine?')
@@ -21,6 +23,7 @@ describe Quizmaster do
 
     it 'it can find questions that have been asked three times' do
       THRESHOLD = 3 
+
       @students.each do |student|
         Ask.create(candidate_id: @alice.id, 
                   question_id:  @red_or_blue.id, 

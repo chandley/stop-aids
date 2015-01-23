@@ -48,15 +48,7 @@ describe Question do
       expect(@red_or_blue.asked_count(@alice)).to eq(0)
     end
 
-    it 'knows how many times it has been asked for a candidate' do
-      @students.each do |student|
-        Ask.create(candidate_id: @alice.id, 
-                  question_id:  @red_or_blue.id, 
-                  user_id:     student.id  
-                  )
-      end
-      expect(@red_or_blue.asked_count(@alice)).to eq(3)
-    end
+    
 
   end
 
