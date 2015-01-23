@@ -24,8 +24,10 @@ def load_data_all
   #     )
   # end
 
-  # CSV.foreach() do |row|
-
+  # CSV.foreach('/data/questions.csv') do |row|
+  #   Question.create(
+  #     ask_text: row[0]
+  #     )
   # end
-  
+
 end
