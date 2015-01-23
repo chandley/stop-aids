@@ -33,10 +33,16 @@ def load_data_all
   end
 
   CSV.foreach('data/questions.csv') do |row|
-    Question.create(
-      part1: row[0],
-      part2: row[1],
+    @q = Question.create(
       ask_text: row[0] + ' or ' + row[1]
+      )
+    Choice.create(
+      text: row[0],
+      question_id: @q.id
+      )
+    Choice.create(
+      text: row[1],
+      question_id: @q.id
       )
   end
 
