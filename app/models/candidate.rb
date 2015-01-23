@@ -6,4 +6,8 @@ class Candidate < ActiveRecord::Base
   def questions_asked_more_times_than(threshold)
     Question.all.select {|question| question.asked_count(self) > threshold}
   end
+
+  def twitter_image_url
+    $twitter.user(self.twitter).profile_image_url_https.to_s
+  end
 end
