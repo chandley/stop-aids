@@ -30,7 +30,10 @@ gem 'pg'
 gem 'devise'
 
 
+
 gem 'twitter' 
+
+
 
 
 group :test do
