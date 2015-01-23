@@ -1,4 +1,4 @@
-require 'CSV'
+require 'csv'
 
 def load_data_all
   CSV.foreach('data/candidates.csv') do |row|
