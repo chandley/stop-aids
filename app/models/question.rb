@@ -3,8 +3,8 @@ class Question < ActiveRecord::Base
   has_many :asks
   has_many :choices
 
-  def create_answer(responder, answer_text)
-    Answer.create(candidate_id: responder.id, response: answer_text, question_id: self.id)
+  def create_answer(responder, choice)
+    Answer.create(candidate_id: responder.id, choice_id: choice.id, question_id: self.id)
   end
 
   def answered_by?(responder)
