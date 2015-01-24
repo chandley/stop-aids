@@ -14,6 +14,12 @@ Feature:
   When I visit the candidate questions api
   Then I get JSON question text
 
+  Scenario: Show choices for candidates questions api
+  Given we have a candidate
+  And we have some questions
+  When I visit the choices api for a question
+  Then I see the two choices for that question
+
   Scenario: Show constituency api
   Given we have a constituency
   When I visit the constituency api

@@ -39,6 +39,14 @@ When(/^I visit the constituency candidates api$/) do
   visit "/constituencies/#{@constituency.id}/candidates"
 end
 
+When(/^I visit the choices api for a question$/) do
+  visit "/candidates/#{@alice.id}/questions/#{@red_or_blue.id}"
+end
+
+Then(/^I see the two choices for that question$/) do
+  expect(page).to have_content 'Red'
+end
+
 Then(/^I get JSON candidate name$/) do
   expect(page).to have_content 'Alice'
 end
@@ -54,6 +62,7 @@ end
 Then(/^I get JSON candidate names for constituency$/) do
   expect(page).to have_content 'Bob'
 end
+
 
 Given(/^we have some questions for a candidate$/) do
   step('we have some questions')

@@ -15,6 +15,10 @@ class QuestionsController < ApplicationController
                  } )
   end
 
+  def show
+    render_api :question => Question.find(params[:id]).choices
+  end
+
   def unanswered
     params[:filter] = 'unanswered'
     index
