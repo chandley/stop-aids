@@ -18,10 +18,10 @@
 
 /data/ppc.csv
 
-<<<<<<< HEAD
 .DS_Store
 =======
 node_modules
 frontend/public/bower_components
 
->>>>>>> 6d25fc9fde172827fe33969cc856e7d14d53b41c
+
+coverage

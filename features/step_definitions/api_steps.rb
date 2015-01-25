@@ -11,7 +11,11 @@ end
 
 Given(/^we have some questions$/) do
   @red_or_blue = Question.create(ask_text: 'Would you rather red pill or blue pill?')
+  @red = Choice.create(text: 'Red', question_id: @red_or_blue.id)
+  @blue = Choice.create(text: 'Blue', question_id: @red_or_blue.id)
   @war_or_famine = Question.create(ask_text: 'Would you rather war or famine?')
+  @war = Choice.create(text: 'War', question_id: @war_or_famine.id)
+  @famine = Choice.create(text: 'Famine', question_id: @war_or_famine.id)
   Question.create(ask_text: 'Would you rather beef or chicken?')
 end
 
@@ -35,6 +39,14 @@ When(/^I visit the constituency candidates api$/) do
   visit "/constituencies/#{@constituency.id}/candidates"
 end
 
+When(/^I visit the choices api for a question$/) do
+  visit "/candidates/#{@alice.id}/questions/#{@red_or_blue.id}"
+end
+
+Then(/^I see the two choices for that question$/) do
+  expect(page).to have_content 'Red'
+end
+
 Then(/^I get JSON candidate name$/) do
   expect(page).to have_content 'Alice'
 end
@@ -51,13 +63,14 @@ Then(/^I get JSON candidate names for constituency$/) do
   expect(page).to have_content 'Bob'
 end
 
+
 Given(/^we have some questions for a candidate$/) do
   step('we have some questions')
   step('we have a candidate')
 end
 
 Given(/^I answer a question$/) do
-  @red_or_blue.create_answer(@alice,'whatever')
+  @red_or_blue.create_answer(@alice, @blue)
 end
 
 When(/^I visit the unanswered candidate questions api$/) do
@@ -81,7 +94,7 @@ When(/^answers are given for a question by API$/) do
   # this does not appear to be working!
   page.driver.post("candidates/#{@alice.id}/answers", 
                     :question_id => @red_or_blue.id, 
-                    :answer_text => 'whatever' 
+                    :answer_text => @blue.id
                      )
 end
 
