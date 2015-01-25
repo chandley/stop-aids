@@ -112,9 +112,7 @@ end
 
 When(/^a student submits two asks$/) do
   step('a student submits an ask question')
-  page.driver.post("/users/#{@student.id}/candidates/#{@alice.id}/asks",
-                    :question_id => @war_or_famine.id,  
-                    )
+  post "/users/#{@student.id}/candidates/#{@alice.id}/asks", :question_id => @war_or_famine.id
 end
 
 Then(/^we see both on an asked questions list$/) do

@@ -9,8 +9,13 @@ Scenario: Administrator adds question
   And I visit the candidate questions api
   Then I get JSON kebab question text
 
-Scenario: Administrator edits candidate
+Scenario: Administrator edits candidate name
   Given we have a candidate
-  When the administrator edits candidate information
+  When the administrator edits candidate name 
   Then we see the updated information for candidate
+
+Scenario: Administrator adds candidate twitter
+  Given we have a candidate
+  When the administrator adds candidate twitter
+  Then we see the twitter information for candidate
 
