@@ -94,7 +94,7 @@ When(/^answers are given for a question by API$/) do
   # this does not appear to be working!
   page.driver.post("candidates/#{@alice.id}/answers", 
                     :question_id => @red_or_blue.id, 
-                    :answer_text => @blue.id
+                    :choice_id => @red.id
                      )
 end
 
