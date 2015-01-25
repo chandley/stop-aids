@@ -63,7 +63,6 @@ Then(/^I get JSON candidate names for constituency$/) do
   expect(page).to have_content 'Bob'
 end
 
-
 Given(/^we have some questions for a candidate$/) do
   step('we have some questions')
   step('we have a candidate')
@@ -92,10 +91,10 @@ end
 When(/^answers are given for a question by API$/) do
   # http://suffix.be/blog/capybara-post-requests
   # this does not appear to be working!
-  page.driver.post("candidates/#{@alice.id}/answers", 
+  post "candidates/#{@alice.id}/answers", 
                     :question_id => @red_or_blue.id, 
                     :choice_id => @red.id
-                     )
+                  
 end
 
 Then(/^we see the answered question$/) do
@@ -105,17 +104,12 @@ end
 
 When(/^a student submits an ask question$/) do
   @student = User.create(email: 'test@test.com', password: 'password', password_confirmation: 'password')
-  page.driver.post("/users/#{@student.id}/candidates/#{@alice.id}/asks",
-                    :question_id => @red_or_blue.id,  
-                    )
-
+  post "/users/#{@student.id}/candidates/#{@alice.id}/asks", :question_id => @red_or_blue.id
 end
 
 When(/^a student submits an ask question with JSON callback$/) do
   @student = User.create(email: 'test@test.com', password: 'password', password_confirmation: 'password')
-  page.driver.post("/users/#{@student.id}/candidates/#{@alice.id}/asks?callback=JSON_CALLBACK",
-                    :question_id => @red_or_blue.id,  
-                    )
+  post "/users/#{@student.id}/candidates/#{@alice.id}/asks?callback=JSON_CALLBACK", :question_id => @red_or_blue.id
 end
 
 Then(/^we see the question on an asked question list$/) do
