@@ -6,7 +6,8 @@ class ApplicationController < ActionController::Base
   protect_from_forgery except: [:index, :show]
 
   def render_api (json_hash)
-    response.headers["Content-Type"] = "application/javascript" # prevents MIME error with js 
+    response.headers["Content-Type"] = "application/javascript" 
+    # prevents MIME error with js 
     render json: json_hash, callback: params['callback']
   end
 

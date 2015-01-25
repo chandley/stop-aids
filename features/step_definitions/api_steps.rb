@@ -98,6 +98,13 @@ When(/^a student submits an ask question$/) do
 
 end
 
+When(/^a student submits an ask question with JSON callback$/) do
+  @student = User.create(email: 'test@test.com', password: 'password', password_confirmation: 'password')
+  page.driver.post("/users/#{@student.id}/candidates/#{@alice.id}/asks?callback=JSON_CALLBACK",
+                    :question_id => @red_or_blue.id,  
+                    )
+end
+
 Then(/^we see the question on an asked question list$/) do
   visit("/users/#{@student.id}/candidates/#{@alice.id}/asks")
   expect(page).to have_content("red pill or blue")

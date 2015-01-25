@@ -46,14 +46,15 @@ Feature:
   When a student submits an ask question
   Then we see the question on an asked question list
 
+  Scenario: API submit asking questions with callback same host
+  Given we have some questions for a candidate
+  When a student submits an ask question with JSON callback
+  Then we see the question on an asked question list
+
   Scenario: API asks two questions
   Given we have some questions for a candidate
   When a student submits two asks
   Then we see both on an asked questions list
 
-  Scenario: Administrator adds question
-  Given we have a candidate
-  When the administrator adds a question by api
-  And I visit the candidate questions api
-  Then I get JSON kebab question text
+  
 

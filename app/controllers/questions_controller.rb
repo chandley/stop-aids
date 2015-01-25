@@ -1,5 +1,15 @@
 class QuestionsController < ApplicationController
 
+    
+  def create
+    Question.create( ask_text: params[:ask_text] )
+    render :nothing => true
+  end
+
+  def post_params
+    params.require(:ask_text)
+  end
+
   def index 
 
     if params[:filter] == 'answered'
