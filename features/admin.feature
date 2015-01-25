@@ -9,3 +9,8 @@ Scenario: Administrator adds question
   And I visit the candidate questions api
   Then I get JSON kebab question text
 
+Scenario: Administrator edits candidate
+  Given we have a candidate
+  When the administrator edits candidate information
+  Then we see the updated information for candidate
+

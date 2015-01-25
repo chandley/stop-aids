@@ -11,7 +11,7 @@ class QuestionsController < ApplicationController
   end
 
   def index 
-
+    ## TODO refactor
     if params[:filter] == 'answered'
       @questions = Question.all.reject {|q| q.answers.count == 0}
     elsif params[:filter] == 'unanswered'
