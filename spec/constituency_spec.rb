@@ -18,4 +18,12 @@ describe Constituency do
     expect(@constituency.candidates).to include(@bob) 
   end
 
+  it "only sees it's own candidates" do
+    @second = Constituency.create(name: 'Dulwich and West Norwood')
+    @second.add_candidate(@bob)
+    @constituency.add_candidate(@alice)
+    expect(@constituency.candidates).to include(@alice)
+    expect(@constituency.candidates).to_not include(@bob)
+  end
+
 end

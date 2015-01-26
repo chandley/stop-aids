@@ -19,7 +19,8 @@ Feature:
   When I visit the constituency candidates api
   Then I get JSON candidate names for constituency
 
-  
- 
-  
-
+  Scenario: Exclusively show candidates from one constituency
+  Given we have two constituencies
+  And we have candidates for each constituency
+  When I visit the first constituency candidates api
+  Then I see candidates from the first constituency only
