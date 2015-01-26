@@ -5,8 +5,8 @@ Given(/^we have a candidate$/) do
 end
 
 Given(/^we have some candidates$/) do
-  Candidate.create(name: 'Alice')
-  Candidate.create(name: 'Bob')
+  Candidate.create(name: 'Bob', constituency_id: @constituency.id)
+  Candidate.create(name: 'Alice', constituency_id: @constituency.id)
 end
 
 Given(/^we have some questions$/) do
