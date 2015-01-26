@@ -19,9 +19,7 @@
 /data/ppc.csv
 
 .DS_Store
-=======
 node_modules
 frontend/public/bower_components
-
 
 coverage

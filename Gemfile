@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+source 'https://rails-assets.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
@@ -33,7 +33,9 @@ gem 'devise'
 
 gem 'twitter' 
 gem 'twfy'
-
+gem 'bower-rails'
+gem 'angular-rails-templates', group: :development
+gem 'rails-assets-angular', group: :development, :source => 'https://rails-assets.org'
 
 
 
