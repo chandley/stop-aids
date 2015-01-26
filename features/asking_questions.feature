@@ -12,8 +12,8 @@ Feature:
   Scenario: Student sees available answers for question
   Given we have a candidate
   And we have some questions
-  When I visit the choices api for a question
-  Then I see the two choices for that question
+  When I visit the candidate questions api
+  Then I see the choices for each question
 
   Scenario: Student sees unanswered questions only
   Given we have some questions for a candidate

@@ -39,11 +39,8 @@ When(/^I visit the constituency candidates api$/) do
   visit "/constituencies/#{@constituency.id}/candidates"
 end
 
-When(/^I visit the choices api for a question$/) do
-  visit "/candidates/#{@alice.id}/questions/#{@red_or_blue.id}"
-end
 
-Then(/^I see the two choices for that question$/) do
+Then(/^I see the choices for each question$/) do
   expect(page).to have_content 'Red'
 end
 
