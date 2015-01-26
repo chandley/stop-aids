@@ -20,6 +20,8 @@ class QuestionsController < ApplicationController
       @questions = Question.all
     end
 
+    @questions = @questions.map {|question| {:question => question, :choices => question.choices}  }
+
     render_api ( {:candidate_id => params[:candidate_id],
                   :questions => @questions
                  } )
