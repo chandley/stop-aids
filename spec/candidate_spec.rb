@@ -6,9 +6,9 @@ describe Candidate do
   context "when initialized" do
 
     before do
-      @candidate = Candidate.create(name: 'Alice')
-      Candidate.create(name: 'Bob')
       @constituency = Constituency.create(name: 'Bethnal Green and Bow')
+      @candidate = Candidate.create(name: 'Alice', constituency_id: @constituency.id)
+      Candidate.create(name: 'Bob', constituency_id: @constituency.id)
       Question.create(ask_text: 'Would you rather red pill or blue pill?')
       Question.create(ask_text: 'Would you rather war or famine?')
       Question.create(ask_text: 'Would you rather beef or chicken?')
@@ -18,8 +18,6 @@ describe Candidate do
       visit "/candidates/#{@candidate.id}"
       expect(page).to have_content 'Alice'
     end
-
- 
 
     it 'it should show the candidates on the constituency api' do
       visit "/constituencies/#{@constituency.id}/candidates"
