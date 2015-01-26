@@ -1,0 +1,185 @@
+* {
+    font-family:'Source Code Pro',serif;
+    margin-top: 0px;
+    padding: 0;
+}
+
+html {
+    margin-top: -10px;
+    padding: 0;
+}
+
+header {
+    margin-bottom:10px;
+    background-color:#00ff85;
+}
+h1 {
+  font-family:'Source Code Pro',serif;
+  font-size: 15px;
+  text-align: center;
+  font-color: black;
+  letter-spacing: 0.4em;
+
+}
+
+/*h1 {
+    padding:15px;
+    opacity:.4;
+    font-size:10px
+}*/
+
+.text-muted {
+    color:#000;
+    opacity:.3
+}
+
+// Search Bar //
+div #wrap-container {
+    width:70%;
+    height:50px;
+    background-color:#CEF59B;
+    opacity:.7
+}
+
+#wrap {
+    position:absolute;
+    margin-left:15%;
+    margin-right:15%;
+    width:70px;
+    height:60px;
+    padding:0;
+    border-bottom:1px solid #BBB;
+    vertical-align:text-top
+}
+
+input.placeholder {
+    text-align:center;
+    padding:0;
+    margin-bottom:0;
+}
+
+input[type="text"] {
+    height:46px;
+    font-size:20px;
+    display:inline-block;
+    font-family:'Source Code Pro';
+    font-weight:100;
+    border:none;
+    outline:none;
+    color:#555;
+    padding:3px;
+    width:80%;
+    top:0;
+    right:0;
+    background:none;
+    z-index:3;
+    cursor:pointer;
+    border-bottom:1px solid #BBB
+}
+
+input[type="text"]:focus {
+    z-index:1;
+    border-bottom:1px solid #BBB;
+    cursor:pointer;
+    text-align:center
+}
+
+input[type="submit"] {
+    height:67px;
+    width:63px;
+    text-indent:-10000px;
+    border:none;
+    outline:none;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:2;
+    cursor:pointer;
+    opacity:.4;
+    cursor:pointer;
+    transition:opacity .4s ease;
+    display:none
+}
+
+input,input[placeholder] {
+    text-align:center
+}
+
+h3 {
+    font-size:10px;
+    margin-bottom: 0;
+    margin-top: auto;
+    padding-top: 2px
+}
+
+h2 {
+    font-size: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 0px;
+}
+
+.candidate-heading {
+    margin-bottom:0;
+    padding-bottom:0
+}
+
+div #candidate-image {
+    padding:0;
+    /*height: 55px;*/
+    clear:both
+}
+
+.round-button-circle {
+    width:100%;
+    height:100%;
+    padding-bottom:100%;
+    border-radius:50%;
+    overflow:hidden;
+    opacity:.8
+}
+
+p {
+    font-size: 22px;
+    margin-bottom: auto;
+}
+
+
+.round-button a:focus {
+    background-image: url(rather.png);
+    transition: background 0.1s ease;
+}
+
+.round-button a {
+width: 146px;
+background-image: url(rather.png);
+background-repeat: no-repeat;
+background-position: center ;
+background-size: 80px 80px;
+display: block;
+margin-top: 0;
+padding-top: 20px;
+padding-bottom: 21%;
+text-align: center;
+font-family: 'Source Code Pro',serif;
+font-size: 1.0em;
+font-weight: 500;
+color: grey;
+text-decoration: none;
+}
+
+footer {
+    position:fixed;
+    height:30px;
+    bottom:0;
+    width:100%;
+    margin-bottom:0;
+    background-color:#000;
+    color:#F9CB40;
+    padding-left:20px;
+    padding-top:5px;
+    font-size:8px
+
+}
+
+

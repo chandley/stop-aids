@@ -1,0 +1,76 @@
+* {
+  font-family: 'Source Code Pro', serif;
+
+}
+
+html {
+  margin-top: 0px;
+  padding-top: 0px;
+
+}
+header {
+    margin-bottom:0px;
+    background-color:#00ff85;
+    width: 100%;
+    clear:both;
+}
+
+h1 {
+    font-family:'Source Code Pro',serif;
+    font-size: 38px;
+    text-align: center;
+    font-color: black;
+    letter-spacing: 0.5em;
+
+}
+
+.circle-group {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.circle-group li {
+  display: inline-block;
+  vertical-align: center;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+#circle1 {
+    background-color:#5856d6;
+}
+#circle2 {
+  background-color: #007aff;
+}
+#circle3 {
+  background-color:#5ac8fa;
+}
+#circle4 {
+  background-color: #4cd964;
+}
+#circle5 {
+    background-color:#ff2d55;
+}
+#circle6 {
+  background-color: #ff3b30;
+}
+#circle7 {
+  background-color:#ff9500;
+}
+
+#circle8{
+  background-color: #ffcc00;
+}
+#circle9{
+  background-color:#ff3b30;
+}
+
+p {
+  font-size: 20px;
+  letter-spacing: 0.5em;
+}

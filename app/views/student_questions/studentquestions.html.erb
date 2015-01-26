@@ -1,0 +1,35 @@
+<!--/student_questions/studentquestions -->
+<!DOCTYPE html>
+<html ng-app="qAnMp">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
+</head>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<body ng-controller="getQuestions">
+<div class="container">
+    <div class="row">
+        <div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
+            <ul class="event-list">
+                <li ng-repeat="question in questions | orderBy : 'priority' | limitTo : display" >
+                    <time datetime="{{myDate | date:'mediumDate'}}">
+                        <span class="day">{{myDate | date: 'dd'}}</span>
+                        <span class="month">{{myDate | date: 'MMM'}}</span>
+                        <span class="year">{{myDate | date: 'yyyy'}}</span>
+                    </time>
+                    <img id="unlocked" ng-src="{{question.imgSrc}}" ng-click="lockQuestion(question)">
+                    <div class="info" ng-click="newQuestion(question)">
+                        <h2 class="title">Would you rather...</h2>
+                        <p class="desc">{{question.wording}}</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+	<button type="button" class="btn btn-primary" ng-show="isReadyToSubmit()" ng-click= "postQuestion()"> Sumbit your questions 
+
+	</button>
+</body>
+</html>
+	<!-- <%= button_tag "button.png"%> -->
