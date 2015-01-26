@@ -1,6 +1,5 @@
 When(/^the administrator adds a question by api$/) do
-  page.driver.post( "/questions",
-                   :ask_text => "do you like pizza or kebabs" )
+  post "/questions", :ask_text => "do you like pizza or kebabs"
 end
 
 Then(/^I get JSON kebab question text$/) do
@@ -24,5 +23,9 @@ end
 Then(/^we see the twitter information for candidate$/) do
   visit "/candidates/#{@alice.id}"
   expect(page).to have_content 'LookingGlass'
+end
+
+When(/^the administrator adds a candidate$/) do
+  post "/candidates", :name => "Bob", :constituency_id => @constituency.id
 end
 

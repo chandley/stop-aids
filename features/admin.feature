@@ -14,8 +14,15 @@ Scenario: Administrator edits candidate name
   When the administrator edits candidate name 
   Then we see the updated information for candidate
 
-Scenario: Administrator adds candidate twitter
+Scenario: Administrator edits candidate twitter
   Given we have a candidate
   When the administrator adds candidate twitter
   Then we see the twitter information for candidate
+
+Scenario: Administrator adds a new candidate
+  Given we have a constituency
+  When the administrator adds a candidate 
+  And I visit the constituency candidates api
+  Then I get JSON candidate names for constituency 
+
 

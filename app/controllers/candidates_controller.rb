@@ -19,5 +19,17 @@ class CandidatesController < ApplicationController
   def patch_params
     params.permit(:name, :twitter)
   end
+
+  def post_params
+    params.require(:name, :constituency_id).permit(:twitter)
+  end
+
+
+  def create
+    Candidate.create( :name         => params[:name], 
+                      :constituency_id => params[:constituency_id] )
+    render :nothing => true
+  end
+
  
 end

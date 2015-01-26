@@ -7,6 +7,11 @@ class ApplicationController < ActionController::Base
 
   def render_api (json_hash)
     response.headers["Content-Type"] = "application/javascript" 
+  
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Methods'] = 'POST, GET, OPTIONS, PATCH'
+    response.headers['Access-Control-Max-Age'] = "1728000"
+
     # prevents MIME error with js 
     render json: json_hash, callback: params['callback']
   end
