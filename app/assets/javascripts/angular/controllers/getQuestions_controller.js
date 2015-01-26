@@ -19,11 +19,11 @@ angular.module('qAnMp').controller('getQuestions', function($scope, $http){
     })
     $scope.lockQuestion = function(question) {
         if (question.locked) {
-            question.imgSrc = "images/unlock.png";
+            question.imgSrc = "unlock.png";
             question.locked = false
             question.priority = new Date
         } else {
-            question.imgSrc = "images/lock.png";
+            question.imgSrc = "lock.png";
             question.locked = true
             question.priority = 0
         } 
