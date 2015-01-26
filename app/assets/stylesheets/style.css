@@ -1,36 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
 * {
     font-family:'Source Code Pro',serif;
-    margin-top: 0px;
     padding: 0;
 }
 
-html {
-    margin-top: -10px;
-    padding: 0;
+body {
+    background-color:#00ff85;
+
 }
 
 header {
-    margin-bottom:10px;
     background-color:#00ff85;
 }
-h1 {
+
+h1 #index{
   font-family:'Source Code Pro',serif;
   font-size: 15px;
   text-align: center;
   font-color: black;
   letter-spacing: 0.4em;
-
-}
-
-/*h1 {
-    padding:15px;
-    opacity:.4;
-    font-size:10px
-}*/
-
-.text-muted {
-    color:#000;
-    opacity:.3
 }
 
 // Search Bar //
@@ -46,7 +34,7 @@ div #wrap-container {
     margin-left:15%;
     margin-right:15%;
     width:70px;
-    height:60px;
+    height:50px;
     padding:0;
     border-bottom:1px solid #BBB;
     vertical-align:text-top
@@ -85,7 +73,7 @@ input[type="text"]:focus {
 }
 
 input[type="submit"] {
-    height:67px;
+    height:50px;
     width:63px;
     text-indent:-10000px;
     border:none;
@@ -139,16 +127,6 @@ div #candidate-image {
     opacity:.8
 }
 
-p {
-    font-size: 22px;
-    margin-bottom: auto;
-}
-
-
-.round-button a:focus {
-    background-image: url(rather.png);
-    transition: background 0.1s ease;
-}
 
 .round-button a {
 width: 146px;
@@ -181,5 +159,183 @@ footer {
     font-size:8px
 
 }
+
+//Questions Page //
+
+header {
+    margin-top: 10px;
+    background-color:#00ff85;
+}
+
+h1 .banner{
+    font-family:'Source Code Pro',serif;
+    font-size: 6px;
+    text-align: center;
+    font-color: black;
+    letter-spacing: 0.2px;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+}
+
+ul li {
+    text-align: center;
+    margin:0;
+    padding:2px;
+    list-style-type:none;
+    height: 40%;
+    font-size: 18px;
+    display:block;
+    background:#18FFF4;
+}
+
+ul li:nth-child(2) {
+    background:#FF4B00
+}
+
+ul li:nth-child(3) {
+    background:#F4FF00
+}
+
+
+
+img {
+    float: right;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+span {
+    display: none;
+}
+
+
+.circle-group {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom:0px 
+}
+
+.circle-group li {
+  display: inline-block;
+  vertical-align: center;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+#circle1 {
+    background-color:#5856d6;
+}
+#circle2 {
+  background-color: #007aff;
+}
+#circle3 {
+  background-color:#5ac8fa;
+}
+#circle4 {
+  background-color: #4cd964;
+}
+#circle5 {
+    background-color:#ff2d55;
+}
+#circle6 {
+  background-color: #ff3b30;
+}
+#circle7 {
+  background-color:#ff9500;
+}
+
+#circle8{
+  background-color: #ffcc00;
+}
+#circle9{
+  background-color:#ff3b30;
+}
+
+//CANDIDATES PAGE//
+
+
+
+
+form .answers{
+  margin-top:50px;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid black;
+}
+
+input,input[placeholder] {
+  text-align:center;
+}
+
+footer {
+    position:fixed;
+    height:30px;
+    bottom:0;
+    width:100%;
+    margin-bottom:0;
+    background-color:#000;
+    color:#00ff85;
+    padding-left:20px;
+    padding-top:5px;
+    font-size:8px
+
+}
+
+
+
+//Candidate Page Button//
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+button .answer-1 {
+  font-family: 'entypo', sans-serif;
+  color: #000;
+  display: inline-block;
+  font-size: 1.2em;
+  margin-right: .7em;
+  position: relative;
+}
+
+button .answer-2 {
+  font-family: 'entypo', sans-serif;
+  color: white;;
+  display: inline-block;
+  font-size: 1.2em;
+  margin-right: .7em;
+  position: relative;
+  transition: all .4s;
+  background-color: black;
+}
+
+button {
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: 1px;
+
+  border: 1px solid #000;
+  outline: none;
+  width: 50%;
+  padding: 1em 0;
+  box-shadow: 3px 3px 0px #000;
+  }
+
+p .q-title {
+    font-weight: bold;
+}
+
 
 

@@ -7,6 +7,11 @@
 </head>
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <body ng-controller="getQuestions">
+<center>
+<header>
+  <h1 class="banner">WOULD - YOU - RATHER ..</h1>
+</header>
+
 <div class="container">
     <div class="row">
         <div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
@@ -17,9 +22,9 @@
                         <span class="month">{{myDate | date: 'MMM'}}</span>
                         <span class="year">{{myDate | date: 'yyyy'}}</span>
                     </time>
-                    <img id="unlocked" ng-src="{{question.imgSrc}}" ng-click="lockQuestion(question)">
+                    <img id="unlocked" ng-src="{{question.imgSrc}}" ng-click="lockQuestion(question)" >
                     <div class="info" ng-click="newQuestion(question)">
-                        <h2 class="title">Would you rather...</h2>
+                    
                         <p class="desc">{{question.wording}}</p>
                     </div>
                 </li>
@@ -30,6 +35,19 @@
 	<button type="button" class="btn btn-primary" ng-show="isReadyToSubmit()" ng-click= "postQuestion()"> Sumbit your questions 
 
 	</button>
+   
+        <ul class="circle-group">
+        <li class="circle" id="circle1"></li>
+        <li class="circle" id="circle2"></li>
+        <li class="circle" id="circle3"></li>
+        <li class="circle" id="circle4"></li>
+        <li class="circle" id="circle5"></li>
+        <li class="circle" id="circle6"></li>
+        <li class="circle" id="circle7"></li>
+        <li class="circle" id="circle8"></li>
+        <li class="circle" id="circle9"></li>
+</ul>
+ </center>
 </body>
 </html>
 	<!-- <%= button_tag "button.png"%> -->
