@@ -25,7 +25,21 @@ Then(/^we see the twitter information for candidate$/) do
   expect(page).to have_content 'LookingGlass'
 end
 
+When(/^we have a candidate in a constituency$/) do
+  step('we have a constituency')
+  @alice = Candidate.create(name: 'Alice', constituency_id: @constituency.id)
+end
+
 When(/^the administrator adds a candidate$/) do
   post "/candidates", :name => "Bob", :constituency_id => @constituency.id
+end
+
+When(/^the administrator deletes the candidate$/) do
+   delete "/candidates/#{@alice.id}"
+end
+
+Then(/^we don't see the candidate in candidate data view$/) do
+visit "/constituencies/#{@constituency.id}/candidates"
+expect(page).not_to have_content("Alice")
 end
 

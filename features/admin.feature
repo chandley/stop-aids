@@ -25,4 +25,9 @@ Scenario: Administrator adds a new candidate
   And I visit the constituency candidates api
   Then I get JSON candidate names for constituency 
 
+Scenario: Administrator deletes a candidate
+  Given we have a candidate in a constituency
+  When the administrator deletes the candidate
+  Then we don't see the candidate in candidate data view
+
 

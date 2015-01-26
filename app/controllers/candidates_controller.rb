@@ -31,5 +31,10 @@ class CandidatesController < ApplicationController
     render :nothing => true
   end
 
+  def destroy
+    Candidate.find(params[:id]).destroy
+    render :nothing => true
+  end
+
  
 end
