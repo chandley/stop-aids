@@ -7,10 +7,10 @@ angular.module('qAnMp').controller('getQuestions', function($scope, $http){
         var urlTrial = "https://stopaidz-rails1.herokuapp.com/candidates/1/questions?callback=JSON_CALLBACK"
         $http.jsonp(urlTrial)
         .success(function(response){
-            console.log(response.questions[0].id)
         response.questions.forEach(function(singleQuestion,index,array){
             question = {}
             question.id = singleQuestion.id
+            // console.log(question.id)
             question.wording = singleQuestion.ask_text
             question.locked = false
             question.imgSrc = "images/unlock.png"
@@ -49,7 +49,6 @@ angular.module('qAnMp').controller('getQuestions', function($scope, $http){
 
     $scope.isReadyToSubmit = function(){
         $scope.countOfLockedItem()
-        console.log($scope.countOfLocked)
         if($scope.countOfLocked.length === 3){
             return true
         }
@@ -62,17 +61,17 @@ $scope.postQuestion = function(){
         $scope.questions.forEach(function(question) {
             if(question.locked == true) questionsSelected.push(question)
         })
-      // console.log("postQuestion 1", questionsSelected[0] )
-      // console.log("postQuestion",questionsSelected)
-      var toSubmitQ = questionsSelected[0]
-      var url = "http://localhost:3000//users/1/candidates/1/asks?question_id=" + toSubmitQ
-        $http.post(url)
-        // $http.post(url, {'questionsSelected' : 0} 
-        .success(function(response){
-            console.log(response, 'success')
-        })
-        .error(function(error){
-            console.log(error)
-        })
+
+        for (i = 0; i < 4; i++) {
+            var toSubmitQ = questionsSelected[i].id;    
+            var url = "http://localhost:3000//users/1/candidates/1/asks?question_id=" + toSubmitQ
+              $http.post(url)
+                .success(function(response){
+                    console.log(response, 'success')
+                })
+                .error(function(error){
+                    console.log(error)
+                })
+         }
    }
 })
