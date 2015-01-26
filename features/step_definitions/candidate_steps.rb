@@ -14,5 +14,5 @@ end
 
 Then(/^I see candidates from the first constituency only$/) do
   expect(page).to have_content 'Bob'
-  expect(page).to_not have_content 'Alice'
+  expect(page).not_to have_content 'Alice'
 end

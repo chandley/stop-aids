@@ -7,7 +7,9 @@ class CandidatesController < ApplicationController
   end
 
   def index
-    render_api :candidates => Candidate.all 
+    #TODO care constituence uses pa_id for constituency_id
+
+    render_api :candidates => Candidate.where("constituency_id = #{params[:constituency_id]}")
   end
 
   def update
