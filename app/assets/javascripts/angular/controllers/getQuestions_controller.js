@@ -11,7 +11,6 @@ angular.module('qAnMp').controller('getQuestions', function($scope, $http){
         response.questions.forEach(function(singleQuestion,index,array){
             question = {}
             question.id = singleQuestion.id
-            // console.log('i am an id', question.id)
             question.wording = singleQuestion.ask_text
             question.locked = false
             question.imgSrc = "images/unlock.png"
@@ -22,11 +21,11 @@ angular.module('qAnMp').controller('getQuestions', function($scope, $http){
     })
     $scope.lockQuestion = function(question) {
         if (question.locked) {
-            question.imgSrc = "unlock.png";
+            question.imgSrc = "images/unlock.png";
             question.locked = false
             question.priority = new Date
         } else {
-            question.imgSrc = "lock.png";
+            question.imgSrc = "images/lock.png";
             question.locked = true
             question.priority = 0
         } 
@@ -50,6 +49,7 @@ angular.module('qAnMp').controller('getQuestions', function($scope, $http){
 
     $scope.isReadyToSubmit = function(){
         $scope.countOfLockedItem()
+        console.log($scope.countOfLocked)
         if($scope.countOfLocked.length === 3){
             return true
         }
@@ -62,11 +62,12 @@ $scope.postQuestion = function(){
         $scope.questions.forEach(function(question) {
             if(question.locked == true) questionsSelected.push(question)
         })
-      console.log("postQuestion 1", questionsSelected[0] )
-      console.log("postQuestion",questionsSelected)
-      var url = "http://users/1/candidates/1/asks"
-      // asks/question(1)(2)(3).ids/userid/candidates
-        $http.post(url, {'questionsSelected' : 1} )
+      // console.log("postQuestion 1", questionsSelected[0] )
+      // console.log("postQuestion",questionsSelected)
+      var toSubmitQ = questionsSelected[0]
+      var url = "http://localhost:3000//users/1/candidates/1/asks?question_id=" + toSubmitQ
+        $http.post(url)
+        // $http.post(url, {'questionsSelected' : 0} 
         .success(function(response){
             console.log(response, 'success')
         })
