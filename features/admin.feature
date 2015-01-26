@@ -9,6 +9,13 @@ Scenario: Administrator adds question
   And I visit the candidate questions api
   Then I get JSON kebab question text
 
+Scenario: Administrator deletes question
+  Given we have some questions for a candidate
+  When the administrator deletes first question by api
+  And I visit the candidate questions api
+  Then I don't see the first question
+
+
 Scenario: Administrator edits candidate name
   Given we have a candidate
   When the administrator edits candidate name 

@@ -29,6 +29,11 @@ class QuestionsController < ApplicationController
     render_api :question => Question.find(params[:id]).choices
   end
 
+  def destroy
+    Question.find(params[:id]).destroy
+    render :nothing => true
+  end
+
   def unanswered
     params[:filter] = 'unanswered'
     index

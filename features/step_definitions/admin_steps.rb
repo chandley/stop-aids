@@ -43,3 +43,11 @@ visit "/constituencies/#{@constituency.id}/candidates"
 expect(page).not_to have_content("Alice")
 end
 
+When(/^the administrator deletes first question by api$/) do
+  delete "/questions/#{@red_or_blue.id}"
+end
+
+Then(/^I don't see the first question$/) do
+  expect(page).to_not have_content('red pill or blue')
+end
+
