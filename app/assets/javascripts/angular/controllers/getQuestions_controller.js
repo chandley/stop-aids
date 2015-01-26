@@ -7,8 +7,11 @@ angular.module('qAnMp').controller('getQuestions', function($scope, $http){
         var urlTrial = "https://stopaidz-rails1.herokuapp.com/candidates/1/questions?callback=JSON_CALLBACK"
         $http.jsonp(urlTrial)
         .success(function(response){
+            console.log(response.questions[0].id)
         response.questions.forEach(function(singleQuestion,index,array){
             question = {}
+            question.id = singleQuestion.id
+            // console.log('i am an id', question.id)
             question.wording = singleQuestion.ask_text
             question.locked = false
             question.imgSrc = "images/unlock.png"
@@ -59,10 +62,10 @@ $scope.postQuestion = function(){
         $scope.questions.forEach(function(question) {
             if(question.locked == true) questionsSelected.push(question)
         })
-
+      console.log("postQuestion 1", questionsSelected[0] )
       console.log("postQuestion",questionsSelected)
-      // var url = "https://stopaidz-rails1.herokuapp.com/users/1/candidates/1/asks?callback=JSON_CALLBACK"
-      var url = "http://localhost:3000/users"
+      var url = "http://users/1/candidates/1/asks"
+      // asks/question(1)(2)(3).ids/userid/candidates
         $http.post(url, {'questionsSelected' : 1} )
         .success(function(response){
             console.log(response, 'success')
