@@ -1,0 +1,345 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+* {
+    font-family:'Source Code Pro',serif;
+    padding: 0;
+}
+
+body {
+    background-color:#00ff85;
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    background-color:#00ff85;
+}
+
+h1 #index{
+  font-family:'Source Code Pro',serif;
+  font-size: 15px;
+  text-align: center;
+  font-color: black;
+  letter-spacing: 0.4em;
+}
+
+// Search Bar //
+div #wrap-container {
+    width:70%;
+    height:50px;
+    background-color:#CEF59B;
+    opacity:.7
+}
+
+#wrap {
+    position:absolute;
+    margin-left:15%;
+    margin-right:15%;
+    width:70px;
+    height:50px;
+    padding:0;
+    border-bottom:1px solid #BBB;
+    vertical-align:text-top
+}
+
+input.placeholder {
+    text-align:center;
+    padding:0;
+    margin-bottom:0;
+}
+
+input[type="text"] {
+    height:46px;
+    font-size:20px;
+    display:inline-block;
+    font-family:'Source Code Pro';
+    font-weight:100;
+    border:none;
+    outline:none;
+    color:#555;
+    padding:3px;
+    width:80%;
+    top:0;
+    right:0;
+    background:none;
+    z-index:3;
+    cursor:pointer;
+    border-bottom:1px solid #BBB
+}
+
+input[type="text"]:focus {
+    z-index:1;
+    border-bottom:1px solid #BBB;
+    cursor:pointer;
+    text-align:center
+}
+
+input[type="submit"] {
+    height:50px;
+    width:63px;
+    text-indent:-10000px;
+    border:none;
+    outline:none;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:2;
+    cursor:pointer;
+    opacity:.4;
+    cursor:pointer;
+    transition:opacity .4s ease;
+    display:none
+}
+
+input,input[placeholder] {
+    text-align:center
+}
+
+h3 {
+    font-size:10px;
+    margin-bottom: 0;
+    margin-top: auto;
+    padding-top: 2px
+}
+
+h2 {
+    font-size: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 0px;
+}
+
+.candidate-heading {
+    margin-bottom:0;
+    padding-bottom:0
+}
+
+div #candidate-image {
+    padding:0;
+    /*height: 55px;*/
+    clear:both
+}
+
+.round-button-circle {
+    width:100%;
+    height:100%;
+    padding-bottom:100%;
+    border-radius:50%;
+    overflow:hidden;
+    opacity:.8
+}
+
+
+.round-button a {
+width: 146px;
+background-image: url(rather.png);
+background-repeat: no-repeat;
+background-position: center ;
+background-size: 80px 80px;
+display: block;
+margin-top: 0;
+padding-top: 20px;
+padding-bottom: 21%;
+text-align: center;
+font-family: 'Source Code Pro',serif;
+font-size: 1.0em;
+font-weight: 500;
+color: grey;
+text-decoration: none;
+}
+
+footer {
+    position:fixed;
+    height:30px;
+    bottom:0;
+    width:100%;
+    margin-bottom:0;
+    background-color:#000;
+    color:#F9CB40;
+    padding-left:20px;
+    padding-top:5px;
+    font-size:8px
+
+}
+
+#footer-p {
+    font-size:10px;
+}
+
+//Questions Page //
+
+header {
+    margin-top: 10px;
+    background-color:#00ff85;
+}
+
+h1 .banner{
+    font-family:'Source Code Pro',serif;
+    font-size: 6px;
+    text-align: center;
+    font-color: black;
+    letter-spacing: 0.2px;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+}
+
+ul li {
+    text-align: center;
+    margin:0;
+    padding:2px;
+    list-style-type:none;
+    height: 40%;
+    font-size: 18px;
+    display:block;
+    background:#18FFF4;
+}
+
+ul li:nth-child(2) {
+    background:#FF4B00
+}
+
+ul li:nth-child(3) {
+    background:#F4FF00
+}
+
+img #unlocked {
+    float: right;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+span {
+    display: none;
+}
+
+
+.circle-group {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom:0px 
+}
+
+.circle-group li {
+  display: inline-block;
+  vertical-align: center;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+#circle1 {
+    background-color:#5856d6;
+}
+#circle2 {
+  background-color: #007aff;
+}
+#circle3 {
+  background-color:#5ac8fa;
+}
+#circle4 {
+  background-color: #4cd964;
+}
+#circle5 {
+    background-color:#ff2d55;
+}
+#circle6 {
+  background-color: #ff3b30;
+}
+#circle7 {
+  background-color:#ff9500;
+}
+
+#circle8{
+  background-color: #ffcc00;
+}
+#circle9{
+  background-color:#ff3b30;
+}
+
+//CANDIDATES PAGE//
+
+
+
+
+form .answers{
+  margin-top:50px;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid black;
+}
+
+input,input[placeholder] {
+  text-align:center;
+}
+
+footer {
+    position:fixed;
+    height:30px;
+    bottom:0;
+    width:100%;
+    margin-bottom:0;
+    background-color:#000;
+    color:#00ff85;
+    padding-left:20px;
+    padding-top:5px;
+    font-size:8px
+
+}
+
+
+
+//Candidate Page Button//
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+button .answer-1 {
+  font-family: 'entypo', sans-serif;
+  color: #000;
+  display: inline-block;
+  font-size: 1.2em;
+  margin-right: .7em;
+  position: relative;
+}
+
+button .answer-2 {
+  font-family: 'entypo', sans-serif;
+  color: white;;
+  display: inline-block;
+  font-size: 1.2em;
+  margin-right: .7em;
+  position: relative;
+  transition: all .4s;
+  background-color: black;
+}
+
+button {
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: 1px;
+
+  border: 1px solid #000;
+  outline: none;
+  width: 50%;
+  padding: 1em 0;
+  box-shadow: 3px 3px 0px #000;
+  }
+
+p .q-title {
+    font-weight: bold;
+}
+
+
+

@@ -1,0 +1,53 @@
+<!--/student_questions/studentquestions -->
+<!DOCTYPE html>
+<html ng-app="qAnMp">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
+</head>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<body ng-controller="getQuestions">
+<center>
+<header>
+  <h1 class="banner">WOULD - YOU - RATHER ..</h1>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
+            <ul class="event-list">
+                <li ng-repeat="question in questions | orderBy : 'priority' | limitTo : display" >
+                    <time datetime="{{myDate | date:'mediumDate'}}">
+                        <span class="day">{{myDate | date: 'dd'}}</span>
+                        <span class="month">{{myDate | date: 'MMM'}}</span>
+                        <span class="year">{{myDate | date: 'yyyy'}}</span>
+                    </time>
+                    <img id="unlocked" ng-src="{{question.imgSrc}}" ng-click="lockQuestion(question)" >
+                    <div class="info" ng-click="newQuestion(question)">   
+                        <p class="desc">{{question.wording}}</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+	<button type="button" class="btn btn-primary" ng-show="isReadyToSubmit()" ng-click= "postQuestion()"> <img src="orange.png">
+	</button>
+            <%= image_tag "orange.png" %>
+
+
+        <ul class="circle-group">
+        <li class="circle" id="circle1"></li>
+        <li class="circle" id="circle2"></li>
+        <li class="circle" id="circle3"></li>
+        <li class="circle" id="circle4"></li>
+        <li class="circle" id="circle5"></li>
+        <li class="circle" id="circle6"></li>
+        <li class="circle" id="circle7"></li>
+        <li class="circle" id="circle8"></li>
+        <li class="circle" id="circle9"></li>
+</ul>
+ </center>
+</body>
+</html>

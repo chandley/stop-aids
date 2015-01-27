@@ -1,0 +1,29 @@
+{
+"name": "sleazy",
+"lib": {
+"name": "bower-rails generated lib assets",
+"dependencies": {
+  "angular": "~1.3.8"
+}
+},
+"vendor": {
+"name": "bower-rails generated vendor assets",
+"dependencies": {}
+},
+"version": "0.0.0",
+"homepage": "https://github.com/imarkwick/sleazy",
+"authors": [
+"imarkwick <izzymarkwick@gmail.com>"
+],
+"license": "MIT",
+"ignore": [
+"**/.*",
+"node_modules",
+"bower_components",
+"test",
+"tests"],
+"devDependencies": {
+"angular-mocks": "~1.3.8",
+"angular-route": "~1.3.8"
+}
+}
