@@ -10,7 +10,7 @@ Scenario: Administrator adds question
   Then I get JSON kebab question text
 
 Scenario: Administrator deletes question
-  Given we have some questions for a candidate
+  Given we have some questions with choices for a candidate
   When the administrator deletes first question by api
   And I visit the candidate questions api
   Then I don't see the first question

@@ -1,5 +1,5 @@
-Given(/^lots of students have asked a question$/) do
-  step('we have some questions for a candidates')
+Given(/^we have asked questions for a candidate$/) do
+  step('we have some questions with choices for a candidate')
   @adrian = User.create(email: 'adrian@uu.com', password:'password', password_confirmation:'password')
   @ben = User.create(email: 'ben@uu.com', password:'password', password_confirmation:'password')
   @ben_asks_alice_redblue = Ask.create(user_id: @ben.id, question_id: @red_or_blue.id, candidate_id: @alice.id)
@@ -24,4 +24,12 @@ end
 
 Then(/^I get taken to the questions list$/) do
   pending # express the regexp above with the code you wish you had
+end
+
+Then(/^I see the available choices for each question$/) do
+  expect(page).to have_content('Beef')
+end
+
+Then(/^I see the number of times each question has been asked$/) do
+  expect(page).to have_content("\"asked times\":\"2\"")
 end

@@ -4,6 +4,6 @@ Feature:
   I want to look at existing answers to questions
 
   Scenario: API gives answers
-  Given we have some questions for a candidate
+  Given we have asked questions for a candidate
   When answers are given for a question by API
   Then we see the answered question

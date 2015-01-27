@@ -4,7 +4,7 @@ Feature:
   I want to answer their questions
 
   Scenario: Candidate alerted to questions on own page
-    Given lots of students have asked a question
+    Given we have asked questions for a candidate
     When number of asks reaches a certain threshold 
     Then I get an alert on my twitter feed
 
@@ -14,5 +14,15 @@ Feature:
     Given I have been alerted to pending questions on twitter
     When I click on the link in the tweet
     Then I get taken to the questions list
+
+  Scenario: Candidate sees questions ranked by times asked
+    Given we have asked questions for a candidate
+    When I visit the candidate questions api
+    Then I see the number of times each question has been asked
+
+  Scenario: Candidate sees choices for questions
+    Given we have asked questions for a candidate
+    When I visit the candidate questions api
+    Then I see the available choices for each question
 
   
