@@ -8,5 +8,12 @@ class User < ActiveRecord::Base
   def get_constituency_pa_id_from_postcode(postcode)
     pa_id = $twfy.constituency(postcode: postcode).pa_id
   end
+
+  def asks_to(candidate, question)
+    Ask.create(candidate_id: candidate.id, 
+               question_id:  question.id, 
+               user_id:      self.id  
+              )
+  end
   
 end

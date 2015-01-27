@@ -38,11 +38,10 @@ class AsksController < ApplicationController
     return_array = []
 
     asks.each do |ask|
-      question_text = Question.find(ask.question_id).ask_text
       answer = Answer.where(:candidate_id => params[:candidate_id],
                             :question_id => ask.question_id).take
       choice_text = Choice.find(answer.choice_id).text
-      return_array << {ask_text: question_text, choice_text: choice_text}
+      return_array << {ask_text: ask.question.ask_text, choice_text: choice_text}
     end
 
     return_array.select {|ask| !ask[:choice_text]}

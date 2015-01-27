@@ -17,6 +17,4 @@ class Quizmaster
     candidate.questions_asked_more_times_than(2)
   end
 
-
-
 end

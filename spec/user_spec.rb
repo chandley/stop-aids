@@ -24,4 +24,22 @@ describe User do
 
   end
 
+
+  context 'asks questions' do
+
+    before do
+      @user = User.create(email:'test@test.com', 
+                          password: 'testtest', 
+                          password_confirmation: 'testtest'
+                         )
+      @candidate = Candidate.create(name: 'Alice')
+      @question = Question.create(ask_text: 'Would you rather red pill or blue pill?')
+    end
+
+    it 'can ask a question' do
+      @user.asks_to(@candidate, @question)
+      expect(@candidate.asks.map {|ask| ask.question_id}).to include(@question.id)
+    end
+
+  end
 end
