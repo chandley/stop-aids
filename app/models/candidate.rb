@@ -12,9 +12,8 @@ class Candidate < ActiveRecord::Base
   end
 
   def get_answer_page
-    base_link = 'https://stop-aidz-unity1.herokuapp.com/candidates/'
-    id = self.id
-    extention = '/questions?filter=answered'
+    base_link = 'https://stop-aidz-unity1.herokuapp.com/candidatesanswers/candidateanswers'
+    extention = "?candidate_id=#{self.id}"
     return $bitly.shorten( base_link + id.to_s + extention ).short_url
   end
 
