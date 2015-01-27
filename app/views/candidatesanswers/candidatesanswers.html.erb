@@ -16,10 +16,13 @@
   <div ng-repeat="question in candidateQuestions | limitTo : 5">
    <p class="q-title">{{question.wording}}</p>
   <form class="answers">
-  <button type="submit" ng-click="submitAnswers()" value="answer-1" class="answer-1" ng-model="question.test">{{question.optionOne}}</button>
-  <button type="submit" ng-click="submitAnswers()" value="answer-2" class="answer-2" ng-model="test">{{question.optionTwo}}</button>
+  <button type="submit" name="firstOption" ng-click="submitAnswers(question,testing)" value="answer-1" class="answer-1" ng-model="testing">{{question.optionOne}}</button>
+  <button type="submit" name="secondOption" ng-click="submitAnswers(question,test)" value="answer-2" class="answer-2" ng-model="test">{{question.optionTwo}}</button>
   </form>
 </div>  
+
+<br>
+
 <ul class="circle-group">
 <li class="circle" id="circle1"></li>
 <li class="circle" id="circle2"></li>
@@ -31,6 +34,7 @@
 <li class="circle" id="circle8"></li>
 <li class="circle" id="circle9"></li>
 </ul>
+
 </center>
 
 </body>

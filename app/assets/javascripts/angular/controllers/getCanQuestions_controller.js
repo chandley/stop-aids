@@ -1,4 +1,5 @@
 angular.module('qAnMp').controller('getCanQuestions', function($scope, $http){
+  
 	$scope.getCanQuestions = function(){
     $scope.display = 4
     $scope.candidateQuestions = []
@@ -9,7 +10,6 @@ angular.module('qAnMp').controller('getCanQuestions', function($scope, $http){
          response.questions.forEach(function(singleQuestion,index,array){
             question = {}
             question.id = singleQuestion.question.id
-            // console.log(question.id)
             question.wording = singleQuestion.question.ask_text
             question.total = array.length
             question.optionOne = singleQuestion.choices[0].text
@@ -22,22 +22,25 @@ angular.module('qAnMp').controller('getCanQuestions', function($scope, $http){
         .error(function(error){
             console.log('request not sent')
         })
-}
+    }
+
 
 $scope.getCanQuestions()
     
-    $scope.submitAnswers = function(){
-        // triggered with the click button
-        var answersSelected = $scope.candidateQuestions[0].optionOneID
-        var questionID = $scope.candidateQuestions[0].id
+    $scope.submitAnswers = function(question,test){
+        var qId = question['id']
+        var opId = question['optionOneID']
+        console.log(question['optionTwoID'], 'optiontwo')
+        console.log(opId, 'opId')
+        console.log(qId, 'qId')
         console.log(questionID, 'questionID')
-        var urlToPostAnswers = "http://localhost:3000//users/1/candidates/1/asks?question_id=" + questionID + "&choice_id=" + answersSelected
+        var urlToPostAnswers = "http://localhost:3000//users/1/candidates/1/asks?question_id=" + qId + "&choice_id=" + opId
         $http.post(urlToPostAnswers)
             .success(function(response){
                 console.log(response, 'success')
-    console.log($scope.test, 'test')
             })
     }
+
 
 
 })

@@ -305,7 +305,9 @@ footer {
 
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 
-button .answer-1 {
+
+
+.answer-1 {
   font-family: 'entypo', sans-serif;
   color: #000;
   display: inline-block;
@@ -314,32 +316,53 @@ button .answer-1 {
   position: relative;
 }
 
-button .answer-2 {
-  font-family: 'entypo', sans-serif;
-  color: white;;
-  display: inline-block;
-  font-size: 1.2em;
-  margin-right: .7em;
-  position: relative;
-  transition: all .4s;
-  background-color: black;
+.answer-1{
+  background-color: #1EFC1E;
+}
+
+.answer-2{
+  background-color: #7371FC;
 }
 
 button {
   text-transform: uppercase;
+  font-size:12px;
   display: block;
   letter-spacing: 1px;
-
+  background-color:#69D2E7;
   border: 1px solid #000;
   outline: none;
-  width: 50%;
+  width: 80%;
   padding: 1em 0;
   box-shadow: 3px 3px 0px #000;
+  cursor: pointer;
   }
+
 
 p .q-title {
     font-weight: bold;
 }
 
+// STUDENTS ANSWER PAGE //
+
+h2 #sub-heading {
+  font-size:15px;
+}
+
+#q-one {
+  background-color: #69D2E7;
+}
+
+#q-two {
+  background-color: #FE4365;
+}
+
+#q-three {
+  background-color: #FA6900;
+}
+
+#q-four {
+  background-color: #FE4365;
+}
 
 

@@ -1,4 +1,7 @@
 angular.module('qAnMp').controller('getQuestions', function($scope, $http){
+
+    $scope.logoSrc = '<%= asset_path("lock.png") %>'
+    console.log($scope.logoSrc)
     $scope.display = 3
     $scope.myDate = new Date()
     $scope.questions = []
