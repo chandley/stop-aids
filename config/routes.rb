@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
   get 'candidatesanswers/candidatesanswers'
 
   get 'student_questions/studentquestions'
@@ -47,6 +49,10 @@ resources :users do
   resources :candidates do
     resources :asks
   end
+end
+
+namespace :admin do
+  get '', to: 'dashboard #index', as: '/'
 end
   
 
