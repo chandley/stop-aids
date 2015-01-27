@@ -10,7 +10,6 @@ angular.module('qAnMp').controller('getQuestions', function($scope, $http){
         response.questions.forEach(function(singleQuestion,index,array){
             question = {}
             question.id = singleQuestion.id
-            // console.log(question.id)
             question.wording = singleQuestion.ask_text
             question.locked = false
             question.imgSrc = "images/unlock.png"
