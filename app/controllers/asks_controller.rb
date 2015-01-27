@@ -19,9 +19,15 @@ class AsksController < ApplicationController
     
     asks = Ask.where(:candidate_id == params[:candidate_id])
     question_id_arr = asks.map {|ask| ask.question_id}
-    question_text = Question.find(question_id_arr).map { |q| q.ask_text}
+    asked_questions = []
+    question_id_arr.each do |asked_question_id|
+      question = Question.find(asked_question_id)
+      asked_questions << question
+    end
 
-    render_api :asks => question_text
+    render_api ({candidate_id: params[:candidate_id], 
+                 asks: asks,  
+                 asked_questions: asked_questions } )
   end
 
 end
