@@ -15,5 +15,10 @@ class User < ActiveRecord::Base
                user_id:      self.id  
               )
   end
+
+  def questions_asked_to(candidate)
+    asks_to_candidate = self.asks.where(:candidate_id == candidate.id)
+    return asks_to_candidate.map {|ask| Question.find(ask.question_id)}
+  end
   
 end

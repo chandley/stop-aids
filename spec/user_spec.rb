@@ -41,5 +41,10 @@ describe User do
       expect(@candidate.asks.map {|ask| ask.question_id}).to include(@question.id)
     end
 
+    it 'knows which questions it has asked' do
+      @user.asks_to(@candidate, @question)
+      expect(@user.questions_asked_to(@candidate)).to include(@question)
+    end
+
   end
 end
