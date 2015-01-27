@@ -5,8 +5,10 @@ Given(/^we have a candidate$/) do
 end
 
 Given(/^we have some candidates$/) do
-  Candidate.create(name: 'Bob', constituency_id: @constituency.id)
-  Candidate.create(name: 'Alice', constituency_id: @constituency.id)
+  step 'we have a constituency'
+  @bob = Candidate.create(name: 'Bob', constituency_id: @constituency.id)
+  @alice = Candidate.create(name: 'Alice', constituency_id: @constituency.id)
+  @charlie = Candidate.create(name: 'Charlie', constituency_id: @constituency.id)
 end
 
 Given(/^we have some questions with choices$/) do
@@ -19,6 +21,12 @@ Given(/^we have some questions with choices$/) do
   @beef_or_chicken = Question.create(ask_text: 'Would you rather beef or chicken?')
   @beef = Choice.create(text: 'Beef', question_id: @beef_or_chicken.id)
   @chicken = Choice.create(text: 'Chicken', question_id: @beef_or_chicken.id)
+end
+
+Given(/^we have a student$/) do
+  @student = User.create(email: 'test@test.com', 
+                         password: 'password', 
+                         password_confirmation: 'password')
 end
 
 Given(/^we have a constituency$/) do
@@ -102,12 +110,12 @@ Then(/^we see the answered question$/) do
 end
 
 When(/^a student submits an ask question$/) do
-  @student = User.create(email: 'test@test.com', password: 'password', password_confirmation: 'password')
+  step('we have a student')
   post "/users/#{@student.id}/candidates/#{@alice.id}/asks", :question_id => @red_or_blue.id
 end
 
 When(/^a student submits an ask question with JSON callback$/) do
-  @student = User.create(email: 'test@test.com', password: 'password', password_confirmation: 'password')
+  step('we have a student')
   post "/users/#{@student.id}/candidates/#{@alice.id}/asks?callback=JSON_CALLBACK", :question_id => @red_or_blue.id
 end
 
