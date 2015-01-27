@@ -31,5 +31,5 @@ Then(/^I see the available choices for each question$/) do
 end
 
 Then(/^I see the number of times each question has been asked$/) do
-  expect(page).to have_content("\"asked times\":\"2\"")
+  expect(page).to have_content("\"number_of_asks\":2")
 end

@@ -15,7 +15,7 @@ Feature:
     When I click on the link in the tweet
     Then I get taken to the questions list
 
-  Scenario: Candidate sees questions ranked by times asked
+  Scenario: Candidate sees number of times questions asked
     Given we have asked questions for a candidate
     When I visit the candidate questions api
     Then I see the number of times each question has been asked
