@@ -1,5 +1,5 @@
 angular.module('qAnMp').controller('getCanQuestions', function($scope, $http){
-	$scope.getCanQuestions = function(){
+$scope.getCanQuestions = function(){
     $scope.display = 4
     $scope.candidateQuestions = []
     var url = "http://localhost:3000/candidates/1/questions/unanswered"
@@ -21,12 +21,12 @@ angular.module('qAnMp').controller('getCanQuestions', function($scope, $http){
 }
 
 $scope.getCanQuestions()
-    
-    // $scope.submitAnswers = function(){
-    //     // triggered with the click button
-    //     var urlToPostAnswers = "http://localhost:3000//users/1/candidates/1/"
-    //     http.post()
-    // }
+$scope.candidateQuestions    
+    $scope.submitAnswers = function(){
+        // triggered with the click button
+        var urlToPostAnswers = "http://localhost:3000//users/1/candidates/1/asks?question_id="
+        http.post()
+    }
 
 
 

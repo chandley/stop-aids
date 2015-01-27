@@ -15,7 +15,7 @@
   <h1 class="banner">WOULD - YOU - RATHER ..</h1>
 </header>
  
-  <div ng-repeat="question in canditateQuestions">
+  <div ng-repeat="question in canditateQuestions | limitTo : 5">
    <p class="q-title">{{question.wording}}}</p>
 
   <form class="answers">
