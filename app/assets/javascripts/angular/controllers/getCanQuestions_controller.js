@@ -1,5 +1,5 @@
 angular.module('qAnMp').controller('getCanQuestions', function($scope, $http){
-  
+  // $scope.firstChoice 
 	$scope.getCanQuestions = function(){
     $scope.display = 4
     $scope.candidateQuestions = []
@@ -27,13 +27,24 @@ angular.module('qAnMp').controller('getCanQuestions', function($scope, $http){
 
 $scope.getCanQuestions()
     
-    $scope.submitAnswers = function(question,test){
+    $scope.submitOptionOne = function(question){
+        console.log($scope.testing)
         var qId = question['id']
         var opId = question['optionOneID']
-        console.log(question['optionTwoID'], 'optiontwo')
-        console.log(opId, 'opId')
-        console.log(qId, 'qId')
-        console.log(questionID, 'questionID')
+        // console.log(question['optionTwoID'], 'optiontwo')
+        // console.log(opId, 'opId')
+        // console.log(qId, 'qId')
+        var urlToPostAnswers = "http://localhost:3000//users/1/candidates/1/asks?question_id=" + qId + "&choice_id=" + opId
+        $http.post(urlToPostAnswers)
+            .success(function(response){
+                console.log(response, 'success')
+            })
+    }
+
+        $scope.submitOptionTwo = function(question){
+        console.log($scope.testing)
+        var qId = question['id']
+        var opId = question['optionTwoID']
         var urlToPostAnswers = "http://localhost:3000//users/1/candidates/1/asks?question_id=" + qId + "&choice_id=" + opId
         $http.post(urlToPostAnswers)
             .success(function(response){
