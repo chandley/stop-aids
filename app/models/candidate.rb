@@ -12,17 +12,20 @@ class Candidate < ActiveRecord::Base
   end
 
   def get_answer_page
-    base_link = 'https://stop-aidz-unity.herokuapp.com/candidates/'
+    base_link = 'https://stop-aidz-unity1.herokuapp.com/candidates/'
     id = self.id
     extention = '/questions?filter=answered'
-    return $bitly.shorten( base_link + id + extention ).short_url
+    return $bitly.shorten( base_link + id.to_s + extention ).short_url
   end
 
-  def tweet_at_candidate()
+  def tweet_at_candidate
+    twitter_address = self.twitter
+    twitter_address = '@MrJkiely'
     if self.twitter.nil?
       raise_error 'Please get twitter address for ' + self.name
     else
-      $twitter.update(self.twitter + ' You have questions waiting for you at ' + get_answer_page )
+      $twitter.update(twitter_address + ' You have questions waiting for you at ' + get_answer_page )
+    end
   end
 
 end
