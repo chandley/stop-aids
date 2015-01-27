@@ -47,6 +47,7 @@ describe Candidate do
       expect(page).to have_content 'beef or chicken'
     end
 
+
   end
 
   context 'students asking questions' do
@@ -64,15 +65,35 @@ describe Candidate do
 
     it 'should know which questions have been asked three times' do
       @students.each do |student|
-        Ask.create(candidate_id: @alice.id, 
-                  question_id:  @red_or_blue.id, 
-                  user_id:     student.id  
-                  )
+        student.asks_to(@alice, @red_or_blue)
       end
       expect(@alice.questions_asked_more_times_than(2)).to include(@red_or_blue)
       expect(@alice.questions_asked_more_times_than(2)).to_not include(@war_or_famine)
 
     end
+
+  end
+
+  context 'answering questions' do
+
+    before do
+      @red_or_blue = Question.create(ask_text: 'Would you rather red pill or blue pill?')
+      Choice.create(question_id: @red_or_blue.id, text: "red pill")
+      @war_or_famine = Question.create(ask_text: 'Would you rather war or famine?')
+      @beef_or_chicken = Question.create(ask_text: 'Would you rather beef or chicken?')
+      @alice = Candidate.create(name: 'Alice') 
+      @student1 = User.create(email: 'Neil@uni.ac.uk')
+      @student2 = User.create(email:'Vyvyan@uni.ac.uk')
+      @student3 = User.create(email: 'Rick@uni.ac.uk') 
+      @students = [@student1, @student2, @student3] 
+    end
+
+    it 'knows if it has answered a question' do
+      @student1.asks_to(@alice, @red_or_blue)
+      @alice.answer_question(@red_or_blue, @red_or_blue.choices.first)
+      expect(@alice.has_answered?(@red_or_blue)).to be(true)
+    end
+    
 
   end
 

@@ -3,6 +3,14 @@ class Candidate < ActiveRecord::Base
   belongs_to :party
   has_many :asks
 
+  def answer_question(question, choice)
+    question.create_answer(self, choice)
+  end
+
+  def has_answered?(question)
+    question.answers.where(:candidate_id => self.id) ? true : false
+  end
+
   def questions_asked_more_times_than(threshold)
     Question.all.select {|question| question.asked_count(self) > threshold}
   end

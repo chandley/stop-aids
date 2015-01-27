@@ -46,5 +46,9 @@ describe User do
       expect(@user.questions_asked_to(@candidate)).to include(@question)
     end
 
+    it 'knows which asked questions have been answered' do
+
+    end
+
   end
 end

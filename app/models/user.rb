@@ -20,5 +20,9 @@ class User < ActiveRecord::Base
     asks_to_candidate = self.asks.where(:candidate_id == candidate.id)
     return asks_to_candidate.map {|ask| Question.find(ask.question_id)}
   end
+
+  def asked_questions_answered_by(candidate)
+    questions_asked_to(candidate).select {|question| question.answer}
+  end
   
 end
