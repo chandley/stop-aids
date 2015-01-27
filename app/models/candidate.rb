@@ -12,7 +12,10 @@ class Candidate < ActiveRecord::Base
   end
 
   def get_answer_page
-    return 'http://bit.ly/1yYTJY9'
+    base_link = 'https://stop-aidz-unity.herokuapp.com/candidates/'
+    id = self.id
+    extention = '/questions?filter=answered'
+    return $bitly.shorten( base_link + id + extention ).short_url
   end
 
   def tweet_at_candidate()
