@@ -13,9 +13,9 @@ class Quizmaster
    
   end
 
-  # def popular_questions(candidate)
-  #   asks_to_candidate = Ask.where(candidate_id: candidate.id)
-  # end
+  def popular_questions(candidate)
+    candidate.questions_asked_more_times_than(2)
+  end
 
 
 
