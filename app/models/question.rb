@@ -15,10 +15,6 @@ class Question < ActiveRecord::Base
     Ask.where(candidate_id: responder.id, question_id: self.id).count
   end
 
-  def send_as_tweet(candidate_twitter_address = '@chrisrhandley')
-    $twitter.update(candidate_twitter_address + ' ' + self.ask_text)
-  end
-
   def asked_more_times_than(candidate,threshold)
     self.asked_count(candidate) > threshold
   end
