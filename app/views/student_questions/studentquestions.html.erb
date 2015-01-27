@@ -23,8 +23,7 @@
                         <span class="year">{{myDate | date: 'yyyy'}}</span>
                     </time>
                     <img id="unlocked" ng-src="{{question.imgSrc}}" ng-click="lockQuestion(question)" >
-                    <div class="info" ng-click="newQuestion(question)">
-                    
+                    <div class="info" ng-click="newQuestion(question)">   
                         <p class="desc">{{question.wording}}</p>
                     </div>
                 </li>
@@ -32,9 +31,11 @@
         </div>
     </div>
 </div>
+
 	<button type="button" class="btn btn-primary" ng-show="isReadyToSubmit()" ng-click= "postQuestion()"> <img src="orange.png">
 	</button>
             <%= image_tag "orange.png" %>
+
 
         <ul class="circle-group">
         <li class="circle" id="circle1"></li>
@@ -50,4 +51,3 @@
  </center>
 </body>
 </html>
-	<!-- <%= button_tag "button.png"%> -->

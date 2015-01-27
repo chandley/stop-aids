@@ -9,6 +9,8 @@ angular.module('qAnMp').controller('getQuestions', function($scope, $http){
         .success(function(response){
         response.questions.forEach(function(singleQuestion,index,array){
             question = {}
+            question.id = singleQuestion.id
+            // console.log(question.id)
             question.wording = singleQuestion.ask_text
             question.locked = false
             question.imgSrc = "images/unlock.png"
@@ -19,11 +21,11 @@ angular.module('qAnMp').controller('getQuestions', function($scope, $http){
     })
     $scope.lockQuestion = function(question) {
         if (question.locked) {
-            question.imgSrc = "unlock.png";
+            question.imgSrc = "images/unlock.png";
             question.locked = false
             question.priority = new Date
         } else {
-            question.imgSrc = "lock.png";
+            question.imgSrc = "images/lock.png";
             question.locked = true
             question.priority = 0
         } 
@@ -60,15 +62,16 @@ $scope.postQuestion = function(){
             if(question.locked == true) questionsSelected.push(question)
         })
 
-      console.log("postQuestion",questionsSelected)
-      // var url = "https://stopaidz-rails1.herokuapp.com/users/1/candidates/1/asks?callback=JSON_CALLBACK"
-      var url = "http://localhost:3000/users"
-        $http.post(url, {'questionsSelected' : 1} )
-        .success(function(response){
-            console.log(response, 'success')
-        })
-        .error(function(error){
-            console.log(error)
-        })
+        for (i = 0; i < 4; i++) {
+            var toSubmitQ = questionsSelected[i].id;    
+            var url = "http://localhost:3000//users/1/candidates/1/asks?question_id=" + toSubmitQ
+              $http.post(url)
+                .success(function(response){
+                    console.log(response, 'success')
+                })
+                .error(function(error){
+                    console.log(error)
+                })
+         }
    }
 })
