@@ -172,6 +172,8 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    sendgrid (1.2.0)
+      json
     simple_oauth (0.3.1)
     simplecov (0.9.1)
       docile (~> 1.1.0)
@@ -221,6 +223,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionmailer
   angular-rails-templates
   bitly
   bower-rails
@@ -237,6 +240,7 @@ DEPENDENCIES
   rspec-rails
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
+  sendgrid
   simplecov
   spring
   turbolinks

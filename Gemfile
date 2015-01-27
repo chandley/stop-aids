@@ -29,7 +29,8 @@ gem 'spring',        group: :development
 gem 'pg' 
 gem 'devise'
 gem 'bitly'
-
+gem 'actionmailer'
+gem 'sendgrid'
 
 gem 'twitter' 
 gem 'twfy'
