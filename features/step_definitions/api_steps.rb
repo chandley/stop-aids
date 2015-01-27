@@ -9,14 +9,16 @@ Given(/^we have some candidates$/) do
   Candidate.create(name: 'Alice', constituency_id: @constituency.id)
 end
 
-Given(/^we have some questions$/) do
+Given(/^we have some questions with choices$/) do
   @red_or_blue = Question.create(ask_text: 'Would you rather red pill or blue pill?')
   @red = Choice.create(text: 'Red', question_id: @red_or_blue.id)
   @blue = Choice.create(text: 'Blue', question_id: @red_or_blue.id)
   @war_or_famine = Question.create(ask_text: 'Would you rather war or famine?')
   @war = Choice.create(text: 'War', question_id: @war_or_famine.id)
   @famine = Choice.create(text: 'Famine', question_id: @war_or_famine.id)
-  Question.create(ask_text: 'Would you rather beef or chicken?')
+  @beef_or_chicken = Question.create(ask_text: 'Would you rather beef or chicken?')
+  @beef = Choice.create(text: 'Beef', question_id: @beef_or_chicken.id)
+  @chicken = Choice.create(text: 'Chicken', question_id: @beef_or_chicken.id)
 end
 
 Given(/^we have a constituency$/) do
@@ -39,11 +41,8 @@ When(/^I visit the constituency candidates api$/) do
   visit "/constituencies/#{@constituency.id}/candidates"
 end
 
-When(/^I visit the choices api for a question$/) do
-  visit "/candidates/#{@alice.id}/questions/#{@red_or_blue.id}"
-end
 
-Then(/^I see the two choices for that question$/) do
+Then(/^I see the choices for each question$/) do
   expect(page).to have_content 'Red'
 end
 
@@ -63,8 +62,8 @@ Then(/^I get JSON candidate names for constituency$/) do
   expect(page).to have_content 'Bob'
 end
 
-Given(/^we have some questions for a candidate$/) do
-  step('we have some questions')
+Given(/^we have some questions with choices for a candidate$/) do
+  step('we have some questions with choices')
   step('we have a candidate')
 end
 

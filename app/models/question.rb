@@ -19,4 +19,8 @@ class Question < ActiveRecord::Base
     $twitter.update(candidate_twitter_address + ' ' + self.ask_text)
   end
 
+  def asked_more_times_than(candidate,threshold)
+    self.asked_count(candidate) > threshold
+  end
+
 end

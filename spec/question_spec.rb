@@ -54,7 +54,19 @@ describe Question do
       expect(@red_or_blue.asked_count(@alice)).to eq(0)
     end
 
-    
+    it 'knows how many times it has been asked' do
+      Ask.create(user_id: @student3.id, candidate_id: @alice.id, question_id: @red_or_blue.id)
+      expect(@red_or_blue.asked_count(@alice)).to eq(1)
+    end
+
+    it 'know when it has been asked more times than a given threshold' do
+      threshold = 2
+      expect(@red_or_blue.asked_more_times_than(@alice,threshold)).to be false
+      @students.each do |student|
+        Ask.create(user_id: student.id, candidate_id: @alice.id, question_id: @red_or_blue.id)
+      end
+      expect(@red_or_blue.asked_more_times_than(@alice,threshold)).to be true
+    end
 
   end
 
