@@ -320,6 +320,7 @@ footer {
   background-color: #1EFC1E;
 }
 
+
 .answer-2{
   background-color: #7371FC;
 }
@@ -337,6 +338,10 @@ button {
   box-shadow: 3px 3px 0px #000;
   cursor: pointer;
   }
+
+button:active{
+  background-color:#FF8360;
+}
 
 
 p .q-title {
