@@ -19,7 +19,7 @@ angular.module('qAnMp').controller('getCanQuestions', function($scope, $http){
             console.log('request not sent')
         })
 }
-
+console.log($scope.candidateQuestions)
 $scope.getCanQuestions()
     
     $scope.submitAnswers = function(){
