@@ -12,15 +12,15 @@ class Candidate < ActiveRecord::Base
   end
 
   def get_answer_page
-    base_link = 'https://stop-aidz-unity1.herokuapp.com'
+    base_link = 'https://stop-aidz-unity2.herokuapp.com'
     page_link = '/candidatesanswers/candidatesanswers'
-    param_link = "?candidate_id=#{self.id}"
+    param_link = "?candidate_id=#{self.id.to_s}"
     return $bitly.shorten( base_link + page_link + param_link ).short_url
   end
 
   def tweet_at_candidate
     twitter_address = self.twitter
-    twitter_address = '@MrJkiely'
+    twitter_address = '@ctrembath'
     if self.twitter.nil?
       raise_error 'Please get twitter address for ' + self.name
     else
