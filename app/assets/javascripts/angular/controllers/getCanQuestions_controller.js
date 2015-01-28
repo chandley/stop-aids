@@ -30,7 +30,7 @@ $scope.getCanQuestions()
         console.log($scope.testing)
         var qId = question['id']
         var opId = question['optionOneID']
-        var urlToPostAnswers = "http://localhost:3000//users/1/candidates/1/asks?question_id=" + qId + "&choice_id=" + opId
+        var urlToPostAnswers = "http://localhost:3000/candidates/1/answers?question_id=" + qId + "&choice_id=" + opId
         $http.post(urlToPostAnswers)
             .success(function(response){
                 console.log(response, 'success')
@@ -41,7 +41,7 @@ $scope.getCanQuestions()
         console.log($scope.testing)
         var qId = question['id']
         var opId = question['optionTwoID']
-        var urlToPostAnswers = "http://localhost:3000//users/1/candidates/1/asks?question_id=" + qId + "&choice_id=" + opId
+        var urlToPostAnswers = "http://localhost:3000/candidates/1/answers?question_id=" + qId + "&choice_id=" + opId
         $http.post(urlToPostAnswers)
             .success(function(response){
                 console.log(response, 'success')
