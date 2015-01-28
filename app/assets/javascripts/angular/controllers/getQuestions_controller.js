@@ -77,7 +77,7 @@ $scope.postQuestion = function(){
    }
 
 $scope.sendEmail = function(){
-  console.log($scope.userEmail)  
+  // console.log($scope.userEmail)  
     var urlEmail = "http://localhost:3000//users?email=" + $scope.userEmail
     $http.post(urlEmail)
     .success(function(response){
