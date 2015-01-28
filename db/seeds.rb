@@ -65,9 +65,3 @@ first_question.create_answer(first_candidate, first_question_choice)
 [Question.second, Question.third, Question.last].each do |question| 
   question.create_answer(first_candidate, question.choices.second)
 end
-
-
-Question.find(2).create_answer(first_candidate, Question.find(2).choices.second)
-
-
-User.create()
