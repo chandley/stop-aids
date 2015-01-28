@@ -148,6 +148,14 @@ color: grey;
 text-decoration: none;
 }
 
+#orange{
+background-color:#00ff85;
+cursor: pointer;
+border: none;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
 footer {
     position:fixed;
     height:30px;
@@ -311,7 +319,7 @@ footer {
 
 
 
-.answer-1 {
+#answer-1 {
   font-family: 'entypo', sans-serif;
   color: #000;
   display: inline-block;
@@ -320,21 +328,34 @@ footer {
   position: relative;
 }
 
-.answer-1{
+#answer-1{
   background-color: #1EFC1E;
 }
 
+#answer-1:active{
+  background-color:#FF8360 ;
+}
 
-.answer-2{
+
+#answer-2{
   background-color: #7371FC;
 }
 
-button {
+#answer-2:active{
+  background-color:#FF8360 ;
+}
+.answers-button {
+text-transform: uppercase;
+font-size:12px;
+display: block;
+letter-spacing: 1px;
 background-color:#00ff85;
+border: 1px solid #000;
+outline: none;
+width: 50%;
+padding: 1em 0;
+box-shadow: 3px 3px 0px #000;
 cursor: pointer;
-border: none;
-padding-top: 10px;
-padding-bottom: 10px;
 }
 
 
