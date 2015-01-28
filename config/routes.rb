@@ -25,6 +25,8 @@ root to: 'home#index'
 get 'quizmaster/constituency_one_candidate' => 'quizmaster#constituency_and_one_candidate_from_postcode'
 get 'quizmaster/constituency_all_candidates' => 'quizmaster#constituency_and_candidates_from_postcode'
 get 'users/thankyou' => 'users#thankyou'
+get 'postcode' => 'home#postcode'
+
 resources :questions
 resources :candidates
 
