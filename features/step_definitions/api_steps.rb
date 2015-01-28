@@ -24,9 +24,7 @@ Given(/^we have some questions with choices$/) do
 end
 
 Given(/^we have a student$/) do
-  @student = User.create(email: 'test@test.com', 
-                         password: 'password', 
-                         password_confirmation: 'password')
+  @student = User.create(email: 'test@test.com')
 end
 
 Given(/^we have a constituency$/) do
