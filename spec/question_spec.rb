@@ -15,6 +15,9 @@ describe Question do
       expect(@red_or_blue.choices).to eq [@red, @blue]
     end
 
+    it 'can be deleted' do
+      
+
   end
 
   context 'answers' do
