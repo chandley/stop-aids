@@ -2,6 +2,8 @@ class Candidate < ActiveRecord::Base
   belongs_to :constitency
   belongs_to :party
   has_many :asks
+  has_many :answers
+  has_many :questions, through: :answers
 
   def answer_question(question, choice)
     question.create_answer(self, choice)
@@ -14,7 +16,8 @@ class Candidate < ActiveRecord::Base
   end
 
   def has_answered?(question)
-    question.answers.where(:candidate_id => self.id) ? true : false
+    questions.include? question
+    # question.answers.where(:candidate_id => self.id) ? true : false
   end
 
   def questions_asked_more_times_than(threshold)
