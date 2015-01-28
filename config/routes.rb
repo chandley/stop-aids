@@ -40,6 +40,7 @@ get 'postcode' => 'home#postcode'
 
 resources :questions
 resources :candidates
+resources :dashboard
 
 resources :candidates do
   resources :answers 
@@ -72,7 +73,7 @@ end
 
 root to: 'dashboard#index', as: '/'
   namespace :admin do
-    get '', match '/admin' to: 'dashboard #index'
+    get '', to: 'dashboard #index', as: '/admin'
     resources :questions, :users
   end
 
