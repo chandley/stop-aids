@@ -4,5 +4,9 @@ class HomeController < ApplicationController
 
   end
 
+  def postcode
+
+  end
+
 
 end
