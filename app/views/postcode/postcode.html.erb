@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="qAnMp">
+<head>
+    <meta charset="utf-8">
+
+    <title>FIND YOUR CANDIDATE</title>
+    <meta content="" name="description">
+    <meta content="width=device-width" name="viewport">
+    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
+</head>
+
+<body ng-controller="getCandidatesByPC">
+
+<center>
+    <header>
+        <h1 id="index">find your local candidate</h1>
+    </header>
+
+    <div id="wrap-container">
+        <form id="search-form" name="search-form" ng-submit="sendPostcodeToDb()">
+            <input placeholder="enter postcode" type="text" ng-model="postCode"/>
+        </form>
+
+        <div class="container">
+            <div class=
+            "col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad">
+            <h3 class="candidate-name">{{candidate.full_name}}</h3>
+             
+            </div>
+         
+
+            <h2>{{candidate.party}}</h2>
+
+            <h2>{{candidate.constituency}}</h2>
+
+
+            <div class="round-button" onclick="change()" >
+                <a class="round-button" href="/student_questions/studentquestions.html" >
+
+               </a>
+           </div>
+        </div>
+    </div><br>
+
+    <footer>
+    <p id="footer-p">students stop aids©</p>
+    </footer>
+    </center>
+ </body>
+</html>

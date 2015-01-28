@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'postcode/postcode'
+
+  get 'welcome/index'
+
   get 'thankyou/thankyou'
 
   get 'studentsanswers/studentsanswers'

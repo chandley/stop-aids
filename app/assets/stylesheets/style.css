@@ -241,6 +241,7 @@ span {
 .circle-group li {
   display: inline-block;
   vertical-align: center;
+  list-style-type: none;
 }
 
 .circle {
@@ -398,7 +399,11 @@ p #thankyou {
   font-size: 15px;
 }
 
-// STUDENT ANSWERS PAGE //
+//Start Page//
 
-
+#cucumber {
+  margin-top: 30px;
+  height: 50px;
+  width: 50px;
+}
 
