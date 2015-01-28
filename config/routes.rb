@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+
+  # devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
+
   get 'thankyou/thankyou'
 
   get 'studentsanswers/studentsanswers'
@@ -31,6 +35,7 @@ get 'postcode' => 'home#postcode'
 
 resources :questions
 resources :candidates
+resources :dashboard
 
 resources :candidates do
   resources :answers 
@@ -59,7 +64,30 @@ resources :users do
     end
   end
 end
-  
+
+
+root to: 'dashboard#index', as: '/'
+  namespace :admin do
+    get '', to: 'dashboard#index', as: '/admin'
+    resources :questions, :users
+  end
+
+end
+
+# Example resource route within a namespace:
+  #   namespace :admin do
+  #     # Directs /admin/products/* to Admin::ProductsController
+  #     # (app/controllers/admin/products_controller.rb)
+  #     resources :products
+  #   end
+
+
+
+# namespace :admin do
+#   get '', to: 'dashboard #index', as: '/admin'
+#   resources :questions, controller: 'admin/dashboard_controller'
+# end
+
 
   # Example resource route with options:
   #   resources :products do
@@ -100,4 +128,3 @@ end
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
