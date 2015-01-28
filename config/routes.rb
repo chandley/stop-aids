@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'studentsanswers/studentsanswers'
+
   get 'candidatesanswers/candidatesanswers'
 
   get 'student_questions/studentquestions'

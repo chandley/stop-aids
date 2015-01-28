@@ -16,7 +16,8 @@
     </header>
 
     <div id="wrap-container">
-        <form id="search-form" name="search-form" ng-submit="getCandidates()">
+        <!-- <form id="search-form" name="search-form" ng-submit="getCandidates()"> -->
+        <form id="search-form" name="search-form" ng-submit="sendPostcodeToDb()">
             <input placeholder="enter postcode" type="text" ng-model="postCode"/>
         </form>
 
@@ -28,8 +29,9 @@
 
             <div id="candidate-image">
                 <img ng-src="http://www.theyworkforyou.com/images/mps/{{mpCandidate.person_id}}.jpg"class="img-circle" onerror=
-                "this.src='images/user.png';"><br>
+                "this.src='/images/user.png';"><br>
             </div>
+         
 
             <h2>{{mpCandidate.party}}</h2>
 
