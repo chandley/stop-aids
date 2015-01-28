@@ -329,22 +329,13 @@ footer {
 }
 
 button {
-  text-transform: uppercase;
-  font-size:12px;
-  display: block;
-  letter-spacing: 1px;
-  background-color:#69D2E7;
-  border: 1px solid #000;
-  outline: none;
-  width: 50%;
-  padding: 1em 0;
-  box-shadow: 3px 3px 0px #000;
-  cursor: pointer;
-  }
-
-button:active{
-  background-color:#FF8360;
+background-color:#00ff85;
+cursor: pointer;
+border: none;
+padding-top: 10px;
+padding-bottom: 10px;
 }
+
 
 
 p .q-title {
