@@ -44,6 +44,7 @@ class CandidatesController < ApplicationController
     return_array = questions.map { |question| {ask_text: question.ask_text, choice_text: candidate.answer_choice_to(question).text} }
 
     render_api ({ candidate_id: candidate.id, 
+                  candidate_name: candidate.name,
                   user_id: user.id, 
                   answered_asks: return_array } )
 

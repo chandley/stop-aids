@@ -32,7 +32,7 @@
     </div>
 </div>
 
-        <form  id="search-form" name="search-form" ng-submit="sendEmail()" >
+        <form  id="search-form"  ng-show="isReadyToSubmit()" name="search-form" ng-submit="sendEmail()" >
             <input placeholder="enter email address" type="text" ng-model="userEmail"/>
         </form>
 
