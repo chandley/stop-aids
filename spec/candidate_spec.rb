@@ -93,6 +93,11 @@ describe Candidate do
       @alice.answer_question(@red_or_blue, @red_or_blue.choices.first)
       expect(@alice.has_answered?(@red_or_blue)).to be(true)
     end
+
+    it 'knows what answer it has given to a question' do
+      @alice.answer_question(@red_or_blue, @red_or_blue.choices.first)
+      expect(@alice.answer_choice_to(@red_or_blue).text).to eq('red pill')
+    end
     
 
   end

@@ -7,6 +7,12 @@ class Candidate < ActiveRecord::Base
     question.create_answer(self, choice)
   end
 
+  def answer_choice_to(question)
+    answer = Answer.where(candidate_id: self.id, question_id: question.id).first   
+    answer ?  Choice.find(answer.choice_id) : nil
+
+  end
+
   def has_answered?(question)
     question.answers.where(:candidate_id => self.id) ? true : false
   end

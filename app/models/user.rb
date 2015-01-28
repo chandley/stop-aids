@@ -24,5 +24,9 @@ class User < ActiveRecord::Base
   def asked_questions_answered_by(candidate)
     questions_asked_to(candidate).select {|question| question.answer}
   end
+
+  def answered_questions_asked_to(candidate)
+    questions_asked_to(candidate).select {|question| candidate.has_answered?(question)}
+  end
   
 end
