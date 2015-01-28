@@ -9,4 +9,7 @@ class UsersController < ApplicationController
     params.require(:email, :password, :password_confirmation)
   end
 
+  def thankyou
+  end
+
 end
