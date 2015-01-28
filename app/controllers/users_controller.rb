@@ -2,7 +2,8 @@ class UsersController < ApplicationController
 
   def create
     puts post_params
-    User.create(:email => params[:email])
+    user = User.create(:email => params[:email])
+    Notifier.welcome(user.email).deliver
     render :nothing => true
   end
 
