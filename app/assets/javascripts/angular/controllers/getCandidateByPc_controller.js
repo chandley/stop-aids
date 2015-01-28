@@ -18,8 +18,4 @@ $scope.sendPostcodeToDb = function(){
   
 }
 
-
-
-
-
 })
