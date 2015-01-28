@@ -6,7 +6,7 @@ default :from => 'alert@students-stop-aids.co.uk'
     subject: 'Thank you for signing up!')
   end
 
-  def answers(email, link, candidate)
+  def answers(email, candidate, link)
     @email = email
     @link = link
     @candidate = candidate

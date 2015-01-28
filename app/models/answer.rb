@@ -11,7 +11,7 @@ class Answer < ActiveRecord::Base
 
   def alert_all_askers
     askers.each do |asker|
-      alerter(asker.email, self.candidate, asker.answers_link(self.candidate))
+      Notifier.answers(asker.email, self.candidate, asker.answers_link(self.candidate))
     end
   end
   
