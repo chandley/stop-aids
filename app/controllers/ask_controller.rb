@@ -1,5 +1,0 @@
-class AskController < ApplicationController
-
-
-
-end

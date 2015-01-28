@@ -11,16 +11,20 @@ class QuestionsController < ApplicationController
   end
 
   def index 
-    ## TODO refactor
+    ## TODO refactor, filter by candidate
+    candidate_id = params[:candidate_id]
     if params[:filter] == 'answered'
-      @questions = Question.all.reject {|q| q.answers.count == 0}
+      @questions = Question.all.reject {|q| q.answers.where(:candidate_id == candidate_id).count == 0 }
     elsif params[:filter] == 'unanswered'
-      @questions = Question.all.select {|q| q.answers.count == 0}
+      @questions = Question.all.select {|q| q.answers.where(:candidate_id == candidate_id).count == 0 }
     else
       @questions = Question.all
     end
 
-    @questions = @questions.map {|question| {:question => question, :number_of_asks => question.asks.count, :choices => question.choices, }  }
+    @questions = @questions.map {|question| {:question => question, 
+                                             :number_of_asks => question.asks.count, 
+                                             :choices => question.choices,
+                                             :answers => question.answers  } }
 
     render_api ( {:candidate_id => params[:candidate_id],
                   :questions => @questions

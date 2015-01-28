@@ -17,17 +17,18 @@ describe Ask do
       expect(@ask.candidate_id).to eq @candidate.id
     end
 
-    it 'should assosate the ask with the question' do
+    it 'should associate the ask with the question' do
       expect(@question.asks.count).to eq 1
     end
 
-    it 'should assosate the ask with the candidate' do
+    it 'should associate the ask with the candidate' do
       expect(@candidate.asks.count).to eq 1
     end
 
-    it 'should assosate the ask with the user' do
+    it 'should associate the ask with the user' do
       expect(@candidate.asks.count).to eq 1
     end
+
   end
 
 end

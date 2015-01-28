@@ -1,0 +1,2 @@
+module QuizmasterHelper
+end
