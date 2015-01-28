@@ -373,21 +373,24 @@ h2 #sub-heading {
   font-size:15px;
 }
 
-#q-one {
-  background-color: #69D2E7;
+.question-answered:nth-child(1){
+  padding: 5px;
+  background-color: #FF8282;
+  border-radius: 25px;
+  margin-left:10%;
+  margin-right:10%;
+  height: 100%;
+  font-size: 20px;
 }
 
-#q-two {
-  background-color: #FE4365;
+.answer{
+  background-color:#FFF249;
+  margin-left:20%;
+  margin-right:20%;
+  height: 100%;
+  font-size: 20px;
 }
 
-#q-three {
-  background-color: #FA6900;
-}
-
-#q-four {
-  background-color: #FE4365;
-}
 
 // Thank you //
 
@@ -401,9 +404,5 @@ p #thankyou {
 
 //Start Page//
 
-#cucumber {
-  margin-top: 30px;
-  height: 50px;
-  width: 50px;
-}
+
 
