@@ -9,8 +9,10 @@ class Answer < ActiveRecord::Base
     askers = asks.map { |ask| User.find(ask.user_id) }
   end
 
-  def alerter(email, candidate, link)
-    
+  def alert_all_askers
+    askers.each do |asker|
+      alerter(asker.email, self.candidate, asker.answers_link(self.candidate))
+    end
   end
   
 end

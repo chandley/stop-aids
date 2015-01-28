@@ -26,5 +26,10 @@ class User < ActiveRecord::Base
   def answered_questions_asked_to(candidate)
     questions_asked_to(candidate).select {|question| candidate.has_answered?(question)}
   end
+
+  def answers_link(candidate)
+    url = "http:/localhost:3000"
+    return "#{url}/users/#{self.id}/candidates/#{candidate.id}/show_answered_asks"
+  end
   
 end
