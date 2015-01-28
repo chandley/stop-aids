@@ -44,5 +44,11 @@ describe User do
 
     end
 
+    it 'knows how to generate a link to an answers page for a candidate' do
+      @user.asks_to(@candidate, @question)
+      baseurl = "http:/localhost:3000"
+      expect(@user.answers_link(@candidate)).to eq(baseurl + "/users/#{@user.id}/candidates/#{@candidate.id}/show_answered_asks")
+    end
+
   end
 end
