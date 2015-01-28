@@ -69,12 +69,27 @@ resources :users do
   end
 end
 
-namespace :admin do
-  get '', to: 'dashboard #index', as: '/'
-  resources :questions
-end
 
-  
+root to: 'dashboard#index', as: '/'
+  namespace :admin do
+    get '', match '/admin' to: 'dashboard #index'
+    resources :questions, :users
+  end
+
+# Example resource route within a namespace:
+  #   namespace :admin do
+  #     # Directs /admin/products/* to Admin::ProductsController
+  #     # (app/controllers/admin/products_controller.rb)
+  #     resources :products
+  #   end
+
+
+
+# namespace :admin do
+#   get '', to: 'dashboard #index', as: '/admin'
+#   resources :questions, controller: 'admin/dashboard_controller'
+# end
+
 
   # Example resource route with options:
   #   resources :products do
