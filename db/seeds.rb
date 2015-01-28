@@ -61,7 +61,7 @@ first_question = Question.first
 first_question_choice = Question.first.choices.first
 first_candidate = Candidate.first
 first_question.create_answer(first_candidate, first_question_choice)
-Question.find(2).create_answer(first_candidate, Question.find(2).choices.second)
 
-
-User.create()
+[Question.second, Question.third, Question.last].each do |question| 
+  question.create_answer(first_candidate, question.choices.second)
+end
