@@ -9,14 +9,15 @@ class Question < ActiveRecord::Base
     # Answer.create(candidate_id: responder.id, choice_id: choice.id, question_id: self.id)
   end
 
+  #TODO move to candidate
   def answered_by?(responder)
     candidates.include?(responder)
   end
-
+#TODO move to candidate
   def asked_count(responder)
-    Ask.where(candidate_id: responder.id, question_id: self.id).count
+    asks.where(candidate: responder).count
   end
-
+#TODO move to candidate
   def asked_more_times_than(candidate,threshold)
     self.asked_count(candidate) > threshold
   end

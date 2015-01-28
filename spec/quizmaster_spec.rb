@@ -32,6 +32,16 @@ describe Quizmaster do
       expect(@quizmaster.popular_questions(@alice)).to include(@red_or_blue)
     end
 
+    it 'can find a list of candidates from a postcode' do
+      #won't work with test database
+      hash = @quizmaster.get_constituency_candidates_from_postcode('n1 2en')
+      expect(hash[candidates][4].name).to eq('Terry Stacy')
+    end
+
+    it 'can find one candidate only from postcode' do
+
+    end
+
   end
 
 end
