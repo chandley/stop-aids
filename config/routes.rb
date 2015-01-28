@@ -45,7 +45,9 @@ end
 
 resources :users do 
   resources :candidates do
-    resources :asks
+    resources :asks do
+      collection { get 'student_show_answered_asks' }
+    end
   end
 end
   

@@ -56,10 +56,12 @@ load_data_all
 ben_asks_candidate1_q1 = Ask.create(user_id: @ben.id, question_id: 1, candidate_id: 1)
 ben_asks_candidate1_q2 = Ask.create(user_id: @ben.id, question_id: 2, candidate_id: 1)
 adrian_asks_candidate1_q1 = Ask.create(user_id: @adrian.id, question_id: 1, candidate_id: 1)
-adrian_asks_candidate1_q1 = Ask.create(user_id: @adrian.id, question_id: 1, candidate_id: 1)
+adrian_asks_candidate2_q1 = Ask.create(user_id: @adrian.id, question_id: 1, candidate_id: 2)
 first_question = Question.first
 first_question_choice = Question.first.choices.first
 first_candidate = Candidate.first
 first_question.create_answer(first_candidate, first_question_choice)
+Question.find(2).create_answer(first_candidate, Question.find(2).choices.second)
+
 
 User.create()

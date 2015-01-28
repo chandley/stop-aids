@@ -7,11 +7,11 @@ Given(/^we have asked questions for a candidate$/) do
 end
 
 When(/^number of asks reaches a certain threshold$/) do
-  # express the regexp above with the code you wish you had
+  pending
 end
 
 Then(/^I get an alert on my twitter feed$/) do
-  
+  pending
 end
 
 Given(/^I have been alerted to pending questions on twitter$/) do
