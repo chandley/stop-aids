@@ -1,7 +1,7 @@
 Feature: 
-  In order to get my candidate to answer important questions
+  In order to learn about my candidate
   As an student interested in politics
-  I want to ask questions with other students
+  I want to look at available questions
 
   Scenario: Student sees a question
   Given we have a candidate
@@ -26,17 +26,8 @@ Feature:
   When I visit the random unanswered question api
   Then I get JSON one unanswered question
 
-  Scenario: Student submits a question
-  Given we have some questions with choices for a candidate
-  When a student submits an ask question
-  Then we see the question on an asked question list
-
-  Scenario: Student submits a question with JS callback
-  Given we have some questions with choices for a candidate
-  When a student submits an ask question with JSON callback
-  Then we see the question on an asked question list
-
-  Scenario: Student submits two questions
-  Given we have some questions with choices for a candidate
-  When a student submits two asks
-  Then we see both on an asked questions list
+  Scenario: Student sees candidate answered questions only
+  Given we have some questions with choices for some candidates
+  When all the questions are answered for the first candidate
+  And I visit the unanswered candidate questions api
+  Then I see no questions for the candidate

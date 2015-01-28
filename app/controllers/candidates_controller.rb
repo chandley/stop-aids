@@ -8,8 +8,7 @@ class CandidatesController < ApplicationController
 
   def index
     #TODO care constituence uses pa_id for constituency_id
-
-    render_api :candidates => Candidate.where("constituency_id = #{params[:constituency_id]}")
+    render_api :candidates => Candidate.where(constituency_id: params[:constituency_id])
   end
 
   def update
@@ -36,6 +35,18 @@ class CandidatesController < ApplicationController
   def destroy
     Candidate.find(params[:id]).destroy
     render :nothing => true
+  end
+
+  def show_answered_asks
+    candidate = Candidate.find(params[:candidate_id]) 
+    user = User.find(params[:user_id])
+    questions = user.answered_questions_asked_to(candidate)
+    return_array = questions.map { |question| {ask_text: question.ask_text, choice_text: candidate.answer_choice_to(question).text} }
+
+    render_api ({ candidate_id: candidate.id, 
+                  user_id: user.id, 
+                  answered_asks: return_array } )
+
   end
 
  
