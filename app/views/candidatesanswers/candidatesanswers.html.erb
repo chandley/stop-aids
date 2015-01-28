@@ -15,35 +15,14 @@
   <h1 class="banner">WOULD - YOU - RATHER ..</h1>
 </header>
  
-  
-   <p class="q-title">question 1</p>
+  <div ng-repeat="question in candidateQuestions | limitTo : 5">
+   <p class="q-title">{{question.wording}}</p>
 
   <form class="answers">
-  <button type="submit" value="answer-1" class="answer-1">answer 1</button>
-  <button type="submit" value="answer-2" class="answer-2">answer 2</button>
+  <button type="submit" value="answer-1" class="answer-1">{{question.optionOne}}</button>
+  <button type="submit" value="answer-2" class="answer-2">{{question.optionTwo}}</button>
   </form>
- 
-    <p class="q-title">question 2</p>
-
-
-  <form class="answers">
-   <button type="submit" value="answer-1">answer 1</button>
-  <button type="submit" value="answer-2">answer 2</button>
-  </form>
-
-
-     <p class="q-title">question 3</p>
-  <form class="answers">
-  <button type="submit" value="answer-1">answer 1</button>
-  <button type="submit" value="answer-2">answer 2</button>  </form>
-
-
-     <p class="q-title">question 4</p>
-
-  <form class="answers">
-  <button type="submit" value="answer-1">answer 1</button>
-  <button type="submit" value="answer-2">answer 2</button>  </form>
-  
+</div>  
 
 <ul class="circle-group">
 <li class="circle" id="circle1"></li>
@@ -56,6 +35,7 @@
 <li class="circle" id="circle8"></li>
 <li class="circle" id="circle9"></li>
 </ul>
+<button id="testGiorgia" ng-click="submitAnswers()"> CLICCA </button>
 
 
 
