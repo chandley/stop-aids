@@ -1,4 +1,6 @@
 angular.module('qAnMp').controller('getQuestions', function($scope, $http){
+
+    console.log($scope.logoSrc)
     $scope.display = 3
     $scope.myDate = new Date()
     $scope.questions = []
@@ -12,7 +14,7 @@ angular.module('qAnMp').controller('getQuestions', function($scope, $http){
             question.id = singleQuestion.id
             question.wording = singleQuestion.ask_text
             question.locked = false
-            question.imgSrc = "images/unlock.png"
+            question.imgSrc = "/assets/unlock.png"
             question.priority = new Date
             question.total = array.length
             $scope.questions.push(question)
@@ -20,11 +22,11 @@ angular.module('qAnMp').controller('getQuestions', function($scope, $http){
     })
     $scope.lockQuestion = function(question) {
         if (question.locked) {
-            question.imgSrc = "images/unlock.png";
+            question.imgSrc = "/assets/unlock.png";
             question.locked = false
             question.priority = new Date
         } else {
-            question.imgSrc = "images/lock.png";
+            question.imgSrc = "/assets/lock.png";
             question.locked = true
             question.priority = 0
         } 
@@ -39,7 +41,7 @@ angular.module('qAnMp').controller('getQuestions', function($scope, $http){
     $scope.countOfLockedItem = function(){
         $scope.countOfLocked = []
         $scope.questions.forEach(function(element){
-            if(element.imgSrc === "images/lock.png"){
+            if(element.imgSrc === "/assets/lock.png"){
                 $scope.countOfLocked.push(element)
             }
         })

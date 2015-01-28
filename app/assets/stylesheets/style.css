@@ -205,11 +205,14 @@ ul li:nth-child(3) {
     background:#F4FF00
 }
 
-img #unlocked {
+
+#unlocked {
     float: right;
+    height: 40px;
     padding: 5px;
     margin-right: 10px;
     margin-top: 10px;
+    clear: both;
 }
 
 
@@ -301,11 +304,14 @@ footer {
 
 
 
+
 //Candidate Page Button//
 
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 
-button .answer-1 {
+
+
+.answer-1 {
   font-family: 'entypo', sans-serif;
   color: #000;
   display: inline-block;
@@ -314,32 +320,49 @@ button .answer-1 {
   position: relative;
 }
 
-button .answer-2 {
-  font-family: 'entypo', sans-serif;
-  color: white;;
-  display: inline-block;
-  font-size: 1.2em;
-  margin-right: .7em;
-  position: relative;
-  transition: all .4s;
-  background-color: black;
+.answer-1{
+  background-color: #1EFC1E;
+}
+
+
+.answer-2{
+  background-color: #7371FC;
 }
 
 button {
-  text-transform: uppercase;
-  display: block;
-  letter-spacing: 1px;
+background-color:#00ff85;
+cursor: pointer;
+border: none;
+padding-top: 10px;
+padding-bottom: 10px;
+}
 
-  border: 1px solid #000;
-  outline: none;
-  width: 50%;
-  padding: 1em 0;
-  box-shadow: 3px 3px 0px #000;
-  }
+
 
 p .q-title {
     font-weight: bold;
 }
 
+// STUDENTS ANSWER PAGE //
+
+h2 #sub-heading {
+  font-size:15px;
+}
+
+#q-one {
+  background-color: #69D2E7;
+}
+
+#q-two {
+  background-color: #FE4365;
+}
+
+#q-three {
+  background-color: #FA6900;
+}
+
+#q-four {
+  background-color: #FE4365;
+}
 
 

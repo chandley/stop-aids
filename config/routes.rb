@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'studentsanswers/studentsanswers'
+
   get 'candidatesanswers/candidatesanswers'
 
   get 'student_questions/studentquestions'
@@ -21,6 +23,8 @@ Rails.application.routes.draw do
 
 root to: 'home#index'
 
+get 'quizmaster/constituency_one_candidate' => 'quizmaster#constituency_and_one_candidate_from_postcode'
+get 'quizmaster/constituency_all_candidates' => 'quizmaster#constituency_and_candidates_from_postcode'
 resources :questions
 resources :candidates
 
@@ -45,8 +49,9 @@ end
 
 resources :users do 
   resources :candidates do
+    get 'show_answered_asks'
     resources :asks do
-      collection { get 'student_show_answered_asks' }
+      # collection { get 'student_show_answered_asks' }
     end
   end
 end

@@ -11,39 +11,17 @@
 <body ng-controller="getCanQuestions">
 <center>
 <header>
-
   <h1 class="banner">WOULD - YOU - RATHER ..</h1>
 </header>
- 
-  
-   <p class="q-title">question 1</p>
-
+  <div ng-repeat="question in candidateQuestions | limitTo : 5">
+   <p class="q-title">{{question.wording}}</p>
   <form class="answers">
-  <button type="submit" value="answer-1" class="answer-1">answer 1</button>
-  <button type="submit" value="answer-2" class="answer-2">answer 2</button>
+  <button type="submit" name="firstOption" ng-click="submitOptionOne(question)" value="answer-1" class="answer-1" ng-model="testing">{{question.optionOne}}</button>
+  <button type="submit" name="secondOption" ng-click="submitOptionTwo(question)" value="answer-2" class="answer-2" ng-model="test">{{question.optionTwo}}</button>
   </form>
- 
-    <p class="q-title">question 2</p>
+</div>  
 
-
-  <form class="answers">
-   <button type="submit" value="answer-1">answer 1</button>
-  <button type="submit" value="answer-2">answer 2</button>
-  </form>
-
-
-     <p class="q-title">question 3</p>
-  <form class="answers">
-  <button type="submit" value="answer-1">answer 1</button>
-  <button type="submit" value="answer-2">answer 2</button>  </form>
-
-
-     <p class="q-title">question 4</p>
-
-  <form class="answers">
-  <button type="submit" value="answer-1">answer 1</button>
-  <button type="submit" value="answer-2">answer 2</button>  </form>
-  
+<br>
 
 <ul class="circle-group">
 <li class="circle" id="circle1"></li>
@@ -56,8 +34,6 @@
 <li class="circle" id="circle8"></li>
 <li class="circle" id="circle9"></li>
 </ul>
-
-
 
 </center>
 
