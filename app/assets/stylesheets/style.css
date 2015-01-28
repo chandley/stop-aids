@@ -331,11 +331,18 @@ footer {
   background-color: #1EFC1E;
 }
 
+#answer-1:active{
+  background-color:#FF8360 ;
+}
+
 
 #answer-2{
   background-color: #7371FC;
 }
 
+#answer-2:active{
+  background-color:#FF8360 ;
+}
 .answers-button {
 text-transform: uppercase;
 font-size:12px;
