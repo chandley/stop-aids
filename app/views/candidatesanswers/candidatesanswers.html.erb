@@ -16,8 +16,8 @@
   <div ng-repeat="question in candidateQuestions | limitTo : 5">
    <p class="q-title">{{question.wording}}</p>
   <form class="answers">
-  <button type="submit" name="firstOption" ng-click="submitOptionOne(question)" value="answer-1" class="answer-1" ng-model="testing">{{question.optionOne}}</button>
-  <button type="submit" name="secondOption" ng-click="submitOptionTwo(question)" value="answer-2" class="answer-2" ng-model="test">{{question.optionTwo}}</button>
+  <button type="submit" name="firstOption" ng-click="submitOptionOne(question)" value="answer-1" class="answers-button" id="answer-1" ng-model="testing">{{question.optionOne}}</button>
+  <button type="submit" name="secondOption" ng-click="submitOptionTwo(question)" value="answer-2" class="answers-button" id="answer-2" ng-model="test">{{question.optionTwo}}</button>
   </form>
 </div>  
 
@@ -36,7 +36,11 @@
 </ul>
 
 </center>
-
+<script>
+  // $(".answer-1").clicked(function(){
+  //   console.log("hello")
+  // })
+</script>
 </body>
 
 </html>
