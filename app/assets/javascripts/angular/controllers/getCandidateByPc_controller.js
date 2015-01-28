@@ -2,20 +2,20 @@ angular.module('qAnMp').controller('getCandidatesByPC', function($scope, $http){
 
 $scope.sendPostcodeToDb = function(){
   console.log($scope.postCode, 'inside II')
-  var urlPostcode = "http://localhost:3000/quizmaster/get_constituency?postcode=" + $scope.postCode
+  var urlPostcode = "http://localhost:3000/quizmaster/constituency_one_candidate?postcode=" + $scope.postCode
   $http.post(urlPostcode)
   .success(function(response){
-    console.log(response)
+    console.log('done')
   })
   .error(function(error){
     console.log(error)
   })
   
 }
-$scope.sendPostcodeToDb()
+// $scope.sendPostcodeToDb()
 
 
-
+// I need to do the lookup afterwords
 
 // $scope.getCandidates = function(){
 //     var url = "http://www.theyworkforyou.com/api/getMP?&id=&constituency=&postcode=" + $scope.postCode + "&key=CCa95kDVHTT2Dj2zmPDdYN4f&callback=JSON_CALLBACK"
