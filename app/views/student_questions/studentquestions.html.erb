@@ -32,7 +32,8 @@
     </div>
 </div>
 
-        <form id="search-form" name="search-form" ng-submit="sendEmail">
+
+        <form ng-controller="getEmail" id="search-form" name="search-form" ng-click="sendEmail()" ng-model="userEmail">
             <input placeholder="enter email address" type="text"/>
         </form>
 
