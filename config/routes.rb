@@ -71,7 +71,9 @@ end
 
 namespace :admin do
   get '', to: 'dashboard #index', as: '/'
+  resources :questions
 end
+
   
 
   # Example resource route with options:
