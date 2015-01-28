@@ -299,6 +299,13 @@ footer {
 
 }
 
+#unlocked {
+  float: right;
+  height:50px;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+
 
 
 //Candidate Page Button//
