@@ -31,9 +31,6 @@ $scope.getCanQuestions()
         console.log($scope.testing)
         var qId = question['id']
         var opId = question['optionOneID']
-        // console.log(question['optionTwoID'], 'optiontwo')
-        // console.log(opId, 'opId')
-        // console.log(qId, 'qId')
         var urlToPostAnswers = "http://localhost:3000//users/1/candidates/1/asks?question_id=" + qId + "&choice_id=" + opId
         $http.post(urlToPostAnswers)
             .success(function(response){
