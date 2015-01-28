@@ -1,5 +1,4 @@
 angular.module('qAnMp').controller('getCanQuestions', function($scope, $http){
-  // $scope.firstChoice 
 	$scope.getCanQuestions = function(){
     $scope.display = 4
     $scope.candidateQuestions = []

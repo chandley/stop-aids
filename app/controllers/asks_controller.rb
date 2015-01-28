@@ -17,7 +17,8 @@ class AsksController < ApplicationController
 
   def index
     
-    asks = Ask.where(:candidate_id == params[:candidate_id])
+    asks = Ask.where({:candidate_id => params[:candidate_id], 
+                      :user_id => params[:user_id]})
     question_id_arr = asks.map {|ask| ask.question_id}
     asked_questions = []
     question_id_arr.each do |asked_question_id|

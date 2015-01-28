@@ -31,12 +31,16 @@
         </div>
     </div>
 </div>
-	<button type="button" onClick="alert('thanks for submitting your would-you-rathers')" class="btn btn-primary" ng-show="isReadyToSubmit()" ng-click= "postQuestion()"> <img src="/assets/orange.png">
-	</button>
-            
-    <form id="search-form" name="search-form" ng-submit="sendEmail">
+
+
+        <form ng-controller="getEmail" id="search-form" name="search-form" ng-click="sendEmail()" ng-model="userEmail">
             <input placeholder="enter email address" type="text"/>
         </form>
+
+	<button type="button" onClick="alert('thanks for submitting your would-you-rathers')" ng-show="isReadyToSubmit()" ng-click= "postQuestion()"> <img src="/assets/orange.png">
+	</button>
+            
+    <br>
 
 
         <ul class="circle-group">
