@@ -25,6 +25,7 @@ class Quizmaster
   end
 
   def get_constituency_first_only_candidate_from_postcode(postcode)
+    #TODO assumes database id is pa_id
     pa_id = $twfy.constituency(postcode: postcode).pa_id
     constituency = Constituency.find(pa_id.to_i)
     candidate = constituency.candidates.first
