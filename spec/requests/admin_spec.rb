@@ -32,7 +32,7 @@ end
     end 
   end
 
-describe 'article management' do
+describe 'question management' do
     before :each do
       user = User.create(:user)
       sign_in user
@@ -47,7 +47,7 @@ describe 'article management' do
         fill_in 'Name', with: 'My favorite web framework'
         fill_in 'Body', with: 'Rails is great!'
         click_button 'Create Questions'
-      }.to change(Article, :count).by(1)
+      }.to change(Question, :count).by(1)
       
       current_path.should eq admin_question_path
       page.should have_content 'My favorite web framework'
