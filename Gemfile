@@ -30,7 +30,7 @@ gem 'pg'
 gem 'devise'
 gem 'bitly'
 gem 'actionmailer'
-gem 'sendgrid'
+gem 'mailgun_rails'
 
 gem 'twitter' 
 gem 'twfy'
