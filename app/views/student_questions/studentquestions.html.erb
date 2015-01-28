@@ -32,10 +32,10 @@
     </div>
 </div>
 
-
-        <form ng-controller="getEmail" id="search-form" name="search-form" ng-click="sendEmail()" ng-model="userEmail">
-            <input placeholder="enter email address" type="text"/>
+        <form  id="search-form" name="search-form" ng-submit="sendEmail()" >
+            <input placeholder="enter email address" type="text" ng-model="userEmail"/>
         </form>
+
 
 	<button type="button" onClick="alert('thanks for submitting your would-you-rathers')" ng-show="isReadyToSubmit()" ng-click= "postQuestion()"> <img src="/assets/orange.png">
 	</button>

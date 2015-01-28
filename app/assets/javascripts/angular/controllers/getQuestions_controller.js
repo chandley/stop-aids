@@ -75,4 +75,10 @@ $scope.postQuestion = function(){
                 })
          }
    }
+
+$scope.sendEmail = function(){
+  console.log($scope.userEmail, 'bhcgveydh')  
+}
+
+
 })

@@ -10,13 +10,13 @@
 </head>
 
 <body ng-controller="getCandidatesByPC">
+
 <center>
     <header>
         <h1 id="index">find your local candidate</h1>
     </header>
 
     <div id="wrap-container">
-        <!-- <form id="search-form" name="search-form" ng-submit="getCandidates()"> -->
         <form id="search-form" name="search-form" ng-submit="sendPostcodeToDb()">
             <input placeholder="enter postcode" type="text" ng-model="postCode"/>
         </form>
@@ -35,10 +35,10 @@
 
             <h2>{{candidate.party}}</h2>
 
-            <h2>{{candidate.constituency}}</h2><!-- {{myError}} -->
+            <h2>{{candidate.constituency}}</h2>
 
-            <div class="round-button" onclick="change()">
-                <a class="round-button" href="student_questions/studentquestions.html">
+            <div class="round-button" onclick="change()" >
+                <a class="round-button" href="student_questions/studentquestions.html" >
                </a>
            </div>
         </div>
@@ -48,7 +48,5 @@
     <p id="footer-p">students stop aids©</p>
     </footer>
     </center>
-    <!-- libraries -->
-
-</body>
+ </body>
 </html>

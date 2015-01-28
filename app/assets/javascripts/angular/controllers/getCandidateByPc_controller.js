@@ -18,8 +18,9 @@ $scope.sendPostcodeToDb = function(){
   
 }
 
-
-
-
+ // $scope.disable = function(){
+ //  $scope.postCode === null
+ //  console.log('sgvb')
+ // }
 
 })
