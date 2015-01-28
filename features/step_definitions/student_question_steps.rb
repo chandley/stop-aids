@@ -3,9 +3,7 @@ Given(/^there are no users$/) do
 end
 
 When(/^I submit my details$/) do
-  post "users/",    :email => 'user@example.com', 
-                    :password => 'password',
-                    :password_confirmation => 'password'
+  post "users/",    :email => 'user@example.com'
 end
 
 Then(/^I am registered as a user$/) do

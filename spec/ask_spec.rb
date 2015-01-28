@@ -5,7 +5,7 @@ describe Ask do
   context 'asking a question' do
 
     before do
-      @user = User.create(email:'test@test.com', password: 'testtest', password_confirmation: 'testtest')
+      @user = User.create(email:'test@test.com')
       @candidate = Candidate.create(name: 'Alice')
       @question = Question.create(ask_text: 'Would you rather red pill or blue pill?')
       @ask = Ask.create(user_id: @user.id, candidate_id: @candidate.id, question_id: @question.id)

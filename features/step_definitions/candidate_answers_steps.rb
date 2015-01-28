@@ -1,7 +1,7 @@
 Given(/^we have asked questions for a candidate$/) do
   step('we have some questions with choices for a candidate')
-  @adrian = User.create(email: 'adrian@uu.com', password:'password', password_confirmation:'password')
-  @ben = User.create(email: 'ben@uu.com', password:'password', password_confirmation:'password')
+  @adrian = User.create(email: 'adrian@uu.com')
+  @ben = User.create(email: 'ben@uu.com')
   @ben_asks_alice_redblue = Ask.create(user_id: @ben.id, question_id: @red_or_blue.id, candidate_id: @alice.id)
   @adrian_asks_alice_redblue = Ask.create(user_id: @adrian.id, question_id: @red_or_blue.id, candidate_id: @alice.id)
 end

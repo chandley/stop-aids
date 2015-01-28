@@ -5,10 +5,7 @@ describe User do
   context 'creation' do
 
     before do
-      @user = User.create(email:'test@test.com', 
-                          password: 'testtest', 
-                          password_confirmation: 'testtest'
-                         )
+      @user = User.create(email:'test@test.com')
     end
 
 
@@ -28,10 +25,7 @@ describe User do
   context 'asks questions' do
 
     before do
-      @user = User.create(email:'test@test.com', 
-                          password: 'testtest', 
-                          password_confirmation: 'testtest'
-                         )
+      @user = User.create(email:'test@test.com')
       @candidate = Candidate.create(name: 'Alice')
       @question = Question.create(ask_text: 'Would you rather red pill or blue pill?')
     end
