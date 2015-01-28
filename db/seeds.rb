@@ -67,7 +67,9 @@ first_question.create_answer(first_candidate, first_question_choice)
 end
 
 
+
 # Question.find(2).create_answer(first_candidate, Question.find(2).choices.second)
 
 
 User.create()
+
