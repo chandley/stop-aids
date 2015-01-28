@@ -197,12 +197,14 @@ ul {
 ul li {
     text-align: center;
     margin:0;
-    padding:2px;
+    padding:7px;
     list-style-type:none;
     height: 40%;
-    font-size: 18px;
+    font-size: 20px;
     display:block;
     background:#18FFF4;
+    border: 3px solid #00ff85;
+
 }
 
 ul li:nth-child(2) {
@@ -395,4 +397,8 @@ h1 #thankyou-head {
 p #thankyou {
   font-size: 15px;
 }
+
+// STUDENT ANSWERS PAGE //
+
+
 
