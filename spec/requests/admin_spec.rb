@@ -1,4 +1,8 @@
-it "accesses the dashboard" do 
+require 'spec_helper'
+
+describe 'site administration' do
+  describe 'dashboard access' do
+    it "accesses the dashboard" do
   User.create( 
     email: 'user@example.com', 
     password: 'secret', 
@@ -16,5 +20,36 @@ it "accesses the dashboard" do
     page.should have_content 'Administration' 
   end 
   page.should have_content 'Manage Users' 
-  page.should have_content 'Manage Articles' 
+  page.should have_content 'Manage Questions' 
 end
+
+  it "is denied access when not logged in" do 
+    visit admin_path 
+
+    current_path.should eq login_path 
+    within 'h1' do 
+      page.should have_content 'Please Log In' 
+    end 
+  end
+
+describe 'article management' do
+    before :each do
+      user = User.create(:user)
+      sign_in user
+    end
+
+    it "adds a question" do
+      click_link 'Manage Questions'
+      current_path.should eq admin_questions_path
+      
+      expect{
+        click_link 'New Question'
+        fill_in 'Name', with: 'My favorite web framework'
+        fill_in 'Body', with: 'Rails is great!'
+        click_button 'Create Questions'
+      }.to change(Article, :count).by(1)
+      
+      current_path.should eq admin_question_path
+      page.should have_content 'My favorite web framework'
+    end
+
