@@ -34,7 +34,12 @@
 
 	<button type="button" onClick="alert('thanks for submitting your would-you-rathers')" class="btn btn-primary" ng-show="isReadyToSubmit()" ng-click= "postQuestion()"> <img src="orange.png">
 	</button>
-            <%= image_tag "orange.png" %>
+            
+    <form id="search-form" name="search-form" ng-submit="sendEmail">
+            <input placeholder="enter email address" type="text"/>
+        </form><br> 
+        <%= image_tag "orange.png" %>
+        <br>
 
 
         <ul class="circle-group">
