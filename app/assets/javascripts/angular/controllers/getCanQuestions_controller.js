@@ -2,7 +2,7 @@ angular.module('qAnMp').controller('getCanQuestions', function($scope, $http){
 	$scope.getCanQuestions = function(){
     $scope.display = 4
     $scope.candidateQuestions = []
-    var url = "http://localhost:3000/candidates/1/questions/unanswered"
+    var url = "https://stop-aidz-unity4.herokuapp.com/candidates/1/questions/unanswered"
     $http.get(url)
       .success(function(response){
 
@@ -30,7 +30,7 @@ $scope.getCanQuestions()
         console.log($scope.testing)
         var qId = question['id']
         var opId = question['optionOneID']
-        var urlToPostAnswers = "http://localhost:3000/candidates/1/answers?question_id=" + qId + "&choice_id=" + opId
+        var urlToPostAnswers = "https://stop-aidz-unity4.herokuapp.com/candidates/1/answers?question_id=" + qId + "&choice_id=" + opId
         $http.post(urlToPostAnswers)
             .success(function(response){
                 console.log(response, 'success')
@@ -41,7 +41,7 @@ $scope.getCanQuestions()
         console.log($scope.testing)
         var qId = question['id']
         var opId = question['optionTwoID']
-        var urlToPostAnswers = "http://localhost:3000/candidates/1/answers?question_id=" + qId + "&choice_id=" + opId
+        var urlToPostAnswers = "https://stop-aidz-unity4.herokuapp.com/candidates/1/answers?question_id=" + qId + "&choice_id=" + opId
         $http.post(urlToPostAnswers)
             .success(function(response){
                 console.log(response, 'success')
