@@ -40,7 +40,7 @@ gem 'angular-rails-templates', group: :development
 gem 'rails-assets-angular'
 # , group: :development, :source => 'https://rails-assets.org'
 
-
+gem 'devise'
 
 group :test do
   gem 'rspec-rails'

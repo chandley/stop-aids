@@ -12,9 +12,9 @@ Rails.application.routes.draw do
 
   get 'student_questions/studentquestions'
 
-  devise_for :admin_users, ActiveAdmin::Devise.config
+  # devise_for :admin_users, ActiveAdmin::Devise.config
   
-  ActiveAdmin.routes(self)
+  # ActiveAdmin.routes(self)
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -73,7 +73,7 @@ end
 
 root to: 'dashboard#index', as: '/'
   namespace :admin do
-    get '', to: 'dashboard #index', as: '/admin'
+    get '', to: 'dashboard#index', as: '/admin'
     resources :questions, :users
   end
 
