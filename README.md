@@ -2,7 +2,7 @@
 [![Code Climate](https://codeclimate.com/github/chandley/stop-aids/badges/gpa.svg)](https://codeclimate.com/github/chandley/stop-aids)
 
 # stop-aids
-
+--photo--
 ## Synopsis
 
 A project to help students engage with politicians, for charity Students Stop Aids 
@@ -24,11 +24,11 @@ A project to help students engage with politicians, for charity Students Stop Ai
 
 1. Clone the Repo:
   * Run `$ git clone git@github.com:chandley/stop-aids.git`
-  * Then '$ bundle install'
+  * Then `$ bundle install`
   * And Finally `$ rake db:create db:migrate`
 
 3. Set Enviromental Variables:
-  You must get api keys for the following and set then in your bash RC file like so `export API_KEY_NAME='your api key'`
+  You must get api keys for the following and set then in your .bashrc file like so `export API_KEY_NAME='your api key'`
   * Twitter
   * Mailgun
   * They work for you
