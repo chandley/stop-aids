@@ -5,9 +5,8 @@ class AsksController < ApplicationController
                   question_id:  params[:question_id], 
                   user_id:     params[:user_id]  
                   )
+    Candidate.find(params[:candidate_id]).tweet_at_candidate
     render :nothing => true
-
-    # Answer.create(params)
   end
 
   def post_params

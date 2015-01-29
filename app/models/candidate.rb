@@ -37,7 +37,7 @@ class Candidate < ActiveRecord::Base
 
   def tweet_at_candidate
     twitter_address = self.twitter
-    twitter_address = '@ctrembath'
+    twitter_address = '@MrJKiely'
     if self.twitter.nil?
       raise_error 'Please get twitter address for ' + self.name
     else
