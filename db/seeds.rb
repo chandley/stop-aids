@@ -63,7 +63,7 @@ first_candidate = Candidate.first
 first_question.create_answer(first_candidate, first_question_choice)
 Answer.create(candidate_id: 1, question_id: 2, choice_id: 2)
 
-
+AdminUser.create email: "test@example.com", password: "password", password_confirmation: "password"
 # [Question.second, Question.third, Question.last].each do |question| 
 #   question.create_answer(first_candidate, question.choices.second)
 # end
