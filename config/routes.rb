@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
 
   # devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
@@ -7,6 +8,10 @@ Rails.application.routes.draw do
 
   get 'studentsanswers/studentsanswers'
 
+=======
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
+>>>>>>> b2324d0cafe5b3a88e70c6c93259c13f9625b7a6
   get 'candidatesanswers/candidatesanswers'
 
   get 'student_questions/studentquestions'
@@ -68,12 +73,19 @@ end
 
 root to: 'dashboard#index', as: '/'
   namespace :admin do
+<<<<<<< HEAD
     get '', to: 'dashboard#index', as: '/admin'
     resources :questions, :users
   end
 
 end
 
+=======
+    get '', to: 'dashboard #index', as: '/admin'
+    resources :questions, :users
+  end
+
+>>>>>>> b2324d0cafe5b3a88e70c6c93259c13f9625b7a6
 # Example resource route within a namespace:
   #   namespace :admin do
   #     # Directs /admin/products/* to Admin::ProductsController
