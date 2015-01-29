@@ -1,6 +1,6 @@
 angular.module('qAnMp').controller('getAnswers', function($scope, $http){
  	var getAnswersFromCandidate = function(){
- 		var urlForAnswers = "http://localhost:3000/users/2/candidates/839/show_answered_asks"
+ 		var urlForAnswers = "http://localhost:3000/users/2/candidates/838/show_answered_asks"
  		$scope.candidateAnswer = []
  		$http.get(urlForAnswers)
  		.success(function(response){

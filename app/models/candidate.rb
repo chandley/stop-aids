@@ -17,7 +17,7 @@ class Candidate < ActiveRecord::Base
 
   def has_answered?(question)
     questions.include? question
-    # question.answers.where(:candidate_id => self.id) ? true : false
+    # questiongit.answers.where(:candidate_id => self.id) ? true : false
   end
 
   def questions_asked_more_times_than(threshold)
