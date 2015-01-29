@@ -1,4 +1,4 @@
-angular.module('qAnMp').controller('getQuestions', function($scope, $http){
+angular.module('qAnMp').controller('getQuestions', ['$scope', '$http',function($scope, $http){
 
     console.log($scope.logoSrc)
     $scope.display = 3
@@ -89,4 +89,5 @@ $scope.sendEmail = function(){
 }
 
 
-})
+}])
+

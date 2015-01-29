@@ -1,4 +1,4 @@
-angular.module('qAnMp').controller('getCandidatesByPC', function($scope, $http){
+angular.module('qAnMp').controller('getCandidatesByPC', ['$scope', '$http', function($scope, $http){
 
 $scope.sendPostcodeToDb = function(){
   console.log($scope.postCode, 'inside II')
@@ -18,4 +18,4 @@ $scope.sendPostcodeToDb = function(){
   
 }
 
-})
+}])
