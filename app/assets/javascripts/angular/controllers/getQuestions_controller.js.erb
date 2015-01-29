@@ -14,7 +14,7 @@ angular.module('qAnMp').controller('getQuestions', ['$scope', '$http',function($
             question.id = singleQuestion.id
             question.wording = singleQuestion.ask_text
             question.locked = false
-            question.imgSrc = <%= image_path 'unlock.png' %>
+            question.imgSrc = <%= image_path ('unlock.png') %>
             question.priority = new Date
             question.total = array.length
             $scope.questions.push(question)
@@ -22,11 +22,11 @@ angular.module('qAnMp').controller('getQuestions', ['$scope', '$http',function($
     })
     $scope.lockQuestion = function(question) {
         if (question.locked) {
-            question.imgSrc = <%= image_path 'unlock.png' %>;
+            question.imgSrc = <%= image_path ('unlock.png') %>;
             question.locked = false
             question.priority = new Date
         } else {
-            question.imgSrc = <%= image_path 'lock.png' %>;
+            question.imgSrc = <%= image_path ('unlock.png') %>;
             question.locked = true
             question.priority = 0
         } 
@@ -41,7 +41,7 @@ angular.module('qAnMp').controller('getQuestions', ['$scope', '$http',function($
     $scope.countOfLockedItem = function(){
         $scope.countOfLocked = []
         $scope.questions.forEach(function(element){
-            if(element.imgSrc === <%= image_path 'lock.png' %>){
+            if(element.imgSrc === <%= image_path ('unlock.png') %>){
                 $scope.countOfLocked.push(element)
             }
         })
