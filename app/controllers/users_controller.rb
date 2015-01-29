@@ -2,9 +2,7 @@ class UsersController < ApplicationController
 
   def create
     created_user = User.create(:email => params[:email])
-    p '**********'
-    Notifier.welcome(params[:email])
-    p '**********'
+    Notifier.welcome(params[:email]).deliver
     render :nothing => true
   end
 
