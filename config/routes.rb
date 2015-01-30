@@ -72,7 +72,8 @@ end
 
 
 namespace :admin do
-  get '/', to: 'dashboard#index', as: '/admin'
+  # get '/', to: 'dashboard#index', as: '/admin'
+  get '/admin' => 'questions#index'
   resources :questions, :users
 end
 
