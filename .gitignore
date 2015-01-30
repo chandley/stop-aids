@@ -17,6 +17,7 @@
 /tmp
 
 /data/ppc.csv
+/bower_components/
 
 .DS_Store
 node_modules
