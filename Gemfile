@@ -45,6 +45,7 @@ group :test do
   gem 'capybara'
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
+  gem "codeclimate-test-reporter",  require: nil
 end
 gem 'simplecov', :require => false, :group => :test
 
