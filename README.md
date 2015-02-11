@@ -40,3 +40,6 @@ Our team loved the idea of working with a charity client and creating something 
 
 4. Run the tests:
   * Run `rspec` and `cucumber`
+
+## To do
+* this branch does not show questions correctly on local server - do not merge 
