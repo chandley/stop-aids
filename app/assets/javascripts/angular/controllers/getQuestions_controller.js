@@ -1,4 +1,4 @@
-angular.module('qAnMp').controller('getQuestions', ['$scope', '$http',function($scope, $http){
+angular.module('qAnMp').controller('getQuestions', function($scope, $http){
 
     console.log($scope.logoSrc)
     $scope.display = 3
@@ -7,8 +7,8 @@ angular.module('qAnMp').controller('getQuestions', ['$scope', '$http',function($
     $scope.getQuestions = function(){
         var question;
         var root_url = window.location.protocol + '//' + window.location.host
-        var urlTrial = root_url + "candidates/1/questions?callback=JSON_CALLBACK"
-        $http.jsonp(urlTrial)
+        var urlTrial = root_url + "/candidates/1/questions?callback=JSON_CALLBACK"
+      $http.jsonp(urlTrial)
         .success(function(response){
         response.questions.forEach(function(singleQuestion,index,array){
             question = {}
@@ -81,7 +81,7 @@ $scope.postQuestion = function(){
 $scope.sendEmail = function(){
   // console.log($scope.userEmail)  
     var root_url = window.location.protocol + '//' + window.location.host
-    var urlEmail = root_url + "/users?email=" + $scope.userEmail
+    var url = root_url + "/users/1/candidates/1/asks?question_id=" + toSubmitQ
     $http.post(urlEmail)
     .success(function(response){
         console.log(response, 'success')
@@ -92,5 +92,4 @@ $scope.sendEmail = function(){
 }
 
 
-}])
-
+})
