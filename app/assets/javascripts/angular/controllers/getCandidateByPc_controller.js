@@ -4,8 +4,8 @@ angular.module('qAnMp').controller('getCandidatesByPC', ['$scope', '$http' ,func
 
 $scope.sendPostcodeToDb = function(){
   console.log($scope.postCode, 'inside II')
-
-  var urlPostcode = "https://stop-aidz-unity4.herokuapp.com/quizmaster/constituency_one_candidate?postcode=" + $scope.postCode
+  var root_url = window.location.protocol + '//' + window.location.host
+  var urlPostcode = root_url + "/quizmaster/constituency_one_candidate?postcode=" + $scope.postCode
   $http.get(urlPostcode)
   .success(function(response){
   $scope.candidate = {}

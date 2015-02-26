@@ -2,7 +2,8 @@ angular.module('qAnMp').controller('getCanQuestions', ['$scope', '$http', functi
 	$scope.getCanQuestions = function(){
     $scope.display = 4
     $scope.candidateQuestions = []
-    var url = "https://stop-aidz-unity4.herokuapp.com/candidates/1/questions/unanswered"
+    var root_url = window.location.protocol + '//' + window.location.host
+    var url = window.location.protocol + "candidates/1/questions/unanswered"
     $http.get(url)
       .success(function(response){
 
@@ -30,7 +31,8 @@ $scope.getCanQuestions()
         console.log($scope.testing)
         var qId = question['id']
         var opId = question['optionOneID']
-        var urlToPostAnswers = "https://stop-aidz-unity4.herokuapp.com/candidates/1/answers?question_id=" + qId + "&choice_id=" + opId
+        var root_url = window.location.protocol + '//' + window.location.host
+        var urlToPostAnswers = root_url + "candidates/1/answers?question_id=" + qId + "&choice_id=" + opId
         $http.post(urlToPostAnswers)
             .success(function(response){
                 console.log(response, 'success')
@@ -41,7 +43,7 @@ $scope.getCanQuestions()
         console.log($scope.testing)
         var qId = question['id']
         var opId = question['optionTwoID']
-        var urlToPostAnswers = "https://stop-aidz-unity4.herokuapp.com/candidates/1/answers?question_id=" + qId + "&choice_id=" + opId
+        var urlToPostAnswers = root_url + "/candidates/1/answers?question_id=" + qId + "&choice_id=" + opId
         $http.post(urlToPostAnswers)
             .success(function(response){
                 console.log(response, 'success')
