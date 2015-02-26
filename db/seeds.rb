@@ -50,20 +50,20 @@ end
 
 load_data_all
 
-
-@adrian = User.create(email: 'chrisrhandley@gmail.com')
-@ben = User.create(email: 'ben@uu.com')
-ben_asks_candidate1_q1 = Ask.create(user_id: @ben.id, question_id: 1, candidate_id: 1)
-ben_asks_candidate1_q2 = Ask.create(user_id: @ben.id, question_id: 2, candidate_id: 1)
-adrian_asks_candidate1_q1 = Ask.create(user_id: @adrian.id, question_id: 1, candidate_id: 1)
-
-adrian_asks_candidate2_q1 = Ask.create(user_id: @adrian.id, question_id: 2, candidate_id: 2)
-first_question = Question.first
-first_question_choice = Question.first.choices.first
-first_candidate = Candidate.first
-first_question.create_answer(first_candidate, first_question_choice)
-Answer.create(candidate_id: 1, question_id: 2, choice_id: 2)
-
+# #
+# @adrian = User.create(email: 'chrisrhandley@gmail.com')
+# @ben = User.create(email: 'ben@uu.com')
+# ben_asks_candidate1_q1 = Ask.create(user_id: @ben.id, question_id: 1, candidate_id: 1)
+# ben_asks_candidate1_q2 = Ask.create(user_id: @ben.id, question_id: 2, candidate_id: 1)
+# adrian_asks_candidate1_q1 = Ask.create(user_id: @adrian.id, question_id: 1, candidate_id: 1)
+# 
+# adrian_asks_candidate2_q1 = Ask.create(user_id: @adrian.id, question_id: 2, candidate_id: 2)
+# first_question = Question.first
+# first_question_choice = Question.first.choices.first
+# first_candidate = Candidate.first
+# first_question.create_answer(first_candidate, first_question_choice)
+# Answer.create(candidate_id: 1, question_id: 2, choice_id: 2)
+# 
 
  
 
