@@ -81,9 +81,8 @@ $scope.postQuestion = function(){
    }
 
 $scope.sendEmail = function(){
-  // console.log($scope.userEmail)  
     var root_url = window.location.protocol + '//' + window.location.host
-    var url = root_url + "/users/1/candidates/1/asks?question_id=" + toSubmitQ
+    var urlEmail = root_url + "//users?email=" + $scope.userEmail
     $http.post(urlEmail)
     .success(function(response){
         console.log(response, 'success')
