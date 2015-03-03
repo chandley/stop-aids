@@ -6,7 +6,7 @@ angular.module('qAnMp').controller('getQuestions', ['$scope', '$http', function(
     $scope.questions = []
     $scope.getQuestions = function(){
         var question;
-        var root_url = 'http:' + '//' + window.location.host
+        var root_url = window.location.protocol + '//' + window.location.host
         var urlTrial = root_url + "/candidates/1/questions?callback=JSON_CALLBACK"
       $http.jsonp(urlTrial)
         .success(function(response){
