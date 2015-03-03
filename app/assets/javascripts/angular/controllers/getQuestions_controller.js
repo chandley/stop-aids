@@ -10,8 +10,9 @@ angular.module('qAnMp').controller('getQuestions', ['$scope', '$http', function(
         var urlTrial = root_url + "/candidates/1/questions?callback=JSON_CALLBACK"
       $http.jsonp(urlTrial)
         .success(function(response){
-        response.questions.forEach(function(singleQuestion,index,array){
+        response.questions.forEach(function(questionHash,index,array){
             question = {}
+            var singleQuestion = questionHash.question
             question.id = singleQuestion.id
             question.wording = singleQuestion.ask_text
             question.locked = false
