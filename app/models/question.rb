@@ -6,7 +6,6 @@ class Question < ActiveRecord::Base
 
   def create_answer(responder, choice)
     answers.create(candidate: responder, choice: choice)
-    # Answer.create(candidate_id: responder.id, choice_id: choice.id, question_id: self.id)
   end
 
   #TODO move to candidate

@@ -1,0 +1,28 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+alert_all_askers	/Users/chrishandley/Challenges/stop-aids/app/models/answer.rb	/^  def alert_all_askers$/;"	f	language:Ruby	class:Answer
+Answer	/Users/chrishandley/Challenges/stop-aids/app/models/answer.rb	/^class Answer < ActiveRecord::Base$/;"	c	language:Ruby
+answered_by?	/Users/chrishandley/Challenges/stop-aids/app/models/question.rb	/^  def answered_by?(responder)$/;"	f	language:Ruby	class:Question
+answered_questions_asked_to	/Users/chrishandley/Challenges/stop-aids/app/models/user.rb	/^  def answered_questions_asked_to(candidate)$/;"	f	language:Ruby	class:User
+answers_link	/Users/chrishandley/Challenges/stop-aids/app/models/user.rb	/^  def answers_link(candidate)$/;"	f	language:Ruby	class:User
+answer_choice_to	/Users/chrishandley/Challenges/stop-aids/app/models/candidate.rb	/^  def answer_choice_to(question)$/;"	f	language:Ruby	class:Candidate
+answer_question	/Users/chrishandley/Challenges/stop-aids/app/models/candidate.rb	/^  def answer_question(question, choice)$/;"	f	language:Ruby	class:Candidate
+asked_count	/Users/chrishandley/Challenges/stop-aids/app/models/question.rb	/^  def asked_count(responder)$/;"	f	language:Ruby	class:Question
+asked_more_times_than	/Users/chrishandley/Challenges/stop-aids/app/models/question.rb	/^  def asked_more_times_than(candidate,threshold)$/;"	f	language:Ruby	class:Question
+asked_questions_answered_by	/Users/chrishandley/Challenges/stop-aids/app/models/user.rb	/^  def asked_questions_answered_by(candidate)$/;"	f	language:Ruby	class:User
+askers	/Users/chrishandley/Challenges/stop-aids/app/models/answer.rb	/^  def askers$/;"	f	language:Ruby	class:Answer
+asks_to	/Users/chrishandley/Challenges/stop-aids/app/models/user.rb	/^  def asks_to(candidate, question)$/;"	f	language:Ruby	class:User
+Candidate	/Users/chrishandley/Challenges/stop-aids/app/models/candidate.rb	/^class Candidate < ActiveRecord::Base$/;"	c	language:Ruby
+create_answer	/Users/chrishandley/Challenges/stop-aids/app/models/question.rb	/^  def create_answer(responder, choice)$/;"	f	language:Ruby	class:Question
+get_answer_page	/Users/chrishandley/Challenges/stop-aids/app/models/candidate.rb	/^  def get_answer_page$/;"	f	language:Ruby	class:Candidate
+get_constituency_candidates_from_postcode	/Users/chrishandley/Challenges/stop-aids/app/models/quizmaster.rb	/^  def get_constituency_candidates_from_postcode(postcode)$/;"	f	language:Ruby	class:Quizmaster
+get_constituency_first_only_candidate_from_postcode	/Users/chrishandley/Challenges/stop-aids/app/models/quizmaster.rb	/^  def get_constituency_first_only_candidate_from_postcode(postcode)$/;"	f	language:Ruby	class:Quizmaster
+get_constituency_pa_id_from_postcode	/Users/chrishandley/Challenges/stop-aids/app/models/user.rb	/^  def get_constituency_pa_id_from_postcode(postcode)$/;"	f	language:Ruby	class:User
+has_answered?	/Users/chrishandley/Challenges/stop-aids/app/models/candidate.rb	/^  def has_answered?(question)$/;"	f	language:Ruby	class:Candidate
+popular_questions	/Users/chrishandley/Challenges/stop-aids/app/models/quizmaster.rb	/^  def popular_questions(candidate)$/;"	f	language:Ruby	class:Quizmaster
+Question	/Users/chrishandley/Challenges/stop-aids/app/models/question.rb	/^class Question < ActiveRecord::Base$/;"	c	language:Ruby
+questions_asked_more_times_than	/Users/chrishandley/Challenges/stop-aids/app/models/candidate.rb	/^  def questions_asked_more_times_than(threshold)$/;"	f	language:Ruby	class:Candidate
+questions_asked_to	/Users/chrishandley/Challenges/stop-aids/app/models/user.rb	/^  def questions_asked_to(candidate)$/;"	f	language:Ruby	class:User
+Quizmaster	/Users/chrishandley/Challenges/stop-aids/app/models/quizmaster.rb	/^class Quizmaster$/;"	c	language:Ruby
+tweet_at_candidate	/Users/chrishandley/Challenges/stop-aids/app/models/candidate.rb	/^  def tweet_at_candidate$/;"	f	language:Ruby	class:Candidate
+twitter_image_url	/Users/chrishandley/Challenges/stop-aids/app/models/candidate.rb	/^  def twitter_image_url$/;"	f	language:Ruby	class:Candidate
+User	/Users/chrishandley/Challenges/stop-aids/app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c	language:Ruby
