@@ -1,4 +1,4 @@
-angular.module('qAnMp').controller('getQuestions', function($scope, $http){
+angular.module('qAnMp').controller('getQuestions', ['$scope', '$http', function($scope, $http){
 
     console.log($scope.logoSrc)
     $scope.display = 3
@@ -6,27 +6,30 @@ angular.module('qAnMp').controller('getQuestions', function($scope, $http){
     $scope.questions = []
     $scope.getQuestions = function(){
         var question;
-        var urlTrial = "https://stopaidz-rails1.herokuapp.com/candidates/1/questions?callback=JSON_CALLBACK"
-        $http.jsonp(urlTrial)
+        var root_url = window.location.protocol + '//' + window.location.host
+        var urlTrial = root_url + "/candidates/1/questions?callback=JSON_CALLBACK"
+      $http.jsonp(urlTrial)
         .success(function(response){
-        response.questions.forEach(function(singleQuestion,index,array){
+        response.questions.forEach(function(questionHash,index,array){
             question = {}
+            var singleQuestion = questionHash.question
             question.id = singleQuestion.id
             question.wording = singleQuestion.ask_text
             question.locked = false
-            question.imgSrc = "/assets/unlock.png"
+            question.imgSrc = '<%= image_path('unlock.png') %>'
             question.priority = new Date
             question.total = array.length
             $scope.questions.push(question)
+            console.log(singleQuestion.ask_text)
         })
     })
     $scope.lockQuestion = function(question) {
         if (question.locked) {
-            question.imgSrc = "/assets/unlock.png";
+            question.imgSrc = '<%= image_path('unlock.png') %>' ;
             question.locked = false
             question.priority = new Date
         } else {
-            question.imgSrc = "/assets/lock.png";
+            question.imgSrc ='<%= image_path('lock.png') %>' ;
             question.locked = true
             question.priority = 0
         } 
@@ -41,7 +44,7 @@ angular.module('qAnMp').controller('getQuestions', function($scope, $http){
     $scope.countOfLockedItem = function(){
         $scope.countOfLocked = []
         $scope.questions.forEach(function(element){
-            if(element.imgSrc === "/assets/lock.png"){
+            if(element.imgSrc === '<%= image_path('lock.png') %>' ) {
                 $scope.countOfLocked.push(element)
             }
         })
@@ -65,7 +68,8 @@ $scope.postQuestion = function(){
 
         for (i = 0; i < 4; i++) {
             var toSubmitQ = questionsSelected[i].id;    
-            var url = "http://localhost:3000//users/1/candidates/1/asks?question_id=" + toSubmitQ
+            var root_url = window.location.protocol + '//' + window.location.host
+            var url = root_url + "/users/1/candidates/1/asks?question_id=" + toSubmitQ
               $http.post(url)
                 .success(function(response){
                     console.log(response, 'success')
@@ -78,7 +82,8 @@ $scope.postQuestion = function(){
 
 $scope.sendEmail = function(){
   // console.log($scope.userEmail)  
-    var urlEmail = "http://localhost:3000//users?email=" + $scope.userEmail
+    var root_url = window.location.protocol + '//' + window.location.host
+    var url = root_url + "/users/1/candidates/1/asks?question_id=" + toSubmitQ
     $http.post(urlEmail)
     .success(function(response){
         console.log(response, 'success')
@@ -89,4 +94,4 @@ $scope.sendEmail = function(){
 }
 
 
-})
+}])

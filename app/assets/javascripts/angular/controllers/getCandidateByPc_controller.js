@@ -1,9 +1,11 @@
-angular.module('qAnMp').controller('getCandidatesByPC', function($scope, $http){
+
+angular.module('qAnMp').controller('getCandidatesByPC', ['$scope', '$http' ,function($scope, $http){
+
 
 $scope.sendPostcodeToDb = function(){
   console.log($scope.postCode, 'inside II')
-
-  var urlPostcode = "http://localhost:3000/quizmaster/constituency_one_candidate?postcode=" + $scope.postCode
+  var root_url = window.location.protocol + '//' + window.location.host
+  var urlPostcode = root_url + "/quizmaster/constituency_one_candidate?postcode=" + $scope.postCode
   $http.get(urlPostcode)
   .success(function(response){
   $scope.candidate = {}
@@ -18,4 +20,4 @@ $scope.sendPostcodeToDb = function(){
   
 }
 
-})
+}])
